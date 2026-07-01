@@ -10,14 +10,7 @@
       "twitterDescription": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, skins, items, trading values, and beginner guides for faster progress."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
