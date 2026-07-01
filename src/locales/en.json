@@ -448,6 +448,13 @@
               "obtain": "Use Spin Manual on Standless.",
               "role": "Steel-ball and rotation-based fighting style",
               "best_for": "Players who want mid-range pressure from a classic Spec."
+            },
+            {
+              "name": "Rock Human",
+              "type": "Spec",
+              "obtain": "Interact with a Nest while Standless.",
+              "role": "Map-interaction Spec",
+              "best_for": "Players checking non-item unlock paths."
             }
           ]
         },
@@ -475,6 +482,13 @@
               "obtain": "Eat 15 Sukuna Fingers with Itadori Yuji, then clear the Sukuna boss route.",
               "role": "Boss-unlocked curse Spec",
               "best_for": "Players who want regeneration, heavy burst, and domain-style pressure."
+            },
+            {
+              "name": "Toji Fushiguro",
+              "type": "Spec",
+              "obtain": "Defeat Toji Fushiguro and collect his required weapon drops and aura route items.",
+              "role": "Weapon-heavy assassin Spec",
+              "best_for": "Players who like boss farming and fast melee pressure."
             },
             {
               "name": "Naoya Zen'in",
@@ -511,6 +525,13 @@
               "best_for": "Players who want a Cyberpunk-inspired route with loot-box parts."
             },
             {
+              "name": "Sandevistan | Cyberskeleton",
+              "type": "Spec Evolution",
+              "obtain": "Use the Arasaka Suitcase route after obtaining Sandevistan and completing N4Animation's follow-up progression.",
+              "role": "Advanced cyberware evolution",
+              "best_for": "Players extending the Sandevistan grind."
+            },
+            {
               "name": "Roland / The Black Silence",
               "type": "Spec",
               "obtain": "Start with Olivier in Dark Alley at Mastery 6 and Standless, then complete the Perception-Blocking Mask, Harold, AMM, and Library Invitation questline.",
@@ -545,6 +566,13 @@
               "best_for": "Players farming rare fruit-style unlocks."
             },
             {
+              "name": "Bomu Bomu No Mi",
+              "type": "Spec",
+              "obtain": "Use Bomu Bomu Devil Fruit on Standless.",
+              "role": "Explosion-style Spec",
+              "best_for": "Players collecting One Piece-inspired abilities."
+            },
+            {
               "name": "Bari Bari No Mi",
               "type": "Spec",
               "obtain": "Use Bari Bari Devil Fruit on Standless.",
@@ -564,6 +592,13 @@
               "obtain": "Use Bag of Presents on Standless.",
               "role": "Event-style collectible Spec",
               "best_for": "Collectors and seasonal-content players."
+            },
+            {
+              "name": "Herrscher of Human Ego",
+              "type": "Banner Spec",
+              "obtain": "Roll through the Arrow of Novae banner route.",
+              "role": "Banner-based premium grind",
+              "best_for": "Players chasing rare banner abilities."
             }
           ]
         }
@@ -603,6 +638,13 @@
           "priority": "Medium"
         },
         {
+          "item": "Spin Manual",
+          "category": "Spec Unlock",
+          "source": "Boxes and item farming routes",
+          "use": "Use on Standless to obtain Spin.",
+          "priority": "Medium"
+        },
+        {
           "item": "Haunted Sword",
           "category": "Stand Unlock",
           "source": "Boxes, Bag of Presents, and item farming routes",
@@ -615,6 +657,13 @@
           "source": "Turtle Polnareff quest route and rare item sources",
           "use": "Use on Golden Experience to obtain Gold Experience Requiem.",
           "priority": "High"
+        },
+        {
+          "item": "Dio's Bone",
+          "category": "Stand Evolution",
+          "source": "Ability progression and item farming routes",
+          "use": "Use on Unawakened Dio to obtain The World.",
+          "priority": "Medium"
         },
         {
           "item": "Green Baby",
@@ -631,10 +680,24 @@
           "priority": "High"
         },
         {
+          "item": "Mysterious Camera",
+          "category": "Seasonal Stand Route",
+          "source": "Boxes, Bag of Presents, and item farming routes",
+          "use": "Use during the correct season or weather condition to obtain Summer Time, Rainy Time, or Winter Time.",
+          "priority": "Medium"
+        },
+        {
           "item": "Cyber Loot Box Parts",
           "category": "Cyberware Progression",
           "source": "Cyber Loot boxes",
           "use": "Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support, and Tech Monitor are required for the Sandevistan route.",
+          "priority": "High"
+        },
+        {
+          "item": "Arasaka Suitcase",
+          "category": "Cyberware Evolution",
+          "source": "Cyber Loot boxes",
+          "use": "Used after Sandevistan for the Sandevistan | Cyberskeleton progression route.",
           "priority": "High"
         },
         {
@@ -652,6 +715,13 @@
           "priority": "High"
         },
         {
+          "item": "One For All's Grace",
+          "category": "Boss Drop",
+          "source": "Deku boss",
+          "use": "Raises One For All stage progress toward the Deku route.",
+          "priority": "High"
+        },
+        {
           "item": "All Might's Hair",
           "category": "Quest Reward",
           "source": "NameClan quest route",
@@ -666,11 +736,46 @@
           "priority": "High"
         },
         {
+          "item": "Perception-Blocking Mask",
+          "category": "Roland Quest Item",
+          "source": "Olivier questline",
+          "use": "Starts the deeper Roland / The Black Silence progression chain.",
+          "priority": "High"
+        },
+        {
+          "item": "Smoldering Fragment",
+          "category": "Roland Quest Item",
+          "source": "Harold questline",
+          "use": "Continues the Roland route after the Perception-Blocking Mask step.",
+          "priority": "High"
+        },
+        {
+          "item": "Library Invitation",
+          "category": "Roland Quest Item",
+          "source": "AMM questline",
+          "use": "Unlocks the final Roland / The Black Silence route steps.",
+          "priority": "High"
+        },
+        {
           "item": "Mimicry",
           "category": "Boss Drop",
           "source": "The Red Mist boss",
           "use": "Use on Standless to obtain The Red Mist.",
           "priority": "High"
+        },
+        {
+          "item": "Blue Lock Invitation",
+          "category": "Quest Reward",
+          "source": "Isagi Yoichi questline",
+          "use": "Used for Yoichi Isagi progression.",
+          "priority": "Medium"
+        },
+        {
+          "item": "Bag of Presents",
+          "category": "Breakthrough Shop Item",
+          "source": "Breakthrough Shop",
+          "use": "Grants random item rewards and can unlock Padoru when used on Standless.",
+          "priority": "Medium"
         }
       ]
     },
@@ -813,6 +918,70 @@
             "Sandevistan | Cyberskeleton progression"
           ],
           "goal": "Turn cyberware loot-box parts into a speed-focused Spec route."
+        },
+        {
+          "title": "Kurosaki Ichigo Route",
+          "type": "Bleach Progression Route",
+          "npc": "Urahara Kisuke, Hollows, Gillians, Adjuchas",
+          "location": "Urahara's shop and Hueco Mundo route",
+          "requirements": [
+            "Farm Hollow enemies",
+            "Progress Substitute Shinigami and Shikai steps",
+            "Use Urahara Kisuke's later questline",
+            "Collect Hogyoku Fragment for advanced form progression"
+          ],
+          "rewards": [
+            "Kurosaki Ichigo forms",
+            "Bankai and Vasto Lorde progression"
+          ],
+          "goal": "Advance through a multi-form Bleach-style ability chain."
+        },
+        {
+          "title": "Aizen and Starrk Routes",
+          "type": "Hueco Mundo Questline",
+          "npc": "Aizen, Nnoiritra Gilga, Barragan / Vasto Lorde",
+          "location": "Las Noches and Hueco Mundo",
+          "requirements": [
+            "Progress Soul Reaper-related tasks",
+            "Farm Hollow-family enemies",
+            "Clear boss and sword collection requirements tied to Aizen progression"
+          ],
+          "rewards": [
+            "Aizen Spec progression",
+            "Coyote Starrk route progress"
+          ],
+          "goal": "Farm the longer Bleach route tied to Las Noches, Hollow enemies, and boss kills."
+        },
+        {
+          "title": "Yoichi Isagi Route",
+          "type": "Sports Anime Questline",
+          "npc": "Jinpachi Ego and Isagi Yoichi",
+          "location": "Basketball Court",
+          "requirements": [
+            "Talk to Jinpachi Ego",
+            "Complete the Yoichi Isagi quest steps",
+            "Use Blue Lock Invitation for awakening progress"
+          ],
+          "rewards": [
+            "Yoichi Isagi progression",
+            "Blue Lock Invitation"
+          ],
+          "goal": "Unlock and awaken the Blue Lock-inspired route."
+        },
+        {
+          "title": "Pilgrim Knight Route",
+          "type": "Multi-NPC Questline",
+          "npc": "Syante, Hika, Dast, Mirror",
+          "location": "Hall of Heroes, Forgotten Groves, Lighthouse, Depths entrance",
+          "requirements": [
+            "Start with Syante in Hall of Heroes",
+            "Progress through Hika and Dast steps",
+            "Continue the Mirror and Depths route"
+          ],
+          "rewards": [
+            "Pilgrim Knight progression"
+          ],
+          "goal": "Follow a multi-location questline with several NPC checkpoints."
         }
       ]
     },
@@ -822,19 +991,19 @@
       "intro": "The Roblox game page, official Discord, Sakura Society group, and official Trello are the main update path for Sakura Stand. This timeline is designed for ongoing homepage updates, so new Specs, codes, events, and balance changes can be added over time.",
       "entries": [
         {
-          "date": "Current Update",
-          "label": "Roblox Listing",
+          "date": "June 2026",
+          "label": "Current Roblox Listing",
           "headline": "Naoya and Choso update",
           "changes": [
             "The Roblox experience title currently highlights Naoya and Choso.",
             "Naoya Zen'in and Choso are the headline new Spec routes.",
-            "The update adds new code activity, new skins, and bug fixes."
+            "The update adds new code activity, new skins, and bug fixes from the public Roblox update log."
           ],
           "tag": "New Specs",
           "priority": "High"
         },
         {
-          "date": "Current Update",
+          "date": "June 2026",
           "label": "New Spec Route",
           "headline": "Naoya Zen'in route added",
           "changes": [
@@ -846,7 +1015,7 @@
           "priority": "High"
         },
         {
-          "date": "Current Update",
+          "date": "June 2026",
           "label": "New Spec Route",
           "headline": "Choso route added",
           "changes": [
@@ -858,19 +1027,19 @@
           "priority": "High"
         },
         {
-          "date": "Current Update",
+          "date": "June 2026",
           "label": "New Area and Farming",
           "headline": "Kamo's Hideout and Kamo Remnant route",
           "changes": [
             "Kamo's Hideout supports the Choso progression route.",
             "Kamo Remnant farming connects to Death Painting.",
-            "John Zen'in appears as part of the Naoya and Choso update encounter pool."
+            "John Zen'in appears as part of the Naoya and Choso update's encounter pool."
           ],
           "tag": "Location",
           "priority": "High"
         },
         {
-          "date": "Current Update",
+          "date": "June 2026",
           "label": "New Titles",
           "headline": "Zen'in and blood-themed title goals",
           "changes": [
@@ -882,11 +1051,12 @@
           "priority": "Medium"
         },
         {
-          "date": "Current Update",
+          "date": "June 2026",
           "label": "Balance and Polish",
           "headline": "Ability polish and bug-fix pass",
           "changes": [
-            "Several abilities received range, damage, and visual effect improvements.",
+            "Index Nursefather's Furioso Replica received range and damage improvements.",
+            "Lei Heng visual effects were adjusted for better consistency.",
             "Itadori Yuji received additional voice quote updates.",
             "Multiple pose, dash, softlock, and interruption bugs were fixed across several abilities."
           ],
@@ -894,13 +1064,40 @@
           "priority": "Medium"
         },
         {
-          "date": "Ongoing",
-          "label": "Official Channels",
-          "headline": "Discord, Trello, and Roblox update tracking",
+          "date": "Current",
+          "label": "Roblox Update Log",
+          "headline": "Public update categories",
           "changes": [
-            "Developer announcements and patch note posts on Discord",
-            "Stand, Spec, item, and boss entries synced on Trello",
-            "New codes, skins, and event notices across official channels"
+            "New Spec",
+            "New Skins",
+            "New codes",
+            "Fixed bugs"
+          ],
+          "tag": "Patch Log",
+          "priority": "High"
+        },
+        {
+          "date": "Ongoing",
+          "label": "Official Trello",
+          "headline": "Trello content sync",
+          "changes": [
+            "Stand and Spec cards",
+            "Item and boss entries",
+            "NPC and quest route references",
+            "Latest update content"
+          ],
+          "tag": "Reference",
+          "priority": "High"
+        },
+        {
+          "date": "Ongoing",
+          "label": "Official Discord",
+          "headline": "Discord announcement tracking",
+          "changes": [
+            "Developer announcements",
+            "Patch note posts",
+            "Code drops",
+            "Sneak peeks and event notices"
           ],
           "tag": "Community",
           "priority": "High"
