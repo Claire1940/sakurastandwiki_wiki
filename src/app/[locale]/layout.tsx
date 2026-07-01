@@ -38,12 +38,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // 启用静态渲染：必须在调用 next-intl 服务端函数前设置请求 locale
   setRequestLocale(locale);
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.lucidblocks.wiki";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.sakurastandwiki.wiki";
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
 
   return {
+    metadataBase: new URL(siteUrl),
     title: t("title"),
     description: t("description"),
     robots: {
@@ -61,15 +62,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
       locale: locale,
       url: locale === "en" ? siteUrl : `${siteUrl}/${locale}`,
-      siteName: "Lucid Blocks Wiki",
+      siteName: "Sakura Stand Wiki",
       title: t("ogTitle"),
       description: t("ogDescription"),
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
-          width: 1920,
-          height: 1080,
-          alt: "Lucid Blocks - Surreal Voxel Sandbox",
+          width: 687,
+          height: 432,
+          alt: "Sakura Stand - Roblox Anime Fighting Experience",
         },
       ],
     },
@@ -78,7 +79,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: t("twitterTitle"),
       description: t("twitterDescription"),
       images: [`${siteUrl}/images/hero.webp`],
-      creator: "@lucidblocks",
     },
     icons: {
       icon: [
@@ -113,6 +113,28 @@ export default async function LocaleLayout({ children, params }: Props) {
   const navPreviewData = await getNavPreviewData(locale as Language);
   const wikiLinks = getWikiLinks();
 
+  // 站点级 Organization 结构化数据（所有页面输出，统一组织身份）
+  const orgSiteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://www.sakurastandwiki.wiki";
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": `${orgSiteUrl}/#organization`,
+    name: "Sakura Stand Wiki",
+    alternateName: "Sakura Stand",
+    url: orgSiteUrl,
+    logo: `${orgSiteUrl}/android-chrome-512x512.png`,
+    image: `${orgSiteUrl}/images/hero.webp`,
+    description:
+      "Complete Sakura Stand Wiki resource hub for Roblox codes, tier list, specs, stands, skins, items, trading values, and Trello links.",
+    sameAs: [
+      "https://www.roblox.com/games/8534845015/Sakura-Stand",
+      "https://discord.com/invite/sakurastand",
+      "https://www.reddit.com/r/SakuraStand/",
+      "https://www.youtube.com/watch?v=ha4FRZ3WrTk",
+    ],
+  };
+
 	return (
 		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
 			<head>
@@ -125,6 +147,10 @@ export default async function LocaleLayout({ children, params }: Props) {
 				/>
 			</head>
 			<body suppressHydrationWarning className="antialiased">
+				<script
+					type="application/ld+json"
+					dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+				/>
 				<Analytics />
 				<NextIntlClientProvider messages={messages}>
 					<ClientBody navPreviewData={navPreviewData} wikiLinks={wikiLinks}>{children}</ClientBody>
