@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Nhiệm vụ sakura stand roland: Hướng dẫn chi tiết từng bước",
+  description: "Làm chủ nhiệm vụ sakura stand roland để mở khóa spec Black Silence. Tìm hiểu vị trí rơi của boss, giải đố thư viện và cơ chế các giai đoạn trong năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Roland+Quest+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki sakura stand",
+  keywords: "sakura stand, roland quest, black silence, hướng dẫn, roblox"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Mục tiêu chính**: Hoàn thành **nhiệm vụ sakura stand roland** để nhận được specification \"Roland, The Black Silence\".
+- **Yêu cầu bắt đầu**: Bạn phải trang bị stand **Stanless** với ít nhất **Mastery 6**.
+- **Vật phẩm quan trọng**: Thu thập Mặt nạ ngăn chặn nhận thức (Perception Blocking Mask), Mảnh vỡ âm ỉ (Smoldering Fragment) và 9 loại vũ khí boss cụ thể.
+- **Câu đố Thư viện**: Giải trình tự mã màu (Đỏ, Xanh lá, Cam, Trắng, Xanh dương, Tím) để nhận lời mời cuối cùng.
+- **Tập trung chiến đấu**: Chuẩn bị cho việc cày cuốc căng thẳng chống lại các boss như Toji, Dio, Joro và Deku để lấy các vật phẩm rơi hiếm.
+</Callout>
+
+<Section icon={Target} title="Yêu cầu và Bắt đầu nhiệm vụ sakura stand roland">
+
+Để bắt đầu **nhiệm vụ sakura stand roland**, người chơi phải đạt được các cột mốc tiến trình cụ thể trong trò chơi. Nhiệm vụ này được coi là có độ khó cao và đòi hỏi sự đầu tư thời gian đáng kể, thường mất hơn 15 giờ đối với người chơi solo. Cuộc hành trình bắt đầu tại Alleyway (Hẻm nhỏ), một địa điểm quen thuộc với các game thủ kỳ cựu.
+
+**Điểm nhấn Video:**
+- **Stanless Mastery**: Yêu cầu Mastery cấp 6 trước khi nói chuyện với NPC đầu tiên.
+- **Vị trí NPC**: Tìm Olivia trong Alleyway để kích hoạt đoạn đối thoại ban đầu.
+- **Cơ chế Mặt nạ**: Giải thích về tỷ lệ rơi trên toàn máy chủ của Perception Blocking Mask.
+
+<YouTubeEmbed videoId="xdxU_Z9oPlM" title="Cách sở hữu Spec Roland, The Black Silence MỚI trong Sakura Stand" />
+
+Trước khi bạn đi đến Alleyway, hãy đảm bảo nhân vật của bạn đã được chuẩn bị kỹ lưỡng. Nhiệm vụ không thể được bắt đầu nếu bạn đang sử dụng bất kỳ stand nào khác ngoài Stanless.
+
+| Yêu cầu | Chi tiết | Tầm quan trọng |
+| :--- | :--- | :--- |
+| **Stand đang hoạt động** | Stanless | Bắt buộc để bắt đầu nhiệm vụ |
+| **Cấp độ Mastery** | Cấp 6 trở lên | Mở khóa đối thoại NPC |
+| **Số lượng người chơi** | 10+ Người | Cần thiết để rơi Mặt nạ |
+| **Kỹ năng PVP** | Trung bình | Cần thiết cho các nhiệm vụ tiêu diệt người chơi |
+
+<Callout type="tip" title="Mẹo Mastery">
+Nếu bạn dưới Mastery 6, hãy cày các NPC cấp thấp hoặc sử dụng các vật phẩm tăng Mastery để đạt yêu cầu nhanh chóng. Olivia sẽ chỉ nói với bạn \"hãy quay lại sau\" nếu Mastery của bạn không đủ.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Giai đoạn 1: Mặt nạ ngăn chặn nhận thức (Perception Blocking Mask)">
+
+Trở ngại lớn đầu tiên trong **nhiệm vụ sakura stand roland** là thu được Perception Blocking Mask. Vật phẩm này không rơi từ một boss thông thường mà dựa trên một cơ chế máy chủ cụ thể liên quan đến hoạt động của người chơi.
+
+<Steps>
+  <Step num="1" title="Nói chuyện với Olivia">
+    Tìm Olivia trong Alleyway. Anh ta sẽ đề cập đến một thư viện bí ẩn và giao cho bạn nhiệm vụ tìm một \"Mặt nạ đen\" để chứng minh giá trị của mình.
+  </Step>
+  <Step num="2" title="Kiểm tra số lượng người chơi">
+    Đảm bảo có ít nhất 10 người chơi trong máy chủ hiện tại của bạn. Mặt nạ sẽ không xuất hiện trong các máy chủ ít người hoặc máy chủ riêng tư có ít hơn 10 người.
+  </Step>
+  <Step num="3" title="Săn vật phẩm rơi">
+    Cứ sau mỗi 10 phút, sẽ có một cơ hội ngẫu nhiên để một người chơi trong máy chủ \"rơi\" ra mặt nạ khi bị tiêu diệt. Bạn có thể sử dụng kỹ năng Q lên NPC hoặc người chơi để kiểm tra xem vật phẩm rơi có đang hoạt động hay không (được biểu thị bằng hào quang đen/biểu tượng mặt nạ).
+  </Step>
+  <Step num="4" title="Xác minh">
+    Sau khi bạn nhận được vật phẩm, nó sẽ xuất hiện trong kho đồ của bạn dưới tên **Perception Blocking Mask**. Hãy quay lại gặp Olivia ngay lập tức.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Chuyển đổi Máy chủ">
+Đừng chuyển đổi máy chủ thường xuyên. Bộ đếm thời gian 10 phút sẽ bị đặt lại hoặc có thể không nhất quán giữa các máy chủ khác nhau. Tốt hơn là nên ở lại một máy chủ ổn định, đông người và tham gia chiến đấu.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Giai đoạn 2: Mảnh vỡ âm ỉ (Smoldering Fragment) và Thử thách chiến đấu">
+
+Sau khi trả lại mặt nạ cho Olivia, bạn sẽ được hướng dẫn đi tìm một cá nhân bí ẩn đang nghỉ ngơi gần Thư viện. NPC này sẽ bắt đầu phần chiến đấu của **nhiệm vụ sakura stand roland**.
+
+NPC sẽ yêu cầu bằng chứng về năng lực chiến đấu của bạn. Bạn phải hoàn thành các mục tiêu sau trong khi Stanless đang hoạt động:
+1.  **Tiêu diệt 10 người chơi**: Đây phải là những lần tiêu diệt duy nhất trong môi trường công cộng.
+2.  **Gây 500 sát thương**: Sát thương này phải được gây ra cụ thể bằng bộ kỹ năng của Stanless.
+
+| Mục tiêu | Yêu cầu | Chiến thuật tốt nhất |
+| :--- | :--- | :--- |
+| **Tiêu diệt người chơi** | 10 mạng | Nhắm vào người chơi trong đấu trường 1v1 hoặc khu trung tâm |
+| **Tổng sát thương** | 500 điểm | Sử dụng các đòn tấn công mạnh và combo lên các mục tiêu máu giấy |
+| **Công cụ sử dụng** | Stanless | Sát thương từ các stand khác không được tính |
+
+Sau khi hoàn thành, NPC sẽ thưởng cho bạn **Smoldering Fragment**. Mảnh vỡ này là chìa khóa để tiến vào khu vực bên trong của Thư viện.
+
+<Callout type="success" title="Hiệu quả chiến đấu">
+Sử dụng kỹ năng \"E\" và \"R\" của Stanless liên tiếp nhanh chóng là cách nhanh nhất để đạt được yêu cầu 500 sát thương. Nếu bạn gặp khó khăn với PVP, hãy nhờ một người bạn giúp đỡ trong máy chủ công cộng.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Giai đoạn 3: Laptop của Thủ thư và Thu thập vũ khí">
+
+Đây là phần tốn thời gian nhất của **nhiệm vụ sakura stand roland**. Bạn phải gặp Thủ thư gần Quán cà phê. Cô ấy sẽ giao một nhiệm vụ thu thập khổng lồ bao gồm 9 loại vũ khí khác nhau rơi ra từ các boss khác nhau, cùng với một câu đố phức tạp.
+
+<Checklist
+  id="roland-weapon-list"
+  title="Vũ khí cần thiết để thu thập:"
+  items={[
+    "Old Boys (Rơi từ Joro)",
+    "Crystal Aler (Rơi từ Dio)",
+    "Cyber Load (Rơi từ Boss)",
+    "Wheels of Fortune (Rơi từ Toji)",
+    "Mook (Rơi từ Toji)",
+    "Alas / Ias (Rơi từ Deku)",
+    "Zelkova (Rơi từ Deku)",
+    "Dandelo (Rơi từ Boss)",
+    "Durandal (Vật phẩm rơi hiếm cuối cùng)"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="Cày Boss: Toji & Dio">
+    Toji rơi ra **Wheels** và **Mook**. Những thứ này có tỷ lệ rơi thấp, vì vậy hãy chuẩn bị tinh thần tiêu diệt anh ta nhiều lần. Dio rơi ra **Crystal Aler**, thứ thiết yếu cho chủ đề \"Black Silence\".
+  </Card>
+  <Card title="Cày Boss: Deku & Joro">
+    Deku là một trận chiến đầy thử thách; anh ta rơi ra **Alas**, **Ias**, và **Zelkova**. Joro chịu trách nhiệm cho vũ khí **Old Boys**. Hãy sử dụng các stand có sát thương cao như Ichigo để đẩy nhanh các trận chiến này.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Thời gian Boss xuất hiện">
+Các boss xuất hiện theo bộ đếm thời gian cụ thể hoặc có thể được triệu hồi bằng các vật phẩm như mặt nạ \"All For One\" cho Deku. Việc duy trì một nhóm theo dõi boss được khuyến khích mạnh mẽ.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Giải câu đố màu sắc trong Thư viện">
+
+Rào cản cuối cùng trong **nhiệm vụ sakura stand roland** là câu đố trên laptop của Thủ thư. Thủ thư cung cấp một chuỗi màu sắc: **Đỏ, Xanh lá, Cam, Trắng, Xanh dương, Tím**. Bạn phải dịch các màu này thành mã số bằng cách ghé thăm các địa điểm cụ thể trên bản đồ.
+
+| Màu sắc | Địa điểm kiểm tra | Số ví dụ |
+| :--- | :--- | :--- |
+| **Trắng** | Bên trong Thư viện | 1 |
+| **Tím** | Sảnh Anh hùng (Hall of Heroes) | 2 |
+| **Xanh dương** | Khu vực Noob | 3 |
+| **Xanh lá** | Khu ổ chuột / Hẻm nhỏ | 4 |
+| **Cam** | Quán cà phê / Trung tâm | 5 |
+| **Đỏ** | Hueco Mundo | 6 |
+
+**Cách giải:**
+1. Ghé thăm từng địa điểm được liệt kê ở trên.
+2. Tìm một con số ẩn được khắc vào môi trường hoặc gần lối vào.
+3. Khớp con số với màu sắc được chỉ định cho địa điểm đó.
+4. Nhập chuỗi số vào laptop theo thứ tự: **Đỏ -> Xanh lá -> Cam -> Trắng -> Xanh dương -> Tím**.
+
+<Callout type="warning" title="Cảnh báo mù màu">
+Màu Xanh dương và Trắng có thể trông giống nhau trong một số điều kiện ánh sáng nhất định. Hãy kiểm tra kỹ tên địa điểm để đảm bảo bạn đang gán đúng số cho đúng màu trong chuỗi.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mở khóa Roland: Cơ chế của The Black Silence">
+
+Sau khi giải xong câu đố và thu thập đủ vũ khí, bạn sẽ nhận được **Lời mời Thư viện (Library Invitation)**. Hãy mang nó quay lại gặp Olivia ở Alleyway. Anh ta sẽ đổi lời mời lấy **Găng tay Black Silence (Gloves of Black Silence)**, chính thức hoàn thành **nhiệm vụ sakura stand roland**.
+
+Roland là một spec độc đáo có ba giai đoạn riêng biệt phát triển trong quá trình chiến đấu dựa trên số lần đánh trúng (hit count) của bạn.
+
+| Giai đoạn | Kích hoạt | Thay đổi kỹ năng |
+| :--- | :--- | :--- |
+| **Giai đoạn 1** | Trạng thái ban đầu | Các đòn chém vũ khí cơ bản và kỹ năng súng (Q/Y) |
+| **Giai đoạn 2** | Số hit thấp | Tăng phạm vi cho kỹ năng Y và combo nhanh hơn |
+| **Giai đoạn 3** | Số hit cao | Kỹ năng E nhận thêm dao rơi; kỹ năng G thêm một đòn chém cuối |
+
+**Tổng quan kỹ năng:**
+- **Kỹ năng Q**: Một chu kỳ vũ khí nhiều đòn đánh bao gồm kiếm và súng.
+- **Kỹ năng Y**: Một đòn tấn công dựa trên xưởng (workshop) thay đổi thuộc tính theo từng giai đoạn.
+- **Kỹ năng H**: Một đòn \"Cutscene\" điện ảnh gây sát thương diện rộng (AOE) cực lớn.
+- **Kỹ năng Z**: Động tác dùng cọ vẽ phòng thủ để phản đòn hoặc tái định vị.
+
+<Callout type="success" title="Mẹo chiến đấu chuyên nghiệp">
+Roland xuất sắc trong lối chơi \"áp lực\". Bằng cách liên tục đánh trúng mục tiêu, bạn sẽ duy trì được Giai đoạn 3, giai đoạn cung cấp hitbox lớn nhất và lượng sát thương đầu ra cao nhất trong trò chơi.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể làm nhiệm vụ sakura stand roland trong máy chủ riêng không?",
+    answer: "Bạn có thể thực hiện hầu hết các bước trong máy chủ riêng, nhưng Perception Blocking Mask yêu cầu máy chủ có ít nhất 10 người chơi để rơi, khiến máy chủ công cộng trở thành bắt buộc cho bước cụ thể đó."
+  },
+  {
+    question: "Điều gì xảy ra nếu tôi chết trong giai đoạn thu thập vũ khí?",
+    answer: "Bạn không bị mất tiến trình nhiệm vụ hoặc các vũ khí bạn đã thu thập được. Tuy nhiên, các vật phẩm rơi hiếm như Durandal có thể mất nhiều lần thử để lấy lại nếu bạn không kịp nhặt chúng."
+  },
+  {
+    question: "Mã số câu đố màu sắc có thay đổi cho mỗi người chơi không?",
+    answer: "Các con số liên quan đến địa điểm (ví dụ: Hall of Heroes = 2) thường là cố định, nhưng trình tự do Thủ thư cung cấp có thể thay đổi. Luôn tuân theo thứ tự màu sắc cụ thể mà cô ấy đưa cho bạn."
+  },
+  {
+    question: "Boss nào là khó cày nhất cho nhiệm vụ Roland?",
+    answer: "Hầu hết người chơi thấy Deku là khó nhất vì anh ta yêu cầu vật phẩm All For One để triệu hồi và có nhiều giai đoạn sát thương cao có thể bị lỗi nếu máy chủ bị lag."
+  }
+]} />
+
+</Section>

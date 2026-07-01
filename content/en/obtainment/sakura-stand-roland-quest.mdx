@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand roland quest: Step-by-Step Obtaining Guide",
+  description: "Master the sakura stand roland quest to unlock the Black Silence spec. Learn boss drop locations, library puzzle solutions, and phase mechanics in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Roland+Quest+Guide",
+  date: "2026-07-01",
+  author: "sakura stand Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Main Goal**: Complete the **sakura stand roland quest** to obtain the "Roland, The Black Silence" specification.
+- **Starting Requirement**: You must have the **Stanless** stand equipped with at least **Mastery 6**.
+- **Key Items**: Collect the Perception Blocking Mask, Smoldering Fragment, and 9 specific boss weapons.
+- **Library Puzzle**: Solve the color-coded sequence (Red, Green, Orange, White, Blue, Purple) to get the final invitation.
+- **Combat Focus**: Prepare for heavy grinding against bosses like Toji, Dio, Joro, and Deku for rare drops.
+</Callout>
+
+<Section icon={Target} title="Requirements and Starting the sakura stand roland quest">
+
+To begin the **sakura stand roland quest**, players must meet specific progression milestones within the game. This quest is considered high-difficulty and requires significant time investment, often taking upwards of 15 hours for solo players. The journey starts in the Alleyway, a location familiar to veteran players.
+
+**Video Highlights:**
+- **Stanless Mastery**: Requirement of Level 6 Mastery before talking to the first NPC.
+- **NPC Location**: Finding Olivia in the Alleyway to trigger the initial dialogue.
+- **Mask Mechanic**: Explanation of the server-wide drop rate for the Perception Blocking Mask.
+
+<YouTubeEmbed videoId="xdxU_Z9oPlM" title="Obtaining NEW Roland, The Black Silence Spec on Sakura Stand" />
+
+Before you head to the Alleyway, ensure your character is properly prepared. The quest cannot be initiated if you are using any stand other than Stanless.
+
+| Requirement | Specification | Importance |
+| :--- | :--- | :--- |
+| **Active Stand** | Stanless | Mandatory for quest start |
+| **Mastery Level** | Level 6 or Higher | Unlocks NPC dialogue |
+| **Server Population** | 10+ Players | Required for Mask drop |
+| **PVP Skill** | Moderate | Necessary for player kill tasks |
+
+<Callout type="tip" title="Mastery Tip">
+If you are below Mastery 6, farm lower-level NPCs or use Mastery boosts to reach the requirement quickly. Olivia will simply tell you to "come back later" if your Mastery is insufficient.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Phase 1: The Perception Blocking Mask">
+
+The first major hurdle in the **sakura stand roland quest** is obtaining the Perception Blocking Mask. This item does not drop from a standard boss but relies on a specific server mechanic tied to player activity.
+
+<Steps>
+  <Step num="1" title="Speak to Olivia">
+    Locate Olivia in the Alleyway. He will mention a mysterious library and task you with finding a "Black Mask" to prove your worth.
+  </Step>
+  <Step num="2" title="Check Server Count">
+    Ensure there are at least 10 players in your current server. The mask will not spawn in low-population or private servers with fewer than 10 people.
+  </Step>
+  <Step num="3" title="Hunt for the Drop">
+    Every 10 minutes, there is a random chance for one player in the server to "drop" the mask upon being killed. You can use your Q skill on NPCs or players to check if the drop is active (indicated by a black aura/mask icon).
+  </Step>
+  <Step num="4" title="Verification">
+    Once you obtain the item, it will appear in your inventory as the **Perception Blocking Mask**. Return to Olivia immediately.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Server Hopping">
+Do not server hop frequently. The 10-minute timer resets or may be inconsistent across different servers. It is better to stay in a stable, populated server and participate in combat.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Phase 2: The Smoldering Fragment and Combat Trial">
+
+After returning the mask to Olivia, you are directed to find a mysterious individual resting near the Library. This NPC initiates the combat portion of the **sakura stand roland quest**.
+
+The NPC will demand proof of your combat prowess. You must complete the following objectives while Stanless is active:
+1.  **Kill 10 Players**: These must be unique kills in a public setting.
+2.  **Deal 500 Damage**: This damage must be dealt specifically using Stanless's moveset.
+
+| Objective | Requirement | Best Strategy |
+| :--- | :--- | :--- |
+| **Player Kills** | 10 Kills | Target players in the 1v1 arena or central hub |
+| **Total Damage** | 500 Points | Use heavy attacks and combos on high-HP targets |
+| **Tool Used** | Stanless | Damage from other stands does not count |
+
+Upon completion, the NPC rewards you with the **Smoldering Fragment**. This fragment is the key to entering the Library's inner sanctum.
+
+<Callout type="success" title="Combat Efficiency">
+Using Stanless's "E" and "R" skills in quick succession is the fastest way to rack up the 500 damage requirement. If you struggle with PVP, ask a friend to help you in a public server.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Phase 3: The Librarian's Laptop and Weapon Collection">
+
+This is the most time-consuming part of the **sakura stand roland quest**. You must meet the Librarian near the Cafe. She will assign a massive collection quest involving 9 different weapons dropped by various bosses, alongside a complex puzzle.
+
+<Checklist
+  id="roland-weapon-list"
+  title="Required Weapons for Collection:"
+  items={[
+    "Old Boys (Dropped by Joro)",
+    "Crystal Aler (Dropped by Dio)",
+    "Cyber Load (Dropped by Bosses)",
+    "Wheels of Fortune (Dropped by Toji)",
+    "Mook (Dropped by Toji)",
+    "Alas / Ias (Dropped by Deku)",
+    "Zelkova (Dropped by Deku)",
+    "Dandelo (Dropped by Bosses)",
+    "Durandal (Final Rare Drop)"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="Boss Farming: Toji & Dio">
+    Toji drops the **Wheels** and **Mook**. These have a low drop rate, so expect to kill him multiple times. Dio drops the **Crystal Aler**, which is essential for the "Black Silence" theme.
+  </Card>
+  <Card title="Boss Farming: Deku & Joro">
+    Deku is a challenging fight; he drops **Alas**, **Ias**, and **Zelkova**. Joro is responsible for the **Old Boys** weapon. Use high-damage stands like Ichigo to speed up these fights.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Boss Spawns">
+Bosses spawn on specific timers or can be summoned using items like the "All For One" mask for Deku. Keeping a boss-tracking group active is highly recommended.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Solving the Library Color Puzzle">
+
+The final barrier in the **sakura stand roland quest** is the Librarian's laptop puzzle. The Librarian provides a sequence of colors: **Red, Green, Orange, White, Blue, Purple**. You must translate these colors into a numeric code by visiting specific locations across the map.
+
+| Color | Location to Check | Example Number |
+| :--- | :--- | :--- |
+| **White** | Library Interior | 1 |
+| **Purple** | Hall of Heroes | 2 |
+| **Blue** | Noob Area | 3 |
+| **Green** | Ghetto / Alleyway | 4 |
+| **Orange** | Cafe / Central | 5 |
+| **Red** | Hueco Mundo | 6 |
+
+**How to Solve:**
+1. Visit each location listed above.
+2. Look for a hidden number etched into the environment or near the entrance.
+3. Match the number to the color assigned to that location.
+4. Enter the sequence into the laptop in the order: **Red -> Green -> Orange -> White -> Blue -> Purple**.
+
+<Callout type="warning" title="Color Blindness Alert">
+The Blue and White colors can look similar in certain lighting. Double-check the location names to ensure you are attributing the correct number to the correct color in the sequence.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Unlocking Roland: The Black Silence Mechanics">
+
+Once the puzzle is solved and weapons are collected, you receive the **Library Invitation**. Take this back to Olivia in the Alleyway. He will exchange the invitation for the **Gloves of Black Silence**, officially completing the **sakura stand roland quest**.
+
+Roland is a unique spec that features three distinct phases that evolve during combat based on your hit count.
+
+| Phase | Activation | Skill Changes |
+| :--- | :--- | :--- |
+| **Phase 1** | Initial State | Basic weapon slashes and gun skills (Q/Y) |
+| **Phase 2** | Low Hit Count | Increased range on Y skill and faster combos |
+| **Phase 3** | High Hit Count | E skill gains falling knives; G skill adds a final slash |
+
+**Skill Overview:**
+- **Q Skill**: A multi-hit weapon cycle involving swords and guns.
+- **Y Skill**: A workshop-based strike that changes properties per phase.
+- **H Skill**: A cinematic "Cutscene" move that deals massive AOE damage.
+- **Z Skill**: Defensive paintbrush maneuver to parry or reposition.
+
+<Callout type="success" title="Pro Combat Tip">
+Roland excels in "pressure" gameplay. By constantly landing hits, you maintain Phase 3, which provides the largest hitboxes and highest damage output in the game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Can I do the sakura stand roland quest in a private server?",
+    answer: "You can do most of it in a private server, but the Perception Blocking Mask requires a server with at least 10 players to drop, making a public server mandatory for that specific step."
+  },
+  {
+    question: "What happens if I die during the weapon collection phase?",
+    answer: "You do not lose your quest progress or the weapons you have already collected. However, rare drops like the Durandal may take many attempts to re-acquire if you fail to pick them up."
+  },
+  {
+    question: "Does the color puzzle code change for every player?",
+    answer: "The numbers associated with the locations (e.g., Hall of Heroes = 2) are generally static, but the sequence provided by the Librarian can vary. Always follow the specific color order she gives you."
+  },
+  {
+    question: "Which boss is the hardest to farm for the Roland quest?",
+    answer: "Most players find Deku the hardest because he requires the All For One item to summon and has multiple high-damage phases that can glitch if the server is lagging."
+  }
+]} />
+
+</Section>

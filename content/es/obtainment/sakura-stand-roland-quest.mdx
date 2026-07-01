@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Misión de Roland en Sakura Stand: Guía de obtención paso a paso",
+  description: "Domina la misión de Roland en Sakura Stand para desbloquear la especificación de Black Silence. Aprende las ubicaciones de botín de jefes, soluciones del acertijo de la biblioteca y mecánicas de fase en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Roland+Quest+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Completa la **misión de Roland en Sakura Stand** para obtener la especificación "Roland, The Black Silence" (El Silencio Negro).
+- **Requisito inicial**: Debes tener el stand **Stanless** equipado con al menos **Maestría 6**.
+- **Objetos clave**: Reúne la Máscara de Bloqueo de Percepción (Perception Blocking Mask), el Fragmento Ardiente (Smoldering Fragment) y 9 armas específicas de jefes.
+- **Acertijo de la biblioteca**: Resuelve la secuencia de colores (Rojo, Verde, Naranja, Blanco, Azul, Morado) para obtener la invitación final.
+- **Enfoque de combate**: Prepárate para farmear intensamente contra jefes como Toji, Dio, Joro y Deku para obtener botines raros.
+</Callout>
+
+<Section icon={Target} title="Requisitos e inicio de la misión de Roland en Sakura Stand">
+
+Para comenzar la **misión de Roland en Sakura Stand**, los jugadores deben cumplir con ciertos hitos de progresión dentro del juego. Esta misión se considera de alta dificultad y requiere una inversión de tiempo significativa, tomando a menudo más de 15 horas para jugadores en solitario. El viaje comienza en el Callejón (Alleyway), una ubicación familiar para los jugadores veteranos.
+
+**Puntos clave del video:**
+- **Maestría de Stanless**: Requisito de Maestría Nivel 6 antes de hablar con el primer NPC.
+- **Ubicación del NPC**: Encontrar a Olivia en el Callejón para activar el diálogo inicial.
+- **Mecánica de la máscara**: Explicación de la probabilidad de obtención de la Máscara de Bloqueo de Percepción a nivel de todo el servidor.
+
+<YouTubeEmbed videoId="xdxU_Z9oPlM" title="Obtaining NEW Roland, The Black Silence Spec on Sakura Stand" />
+
+Antes de dirigirte al Callejón, asegúrate de que tu personaje esté debidamente preparado. La misión no se puede iniciar si estás usando cualquier otro stand que no sea Stanless.
+
+| Requisito | Especificación | Importancia |
+| :--- | :--- | :--- |
+| **Stand activo** | Stanless | Obligatorio para iniciar la misión |
+| **Nivel de Maestría** | Nivel 6 o superior | Desbloquea el diálogo del NPC |
+| **Población del servidor** | Más de 10 jugadores | Requerido para la obtención de la Máscara |
+| **Habilidad PVP** | Moderada | Necesaria para las tareas de eliminación de jugadores |
+
+<Callout type="tip" title="Consejo de Maestría">
+Si estás por debajo de la Maestría 6, farmea NPCs de nivel bajo o usa potenciadores de Maestría para alcanzar el requisito rápidamente. Olivia simplemente te dirá que "regreses más tarde" si tu Maestría es insuficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Fase 1: La Máscara de Bloqueo de Percepción">
+
+El primer gran obstáculo en la **misión de Roland en Sakura Stand** es obtener la Máscara de Bloqueo de Percepción (Perception Blocking Mask). Este objeto no se obtiene de un jefe común, sino que depende de una mecánica de servidor específica vinculada a la actividad de los jugadores.
+
+<Steps>
+  <Step num="1" title="Habla con Olivia">
+    Localiza a Olivia en el Callejón. Mencionará una biblioteca misteriosa y te encomendará la tarea de encontrar una "Máscara Negra" para demostrar tu valía.
+  </Step>
+  <Step num="2" title="Verifica la cantidad de jugadores">
+    Asegúrate de que haya al menos 10 jugadores en tu servidor actual. La máscara no aparecerá en servidores con poca población o servidores privados con menos de 10 personas.
+  </Step>
+  <Step num="3" title="Busca la obtención">
+    Cada 10 minutos, existe una probabilidad aleatoria de que un jugador en el servidor "suelte" la máscara al ser derrotado. Puedes usar tu habilidad Q en NPCs o jugadores para verificar si la obtención está activa (indicada por un aura negra/icono de máscara).
+  </Step>
+  <Step num="4" title="Verificación">
+    Once you obtain the item, it will appear in your inventory as the **Perception Blocking Mask** (Máscara de Bloqueo de Percepción). Regresa con Olivia de inmediato.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cambio de servidor (Server Hopping)">
+No cambies de servidor con frecuencia. El temporizador de 10 minutos se reinicia o puede ser inconsistente en diferentes servidores. Es mejor quedarse en un servidor estable y poblado y participar en el combate.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Fase 2: El Fragmento Ardiente y la Prueba de Combate">
+
+Después de devolverle la máscara a Olivia, se te indicará que busques a un misterioso individuo que descansa cerca de la Biblioteca. Este NPC inicia la parte de combate de la **misión de Roland en Sakura Stand**.
+
+El NPC exigirá pruebas de tu destreza en combate. Debes completar los siguientes objetivos mientras Stanless esté activo:
+1.  **Derrotar a 10 jugadores**: Deben ser eliminaciones únicas en un entorno público.
+2.  **Infligir 500 de daño**: Este daño debe infligirse específicamente usando el conjunto de movimientos de Stanless.
+
+| Objetivo | Requisito | Mejor estrategia |
+| :--- | :--- | :--- |
+| **Eliminaciones de jugadores** | 10 eliminaciones | Apunta a jugadores en la arena 1v1 o en el centro principal |
+| **Daño total** | 500 puntos | Usa ataques pesados y combos en objetivos con mucha vida |
+| **Herramienta utilizada** | Stanless | El daño de otros stands no cuenta |
+
+Al completarlo, el NPC te recompensará con el **Smoldering Fragment** (Fragmento Ardiente). Este fragmento es la clave para ingresar al santuario interior de la Biblioteca.
+
+<Callout type="success" title="Eficiencia en combate">
+Usar las habilidades "E" y "R" de Stanless en rápida sucesión es la forma más rápida de alcanzar el requisito de 500 de daño. Si tienes dificultades con el PVP, pídele a un amigo que te ayude en un servidor público.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Fase 3: La laptop de la bibliotecaria y la colección de armas">
+
+Esta es la parte que más tiempo consume de la **misión de Roland en Sakura Stand**. Debes encontrarte con la Bibliotecaria cerca de la Cafetería (Cafe). Ella te asignará una enorme misión de recolección que involucra 9 armas diferentes que sueltan varios jefes, junto con un complejo acertijo.
+
+<Checklist
+  id="roland-weapon-list"
+  title="Armas requeridas para la colección:"
+  items={[
+    "Old Boys (Soltado por Joro)",
+    "Crystal Aler (Soltado por Dio)",
+    "Cyber Load (Soltado por Jefes)",
+    "Wheels of Fortune (Soltado por Toji)",
+    "Mook (Soltado por Toji)",
+    "Alas / Ias (Soltado por Deku)",
+    "Zelkova (Soltado por Deku)",
+    "Dandelo (Soltado por Jefes)",
+    "Durandal (Botín raro final)"
+  ]}
+/>
+
+<CardGrid cols={2}>
+  <Card title="Farmear jefes: Toji y Dio">
+    Toji suelta **Wheels** y **Mook**. Estos tienen una probabilidad de obtención baja, así que espera derrotarlo varias veces. Dio suelta **Crystal Aler**, que es esencial para la temática de "Black Silence".
+  </Card>
+  <Card title="Farmear jefes: Deku y Joro">
+    Deku es un combate desafiante; suelta **Alas**, **Ias** y **Zelkova**. Joro es responsable del arma **Old Boys**. Usa stands de alto daño como Ichigo para acelerar estos combates.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Aparición de jefes">
+Los jefes aparecen en temporizadores específicos o pueden ser invocados usando objetos como la máscara "All For One" para Deku. Se recomienda encarecidamente mantener activo un grupo de seguimiento de jefes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo resolver el acertijo de colores de la biblioteca">
+
+La barrera final en la **misión de Roland en Sakura Stand** es el acertijo de la laptop de la Bibliotecaria. La Bibliotecaria proporciona una secuencia de colores: **Rojo, Verde, Naranja, Blanco, Azul, Morado**. Debes traducir estos colores en un código numérico visitando ubicaciones específicas en todo el mapa.
+
+| Color | Ubicación a revisar | Ejemplo de número |
+| :--- | :--- | :--- |
+| **Blanco** | Interior de la biblioteca | 1 |
+| **Morado** | Salón de los Héroes (Hall of Heroes) | 2 |
+| **Azul** | Área Noob (Noob Area) | 3 |
+| **Verde** | Ghetto / Callejón (Alleyway) | 4 |
+| **Naranja** | Cafetería / Centro (Cafe / Central) | 5 |
+| **Rojo** | Hueco Mundo | 6 |
+
+**Cómo resolverlo:**
+1. Visita cada ubicación mencionada anteriormente.
+2. Busca un número oculto grabado en el entorno o cerca de la entrada.
+3. Empareja el número con el color asignado a esa ubicación.
+4. Introduce la secuencia en la laptop en el orden: **Rojo -> Verde -> Naranja -> Blanco -> Azul -> Morado**.
+
+<Callout type="warning" title="Alerta de daltonismo">
+Los colores azul y blanco pueden verse similares bajo cierta iluminación. Vuelve a verificar los nombres de las ubicaciones para asegurarte de atribuir el número correcto al color correcto en la secuencia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Desbloqueo de Roland: Mecánicas de The Black Silence">
+
+Una vez que resuelvas el acertijo y recolectes las armas, recibirás la **Invitación de la Biblioteca** (Library Invitation). Llévala de vuelta a Olivia en el Callejón. Él cambiará la invitación por los **Guantes de Black Silence** (Gloves of Black Silence), completando oficialmente la **misión de Roland en Sakura Stand**.
+
+Roland es una especificación única que cuenta con tres fases distintas que evolucionan durante el combate según tu cantidad de golpes.
+
+| Fase | Activación | Cambios en habilidades |
+| :--- | :--- | :--- |
+| **Fase 1** | Estado inicial | Cortes básicos con armas y habilidades con armas de fuego (Q/Y) |
+| **Fase 2** | Contador de golpes bajo | Mayor alcance en la habilidad Y y combos más rápidos |
+| **Fase 3** | Contador de golpes alto | La habilidad E obtiene cuchillos que caen; la habilidad G añade un corte final |
+
+**Resumen de habilidades:**
+- **Habilidad Q**: Un ciclo de armas de múltiples golpes que involucra espadas y armas de fuego.
+- **Habilidad Y**: Un golpe basado en taller que cambia sus propiedades según la fase.
+- **Habilidad H**: Un movimiento cinematográfico ("Cutscene") que inflige un daño de área (AOE) masivo.
+- **Habilidad Z**: Maniobra defensiva con pincel para hacer parry o reposicionarse.
+
+<Callout type="success" title="Consejo de combate profesional">
+Roland destaca en un estilo de juego de "presión". Al asestar golpes constantemente, mantienes la Fase 3, la cual proporciona las áreas de efecto (hitboxes) más grandes y el mayor daño en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo hacer la misión de Roland en Sakura Stand en un servidor privado?",
+    answer: "Puedes hacer la mayor parte en un servidor privado, pero la Máscara de Bloqueo de Percepción requiere un servidor con al menos 10 jugadores para aparecer, lo que hace que un servidor público sea obligatorio para ese paso específico."
+  },
+  {
+    question: "¿Qué pasa si muero durante la fase de recolección de armas?",
+    answer: "No pierdes el progreso de tu misión ni las armas que ya hayas recolectado. Sin embargo, los botines raros como la Durandal pueden requerir muchos intentos para volver a adquirirse si no logras recogerlos."
+  },
+  {
+    question: "¿El código del acertijo de colores cambia para cada jugador?",
+    answer: "Los números asociados con las ubicaciones (por ejemplo, Hall of Heroes = 2) son generalmente estáticos, pero la secuencia proporcionada por la Bibliotecaria puede variar. Sigue siempre el orden de colores específico que ella te dé."
+  },
+  {
+    question: "¿Qué jefe es el más difícil de farmear para la misión de Roland?",
+    answer: "La mayoría de los jugadores consideran que Deku es el más difícil porque requiere el objeto All For One para ser invocado y tiene múltiples fases de alto daño que pueden presentar fallas si el servidor tiene lag."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,183 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Gilgamesh: Hướng Dẫn Từng Bước Sở Hữu & Phân Tích Kỹ Năng",
+  description: "Làm chủ hệ kỹ năng (spec) Gilgamesh trong Sakura Stand với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu cách giành Chén Thánh, hoàn thành nhiệm vụ Epic of Gilgamesh và thống trị PvP.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gilgamesh+Spec+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Sakura stand gilgamesh** là một hệ kỹ năng (spec) bậc cao có thể nhận được thông qua banner giới hạn hoặc một chuỗi nhiệm vụ nhiều giai đoạn đầy thử thách.
+- **Để sở hữu**, bạn cần giành chiến thắng trong chế độ đột kích (raid) Chén Thánh (Holy Grail) để lấy chìa khóa và hoàn thành nhiệm vụ "Epic of Gilgamesh".
+- **Phong cách chiến đấu** tập trung vào các đòn tấn công tầm xa vô hạn, các kỹ năng có thể spam liên tục và chiêu cuối Enuma Elish có sức tàn phá khủng khiếp.
+- **Yêu cầu chính** bao gồm tiêu diệt các boss cụ thể như Dio và Toji, cùng với việc thực hiện các biểu cảm (emote) tương tác.
+- **PvP Meta** hiện tại xếp hạng spec này ở bậc S-tier nhờ lượng sát thương đầu ra cao và khả năng khống chế diện rộng (crowd-control).
+</Callout>
+
+<Section icon={Sparkles} title="Giới thiệu về Hiền Vương">
+
+Sự xuất hiện của hệ kỹ năng **sakura stand gilgamesh** đã thay đổi hoàn toàn cục diện sức mạnh trong trò chơi. Được biết đến với danh xưng Hiền Vương (King of Heroes), spec này mang lại mức độ đa dụng và sức mạnh thô mà hiếm có hệ kỹ năng nào khác có thể sánh kịp. Cho dù bạn đang muốn thống trị trong các trận đấu tay đôi 1v1 hay quét sạch toàn bộ đối thủ trong raid Chén Thánh, việc hiểu rõ các sắc thái của Gilgamesh là điều cần thiết cho bất kỳ người chơi nghiêm túc nào vào năm 2026.
+
+**Điểm nhấn trong Video:**
+- **Tổng quan cách sở hữu**: Khám phá cả hai phương pháp Banner và Nhiệm vụ.
+- **Chiến thuật Chén Thánh**: Cách căn thời gian sử dụng kỹ năng để sống sót trong giai đoạn bão giảm xuống 1 HP.
+- **Hướng dẫn nhiệm vụ**: Hoàn thành từng bước các mục tiêu của "Epic of Gilgamesh".
+- **Trình diễn bộ kỹ năng**: Chi tiết về King's Authority, Enuma Elish và các chuỗi combo có thể spam.
+
+<YouTubeEmbed videoId="eO1gT-Lkpm8" title="Cách sở hữu Hệ kỹ năng Gilgamesh MỚI trong Sakura Stand" />
+
+<Callout type="tip" title="Lưu ý của Biên tập viên">
+Gilgamesh được ra mắt như một phần của chiến lược "bản cập nhật nhỏ" nhằm duy trì sức hút của trò chơi giữa các đợt cập nhật nội dung lớn. Mặc dù là một bản cập nhật nhỏ, hệ kỹ năng này được xây dựng vô cùng hoàn thiện với bộ chiêu thức độc đáo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cách sở hữu Sakura Stand Gilgamesh">
+
+Hiện tại có hai con đường chính để sở hữu hệ kỹ năng **sakura stand gilgamesh**. Trong khi phương pháp Banner phụ thuộc hoàn toàn vào may mắn và tiền tệ, phương pháp Nhiệm vụ lại đòi hỏi kỹ năng, sự kiên nhẫn và một chút kế hoạch chiến thuật.
+
+| Phương pháp | Yêu cầu chính | Chi phí/Độ khó | Trạng thái |
+| :--- | :--- | :--- | :--- |
+| **Banner giới hạn** | Token (Lượt quay) | 600 Token mỗi lượt quay / Chi phí cao | Thời gian giới hạn |
+| **Nhiệm vụ Chén Thánh** | Chìa khóa Chén Thánh + Nhiệm vụ | Kỹ năng cao / Tốn thời gian | Vĩnh viễn |
+| **Giao dịch với Nhà phát triển** | Trao đổi Token | Thay đổi / Phụ thuộc vào Admin | Hiếm |
+
+### Chế độ đột kích Chén Thánh
+Để bắt đầu con đường nhiệm vụ, bạn phải tham gia vào chế độ đột kích Chén Thánh (Holy Grail raid). Đây là một chế độ theo phong cách battle royale, nơi người chơi cuối cùng còn sống sót sẽ giành được cơ hội thực hiện một điều ước.
+
+<CardGrid cols={2}>
+  <Card title="Cơ chế Vòng bo">
+    Vòng bo sẽ thu hẹp lại theo định kỳ. Trong giai đoạn cuối cùng, tất cả người chơi đều bị giảm xuống còn **1 HP**, khiến việc căn thời gian và các kỹ năng diện rộng (AoE) trở nên cực kỳ quan trọng.
+  </Card>
+  <Card title="Phần thưởng Chìa khóa">
+    Chiến thắng chế độ đột kích sẽ mang lại cho bạn **Chìa khóa Chén Thánh** hoặc một vật phẩm nhiệm vụ cụ thể. Lưu ý rằng nếu thất bại, bạn sẽ phải chịu thời gian hồi chiêu là 90 phút.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cảnh báo hồi chiêu">
+Nếu bạn thua một trận Chén Thánh, bạn phải đợi **1 giờ 30 phút** trước khi có thể thử lại. Hãy lên kế hoạch lựa chọn hệ kỹ năng thật cẩn thận trước khi tham gia.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Nhiệm vụ Epic of Gilgamesh">
+
+Sau khi đã có được các vật phẩm ban đầu từ Chén Thánh, bạn phải tìm NPC nằm gần đỉnh núi cao nhất (thường được gọi là khu vực Hippo) để bắt đầu nhiệm vụ "The Epic of Gilgamesh".
+
+| Mục tiêu | Yêu cầu | Chiến thuật tốt nhất |
+| :--- | :--- | :--- |
+| **Tiêu diệt Dio** | 1 Lần | Sử dụng các spec có sát thương cao kèm khống chế (stun). |
+| **Tiêu diệt Toji** | 1 Lần | Giữ khoảng cách và dụ hắn sử dụng kỹ năng lướt (dash). |
+| **Tiêu diệt người chơi** | Sử dụng Astolfo | Tìm một người bạn sẵn sàng giúp đỡ hoặc thắng một trận đấu công bằng. |
+| **Thắng trận 1v1** | 1 Trận | Sử dụng hệ kỹ năng PvP mà bạn thành thạo nhất. |
+| **Sử dụng biểu cảm** | `/e makingshape` (20 lần) | Có thể thực hiện nhanh chóng ở bất kỳ khu vực an toàn nào. |
+
+<Steps>
+  <Step num="1" title="Bắt đầu Nhiệm vụ">
+    Di chuyển đến đỉnh núi cao nhất và nói chuyện với NPC để nhận nhiệm vụ "The Epic of Gilgamesh". Hãy chắc chắn rằng bạn có các vật phẩm Chén Thánh trong túi đồ.
+  </Step>
+  <Step num="2" title="Săn Boss">
+    Tập trung vào Dio và Toji trước. Những con boss này thỉnh thoảng có thể bị lỗi, vì vậy nếu chúng không xuất hiện chính xác, bạn có thể cần phải đổi máy chủ (server hop) hoặc đợi một phiên bản máy chủ mới.
+  </Step>
+  <Step num="3" title="Mục tiêu Tương tác và Chiến đấu">
+    Thực hiện biểu cảm `/e makingshape` 20 lần. Sau đó, đi đến đấu trường 1v1 để hạ gục người chơi và giành chiến thắng trận đấu.
+  </Step>
+  <Step num="4" title="Hoàn thành Cuối cùng">
+    Quay lại gặp người giao nhiệm vụ sau khi đã hoàn thành các mục tiêu để nhận vật phẩm đá "Epic of Gilgamesh", giúp bạn hoàn tất việc kích hoạt hệ kỹ năng.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mẹo làm nhiệm vụ">
+Yêu cầu `/e makingshape` thực chất chỉ để tiêu tốn thời gian. Đừng quên tự đếm số lần thực hiện, vì giao diện nhiệm vụ (UI) đôi khi cập nhật khá chậm.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Phân tích Bộ kỹ năng và Dữ liệu Chiến đấu">
+
+Hệ kỹ năng **sakura stand gilgamesh** được định hình bởi phong cách "Gate of Babylon" (Cổng Babylon) đặc trưng, sử dụng vũ khí được triệu hồi để áp đảo đối thủ từ mọi khoảng cách.
+
+| Phím | Tên chiêu thức | Loại | Mô tả |
+| :--- | :--- | :--- | :--- |
+| **Q** | King's Authority | Tầm xa/Tự động | Tầm đánh vô hạn; kích hoạt khi nhắm vào mục tiêu. |
+| **E** | Armor Diver | Có thể spam | Triệu hồi vũ khí nhanh chóng; có thể chuỗi liên tục nhiều lần. |
+| **T** | Gate Burst | Diện rộng (AoE) | Nhấn nhanh để triệu hồi vũ khí xung quanh mục tiêu; giữ nút để triệu hồi xung quanh bản thân. |
+| **Y** | Enkidu Chain | Phản đòn/Khống chế | Nếu nhắm trúng: Gây choáng. Nếu không nhắm trúng: Hoạt động như một chiêu phản đòn. |
+| **Z** | Chain of Fate | Tiện ích | Kéo đối thủ về phía Gilgamesh để thực hiện combo. |
+| **G** | Enuma Elish | Chiêu cuối | Diện rộng cực lớn, hút người chơi vào trong và gây sát thương chí mạng. |
+
+### Cơ chế Chiến đấu Nâng cao
+Gilgamesh mạnh nhất khi duy trì áp lực liên tục. **Kỹ năng E (Armor Diver)** đặc biệt mạnh mẽ vì nó hầu như không có thời gian hồi chiêu đáng kể, cho phép bạn thực hiện "combo vô hạn" đối với những người chơi không kịp sử dụng các kỹ năng né tránh.
+
+<Callout type="info" title="Sắc thái kỹ năng">
+**Kỹ năng Y** có tính ngữ cảnh. Trong lúc chiến đấu căng thẳng, hãy luôn cố gắng nhắm trực tiếp vào kẻ địch để đảm bảo gây choáng, vì thời gian kích hoạt phản đòn là tương đối ngắn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chiến thuật PvP và Mẹo Meta">
+
+Để làm chủ **sakura stand gilgamesh**, bạn phải cân bằng giữa việc spam các đòn tấn công tầm xa dồn dập và việc chọn vị trí phòng thủ. Do tầm đánh của một số chiêu thức là vô hạn, bạn hiếm khi cần phải áp sát trực diện trừ khi đang chuẩn bị khởi đầu một chuỗi combo kéo xích Z.
+
+<CardGrid cols={3}>
+  <Card title="Chiến thuật Gojo">
+    Trong raid Chén Thánh, hãy sử dụng bành trướng lãnh địa của Gojo sau khi vòng bo ngừng thu hẹp 35 giây. Điều này sẽ tiêu diệt ngay lập tức tất cả những ai đang ở mức 1 HP.
+  </Card>
+  <Card title="Áp lực Vô hạn">
+    Luân chuyển giữa E và Q để giữ đối thủ trong trạng thái bị khựng do trúng đòn (hit-stun). Hầu hết người chơi sẽ né tránh trong hoảng loạn, để lộ sơ hở cho một cú kéo xích Z.
+  </Card>
+  <Card title="Thời gian Chiêu cuối">
+    Hãy để dành Enuma Elish (G) khi có nhiều kẻ địch tụ lại một chỗ. Hiệu ứng "hút" sẽ ngăn chúng thoát khỏi vùng vụ nổ.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="gilgamesh-mastery"
+  title="Danh sách kiểm tra để làm chủ Gilgamesh:"
+  items={[
+    "Làm chủ thời gian phản đòn của kỹ năng Y",
+    "Nắm rõ khoảng cách kéo tối đa của xích Z",
+    "Luyện tập 'quy tắc 35 giây' trong raid Chén Thánh",
+    "Thi triển thành công trọn vẹn chiêu Enuma Elish trong trận đấu 1v1",
+    "Sở hữu trang phục (skin) bậc cao cho spec này (Tùy chọn)"
+  ]}
+/>
+
+<Callout type="warning" title="Cảnh báo lỗi">
+Theo các bản cập nhật mới nhất năm 2026, một số người chơi báo cáo rằng nhiệm vụ sẽ bị reset nếu họ bị ngắt kết nối khỏi máy chủ. Hãy luôn cố gắng hoàn thành việc tiêu diệt boss trong một phiên chơi duy nhất để tránh bị mất tiến trình.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Sakura Stand Gilgamesh có tốt hơn Gojo không?",
+    answer: "Mặc dù Gojo có khả năng sinh tồn tốt hơn, Gilgamesh lại mang lại tầm đánh vượt trội và lượng sát thương có thể spam liên tục. Trong meta năm 2026 hiện tại, Gilgamesh được đánh giá là đa dụng hơn trong các trận chiến nhóm."
+  },
+  {
+    question: "Tôi có thể sở hữu Gilgamesh nếu banner hết hạn không?",
+    answer: "Có, nhiệm vụ Chén Thánh vẫn là phương pháp vĩnh viễn để sở hữu hệ kỹ năng này, ngay cả sau khi banner giới hạn bị gỡ bỏ."
+  },
+  {
+    question: "Làm thế nào để khắc phục lỗi tiêu diệt Toji không được tính vào nhiệm vụ?",
+    answer: "Hãy đảm bảo rằng bạn là người tung đòn kết liễu và nhiệm vụ đang hoạt động ở thanh bên. Nếu vẫn thất bại, bạn có thể cần phải nhận lại nhiệm vụ bằng cách nói chuyện lại với NPC."
+  },
+  {
+    question: "Hệ kỹ năng tốt nhất để giành chiến thắng trong Chén Thánh là gì?",
+    answer: "Các hệ kỹ năng có khung hình bất tử (I-frame) và sát thương diện rộng (AoE) lớn là tốt nhất. Stark và Gojo hiện là những lựa chọn hàng đầu cho các chiến thuật 'mẹo' trong chế độ đột kích này."
+  }
+]} />
+
+</Section>

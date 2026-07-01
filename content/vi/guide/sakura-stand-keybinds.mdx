@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, MousePointer2 } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Phím Tắt Sakura Stand: Hướng Dẫn Điều Khiển & Chiến Đấu Cơ Bản",
+  description: "Làm chủ các phím tắt Sakura Stand trên PC và di động. Học các điều khiển chiến đấu, phím tắt kỹ năng và điều hướng menu để thống trị trong trải nghiệm anime Roblox này.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2e1065/f472b6?text=Sakura+Stand+Keybinds+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Phím tắt Sakura Stand** tập trung vào sự kết hợp giữa di chuyển Roblox tiêu chuẩn và các kích hoạt kỹ năng anime phức tạp.
+- **Các phím chiến đấu** chủ yếu sử dụng hàng phím E, R, T, Y, F, G và H cho các chiêu thức Stand và Spec khác nhau.
+- **Lướt và cơ động** được xử lý bằng phím Q, phím này cực kỳ quan trọng để né tránh các đòn tấn công sát thương cao của boss.
+- **Điều hướng menu** được truy cập qua phím M, nơi bạn cũng có thể tìm thấy cài đặt để nhập các mã code đang hoạt động.
+- **Người chơi di động** có quyền truy cập vào giao diện người dùng tùy chỉnh, nhưng việc hiểu các phím mặc định trên PC sẽ giúp dự đoán hành vi của đối thủ.
+</Callout>
+
+<Section icon={Map} title="Di Chuyển Cơ Bản và Phím Tắt Chung">
+
+Để khám phá thế giới của Sakura Stand, bạn cần nắm vững hệ thống di chuyển cơ bản. Cho dù bạn đang farm tài nguyên trong rừng hay khám phá ngôi đền bỏ hoang cho chuỗi nhiệm vụ Naoya Zen'in, các điều khiển chung này vẫn nhất quán trên tất cả các Stand và Spec.
+
+| Phím | Hành động | Mô tả |
+| :--- | :--- | :--- |
+| **WASD** | Di chuyển | Các phím tiêu chuẩn để di chuyển nhân vật của bạn tiến, lùi, sang trái và sang phải. |
+| **Space** | Nhảy | Được sử dụng để di chuyển theo chiều dọc và né tránh các đòn tấn công tầm thấp dưới mặt đất. |
+| **Shift** | Chạy nhanh | Bật/tắt hoặc giữ để có tốc độ di chuyển nhanh hơn trên bản đồ. |
+| **Q** | Lướt | Một cú lao nhanh theo hướng chỉ định giúp cung cấp các khung hình bất tử tạm thời (i-frame). |
+| **M** | Menu | Mở giao diện chính cho kho đồ, cài đặt và chỉ số nhân vật. |
+| **Ctrl** | Khóa camera (Shift Lock) | Bật/tắt khóa camera, điều này rất cần thiết để nhắm mục tiêu chính xác trong chiến đấu. |
+
+<Callout type="tip" title="Làm Chủ Di Chuyển">
+Luôn bật Khóa camera (Ctrl) trong các trận chiến PvP hoặc Boss. Nó cho phép nhân vật của bạn đối mặt với hướng của camera, giúp việc tung các kỹ năng định hướng và lướt theo hướng dễ dàng hơn nhiều với **phím tắt Sakura Stand**.
+</Callout>
+
+Ngoài việc đi bộ đơn giản, lướt (Q) là công cụ phòng thủ quan trọng nhất trong kho vũ khí của bạn. Trong meta năm 2026, nhiều boss như Sukuna hay The Red Mist có các đòn tấn công diện rộng chỉ có thể tránh được bằng cách căn thời gian lướt thật hoàn hảo. Khoảng cách lướt đôi khi có thể bị ảnh hưởng bởi các Spec cụ thể hoặc các buff đang hoạt động, vì vậy việc luyện tập nhịp điệu lướt là bước đầu tiên để trở thành một người chơi cấp cao.
+
+</Section>
+
+<Section icon={Swords} title="Khả Năng Chiến Đấu và Phím Tắt Kỹ Năng">
+
+Chiến đấu trong Sakura Stand được chia làm Stand và Spec. Mặc dù chiêu thức cụ thể liên kết với một phím sẽ thay đổi tùy thuộc vào năng lực bạn đang trang bị, nhưng bố cục vẫn tuân theo một khuôn mẫu tiêu chuẩn hóa. Điều này cho phép người chơi chuyển đổi giữa các phong cách chiến đấu khác nhau mà không cần phải học lại phản xạ cơ bắp từ đầu.
+
+| Phím | Loại chiêu thức phổ biến | Sử dụng chiến thuật |
+| :--- | :--- | :--- |
+| **LMB** | Tấn công cơ bản (M1) | Chiêu thức khởi đầu combo tiêu chuẩn; tích lũy độ thông thạo (mastery) và gây sát thương nhỏ. |
+| **E** | Kỹ năng chính | Thường là một đòn tấn công nhanh, thời gian hồi chiêu thấp hoặc một chuỗi đấm liên hoàn (barrage). |
+| **R** | Tấn công mạnh | Thường là một đòn phá đỡ đòn (guard break) hoặc chiêu kết liễu đẩy lùi cao. |
+| **T** | Đạn bay / Tiện ích | Các đòn tấn công tầm xa hoặc kỹ năng tiện ích độc đáo như bắn máu. |
+| **Y** | Kỹ năng đặc biệt | Các kỹ năng tầm trung thường yêu cầu các điều kiện cụ thể. |
+| **F** | Đỡ đòn / Phản đòn | Giảm sát thương nhận vào; nếu căn thời gian hoàn hảo, bạn có thể phản đòn (parry). |
+| **G** | Chiêu cuối / Thức tỉnh | Các đòn kết liễu sát thương cao hoặc Bành trướng Lãnh địa (ví dụ: Naoya). |
+| **H** | Tiện ích bổ sung | Thường được sử dụng để hồi máu, tăng buff hoặc biến hình phụ. |
+
+<Callout type="info" title="Các Biến Thể Kỹ Năng">
+Một số Spec nâng cao, như **Naoya Zen'in** từ bản cập nhật tháng 6 năm 2026, sử dụng nhiều biến thể phím G khác nhau. Điều này có nghĩa là phím "Chiêu cuối" của bạn có thể có các hiệu ứng khác nhau tùy thuộc vào combo hoặc trạng thái hiện tại của bạn.
+</Callout>
+
+Khi sử dụng một Stand như **Star Platinum** hoặc **Gold Experience**, phím E thường kích hoạt một chuỗi đấm liên hoàn "Barrage". Ngược lại, đối với một Spec như **Choso**, phím T có thể kích hoạt một đòn bắn máu điều khiển. Hiểu được các ánh xạ phím này là điều cần thiết để thực hiện các combo sát thương cao. Hầu hết các người chơi cấp cao đều tuân theo một chuỗi như: Chuột trái (LMB) x3 -> R (Phá đỡ đòn) -> E (Barrage) -> T (Kết liễu tầm xa).
+
+</Section>
+
+<Section icon={Settings} title="Điều Hướng Menu và Nhập Code">
+
+Phím 'M' là cổng dẫn bạn đến các hệ thống sâu hơn của Sakura Stand. Từ đây, bạn có thể quản lý kho đồ của mình, kiểm tra cấp độ Thông thạo (Mastery) và tương tác với các cài đặt của trò chơi. Đây cũng là nơi bạn sẽ nhập code để nhận các phần thưởng miễn phí như Token, Tiền (Cash) và tăng EXP.
+
+<Steps>
+  <Step num="1" title="Mở Menu Chính">
+    Nhấn phím **M** trên bàn phím của bạn. Thao tác này sẽ hiển thị giao diện menu dạng vòng tròn hoặc tab trên màn hình của bạn.
+  </Step>
+  <Step num="2" title="Đi tới phần Cài đặt">
+    Tìm biểu tượng bánh răng hoặc tab "Settings" (Cài đặt) trong menu. Biểu tượng này thường nằm ở góc ngoài cùng bên phải hoặc dưới cùng của giao diện.
+  </Step>
+  <Step num="3" title="Tìm Hộp Nhập Code">
+    Tìm trường nhập văn bản có nhãn "Enter Code" hoặc tương tự. Đây là nơi bạn sẽ nhập các mã code đang hoạt động như **RTZREWORK** hoặc **JOJOMONTH**.
+  </Step>
+  <Step num="4" title="Xác nhận và Nhận thưởng">
+    Nhập mã code chính xác như được hiển thị (chúng phân biệt chữ hoa chữ thường) và nhấn phím Enter trên bàn phím của bạn để nhận phần thưởng.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Lý Do Nhập Code Thất Bại">
+Nếu mã code thất bại, hãy kiểm tra xem bạn đã đạt đến **cấp độ Thông thạo (Mastery)** yêu cầu hay chưa. Một số phần thưởng năm 2026 bị giới hạn theo tiến trình chơi để ngăn chặn bot và đảm bảo chỉ những người chơi tích cực mới được hưởng lợi từ các gói tăng chỉ số có giá trị cao.
+</Callout>
+
+Ngoài các mã code, menu cài đặt cũng cho phép bạn bật/tắt các hiệu ứng hình ảnh. Sakura Stand nổi tiếng với ánh sáng nhấp nháy cường độ cao và các hiệu ứng hạt phức tạp. Nếu bạn gặp phải tình trạng giảm hiệu suất hoặc nhạy cảm với ánh sáng, hãy sử dụng menu cài đặt để giảm thanh trượt "Visual Effects" (Hiệu ứng hình ảnh) hoặc "Particles" (Hạt kỹ năng). Điều này có thể cải thiện đáng kể tốc độ khung hình (FPS) của bạn trong các trận đột kích (raid) lớn hoặc khi đối đầu với Boss Naoya.
+
+</Section>
+
+<Section icon={MousePointer2} title="Điều Khiển Trên Di Động vs Phím Tắt Trên PC">
+
+Sakura Stand cung cấp hỗ trợ di động mạnh mẽ, chuyển đổi các **phím tắt Sakura Stand** phức tạp thành một giao diện thân thiện với cảm ứng. Trong khi người chơi PC dựa vào bàn phím của họ, người chơi di động sử dụng một loạt các nút bấm trên màn hình nằm ở phía bên phải.
+
+| Phím PC | Tương đương trên Di động | Vị trí giao diện |
+| :--- | :--- | :--- |
+| **LMB** | Biểu tượng Kiếm/Đấm | Dưới cùng bên phải (Cỡ lớn) |
+| **Q** | Biểu tượng Chiếc ủng (Lướt) | Phía trên Tấn công cơ bản |
+| **F** | Biểu tượng Khiên (Đỡ đòn) | Bên trái Tấn công cơ bản |
+| **E, R, T, Y** | Các vòng tròn kỹ năng | Xếp hình vòng cung quanh nút Tấn công |
+| **G** | Biểu tượng Ngôi sao/Đầu lâu | Trên cùng của cụm kỹ năng |
+| **M** | Nút Menu | Góc trên cùng bên trái hoặc bên phải |
+
+<Callout type="success" title="Lợi Thế Trên Di Động">
+Người chơi di động thường thấy dễ dàng hơn khi thực hiện các "Kỹ năng tức thì" vì tất cả các nút đều hiển thị cùng một lúc, giảm khả năng bấm nhầm phím trong một trận đấu PvP căng thẳng.
+</Callout>
+
+Bất chấp sự khác biệt về giao diện, sự cân bằng trong lối chơi vẫn được đảm bảo công bằng. Người chơi di động nhận được cùng một mức thưởng 1.15x XP nếu họ có Roblox Premium, và các tính năng tự động khóa mục tiêu cho di động giúp thu hẹp khoảng cách về độ chính xác khi nhắm bắn. Tuy nhiên, người chơi PC thường có lợi thế hơn trong việc "vẩy chuột" (flick-shotting) các đòn tấn công tầm xa nhờ khả năng kiểm soát độ nhạy của chuột.
+
+</Section>
+
+<Section icon={Trophy} title="Danh Sách Kiểm Tra Tiến Trình và Tối Ưu Hóa">
+
+Làm chủ các điều khiển mới chỉ là một nửa trận chiến. Để thực sự xuất sắc trong Sakura Stand, bạn phải sử dụng kiến thức về các phím tắt để farm hiệu quả và tiến triển qua các chuỗi nhiệm vụ anime khác nhau. Hãy sử dụng danh sách kiểm tra sau đây để đảm bảo bạn đang tối ưu hóa lối chơi của mình vào năm 2026.
+
+<Checklist
+  id="player-optimization"
+  title="Các Cột Mốc Hiệu Quả:"
+  items={[
+    "Bật Khóa camera (Shift Lock) trong cài đặt để có độ chính xác chiến đấu tốt hơn",
+    "Luyện tập căn thời gian 'Perfect Parry' (Phản đòn hoàn hảo) bằng phím F",
+    "Ghi nhớ khoảng cách lướt của phím Q để tránh các đòn đánh diện rộng (AOE) của boss",
+    "Thiết lập các phím tắt menu 'M' để sử dụng vật phẩm nhanh chóng",
+    "Thử nghiệm các combo kỹ năng của bạn trên hình nộm tập luyện trước khi tham gia PvP"
+  ]}
+/>
+
+<Callout type="tip" title="Mẹo Farm EXP">
+Khi sử dụng gói tăng EXP từ code, hãy tập trung vào các tuyến đường farm mang lại hiệu suất cao như săn lùng **Kamo Remnant** hoặc **Ngón tay Sukuna**. Việc sử dụng phím tắt hiệu quả trong thời gian tăng chỉ số này có thể nhân đôi tốc độ tiến trình của bạn.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến Thuật Phím Tắt Nâng Cao Cho Năm 2026">
+
+Đối với những người chơi kỳ cựu, việc chỉ biết các phím là chưa đủ. Bạn cần hiểu về "Chuỗi phím" (Key Chaining) và "Hủy hoạt ảnh" (Animation Canceling). Trong bản cập nhật Naoya và Choso mới nhất, một số chiêu thức nhất định có thể bị hủy sớm bằng cách lướt (Q) hoặc đỡ đòn (F), cho phép bạn thoát khỏi một đòn phản công hoặc kéo dài một combo.
+
+<CardGrid cols={3}>
+  <Card title="Hủy Hoạt Ảnh Bằng Lướt">
+    - **Kích hoạt**: Nhấn Q ngay sau một đòn tấn công mạnh (R).
+    - **Lợi ích**: Loại bỏ độ trễ sau khi tung chiêu (end-lag).
+    - **Tốt nhất cho**: Các Spec có lối chơi tấn công dồn dập (rushdown) như Naoya.
+  </Card>
+  <Card title="Đỡ Đòn - Phản Công">
+    - **Kích hoạt**: Nhấn F chính xác vào thời điểm đòn tấn công trúng đích, sau đó nhấn E.
+    - **Lợi ích**: Gây choáng kẻ địch và đảm bảo một chuỗi đấm liên hoàn (barrage).
+    - **Tốt nhất cho**: Các Stand có xu hướng phòng thủ như Star Platinum.
+  </Card>
+  <Card title="Lưu Đệm Menu">
+    - **Kích hoạt**: Mở menu 'M' trong khi đang thực hiện hoạt ảnh di chuyển dài.
+    - **Lợi ích**: Kiểm tra chỉ số hoặc thay đổi vật phẩm trong khi di chuyển.
+    - **Tốt nhất cho**: Di chuyển khoảng cách xa đến Ngôi đền bỏ hoang.
+  </Card>
+</CardGrid>
+
+Bằng cách tích hợp các kỹ thuật nâng cao này vào lối chơi của bạn, bạn sẽ thấy rằng các **phím tắt Sakura Stand** trở thành một phần mở rộng cho ý định của bạn. Cho dù bạn đang thực hiện nhiệm vụ phức tạp để lấy **Sandevistan** hay farm **Mảnh Hogyoku** ở Hueco Mundo, tốc độ và sự chính xác là những yếu tố quyết định cuối cùng cho chiến thắng.
+
+</Section>
+
+<Section icon={Swords} title="Các Câu Hỏi Thường Gặp">
+
+<FAQ items={[
+  {
+    question: "Làm cách nào để thay đổi phím tắt trong Sakura Stand?",
+    answer: "Hiện tại, Sakura Stand không hỗ trợ thay đổi phím tắt hoàn toàn trong trò chơi. Tuy nhiên, bạn có thể sử dụng phần mềm bên thứ ba hoặc cài đặt tích hợp sẵn của Roblox để điều chỉnh một số nút cơ bản, mặc dù hầu hết người chơi vẫn giữ bố cục E/R/T/Y mặc định để đảm bảo tính nhất quán."
+  },
+  {
+    question: "Tại sao phím Q của tôi không hoạt động để lướt?",
+    answer: "Hãy đảm bảo rằng bạn hiện không ở trong trạng thái bị choáng ('stun') hoặc độ trễ sau khi tung chiêu ('end-lag') từ một đòn tấn công mạnh. Một số kỹ năng có thời gian hồi phục mà trong đó tính năng lướt bị vô hiệu hóa. Ngoài ra, hãy kiểm tra xem thanh thể lực của bạn có bị cạn kiệt hay không, vì lướt yêu cầu một lượng năng lượng nhỏ."
+  },
+  {
+    question: "Tôi có thể sử dụng tay cầm để chơi Sakura Stand?",
+    answer: "Có, Sakura Stand có hỗ trợ tay cầm chơi game. Các nút được ánh xạ tương tự như giao diện người dùng trên di động, với các nút cò (RT/LT) và các nút chính (A/B/X/Y) đảm nhận các kỹ năng chiến đấu chính."
+  },
+  {
+    question: "Phím nào để kích hoạt Bành trướng Lãnh địa?",
+    answer: "Đối với hầu hết các Spec có Bành trướng Lãnh địa, chẳng hạn như Sukuna hoặc Naoya, phím mặc định là G. Lưu ý rằng bạn thường cần một thanh 'Thức tỉnh' (Awakening) đầy hoặc một cấp độ Thông thạo cụ thể để kích hoạt khả năng mạnh mẽ này."
+  }
+]} />
+
+</Section>
