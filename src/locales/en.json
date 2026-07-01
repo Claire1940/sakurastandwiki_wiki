@@ -2,19 +2,19 @@
   "seo": {
     "home": {
       "title": "Sakura Stand Wiki - Codes, Tier List & Trello",
-      "description": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, skins, items, trading values, and beginner guides for faster progress.",
-      "keywords": "sakura stand, roblox, codes, tier list, trello, specs, skins, items, trading",
+      "description": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, stands, skins, items, trading values, and beginner guides for faster progress.",
+      "keywords": "sakura stand, roblox, codes, tier list, trello, specs, stands, skins, items, trading",
       "ogTitle": "Sakura Stand Wiki - Codes, Tier List & Trello",
-      "ogDescription": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, skins, items, trading values, and beginner guides for faster progress.",
+      "ogDescription": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, stands, skins, items, trading values, and beginner guides for faster progress.",
       "twitterTitle": "Sakura Stand Wiki - Codes, Tier List & Trello",
-      "twitterDescription": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, skins, items, trading values, and beginner guides for faster progress."
+      "twitterDescription": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, stands, skins, items, trading values, and beginner guides for faster progress."
     }
   },
   "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -53,728 +53,889 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Sakura Stand Gameplay",
+    "description": "Collect Stands and Specs inspired by JoJo's Bizarre Adventure and other anime, farm resources, redeem codes, and progress through boss and item routes in this Roblox fighting experience."
   },
   "tools": {
-    "title": "Lucid Blocks",
+    "title": "Sakura Stand",
     "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "subtitle": "Everything you need for Sakura Stand codes, tier lists, Stands, Specs, items, and updates",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
+        "icon": "Copy",
+        "title": "Sakura Stand Codes",
+        "description": "Active codes, rewards, and how to redeem them"
       },
       {
         "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Sakura Stand Trello & Discord",
+        "description": "Official Trello, Discord, Roblox, and community links"
       },
       {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "icon": "BookOpen",
+        "title": "Sakura Stand Beginner Guide",
+        "description": "First steps, core loop, XP, and early goals"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Star",
+        "title": "Sakura Stand Tier List",
+        "description": "Stands, Specs, skins, and trading value rankings"
+      },
+      {
+        "icon": "Users",
+        "title": "Sakura Stand Stands & Specs",
+        "description": "Ability routes, obtain methods, and skill roles"
+      },
+      {
+        "icon": "Package",
+        "title": "Sakura Stand Items & Farming",
+        "description": "Items, drops, shops, and farming priorities"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Sakura Stand Bosses & Quests",
+        "description": "Bosses, NPCs, locations, and quest routes"
       },
       {
         "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "title": "Sakura Stand Updates",
+        "description": "New Specs, skins, codes, and patch notes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "sakuraStandCodes": {
+      "title": "Sakura Stand Codes",
+      "subtitle": "Claim Sakura Stand codes for free rewards such as Tokens, Cash, EXP boosts, and event update bonuses.",
+      "intro": "Sakura Stand codes are usually released around new updates, shutdown fixes, milestone events, and content drops. The current game page highlights new codes as part of the latest update cycle, alongside new Specs, new skins, and bug fixes.",
+      "codes": [
+        {
+          "code": "RTZREWORK",
+          "reward": "Free rewards",
+          "status": "Active",
+          "best_for": "Update rewards"
+        },
+        {
+          "code": "JOJOMONTH",
+          "reward": "Free rewards",
+          "status": "Active",
+          "best_for": "Event rewards"
+        },
+        {
+          "code": "deathduriyay67",
+          "reward": "Free rewards",
+          "status": "Active",
+          "best_for": "Progression rewards"
+        },
+        {
+          "code": "SireisSupervision",
+          "reward": "Tokens",
+          "status": "Active",
+          "best_for": "Currency boost"
+        },
+        {
+          "code": "GrandOrder",
+          "reward": "EXP boost",
+          "status": "Active",
+          "best_for": "Leveling"
+        },
+        {
+          "code": "TypingMoon",
+          "reward": "Cash",
+          "status": "Active",
+          "best_for": "Early spending"
+        }
+      ],
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "step": "Open Sakura Stand on Roblox",
+          "detail": "Launch the official Sakura Stand experience from the Roblox game page."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "step": "Open the menu",
+          "detail": "Press M or use the menu button, then open the Settings tab."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "step": "Enter the code",
+          "detail": "Paste the code into the Enter Code box and press Enter to claim the reward."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "step": "Check common failure reasons",
+          "detail": "Codes can fail when they expire, require a specific Mastery level, are typed with the wrong capitalization, or were already redeemed on the account."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
+    "sakuraStandTrelloDiscord": {
+      "title": "Sakura Stand Trello, Discord, and Official Links",
+      "subtitle": "Use the official Sakura Stand links to follow updates, check game systems, and reach the live experience.",
+      "intro": "The official Trello is the main reference hub for Sakura Stand mechanics, while Discord is where players track announcements, patch notes, sneak peeks, codes, and community discussions. The Roblox game page and Sakura Society community page are the safest starting points for the live experience and creator information.",
+      "links": [
         {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
+          "label": "Official Sakura Stand Trello",
+          "url": "https://trello.com/b/YEDWCrGW/official-sakura-stand",
+          "type": "Game database",
+          "content": "Covers Stands, Specs, moves, skins, items, bosses, quests, events, NPCs, locations, and general game information.",
+          "use_case": "Best for checking ability details, obtain methods, move lists, and game systems."
         },
         {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
+          "label": "Official Sakura Stand Discord",
+          "url": "https://discord.com/invite/sakurastand",
+          "type": "Community server",
+          "content": "Used for announcements, update notes, sneak peeks, codes, questions, trading discussions, and pinned community information.",
+          "use_case": "Best for live updates, current code drops, trade checks, and balance changes."
         },
         {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
+          "label": "Sakura Stand Roblox Game Page",
+          "url": "https://www.roblox.com/games/8534845015/Sakura-Stand",
+          "type": "Official game page",
+          "content": "The live Roblox experience page for Sakura Stand by Sakura Society, currently titled around the Naoya and Choso update.",
+          "use_case": "Best for launching the game, reading the official description, checking update notes, and confirming mobile support."
         },
         {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
+          "label": "Sakura Society Roblox Community",
+          "url": "https://www.roblox.com/communities/6490343/Sakura-Society",
+          "type": "Creator community",
+          "content": "The Roblox community connected to Sakura Stand and its developer Sakura Society.",
+          "use_case": "Best for finding the creator hub behind the experience and confirming the official Roblox-side identity."
         }
       ]
     },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
+    "sakuraStandBeginnerGuide": {
+      "title": "Sakura Stand Beginner Guide",
+      "subtitle": "Learn the basic loop, where to check moves, how EXP works, and what new players should do first.",
+      "intro": "Sakura Stand is a Roblox fighting and farming experience inspired mainly by JoJo's Bizarre Adventure and other anime series. The game supports mobile players, includes Stands and Specs as core build choices, and gives Roblox Premium users a 1.15x XP gain bonus.",
+      "steps": [
         {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
+          "title": "Read the game warning first",
+          "description": "Sakura Stand includes full-bright flashing light effects and other visual effects that can affect players with migraine, altered vision, convulsion, or similar sensitivity.",
+          "tip": "Adjust your graphics and avoid long sessions if flashing effects bother you."
         },
         {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
+          "title": "Understand the core gameplay loop",
+          "description": "The game follows a fighting and farming simulator loop: fight enemies, earn progress, improve your character, and work toward stronger Stands, Specs, skins, and update content.",
+          "tip": "Do not chase every new Spec immediately; first learn one moveset well enough to farm safely."
         },
         {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
+          "title": "Choose between Stands and Specs",
+          "description": "Stands and Specs are the main combat identity choices in Sakura Stand. The official Trello is the best place to check moves, obtain methods, and mechanic details before committing resources.",
+          "tip": "Use Trello search for the exact Stand or Spec name instead of scrolling every column."
         },
         {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
+          "title": "Use codes early",
+          "description": "Codes can provide free rewards such as Tokens, Cash, EXP boosts, or update bonuses. Open the menu, go to Settings, enter a working code, and press Enter.",
+          "tip": "Redeem EXP boosts when you are ready to actively farm, not when you are still learning where the buttons are."
         },
         {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
+          "title": "Farm XP and build consistency",
+          "description": "The Roblox game page confirms mobile support and a 1.15x XP gain for Premium users. Progression is smoother when you repeat reliable fights instead of jumping into late-game objectives too early.",
+          "tip": "Stable farming beats random trading and boss-chasing at the start."
         },
         {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
+          "title": "Track updates through official channels",
+          "description": "The current update notes mention new Spec content, new skins, new codes, and bug fixes. Discord and Trello are the key places to follow changes after each update.",
+          "tip": "Check update notes before assuming an old guide still applies, because game balance changes often."
         }
       ]
     },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
+    "sakuraStandTierList": {
+      "title": "Sakura Stand Tier List",
+      "subtitle": "Compare strong combat picks, trading-value categories, and update-sensitive rankings for Sakura Stand.",
+      "intro": "Sakura Stand rankings shift when new Specs, skins, boss content, and balance updates arrive. Use this module as a practical tier overview, then check official Discord pins and Trello cards for the newest move details, obtain methods, and trade-value changes.",
+      "tiers": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "category": "Top Combat Picks",
+          "tier": "SS",
+          "entries": [
+            "Cid Kagenou",
+            "Flandre Scarlet",
+            "Green Boy",
+            "Gold Experience Requiem",
+            "Nokotan",
+            "Frieren",
+            "Kokushibo",
+            "Akaza"
+          ],
+          "notes": "High-value picks commonly tracked for strong combat performance, rare obtain paths, or strong update-era demand."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "category": "Strong Combat Picks",
+          "tier": "S",
+          "entries": [
+            "Sandevistan",
+            "Shinra",
+            "Saber Artoria",
+            "Saber Alter",
+            "Remembrance of Dullahan",
+            "Metallica",
+            "Kaiju No. 8",
+            "Wonder of U",
+            "Gebura"
+          ],
+          "notes": "Strong choices for combat, farming, bossing, or trading interest, depending on the current patch and player goals."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "category": "Reliable Mid-to-High Picks",
+          "tier": "A",
+          "entries": [
+            "Anubis Requiem",
+            "C-Moon",
+            "Garou",
+            "Midknight Vessel of Life",
+            "Isagi Yoichi",
+            "Suguru Geto",
+            "Herrscher of Flamescion",
+            "Yuta Okkotsu",
+            "The World"
+          ],
+          "notes": "Useful picks with solid movesets or progression value, especially when matched with the right playstyle."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "category": "Playable but More Situational",
+          "tier": "B",
+          "entries": [
+            "The Red Mist",
+            "Sukuna",
+            "Roland",
+            "Alucard",
+            "Gojo",
+            "Toji Fushiguro",
+            "Eternal Wing"
+          ],
+          "notes": "Viable picks that may need more matchup knowledge, better execution, or specific goals to feel worth using."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "category": "Beginner and Low-Value Picks",
+          "tier": "D",
+          "entries": [
+            "Crazy Diamond",
+            "Star Platinum",
+            "Cross",
+            "Will of Fate",
+            "Emperor",
+            "Anubis"
+          ],
+          "notes": "Lower-priority choices for long-term power or trading, but still useful for learning basic mechanics."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "category": "Trading Value Board",
+          "tier": "Trade",
+          "entries": [
+            "Stands",
+            "Specs",
+            "Skins",
+            "Event Skins",
+            "Limited Items"
+          ],
+          "notes": "Trading value should be checked through Discord pins and the trading community because demand changes often."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
+    "sakuraStandStandsSpecs": {
+      "title": "Sakura Stand Stands and Specs",
+      "subtitle": "Browse the main Stand and Spec routes, from Arrow pulls and classic JoJo evolutions to quest-heavy anime abilities like Naoya, Choso, Sukuna, Roland, and Sandevistan.",
+      "intro": "Sakura Stand builds around two ability paths: Stands, which usually come from Arrows and Stand evolution items, and Specs, which usually come from manuals, masks, bosses, NPC quests, events, or special progression chains. Use this section to decide whether you want a fast starter ability, a PvP-focused Spec, or a long grind route with boss and item requirements.",
       "groups": [
         {
-          "name": "Exploration",
-          "achievements": [
+          "group": "Arrow and Core Stand Routes",
+          "summary": "Fast early-game rolls and classic Stand evolutions. These are the first routes most new players test before moving into longer quests.",
+          "entries": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
+              "name": "Star Platinum",
+              "type": "Stand",
+              "obtain": "Use a Stand Arrow on Standless.",
+              "role": "Close-range combat starter",
+              "best_for": "New players who want a simple Stand route before farming rarer evolutions."
             },
             {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
+              "name": "Crazy Diamond",
+              "type": "Stand",
+              "obtain": "Use a Stand Arrow on Standless.",
+              "role": "Balanced combat Stand",
+              "best_for": "Players who want a straightforward Arrow-pool ability."
             },
             {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
+              "name": "Golden Experience",
+              "type": "Stand",
+              "obtain": "Use a Stand Arrow on Standless.",
+              "role": "Evolution base",
+              "best_for": "Players planning to move into Gold Experience Requiem."
             },
             {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "White Snake",
+              "type": "Stand",
+              "obtain": "Use a Stand Arrow on Standless.",
+              "role": "Evolution base",
+              "best_for": "Players planning the C-Moon and Made in Heaven route."
+            },
+            {
+              "name": "Emperor",
+              "type": "Stand",
+              "obtain": "Use a Stand Arrow on Standless.",
+              "role": "Ranged pressure",
+              "best_for": "Players who prefer distance control instead of pure melee."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "group": "Stand Evolution Routes",
+          "summary": "Item-based Stand upgrades that require a specific base Stand before the evolution item or location condition matters.",
+          "entries": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "The World",
+              "type": "Stand",
+              "obtain": "Use Dio's Bone on Unawakened Dio.",
+              "role": "Time-stop focused evolution",
+              "best_for": "Players who want a classic JoJo progression route."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Gold Experience Requiem",
+              "type": "Stand",
+              "obtain": "Use a Requiem Arrow on Golden Experience.",
+              "role": "High-value evolved Stand",
+              "best_for": "Players looking for a stronger end route from Golden Experience."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
+              "name": "C-Moon",
+              "type": "Stand",
+              "obtain": "Use Green Baby on White Snake.",
+              "role": "Gravity-themed evolution step",
+              "best_for": "Players progressing toward Made in Heaven."
             },
             {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Made in Heaven",
+              "type": "Stand",
+              "obtain": "Bring C-Moon and Dio's Diary to the Highest Peak during a real-life New Moon.",
+              "role": "Late-route evolved Stand",
+              "best_for": "Players who enjoy timed condition grinds."
+            },
+            {
+              "name": "Anubis",
+              "type": "Stand",
+              "obtain": "Use Haunted Sword on Standless.",
+              "role": "Weapon-based melee Stand",
+              "best_for": "Players who want sword pressure and item-based progression."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "group": "Classic Specs",
+          "summary": "Simple Spec routes built around direct item use or map interaction. These are clean training routes before the larger anime questlines.",
+          "entries": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "Standless",
+              "type": "Base Spec",
+              "obtain": "Start the game without an ability or use Rokakaka Fruit to reset your current Stand or Spec.",
+              "role": "Base state and quest requirement",
+              "best_for": "Starting most item, NPC, and quest routes."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Hamon",
+              "type": "Spec",
+              "obtain": "Use Hamon Manual on Standless.",
+              "role": "Close-range fighting style",
+              "best_for": "Players who want a simple manual-based Spec."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
+              "name": "Vampirism",
+              "type": "Spec",
+              "obtain": "Use Stone Mask on Standless.",
+              "role": "Aggressive combat Spec",
+              "best_for": "Players who like direct item unlocks."
             },
             {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Spin",
+              "type": "Spec",
+              "obtain": "Use Spin Manual on Standless.",
+              "role": "Steel-ball and rotation-based fighting style",
+              "best_for": "Players who want mid-range pressure from a classic Spec."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "group": "Jujutsu Kaisen Specs",
+          "summary": "High-demand routes centered on cursed items, boss fights, NPCs, and the newer Naoya and Choso update content.",
+          "entries": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "name": "Itadori Yuji",
+              "type": "Spec",
+              "obtain": "Reach Mastery 1, then follow the Jujutsu progression route tied to cursed enemies and Sukuna's Finger progress.",
+              "role": "JJK starter route",
+              "best_for": "Players planning to unlock Gojo or Sukuna later."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
+              "name": "Gojo",
+              "type": "Spec",
+              "obtain": "Complete Gojo's quest while using Itadori Yuji.",
+              "role": "High-control combat Spec",
+              "best_for": "Players who want a popular PvP-focused JJK ability."
             },
             {
-              "title": "Angel β",
-              "description": "Die."
+              "name": "Sukuna",
+              "type": "Spec",
+              "obtain": "Eat 15 Sukuna Fingers with Itadori Yuji, then clear the Sukuna boss route.",
+              "role": "Boss-unlocked curse Spec",
+              "best_for": "Players who want regeneration, heavy burst, and domain-style pressure."
             },
             {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
+              "name": "Naoya Zen'in",
+              "type": "Spec",
+              "obtain": "Start through Naobito at the abandoned shrine without a JJK Spec equipped, then complete the Zen'in progression and Naoya raid route.",
+              "role": "Technical rushdown Spec",
+              "best_for": "Players who want a fast, aggressive ability from the Naoya and Choso update."
+            },
+            {
+              "name": "Choso",
+              "type": "Spec",
+              "obtain": "Use Death Painting on Standless after farming the Kamo Remnant route.",
+              "role": "Blood manipulation combo Spec",
+              "best_for": "Players who want stun pressure, blood shots, and awakening tools."
             }
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
+          "group": "Quest-Heavy Anime Specs",
+          "summary": "Longer routes with mastery gates, NPC questlines, boss drops, or multi-step item requirements.",
+          "entries": [
             {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
+              "name": "Deku",
+              "type": "Spec",
+              "obtain": "Progress One For All through its stages, defeat the Deku boss for One For All's Grace, then use All Might's Hair after the final quest step.",
+              "role": "Stage-based progression Spec",
+              "best_for": "Players who like repeated boss progression and quest chains."
             },
             {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
+              "name": "Sandevistan",
+              "type": "Spec",
+              "obtain": "Reach Mastery 1 with Standless, collect Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support, and Tech Monitor, then complete N4Animation's quest.",
+              "role": "Speed and cyberware Spec",
+              "best_for": "Players who want a Cyberpunk-inspired route with loot-box parts."
             },
             {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Roland / The Black Silence",
+              "type": "Spec",
+              "obtain": "Start with Olivier in Dark Alley at Mastery 6 and Standless, then complete the Perception-Blocking Mask, Harold, AMM, and Library Invitation questline.",
+              "role": "Weapon-chain quest Spec",
+              "best_for": "Players who want a long route with boss weapon collection."
+            },
+            {
+              "name": "The Red Mist",
+              "type": "Spec",
+              "obtain": "Use Mimicry on Standless after defeating The Red Mist boss and completing the E.G.O. route.",
+              "role": "Boss-drop combat Spec",
+              "best_for": "Players who enjoy hard PvE routes and lifesteal pressure."
+            },
+            {
+              "name": "Kurosaki Ichigo",
+              "type": "Spec Line",
+              "obtain": "Progress through Hollow and Soul Reaper routes, then use Urahara Kisuke's questline and Hogyoku Fragment for later forms.",
+              "role": "Bleach-style progression line",
+              "best_for": "Players who want a multi-form PvE grind."
+            }
+          ]
+        },
+        {
+          "group": "Item and Event Specs",
+          "summary": "Specs unlocked through fruits, seasonal items, banners, events, or special shop routes.",
+          "entries": [
+            {
+              "name": "Mochi Mochi No Mi",
+              "type": "Spec",
+              "obtain": "Use Mochi Mochi Devil Fruit on Standless.",
+              "role": "Devil Fruit Spec",
+              "best_for": "Players farming rare fruit-style unlocks."
+            },
+            {
+              "name": "Bari Bari No Mi",
+              "type": "Spec",
+              "obtain": "Use Bari Bari Devil Fruit on Standless.",
+              "role": "Barrier-style Spec",
+              "best_for": "Players who want utility from rare item routes."
+            },
+            {
+              "name": "Hie Hie No Mi",
+              "type": "Spec",
+              "obtain": "Use Hie Hie Devil Fruit on Standless.",
+              "role": "Ice-control Spec",
+              "best_for": "Players who want freeze and control pressure."
+            },
+            {
+              "name": "Padoru",
+              "type": "Seasonal Spec",
+              "obtain": "Use Bag of Presents on Standless.",
+              "role": "Event-style collectible Spec",
+              "best_for": "Collectors and seasonal-content players."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "sakuraStandItemsFarming": {
+      "title": "Sakura Stand Items and Farming",
+      "subtitle": "Track the items that unlock Stands, Specs, questlines, bosses, and late-game routes in Sakura Stand.",
+      "intro": "Item farming in Sakura Stand connects directly to ability unlocks, quest routes, boss progression, and late-game upgrades. Arrows, Rokakaka, manuals, masks, boss drops, cyberware parts, and update items all have specific progression uses.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "item": "Stand Arrow",
+          "category": "Starter Unlock",
+          "source": "Boxes, chests, and common item farming routes",
+          "use": "Use on Standless to roll Arrow-pool Stands such as Star Platinum, Crazy Diamond, Golden Experience, White Snake, and Emperor.",
+          "priority": "High"
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "item": "Rokakaka Fruit",
+          "category": "Reset Item",
+          "source": "Boxes and Auddy's Shop",
+          "use": "Resets the current Stand or Spec back to Standless.",
+          "priority": "High"
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "item": "Hamon Manual",
+          "category": "Spec Unlock",
+          "source": "Boxes, Auddy's Shop, and Arcade rolls",
+          "use": "Use on Standless to obtain Hamon.",
+          "priority": "Medium"
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "item": "Stone Mask",
+          "category": "Spec Unlock",
+          "source": "Boxes and item farming routes",
+          "use": "Use on Standless to obtain Vampirism.",
+          "priority": "Medium"
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "item": "Haunted Sword",
+          "category": "Stand Unlock",
+          "source": "Boxes, Bag of Presents, and item farming routes",
+          "use": "Use on Standless to obtain Anubis.",
+          "priority": "Medium"
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "item": "Requiem Arrow",
+          "category": "Stand Evolution",
+          "source": "Turtle Polnareff quest route and rare item sources",
+          "use": "Use on Golden Experience to obtain Gold Experience Requiem.",
+          "priority": "High"
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "item": "Green Baby",
+          "category": "Stand Evolution",
+          "source": "Ability progression and item farming routes",
+          "use": "Use on White Snake to obtain C-Moon.",
+          "priority": "High"
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
+          "item": "Dio's Diary",
+          "category": "Late Stand Evolution",
+          "source": "Late-game item farming routes",
+          "use": "Bring with C-Moon to the Highest Peak during a real-life New Moon for Made in Heaven progression.",
+          "priority": "High"
         },
         {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
+          "item": "Cyber Loot Box Parts",
+          "category": "Cyberware Progression",
+          "source": "Cyber Loot boxes",
+          "use": "Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support, and Tech Monitor are required for the Sandevistan route.",
+          "priority": "High"
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "item": "Sukuna's Finger",
+          "category": "JJK Progression",
+          "source": "Cursed spirit farming and player drops tied to vessel progress",
+          "use": "Eat 15 with Itadori Yuji to unlock Sukuna's boss route.",
+          "priority": "High"
+        },
+        {
+          "item": "Death Painting",
+          "category": "JJK Update Item",
+          "source": "Kamo Remnant route",
+          "use": "Use on Standless to obtain Choso.",
+          "priority": "High"
+        },
+        {
+          "item": "All Might's Hair",
+          "category": "Quest Reward",
+          "source": "NameClan quest route",
+          "use": "Use after reaching the required One For All stage and quest progress to obtain Deku.",
+          "priority": "High"
+        },
+        {
+          "item": "Hogyoku Fragment",
+          "category": "Bleach Progression",
+          "source": "Adjuchas and Gillian farming routes",
+          "use": "Used in later Kurosaki Ichigo and Aizen-related progression.",
+          "priority": "High"
+        },
+        {
+          "item": "Mimicry",
+          "category": "Boss Drop",
+          "source": "The Red Mist boss",
+          "use": "Use on Standless to obtain The Red Mist.",
+          "priority": "High"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "sakuraStandBossesQuests": {
+      "title": "Sakura Stand Bosses, NPCs, and Quests",
+      "subtitle": "Use these route cards to jump from a target ability to the NPC, boss, location, and reward chain behind it in Sakura Stand.",
+      "intro": "Many Sakura Stand abilities are locked behind NPCs, boss drops, spawn timers, mastery gates, and multi-step routes. This module turns those routes into short front-page cards so players can find the right NPC or boss quickly.",
+      "routes": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "title": "Naoya Zen'in Route",
+          "type": "New Update Spec Route",
+          "npc": "Naobito, John Zen'in, Naoya raid route",
+          "location": "Abandoned shrine and Naoya update areas",
+          "requirements": [
+            "Do not equip a JJK Spec when starting the route",
+            "Talk to Naobito at the abandoned shrine",
+            "Complete the Zen'in progression route"
+          ],
+          "rewards": [
+            "Naoya Zen'in Spec",
+            "Zen'in-related title progression"
+          ],
+          "goal": "Farm the current Naoya update content and unlock a fast technical rushdown Spec."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "title": "Choso Route",
+          "type": "New Update Spec Route",
+          "npc": "Kamo Remnant",
+          "location": "Kamo's Hideout route",
+          "requirements": [
+            "Farm Kamo Remnant encounters",
+            "Obtain Death Painting",
+            "Use Death Painting on Standless"
+          ],
+          "rewards": [
+            "Choso Spec",
+            "Blood Manipulator progression"
+          ],
+          "goal": "Unlock a blood manipulation Spec with combo pressure and awakening tools."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "title": "Sukuna Route",
+          "type": "JJK Boss Route",
+          "npc": "Sukuna NPC and Sukuna boss",
+          "location": "Side park and Sukuna boss arena",
+          "requirements": [
+            "Use Itadori Yuji",
+            "Eat 15 Sukuna Fingers",
+            "Clear the Sukuna boss fight"
+          ],
+          "rewards": [
+            "Sukuna Spec"
+          ],
+          "goal": "Convert Itadori Yuji into Sukuna through finger farming and boss completion."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "title": "Toji Fushiguro Route",
+          "type": "Boss Drop Route",
+          "npc": "Toji Fushiguro boss",
+          "location": "Boss encounter route",
+          "requirements": [
+            "Defeat Toji Fushiguro",
+            "Collect required weapon drops",
+            "Complete the aura and item route"
+          ],
+          "rewards": [
+            "Inverted Spear of Heaven",
+            "Chain of a Thousand Miles",
+            "Split Soul Katana"
+          ],
+          "goal": "Farm boss weapon drops for a fast melee assassin route."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "title": "Deku and One For All Route",
+          "type": "Stage Progression Boss Route",
+          "npc": "Kuzma, Deku boss, NameClan",
+          "location": "Kuzma spawn locations, Ruined City, forest tent area",
+          "requirements": [
+            "Reach Mastery 3 and equip Standless",
+            "Start One For All Stage 1 through Kuzma",
+            "Defeat Deku for One For All's Grace",
+            "Complete NameClan's Standless quest"
+          ],
+          "rewards": [
+            "One For All stage upgrades",
+            "All Might's Hair",
+            "Deku Spec"
+          ],
+          "goal": "Build from One For All into Deku through staged progression and repeated boss work."
+        },
+        {
+          "title": "Roland / The Black Silence Route",
+          "type": "Long Questline",
+          "npc": "Olivier, Harold, AMM, The Black Silence boss",
+          "location": "Dark Alley, forest camp, beach-side route, Library",
+          "requirements": [
+            "Reach Mastery 6 and equip Standless",
+            "Talk to Olivier in Dark Alley",
+            "Complete the Perception-Blocking Mask step",
+            "Clear Harold's and AMM's tasks and the Library route"
+          ],
+          "rewards": [
+            "Perception-Blocking Mask",
+            "Smoldering Fragment",
+            "Library Invitation",
+            "Roland / The Black Silence Spec"
+          ],
+          "goal": "Follow one of the longest quest chains for a weapon-heavy combat Spec."
+        },
+        {
+          "title": "The Red Mist Route",
+          "type": "Boss and E.G.O. Route",
+          "npc": "Carmen, Q3, The Red Mist boss",
+          "location": "Dark Alley and Red Mist portal route",
+          "requirements": [
+            "Build progress by killing map enemies",
+            "Talk to Q3 to access the Red Mist encounter",
+            "Defeat The Red Mist boss",
+            "Use Mimicry on Standless"
+          ],
+          "rewards": [
+            "Mimicry",
+            "The Red Mist Spec"
+          ],
+          "goal": "Farm a hard boss route for a lifesteal-heavy E.G.O. ability."
+        },
+        {
+          "title": "Sandevistan Route",
+          "type": "Cyberware Questline",
+          "npc": "N4Animation",
+          "location": "Cyberware quest route",
+          "requirements": [
+            "Reach Mastery 1 and equip Standless",
+            "Collect Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support, and Tech Monitor",
+            "Complete N4Animation's quest",
+            "Use Arasaka Suitcase for Cyberskeleton progression"
+          ],
+          "rewards": [
+            "Sandevistan Spec",
+            "Sandevistan | Cyberskeleton progression"
+          ],
+          "goal": "Turn cyberware loot-box parts into a speed-focused Spec route."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
+    "sakuraStandUpdates": {
+      "title": "Sakura Stand Updates and Patch Notes",
+      "subtitle": "Follow the latest Sakura Stand content changes, including new Specs, skins, codes, boss routes, bug fixes, and Trello updates.",
+      "intro": "The Roblox game page, official Discord, Sakura Society group, and official Trello are the main update path for Sakura Stand. This timeline is designed for ongoing homepage updates, so new Specs, codes, events, and balance changes can be added over time.",
       "entries": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "date": "Current Update",
+          "label": "Roblox Listing",
+          "headline": "Naoya and Choso update",
+          "changes": [
+            "The Roblox experience title currently highlights Naoya and Choso.",
+            "Naoya Zen'in and Choso are the headline new Spec routes.",
+            "The update adds new code activity, new skins, and bug fixes."
+          ],
+          "tag": "New Specs",
+          "priority": "High"
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "date": "Current Update",
+          "label": "New Spec Route",
+          "headline": "Naoya Zen'in route added",
+          "changes": [
+            "Naoya progression starts through the Zen'in route tied to Naobito and the abandoned shrine.",
+            "Naoya uses a fast technical combat style with multiple G variations.",
+            "Naoya is tied to the newer Domain Expansion rework direction."
+          ],
+          "tag": "Spec",
+          "priority": "High"
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "date": "Current Update",
+          "label": "New Spec Route",
+          "headline": "Choso route added",
+          "changes": [
+            "Choso is unlocked through Death Painting on Standless.",
+            "Death Painting is tied to the Kamo Remnant route.",
+            "Choso focuses on blood manipulation, stun pressure, and awakening tools."
+          ],
+          "tag": "Spec",
+          "priority": "High"
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "date": "Current Update",
+          "label": "New Area and Farming",
+          "headline": "Kamo's Hideout and Kamo Remnant route",
+          "changes": [
+            "Kamo's Hideout supports the Choso progression route.",
+            "Kamo Remnant farming connects to Death Painting.",
+            "John Zen'in appears as part of the Naoya and Choso update encounter pool."
+          ],
+          "tag": "Location",
+          "priority": "High"
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "date": "Current Update",
+          "label": "New Titles",
+          "headline": "Zen'in and blood-themed title goals",
+          "changes": [
+            "Head of Zen'in Clan is tied to the Naoya update theme.",
+            "Zen'in Clan Member supports the new Zen'in progression path.",
+            "Blood Manipulator supports Choso progression and collection goals."
+          ],
+          "tag": "Titles",
+          "priority": "Medium"
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "date": "Current Update",
+          "label": "Balance and Polish",
+          "headline": "Ability polish and bug-fix pass",
+          "changes": [
+            "Several abilities received range, damage, and visual effect improvements.",
+            "Itadori Yuji received additional voice quote updates.",
+            "Multiple pose, dash, softlock, and interruption bugs were fixed across several abilities."
+          ],
+          "tag": "Balance",
+          "priority": "Medium"
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "date": "Ongoing",
+          "label": "Official Channels",
+          "headline": "Discord, Trello, and Roblox update tracking",
+          "changes": [
+            "Developer announcements and patch note posts on Discord",
+            "Stand, Spec, item, and boss entries synced on Trello",
+            "New codes, skins, and event notices across official channels"
+          ],
+          "tag": "Community",
+          "priority": "High"
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Sakura Stand",
+    "titleHighlight": "FAQ",
+    "subtitle": "Quick answers about Sakura Stand codes, Stands, Specs, and progress",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Sakura Stand?",
+        "answer": "Sakura Stand is a Roblox anime fighting and farming experience developed by Sakura Society. It is inspired mainly by JoJo's Bizarre Adventure and other anime, with Stands and Specs as the core combat builds."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do I redeem Sakura Stand codes?",
+        "answer": "Open Sakura Stand on Roblox, press M or the menu button to open Settings, paste a working code into the Enter Code box, and press Enter. Codes can fail when expired, mistyped, mastery-locked, or already redeemed."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What is the difference between Stands and Specs in Sakura Stand?",
+        "answer": "Stands usually come from Stand Arrows and Stand evolution items, while Specs come from manuals, masks, bosses, NPC quests, events, or special progression chains. Both are core combat identity choices in Sakura Stand."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Where can I play Sakura Stand?",
+        "answer": "Sakura Stand is available on Roblox through the official game page by Sakura Society. The game supports PC and mobile players."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Does Sakura Stand cost money?",
+        "answer": "Sakura Stand is free to play on Roblox. Optional purchases and Roblox Premium membership exist, and Premium grants a 1.15x XP gain bonus."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I find Sakura Stand update notes and new codes?",
+        "answer": "The official Discord, Trello, and Roblox game page are the main update sources for Sakura Stand. New Specs, skins, codes, and patch notes are posted there after each update."
       }
     ]
   },
@@ -802,125 +963,82 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
+    "codes": {
+      "title": "Sakura Stand Codes",
+      "description": "Active Sakura Stand codes, rewards, redemption steps, and how to avoid expired codes.",
+      "metaTitle": "Sakura Stand Codes - Active Codes & How to Redeem",
+      "metaDescription": "Find active Sakura Stand codes, reward lists, and step-by-step redemption instructions for free Tokens, Cash, and EXP boosts.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Sakura Stand codes grant free rewards such as Tokens, Cash, and EXP boosts. They are usually released around updates, events, and milestones.",
+      "featured": "Featured & Active",
+      "all": "All Codes"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+    "tier-list": {
+      "title": "Sakura Stand Tier List",
+      "description": "Sakura Stand tier list for Stands, Specs, skins, and trading value across the current patch.",
+      "metaTitle": "Sakura Stand Tier List - Stands, Specs & Trading",
+      "metaDescription": "Compare Sakura Stand Stands, Specs, skins, and trading value tiers with notes for each ranking category.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Tier List?",
+      "whatIsDescription": "The Sakura Stand tier list ranks Stands, Specs, skins, and trading value by combat strength, obtain rarity, and demand.",
+      "featured": "Top Tiers",
+      "all": "All Tiers"
+    },
+    "specs": {
+      "title": "Sakura Stand Specs",
+      "description": "Sakura Stand Spec routes, obtain methods, skills, and best-use scenarios.",
+      "metaTitle": "Sakura Stand Specs - Routes, Skills & How to Get",
+      "metaDescription": "Browse Sakura Stand Specs with obtain methods, skill roles, and best-use notes from manuals to boss and quest routes.",
+      "categoryLabel": "SPECS",
+      "whatIs": "What are Specs?",
+      "whatIsDescription": "Specs in Sakura Stand are non-Stand combat abilities unlocked through manuals, masks, bosses, NPC quests, events, or special progression chains.",
+      "featured": "Featured Specs",
+      "all": "All Specs"
+    },
+    "stands": {
+      "title": "Sakura Stand Stands",
+      "description": "Sakura Stand Stand list, obtain methods, evolutions, and skill positioning.",
+      "metaTitle": "Sakura Stand Stands - List, Evolutions & Skills",
+      "metaDescription": "Explore Sakura Stand Stands from Arrow pulls to evolutions like Gold Experience Requiem, C-Moon, and Made in Heaven.",
+      "categoryLabel": "STANDS",
+      "whatIs": "What are Stands?",
+      "whatIsDescription": "Stands are JoJo-style combat abilities in Sakura Stand, usually obtained from Stand Arrows and evolved with specific items.",
+      "featured": "Featured Stands",
+      "all": "All Stands"
+    },
+    "skins": {
+      "title": "Sakura Stand Skins",
+      "description": "Sakura Stand skin rarity, gacha, pity, and appearance reference.",
+      "metaTitle": "Sakura Stand Skins - Rarity, Gacha & Showcase",
+      "metaDescription": "Check Sakura Stand skin rarity, drop methods, and trade reference for collectible appearances.",
+      "categoryLabel": "SKINS",
+      "whatIs": "What are Skins?",
+      "whatIsDescription": "Skins change the appearance of Stands and Specs in Sakura Stand and are collected through gacha, events, and trading.",
+      "featured": "Featured Skins",
+      "all": "All Skins"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
+      "title": "Sakura Stand Items",
+      "description": "Sakura Stand item uses, drop sources, shops, and farming priorities.",
+      "metaTitle": "Sakura Stand Items - Drops, Shops & Farming",
+      "metaDescription": "Track Sakura Stand items, materials, and currencies with drop sources, shop uses, and farming priority.",
+      "categoryLabel": "ITEMS",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
+      "whatIsDescription": "Items in Sakura Stand include Arrows, manuals, masks, boss drops, and update materials used to unlock and progress abilities.",
+      "featured": "Key Items",
       "all": "All Items"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+    "trading": {
+      "title": "Sakura Stand Trading",
+      "description": "Sakura Stand trade values, rules, common scams, and safe trading tips.",
+      "metaTitle": "Sakura Stand Trading - Values, Rules & Scams",
+      "metaDescription": "Learn Sakura Stand trading values, rules, and scam warnings for safe Stand, Spec, and skin trades.",
+      "categoryLabel": "TRADING",
+      "whatIs": "What is Trading?",
+      "whatIsDescription": "Trading in Sakura Stand lets players exchange Stands, Specs, skins, and items based on community value and demand.",
+      "featured": "Trade Highlights",
+      "all": "All Trading Guides"
     }
   }
 }
