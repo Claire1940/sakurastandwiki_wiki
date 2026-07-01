@@ -1,0 +1,192 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand cách giao dịch: Hướng dẫn từng bước & Giá trị vật phẩm",
+  description: "Làm chủ hệ thống giao dịch dựa trên lệnh trong Sakura Stand. Tìm hiểu các yêu cầu về Mastery, quy trình giao dịch từng bước và giá trị vật phẩm.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1c1024/fff?text=How+to+Trade",
+  date: "2026-07-01",
+  author: "Đội ngũ Sakura Stand Wiki",
+  keywords: "sakura stand, cách giao dịch, hướng dẫn giao dịch, giá trị vật phẩm, mastery"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Cơ chế chính**: Học **cách giao dịch trong sakura stand** bằng lệnh chat thay vì menu GUI truyền thống.
+- **Cấp độ yêu cầu**: Người chơi phải đạt **Mastery 1** (bằng cách đạt cấp 50 và reset) để mở khóa giao dịch cơ bản.
+- **Định dạng lệnh**: Nhập **!trade [Tên người dùng Roblox]** trong chat toàn cầu để bắt đầu giao dịch.
+- **Hạn chế giao dịch**: Các Spec bậc cao như Cid Kagenou (Shadow) yêu cầu **Mastery 12** cho cả hai người chơi.
+- **Hệ thống độ hiếm**: Vật phẩm được định giá trên **thang điểm từ 1 đến 5** dựa trên độ hiếm và hiệu quả chiến đấu.
+</Callout>
+
+<Section icon={Map} title="Hiểu về hệ thống giao dịch Sakura Stand">
+
+Sakura Stand có một nền kinh tế giao dịch rất năng động, nhưng cách thực hiện nó khác xa so với hầu hết các trải nghiệm Roblox khác. Thay vì nhấp vào một người chơi hoặc truy cập menu trung tâm giao dịch chuyên dụng bằng một nút duy nhất, bạn phải sử dụng các lệnh chat cụ thể để bắt đầu, chấp nhận và hoàn tất giao dịch. Lựa chọn thiết kế này giúp ngăn chặn các giao dịch vô tình nhưng có thể gây bối rối cho những người chơi mới không quen với cơ chế dòng lệnh.
+
+Hệ thống giao dịch được xây dựng để tạo điều kiện trao đổi công bằng các Stand, Spec, skin và các vật phẩm tiến trình hiếm. Hiểu rõ cấu trúc cơ bản, thời gian hồi và các tùy chọn giao diện là điều cần thiết để tránh mất các vật phẩm giá trị cao trong các giao dịch không công bằng.
+
+| Chỉ số | Chi tiết |
+| :--- | :--- |
+| Lệnh chính | !trade [Tên người dùng Roblox] |
+| Lệnh xác nhận | !confirm (sử dụng nếu nút UI bị lỗi) |
+| Lệnh từ chối | !decline hoặc từ chối qua UI |
+| Mastery tối thiểu | Mastery 1 (yêu cầu đạt Cấp 50) |
+| Thời gian hồi hệ thống | 1 phút giữa các lần thử giao dịch |
+| Cửa sổ hủy | 10 giây để từ chối sau khi chấp nhận |
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Luôn lập kế hoạch giao dịch của bạn trước. Vì hệ thống áp dụng thời gian hồi nghiêm ngặt một phút giữa các lần thử giao dịch, các lỗi đánh máy nhỏ hoặc việc hủy bỏ vào phút chót sẽ buộc bạn phải chờ đợi trước khi thử lại.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách giao dịch trong Sakura Stand: Từng bước một">
+
+Thực hiện giao dịch thành công đòi hỏi sự chính xác, vì hệ thống phụ thuộc nhiều vào việc nhập đúng chi tiết trong menu chat toàn cầu. Nếu bạn nhập sai tên người chơi, lệnh sẽ không được thực thi. Hãy làm theo quy trình có cấu trúc này để bắt đầu và hoàn thành giao dịch của bạn một cách an toàn.
+
+<Steps>
+  <Step num="1" title="Tìm đối tác giao dịch">
+    Tìm một người chơi để giao dịch trong máy chủ hiện tại hoặc thông qua các kênh giao dịch trong cộng đồng Discord chính thức của Sakura Stand. Thỏa thuận về vật phẩm và giá trị trước khi bắt đầu chuỗi lệnh.
+  </Step>
+  <Step num="2" title="Lấy tên người dùng Roblox">
+    Di chuột qua nhân vật của người chơi trong trò chơi hoặc kiểm tra danh sách người chơi ở góc trên bên phải màn hình. Bạn phải sử dụng chính xác **Tên người dùng Roblox (Username)**, không phải tên hiển thị hoặc tag trò chơi.
+  </Step>
+  <Step num="3" title="Nhập lệnh giao dịch">
+    Mở cửa sổ chat toàn cầu và nhập `!trade [Tên người dùng]` (thay [Tên người dùng] bằng tên người dùng Roblox thực tế của đối tác). Ví dụ: nếu giao dịch với người chơi tên John, hãy nhập `!trade John`.
+  </Step>
+  <Step num="4" title="Đối tác thực hiện ngược lại">
+    Người chơi kia phải nhập chính xác lệnh tương tự cho bạn, tham chiếu đến tên người dùng Roblox của bạn (ví dụ: `!trade TenCuaBan`). Khi cả hai lệnh được máy chủ ghi nhận, cửa sổ GUI giao dịch sẽ tự động hiện lên trên cả hai màn hình.
+  </Step>
+  <Step num="5" title="Thêm vật phẩm và xác nhận">
+    Kéo hoặc nhấp vào vật phẩm của bạn để đặt chúng vào các ô giao dịch. Kiểm tra kỹ đề nghị của người chơi kia so với giá trị cộng đồng. Nhấp vào nút "Accept" màu xanh lá cây. Nếu nút UI không phản hồi do lỗi hiển thị phổ biến trên di động, hãy nhập `!confirm` trực tiếp trong chat để bỏ qua lỗi này.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cảnh báo quan trọng">
+Kẻ lừa đảo thường sử dụng tên hiển thị trông gần giống với những người giao dịch có giá trị cao trong khi sử dụng tên người dùng Roblox hoàn toàn khác. Luôn kiểm tra kỹ tên người dùng trong cửa sổ giao dịch trước khi nhấp xác nhận.
+</Callout>
+
+Để đảm bảo các phiên giao dịch của bạn diễn ra suôn sẻ mà không làm mất các vật phẩm đã dày công kiếm được, hãy luôn ghi nhớ danh sách kiểm tra an toàn này trong mỗi lần giao dịch:
+
+<Checklist
+  id="trading-safety"
+  title="Danh sách kiểm tra giao dịch an toàn:"
+  items={[
+    "Xác minh tên người dùng Roblox khớp chính xác với danh sách người chơi",
+    "Xác nhận cả hai người chơi đều đáp ứng yêu cầu Mastery tối thiểu",
+    "Tham khảo danh sách giá trị cộng đồng trước khi nhấp chấp nhận",
+    "Chuẩn bị lệnh !confirm trong chat nếu các nút UI bị đơ",
+    "Sử dụng cửa sổ từ chối 10 giây nếu bạn nhận thấy bất kỳ thay đổi nào"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Yêu cầu giao dịch & Hạn chế Mastery">
+
+Để bảo vệ nền kinh tế game khỏi bot, khai thác và lạm dụng chuyển giao trực tiếp qua các tài khoản phụ, các nhà phát triển đã triển khai các rào cản tiến trình nghiêm ngặt trên hệ thống giao dịch. Bạn không thể chỉ đơn giản tạo một tài khoản Roblox mới và ngay lập tức giao dịch các vật phẩm hiếm cho tài khoản chính của mình.
+
+Yêu cầu cơ bản để giao dịch bất kỳ vật phẩm hoặc tiền tệ nào là **Mastery 1**. Để kiếm được Mastery, bạn phải đạt cấp độ tối đa là 50, sau đó mở menu cài đặt và chọn "Upgrade Mastery". Điều này sẽ reset cấp độ nhân vật của bạn về 1 nhưng tăng cấp độ Mastery vĩnh viễn của bạn thêm 1.
+
+Hơn nữa, các Spec và Stand cuối game cụ thể mang yêu cầu Mastery cao hơn nhiều để ngăn các tài khoản cấp thấp nắm giữ các khả năng quá mạnh. Cả người gửi và người nhận đều phải đáp ứng các ngưỡng Mastery cụ thể này để hoàn tất trao đổi.
+
+| Tên Spec / Stand | Mastery yêu cầu để giao dịch | Phân loại bậc giao dịch |
+| :--- | :--- | :--- |
+| Cid Kagenou (Shadow) | Mastery 12 | Spec bậc cao |
+| Sakuya | Mastery 12 | Spec bậc cao |
+| Binah (The Arbiter) | Mastery 1 | Vật phẩm giá trị cao |
+| Sandevistan | Mastery 1 | Spec bậc trung |
+| Ryomen Sukuna | Mastery 1 | Spec bậc thấp |
+
+<Callout type="info" title="Giữ lại Mastery">
+Nếu bạn thực hiện một cuộc "Breakthrough" (đột phá - reset cấp độ và điểm mastery của bạn sau khi tích lũy được 15 mastery), các đặc quyền giao dịch và vật phẩm trong kho của bạn vẫn được giữ nguyên hoàn toàn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách giá trị giao dịch Sakura Stand">
+
+Giao dịch trong Sakura Stand bị chi phối bởi hệ thống giá trị điểm do cộng đồng dẫn dắt, dao động từ **0.5 đến 5.0**. Giá trị của một vật phẩm được xác định bởi sức mạnh chiến đấu tổng thể, độ hiếm của skin, tỷ lệ rơi từ banner và giới hạn lưu thông hiện tại.
+
+Khi thương lượng, người chơi hướng tới các trao đổi công bằng dựa trên các giá trị số này. Ví dụ, một vật phẩm có giá trị cố định là 4 thường có giá trị tương đương với hai vật phẩm có giá trị 2 mỗi cái. Tuy nhiên, các vật phẩm giới hạn có nhu cầu cao thường đi kèm với mức giá chênh lệch, buộc người mua phải trả cao hơn để sở hữu chúng.
+
+### Giá trị giao dịch bậc cao (Giá trị 4.0 – 5.0)
+Đây là những vật phẩm trang trí phiên bản giới hạn cao cấp và các vật phẩm banner hiếm có mức giá cao nhất trong nền kinh tế.
+
+| Tên Vật phẩm / Skin | Giá trị giao dịch | Phân loại độ hiếm |
+| :--- | :--- | :--- |
+| Summer Time: Valentine | 5.0 | Bậc thần giới hạn |
+| Eternal Wing: Unleashed | 5.0 | Bậc thần giới hạn |
+| Singularity Essence (Binah) | 4.5 | Banner bậc cao |
+| Vessel of Life | 4.0 | Chiến đấu bậc cao |
+| Cross | 4.0 | Chiến đấu bậc cao |
+
+### Giá trị giao dịch bậc trung đến thấp (Giá trị 1.0 – 3.5)
+Những vật phẩm này đại diện cho các spec chiến đấu ổn định và các skin hiếm vừa phải, dễ tiếp cận hơn đối với những người chơi đang tiến triển.
+
+| Tên Vật phẩm / Skin | Giá trị giao dịch | Phân loại độ hiếm |
+| :--- | :--- | :--- |
+| Anubis: Sibuna | 3.5 | Skin bậc trung |
+| White Snake: Marshmallow | 3.5 | Skin bậc trung |
+| Sandevistan: Cyberskeleton | 3.0 | Spec bậc trung |
+| Cid Kagenou (Shadow) | 3.0 | Spec bậc trung |
+| Ryomen Sukuna | 2.5 | Spec bậc thấp |
+| Dio's Bone | 1.0 | Vật phẩm bậc rất thấp |
+
+<CardGrid cols={3}>
+  <Card title="Summer Time: Valentine">
+    - **Giá trị**: 5.0
+    - **Nhu cầu**: Cực kỳ cao
+    - **Lưu ý**: Yêu cầu trả thêm đáng kể do nguồn cung máy chủ cạn kiệt.
+  </Card>
+  <Card title="Singularity Essence">
+    - **Giá trị**: 4.5
+    - **Nhu cầu**: Cao
+    - **Lưu ý**: Được sử dụng để lấy Spec Binah (Arbiter) cực kỳ mạnh mẽ.
+  </Card>
+  <Card title="Cid Kagenou (Shadow)">
+    - **Giá trị**: 3.0
+    - **Nhu cầu**: Trung bình
+    - **Lưu ý**: Yêu cầu cả hai người chơi phải đạt Mastery 12 để hoàn tất giao dịch.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sự ổn định của thị trường">
+Luôn xác minh các giá trị giao dịch mới nhất trên máy chủ Discord chính thức trước khi hoàn tất giao dịch. Giá trị biến động nhanh chóng sau các bản cập nhật cân bằng game và cập nhật nội dung lớn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp về giao dịch">
+
+Để giúp làm rõ các sắc thái của hệ thống giao dịch, hãy xem qua các câu hỏi thường gặp này được tổng hợp từ cộng đồng người chơi.
+
+<FAQ items={[
+  {
+    question: "Tại sao lệnh giao dịch không hoạt động khi tôi nhập?",
+    answer: "Đảm bảo bạn đang sử dụng chính xác tên người dùng Roblox của người chơi kia chứ không phải tên hiển thị của họ. Cả hai người chơi cũng phải nhập lệnh nhắm vào nhau trong cùng một máy chủ để mở cửa sổ giao dịch."
+  },
+  {
+    question: "Cấp độ tối thiểu cần thiết để bắt đầu giao dịch là bao nhiêu?",
+    answer: "Bạn phải đạt Mastery 1 để giao dịch. Điều này yêu cầu nâng cấp nhân vật của bạn lên cấp 50, sau đó chọn tùy chọn 'Upgrade Mastery' trong menu cài đặt để reset cấp độ của bạn."
+  },
+  {
+    question: "Tôi có thể giao dịch các Spec bậc cao như Cid Kagenou nếu Mastery của tôi quá thấp không?",
+    answer: "Không. Một số Spec bậc cao có các hạn chế chuyên biệt. Ví dụ, Cid Kagenou và Sakuya yêu cầu cả hai người chơi phải sở hữu Mastery 12 trở lên để hoàn tất giao dịch thành công."
+  },
+  {
+    question: "Tôi nên làm gì nếu nút xác nhận bị lỗi và không thể nhấp vào?",
+    answer: "Đây là một vấn đề giao diện phổ biến, đặc biệt là trên các thiết bị di động. Bạn có thể bỏ qua nút UI bị hỏng bằng cách nhập trực tiếp '!confirm' vào chat trong trò chơi để hoàn tất giao dịch."
+  }
+]} />
+
+<Callout type="tip" title="Lời khuyên cuối cùng">
+Luôn giao dịch trong các máy chủ công cộng, đông đúc hoặc điều phối thông qua các kênh cộng đồng đáng tin cậy để đảm bảo giá cả công bằng và giảm thiểu rủi ro khi giao dịch với những kẻ xấu.
+</Callout>
+
+</Section>

@@ -1,0 +1,170 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand ichigo: Hướng dẫn các bước sở hữu & bộ kỹ năng",
+  description: "Tìm hiểu cách sở hữu tất cả các dạng của hệ phái sakura stand ichigo, từ Giai đoạn 1 Zanpakuto đến Giai đoạn 4 Vasto Lorde. Hướng dẫn chi tiết bộ kỹ năng và chuỗi combo.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2a1b4e/fff?text=Ichigo+Spec+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki sakura stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Hệ phái Ichigo**: Hệ phái **sakura stand ichigo** là một phong cách chiến đấu đỉnh cao lấy cảm hứng từ Bleach với bốn giai đoạn tiến trình riêng biệt.
+- **Con đường sở hữu**: Tiến triển từ Standless bằng cách đánh bại Hollow ở Hueco Mundo, hoàn thành nhiệm vụ của Kisuke, và sử dụng Mảnh Hogyoku.
+- **Sức mạnh Vasto Lorde**: Dạng Vasto Lorde Giai đoạn 4 mang lại lượng sát thương tăng vọt, các kỹ năng diện rộng (AoE) mạnh mẽ và một chiêu phản đòn cực kỳ hiệu quả.
+- **Cảnh báo Mugetsu**: Sử dụng chiêu cuối Mugetsu ở Giai đoạn 4 sẽ ngay lập tức đưa nhân vật của bạn trở về trạng thái Standless, yêu cầu bạn phải hồi sinh sau khi chết để lấy lại hệ phái.
+</Callout>
+
+<Section icon={Sparkles} title="Tổng quan về Hệ phái sakura stand ichigo">
+
+Hệ phái **sakura stand ichigo** được biết đến là một trong những khả năng biểu tượng và mạnh mẽ nhất trong trải nghiệm chiến đấu trên Roblox. Được mô phỏng theo Kurosaki Ichigo, nhân vật chính huyền thoại từ bộ anime và manga Bleach, hệ phái này mang lại sự kết hợp đặc biệt giữa chiến đấu cận chiến tốc độ cao, những nhát chém năng lượng tầm xa tàn khốc và các dạng biến hình có sức ảnh hưởng lớn. Trong meta hiện tại năm 2026 của Sakura Stand, Ichigo được công nhận rộng rãi là "Vua PVE" không thể chối cãi, cho phép người chơi dễ dàng tự mình hạ gục các con trùm cấp cao. Tuy nhiên, tính hữu dụng của nó không chỉ giới hạn ở việc đánh bại kẻ địch do máy điều khiển; những người chơi có kỹ năng có thể tận dụng khả năng cơ động nhanh chóng và phá đỡ đòn (block-break) của nó để thống trị trong các đấu trường PVP xếp hạng.
+
+Để đạt được mức sức mạnh này, người chơi phải trải qua một hệ thống tiến trình nhiều cấp độ. Không giống như các hệ phái thông thường có thể mở khóa bằng cách hoàn thành một chuỗi nhiệm vụ duy nhất, hệ phái Ichigo có bốn giai đoạn khác nhau. Mỗi giai đoạn đại diện cho một bước nhảy vọt đáng kể về khả năng chiến đấu, bổ sung thêm các kỹ năng mới, tăng sát thương cơ bản và giới thiệu các cơ chế độc đáo như Mặt nạ Hollow (Hollow Mask) và dạng biến hình Vasto Lorde. Việc hiểu rõ các giai đoạn này là vô cùng quan trọng đối với bất kỳ người chơi nào muốn tối ưu hóa lộ trình cày cuốc (farm) và xây dựng một bộ trang bị chiến đấu hàng đầu.
+
+| Giai đoạn | Tên dạng | Vai trò cốt lõi | Cách sở hữu | Độ khó |
+| --- | --- | --- | --- | --- |
+| **Giai đoạn 1** | Zanpakuto | Hệ phái khởi đầu cơ bản | Hạ gục Hollow khi đang ở trạng thái Standless (**tỷ lệ rơi 25%**) | Dễ |
+| **Giai đoạn 2** | Kiếm Shikai | Cận chiến tầm trung | Hạ gục Hollow bằng Giai đoạn 1 (**tỷ lệ rơi 15%**) | Trung bình |
+| **Giai đoạn 3** | Bankai | Chuyên gia Combo | Nhiệm vụ của Kisuke (Yêu cầu Thông thạo Cấp 3) | Khó |
+| **Giai đoạn 4** | Vasto Lorde | Vua PVE tối thượng | Sử dụng Mảnh Hogyoku lên Giai đoạn 3 | Rất khó |
+
+<Callout type="info" title="Vị thế trong Meta">
+Trong khi Giai đoạn 1 and Giai đoạn 2 chủ yếu đóng vai trò là bước đệm, Giai đoạn 3 và Giai đoạn 4 lại có tính cạnh tranh cực kỳ cao trong các hoạt động cuối game. Dạng Vasto Lorde đặc biệt được đánh giá cao nhờ lượng máu khổng lồ và lượng sát thương đầu ra lớn, khiến nó trở thành lựa chọn không thể thiếu để farm các vật phẩm hiếm và token.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lộ trình sở hữu từng bước">
+
+Việc khai mở toàn bộ tiềm năng của hệ phái **sakura stand ichigo** đòi hỏi sự kiên nhẫn, chiến thuật và một quá trình cày cuốc đáng kể. Trước khi bắt đầu hành trình, bạn phải chuẩn bị cho nhân vật của mình. Đầu tiên, hãy đảm bảo rằng bạn hoàn toàn không có hệ phái nào (Standless). Nếu bạn hiện đang trang bị một stand hoặc spec hoạt động, bạn có thể ăn Trái Rokakaka (Rokakaka Fruit) để đặt lại nhân vật về trạng thái mặc định. Trái Rokakaka có thể được mua trực tiếp từ Cửa hàng của Auddy hoặc tìm thấy trong các rương vật phẩm ngẫu nhiên rải rác trên bản đồ. Ngoài ra, hãy đảm bảo bạn có ít nhất $2000 tiền mặt trong túi để trang trải phí vào cửa Hueco Mundo, chiều không gian tối tăm nơi các Hollow xuất hiện.
+
+Cổng dịch chuyển đến Hueco Mundo là một lối đi hình chữ nhật lớn, phát sáng nằm ngay bên trái Cửa hàng Urahara ở Thành phố Sakurian. Sau khi trả khoản phí $2000, bạn có thể vào cổng này bao nhiêu lần tùy thích trong suốt phiên chơi của mình. Tại Hueco Mundo, bạn sẽ phải đối mặt với nhiều loại Hollow khác nhau, từ những kẻ địch nhảy nhót cơ bản cho đến những gã khổng lồ to lớn, trâu bò. Đánh bại những kẻ địch này là vòng lặp cốt lõi cần thiết để tiến triển qua hai giai đoạn đầu tiên của hệ phái.
+
+<Steps>
+  <Step num="1" title="Mở khóa Giai đoạn 1 (Zanpakuto)">
+    Trang bị Standless và vào Hueco Mundo. Tìm và đánh bại các Hollow cơ bản. Mỗi Hollow bị đánh bại có **25% cơ hội** rơi trực tiếp Zanpakuto Giai đoạn 1 vào kho đồ của bạn.
+  </Step>
+  <Step num="2" title="Cày cuốc Giai đoạn 2 (Shikai)">
+    Trang bị hệ phái Giai đoạn 1 mới nhận được của bạn. Bạn phải đánh bại nhiều Hollow hơn ở Hueco Mundo khi đang sử dụng hệ phái này. Vì Giai đoạn 1 chỉ có các đòn tấn công M1 cơ bản, bước này có thể khá chậm. Mỗi lần hạ gục có **15% cơ hội** để mở khóa Giai đoạn 2.
+  </Step>
+  <Step num="3" title="Hoàn thành Nhiệm vụ của Kisuke (Giai đoạn 3)">
+    Đạt cấp độ Thông thạo 3 và trang bị Giai đoạn 2. Nói chuyện với Kisuke gần Cửa hàng Urahara và trả $2000 để nhận nhiệm vụ của ông ấy. Bạn phải đánh bại **25 Hollow cơ bản** và **1 Adjuchas** (Hollow màu tím tinh nhuệ) để mở khóa Giai đoạn 3.
+  </Step>
+  <Step num="4" title="Đạt đến Giai đoạn 4 (Vasto Lorde)">
+    Để sở hữu dạng cuối cùng, bạn phải farm Adjuchas (**tỷ lệ rơi 20%**) hoặc Menos Grande (**tỷ lệ rơi 10%**) ở Hueco Mundo để lấy Mảnh Hogyoku. Sau khi có được, hãy chọn mảnh này từ kho đồ của bạn và sử dụng nó khi đang trang bị Giai đoạn 3.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hình phạt từ kỹ năng Mugetsu">
+Chiêu cuối Mugetsu (phím H) gây ra lượng sát thương khủng khiếp cho kẻ địch nhưng sẽ ngay lập tức tước đi hệ phái Ichigo của bạn và đưa nhân vật trở về trạng thái Standless. Để lấy lại hệ phái, bạn phải chết và hồi sinh, điều này sẽ khôi phục lại giai đoạn trước đó của bạn.
+</Callout>
+
+| Kẻ địch mục tiêu | Thời gian xuất hiện | Vật phẩm rơi chính | Tỷ lệ rơi | Độ ưu tiên farm |
+| --- | --- | --- | --- | --- |
+| **Basic Hollow** | **5 phút** | Zanpakuto Giai đoạn 1, Shikai Giai đoạn 2 | **25%** / **15%** | Cao (Đầu game) |
+| **Adjuchas** | **5 phút** | Mảnh Hogyoku, Token | **20%** / **850 Token** | Tối đa (Cuối game) |
+| **Menos Grande** | **10 phút** | Mảnh Hogyoku, Tăng EXP | **10%** | Trung bình |
+
+</Section>
+
+<Section icon={Swords} title="Phân tích bộ kỹ năng và chuỗi chiêu thức (Combo)">
+
+Phong cách chiến đấu của hệ phái **sakura stand ichigo** vô cùng năng động, chuyển đổi từ các nhát chém kiếm đơn giản ở các giai đoạn đầu sang các vụ nổ năng lượng diện rộng tàn khốc và các đòn phản công phòng thủ ở Giai đoạn 4. Ở dạng cơ bản, Ichigo dựa vào các nhát chém nhanh, liên tiếp gây sát thương chảy máu lên đối thủ, từ từ rút cạn máu của họ theo thời gian. Công cụ tấn công chính trong trạng thái này là Getsuga Slash (Q), bắn ra ba nhát chém tầm xa có thể chém đứt tay đối thủ ở đòn thứ ba, hạn chế nghiêm trọng các lựa chọn tấn công của họ.
+
+Khi người chơi kích hoạt Chế độ Mặt nạ Hollow (Y), hồ sơ chiến đấu của họ thay đổi đáng kể. Trong 30 giây, Ichigo nhận được lượng sát thương tăng vọt tới 50%, cho phép bạn làm tan chảy thanh máu của trùm chỉ trong vài giây. Tuy nhiên, sức mạnh này đi kèm với một cái giá: phòng thủ của bạn bị giảm 20%, khiến bạn rất dễ bị phản công. Giai đoạn 4 giới thiệu dạng biến hình Vasto Lorde, thay thế bộ kỹ năng tiêu chuẩn bằng các chiêu thức sát thương cao như Crushing Roar (R) và Cero Blast (T), cùng với một chiêu phản đòn nội tại mạnh mẽ giúp chặn các đòn tấn công đang tới và trừng phạt những đối thủ hung hãn.
+
+<CardGrid cols={3}>
+  <Card title="Chế độ Cơ bản (Không mặt nạ)">
+    - **Getsuga Slash (Q)**: Bắn ra ba nhát chém tầm xa gây chảy máu.
+    - **Unrelenting Barrage (E)**: Một loạt các nhát chém nhanh chóng với hitbox phía trước cực lớn.
+    - **Getsuga Tenshou (G)**: Bắn ra một làn sóng năng lượng khổng lồ phá vỡ thế đỡ đòn của kẻ địch.
+  </Card>
+  <Card title="Chế độ Mặt nạ Hollow (Y)">
+    - **Tăng sát thương**: Tăng tất cả sát thương gây ra thêm **50%** trong 30 giây.
+    - **Hình phạt phòng thủ**: Giảm tổng phòng thủ của bạn đi **20%** khi đang kích hoạt.
+    - **Getsuga Flourish**: Nâng cấp thành một đòn kết liễu trên không có sức tác động cao.
+  </Card>
+  <Card title="Chế độ Vasto Lorde (Giai đoạn 4)">
+    - **Crushing Roar (R)**: Phát ra một sóng xung kích làm choáng tất cả kẻ địch xung quanh.
+    - **Cero Blast (T)**: Bắn ra một tia năng lượng khổng lồ gây sát thương diện rộng lớn.
+    - **Cero Counter (Y)**: Thế phòng thủ giúp chặn và phản lại các đòn tấn công đang tới.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Chuỗi Combo tối ưu">
+Để tối đa hóa lượng sát thương đầu ra, hãy sử dụng các chuỗi combo đã được cộng đồng thử nghiệm sau:
+- **Chế độ Cơ bản**: G + R + M1x3 + E (Gây **117 Sát thương**)
+- **Chế độ Mặt nạ**: M1x3 + T + G + M1x3 + E (Gây **229.5 Sát thương**)
+- **Chế độ Vasto**: G + R + M1x3 + E (Gây **320 Sát thương**)
+</Callout>
+
+| Tên kỹ năng | Phím nóng | Sát thương đầu ra | Thời gian hồi chiêu | Hiệu ứng đặc biệt |
+| --- | --- | --- | --- | --- |
+| **Getsuga Slash** | **Q** | **20 Sát thương** | **8 Giây** | Gây chảy máu, chém đứt tay ở đòn thứ 3 |
+| **Unrelenting Barrage** | **E** | **21 Sát thương** | **12 Giây** | Khóa choáng cao, hitbox phía trước lớn |
+| **Getsuga Tenshou** | **G** | **45 Sát thương** | **15 Giây** | Đạn bay tầm xa, phá đỡ đòn |
+| **Cero Blast (Vasto)** | **T** | **65 Sát thương** | **18 Giây** | Tia diện rộng lớn, đẩy lùi kẻ địch |
+| **Mugetsu** | **H** | **Hạ gục ngay lập tức** | **N/A** | Đưa người chơi về Standless cho đến khi chết |
+
+</Section>
+
+<Section icon={Target} title="Chiến thuật farm và Danh sách kiểm tra">
+
+Việc farm các nguyên liệu cần thiết và đánh bại các kẻ địch tinh nhuệ ở Hueco Mundo có thể vô cùng thử thách, đặc biệt là trên các máy chủ công cộng nơi những người chơi khác có thể can thiệp vào tiến trình của bạn. Để farm hiệu quả, bạn nên sử dụng máy chủ riêng. Điều này đảm bảo bạn có quyền truy cập độc quyền vào tất cả các điểm xuất hiện của Hollow và Adjuchas, cho phép tối đa hóa lượng token và vật phẩm nhận được mà không lo bị người chơi thù địch tấn công.
+
+Khi chiến đấu với Adjuchas, chìa khóa là duy trì khoảng cách và tránh trao đổi chiêu thức trực tiếp. Adjuchas cực kỳ trâu bò và gây sát thương lớn bằng các đòn tấn công tầm gần của chúng. Chiến thuật hiệu quả nhất là phương pháp "M1 và Lướt" (M1 and Dash). Thực hiện một chuỗi combo M1 đầy đủ bốn đòn để làm choáng kẻ địch, ngay lập tức sử dụng Bước nhảy nhanh (Flash Step - phím C) để lướt lùi ra khỏi phạm vi tấn công của chúng và đợi thời gian hồi chiêu đặt lại trước khi giao tranh tiếp. Nếu bạn gặp khó khăn, bạn cũng có thể sử dụng các hệ phái tầm xa để rỉa máu của chúng từ khoảng cách an toàn.
+
+<Checklist
+  id="ichigo-progression"
+  title="Danh sách kiểm tra tiến trình Ichigo:"
+  items={[
+    "Trang bị Standless và farm các Hollow cơ bản để lấy Giai đoạn 1",
+    "Trang bị Giai đoạn 1 và farm các Hollow để lấy Giai đoạn 2",
+    "Đạt cấp độ Thông thạo 3 và trả $2000 cho Kisuke",
+    "Đánh bại 25 Hollow và 1 Adjuchas để mở khóa Giai đoạn 3",
+    "Farm Adjuchas hoặc Menos Grande để lấy Mảnh Hogyoku",
+    "Sử dụng Mảnh Hogyoku lên Giai đoạn 3 để mở khóa Vasto Lorde"
+  ]}
+/>
+
+<Callout type="success" title="Mẹo tối ưu hóa farm">
+Đánh bại Adjuchas mang lại lượng **850 Token** khổng lồ cho mỗi lần hạ gục. Nếu bạn gặp khó khăn trong việc nhận Mảnh Hogyoku qua tỷ lệ rơi, bạn có thể tích lũy token để quay biểu ngữ gacha, nơi thỉnh thoảng có các vật phẩm tiến trình và mở khóa Giai đoạn 3.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+Hành trình mở khóa dạng Vasto Lorde Giai đoạn 4 của hệ phái **sakura stand ichigo** là một trong những quá trình cày cuốc xứng đáng nhất trong Sakura Stand. Mặc dù tỷ lệ rơi của Zanpakuto và Mảnh Hogyoku đòi hỏi một chút may mắn, nhưng sức mạnh tuyệt đối của hệ phái hoàn chỉnh khiến mọi nỗ lực đều hoàn toàn xứng đáng. Bằng cách thành thạo các bộ kỹ năng, sử dụng các lộ trình farm hiệu quả ở Hueco Mundo và thực hiện các chuỗi combo chính xác, bạn có thể khẳng định mình là một thế lực thống trị trong cả PVE và PVP.
+
+<FAQ items={[
+  {
+    question: "Tôi có thể bỏ qua các giai đoạn bằng cách sử dụng biểu ngữ gacha không?",
+    answer: "Có, bạn có thể quay tìm Ichigo Giai đoạn 3 trên biểu ngữ Substitute Shinigami bằng cách sử dụng token (250 token mỗi lần quay, tỷ lệ rơi 1%). Tuy nhiên, bạn vẫn phải tự kiếm Mảnh Hogyoku để đạt đến Giai đoạn 4."
+  },
+  {
+    question: "Điều gì xảy ra nếu tôi sử dụng Mugetsu ở Giai đoạn 4?",
+    answer: "Sử dụng Mugetsu (phím H) gây ra lượng sát thương khổng lồ nhưng sẽ đặt lại hoàn toàn nhân vật của bạn trở về Standless. Bạn sẽ mất quyền truy cập vào tất cả các kỹ năng của Ichigo cho đến khi bạn chết và hồi sinh, điều này sẽ khôi phục lại hệ phái."
+  },
+  {
+    question: "Cổng dịch chuyển Hueco Mundo nằm ở đâu?",
+    answer: "Cổng dịch chuyển là một cấu trúc hình chữ nhật lớn nằm ngay bên trái Cửa hàng Urahara ở Thành phố Sakurian. Lệ phí vào cổng là $2000 tiền mặt, thanh toán một lần cho mỗi phiên chơi."
+  },
+  {
+    question: "Cách tốt nhất để farm Mảnh Hogyoku là gì?",
+    answer: "Cách hiệu quả nhất là farm Adjuchas ở Hueco Mundo, vì chúng có tỷ lệ rơi mảnh là 20% so với tỷ lệ rơi 10% của Menos Grande."
+  }
+]} />
+
+<Callout type="success" title="Sẵn sàng chiến đấu">
+Với việc mở khóa Vasto Lorde Giai đoạn 4, bạn đang sở hữu một trong những hệ phái PvE mạnh nhất trong trò chơi. Hãy mang lối xây dựng của bạn vào các trận càn quét trùm hoặc đấu trường xếp hạng để thử thách giới hạn của bản thân!
+</Callout>
+
+</Section>

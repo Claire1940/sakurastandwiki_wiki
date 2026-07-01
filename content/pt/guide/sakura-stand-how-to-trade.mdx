@@ -1,0 +1,191 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Como trocar no Sakura Stand: Guia Passo a Passo e Valores",
+  description: "Domine o sistema de trocas baseado em comandos no Sakura Stand. Aprenda os requisitos de maestria, o processo de troca passo a passo e os valores dos itens.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1c1024/fff?text=How+to+Trade",
+  date: "2026-07-01",
+  author: "Equipe da Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Mecânica principal**: Aprenda **como trocar no sakura stand** usando comandos de chat em vez de menus de interface tradicionais.
+- **Nível necessário**: Os jogadores devem alcançar a **Maestria 1** (chegando ao nível 50 e resetando) para desbloquear as trocas básicas.
+- **Formato do comando**: Digite **!trade [Nome de Usuário do Roblox]** no chat global para iniciar uma transação.
+- **Restrições de troca**: Specs de alto nível como Cid Kagenou (Shadow) exigem **Maestria 12** para ambos os jogadores.
+- **Sistema de raridade**: Os itens são avaliados em uma **escala de 1 a 5** com base na raridade e eficácia em combate.
+</Callout>
+
+<Section icon={Map} title="Entendendo o Sistema de Trocas do Sakura Stand">
+
+O Sakura Stand possui uma economia de trocas altamente ativa, mas sua execução é muito diferente da maioria das experiências do Roblox. Em vez de clicar em um jogador ou acessar um menu dedicado de central de trocas com um único botão, você deve utilizar comandos de chat específicos para iniciar, aceitar e finalizar transações. Essa escolha de design evita trocas acidentais, mas pode ser confusa para novos jogadores que não estão familiarizados com mecânicas de linha de comando.
+
+O sistema de trocas foi construído para facilitar trocas equivalentes de Stands, Specs, skins e itens raros de progressão. Compreender a estrutura subjacente, os tempos de recarga e as opções de interface é essencial para evitar a perda de itens de alto valor em acordos injustos.
+
+| Métrica | Detalhes |
+| :--- | :--- |
+| Comando Principal | !trade [Nome de Usuário do Roblox] |
+| Comando de Confirmação | !confirm (usado se o botão da interface bugar) |
+| Comando de Recusa | !decline ou recusar via interface |
+| Maestria Mínima | Maestria 1 (requer alcançar o Nível 50) |
+| Tempo de Recarga do Sistema | 1 minuto entre tentativas de transação |
+| Janela de Cancelamento | 10 segundos para recusar após aceitar |
+
+<Callout type="tip" title="Dica de Mestre">
+Sempre planeje suas transações com antecedência. Como o sistema impõe um tempo de recarga estrito de um minuto entre as tentativas de troca, pequenos erros de digitação ou cancelamentos de última hora forçarão você a esperar antes de tentar novamente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Como Trocar no Sakura Stand: Passo a Passo">
+
+Executar uma troca com sucesso exige precisão, pois o sistema depende muito da digitação correta dos detalhes no menu de chat global. Se você cometer um erro no nome de um jogador, o comando falhará. Siga este processo estruturado para iniciar e concluir suas trocas com segurança.
+
+<Steps>
+  <Step num="1" title="Encontre um Parceiro de Troca">
+    Encontre um jogador para negociar no seu servidor atual ou através dos canais de troca na comunidade oficial do Discord de Sakura Stand. Concorde com os itens e valores antes de iniciar a sequência de comandos.
+  </Step>
+  <Step num="2" title="Obtenha o Nome de Usuário do Roblox">
+    Passe o mouse sobre o personagem do jogador no jogo ou verifique a lista de jogadores no canto superior direito da tela. Você deve usar o **Nome de Usuário do Roblox** exato dele, não o nome de exibição (display name) personalizado ou tag de jogo.
+  </Step>
+  <Step num="3" title="Insira o Comando de Troca">
+    Abra a janela de chat global e digite `!trade [NomeDeUsuario]` (substituindo [NomeDeUsuario] pelo nome de usuário real do Roblox do seu parceiro). Por exemplo, se estiver trocando com um jogador chamado John, digite `!trade John`.
+  </Step>
+  <Step num="4" title="Peça para seu Parceiro Retribuir">
+    O outro jogador deve digitar exatamente o mesmo comando de volta para você, referenciando o seu nome de usuário do Roblox (ex: `!trade SeuNomeDeUsuario`). Assim que ambos os comandos forem registrados pelo servidor, a janela de interface de troca se abrirá automaticamente em ambas as telas.
+  </Step>
+  <Step num="5" title="Adicione os Itens e Confirme">
+    Arraste ou clique em seus itens para colocá-los nos slots de troca. Verifique a oferta do outro jogador em relação aos valores da comunidade. Clique no botão verde "Accept" (Aceitar). Se o botão da interface falhar em registrar devido a um bug comum de exibição em dispositivos móveis, digite `!confirm` diretamente no chat para contorná-lo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso Crítico">
+Golpistas costumam usar nomes de exibição quase idênticos aos de negociadores de alto valor, enquanto usam nomes de usuário do Roblox completamente diferentes. Sempre verifique o nome de usuário na janela de troca antes de clicar em confirmar.
+</Callout>
+
+Para garantir que suas sessões de troca ocorram sem problemas e sem perder itens suados, mantenha esta lista de verificação de segurança rápida ativa durante cada transação:
+
+<Checklist
+  id="trading-safety"
+  title="Lista de Verificação para Trocas Seguras:"
+  items={[
+    "Verifique se o nome de usuário do Roblox corresponde exatamente à lista de jogadores",
+    "Confirme se ambos os jogadores cumprem os requisitos mínimos de maestria",
+    "Consulte a lista de valores da comunidade antes de clicar em aceitar",
+    "Prepare o comando !confirm no chat caso os botões da interface travem",
+    "Utilize la janela de recusa de 10 segundos se notar qualquer alteração"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de Troca e Restrições de Maestria">
+
+Para proteger a economia do jogo contra bots, explorações e abusos de transferência direta por meio de contas secundárias, os desenvolvedores implementaram barreiras rígidas de progressão no sistema de trocas. Você não pode simplesmente criar uma nova conta do Roblox e trocar imediatamente itens raros para o seu perfil principal.
+
+O requisito básico para trocar qualquer item ou moeda é a **Maestria 1**. Para obter Maestria, você deve atingir o nível máximo de 50, abrir o menu de configurações e selecionar "Upgrade Mastery" (Melhorar Maestria). Isso redefine o nível do seu personagem de volta ao 1, mas aumenta permanentemente o seu nível de Maestria em 1.
+
+Além disso, Specs e Stands específicos de fim de jogo possuem requisitos de Maestria muito mais altos para evitar que contas de nível baixo possuam habilidades extremamente fortes. Tanto quem envia quanto quem recebe deve atender a esses limites específicos de Maestria para concluir a troca.
+
+| Nome da Spec / Stand | Maestria Requerida para Trocar | Classe da Categoria de Troca |
+| :--- | :--- | :--- |
+| Cid Kagenou (Shadow) | Maestria 12 | Spec de Alto Nível |
+| Sakuya | Maestria 12 | Spec de Alto Nível |
+| Binah (The Arbiter) | Maestria 1 | Âncora de Alto Valor |
+| Sandevistan | Maestria 1 | Spec de Nível Médio |
+| Ryomen Sukuna | Maestria 1 | Spec de Nível Baixo |
+
+<Callout type="info" title="Retenção de Maestria">
+Se você realizar um "Breakthrough" (que redefine seu nível e pontos de maestria assim que você acumula 15 maestrias), seus privilégios de troca desbloqueados e itens de inventário permanecem completamente intactos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Valores de Troca do Sakura Stand">
+
+As trocas no Sakura Stand são dominadas por um sistema de valores em pontos criado pela comunidade que varia de **0,5 a 5,0**. O valor de um item é determinado por sua força geral de combate, raridade visual da skin, taxas de drop de banners e limites de circulação atuais.
+
+Ao negociar acordos, os jogadores buscam trocas equivalentes com base nesses valores numéricos. For exemplo, um item com valor definido de 4 geralmente vale dois itens avaliados em 2 cada. No entanto, itens limitados de alta demanda costumam exigir um valor extra, forçando os compradores a pagar a mais para garanti-los.
+
+### Valores de Troca de Alto Nível (Valor 4.0 – 5.0)
+Estes são cosméticos de elite, de edição limitada e itens raros de banner que comandam os preços mais altos na economia.
+
+| Nome do Item / Skin | Valor de Troca | Classificação de Raridade |
+| :--- | :--- | :--- |
+| Summer Time: Valentine | 5.0 | Limitado de Nível Divino |
+| Eternal Wing: Unleashed | 5.0 | Limitado de Nível Divino |
+| Singularity Essence (Binah) | 4.5 | Banner de Alto Nível |
+| Vessel of Life | 4.0 | Combate de Alto Nível |
+| Cross | 4.0 | Combate de Alto Nível |
+
+### Valores de Troca de Nível Médio a Baixo (Valor 1.0 – 3.5)
+Estes itens representam boas specs de combate e skins moderadamente raras que são altamente acessíveis para jogadores em progressão.
+
+| Nome do Item / Skin | Valor de Troca | Classificação de Raridade |
+| :--- | :--- | :--- |
+| Anubis: Sibuna | 3.5 | Skin de Nível Médio |
+| White Snake: Marshmallow | 3.5 | Skin de Nível Médio |
+| Sandevistan: Cyberskeleton | 3.0 | Spec de Nível Médio |
+| Cid Kagenou (Shadow) | 3.0 | Spec de Nível Médio |
+| Ryomen Sukuna | 2.5 | Spec de Nível Baixo |
+| Dio's Bone | 1.0 | Item de Nível Muito Baixo |
+
+<CardGrid cols={3}>
+  <Card title="Summer Time: Valentine">
+    - **Valor**: 5.0
+    - **Demanda**: Extremamente Alta
+    - **Nota**: Requer ofertas significativamente maiores devido ao estoque esgotado nos servidores.
+  </Card>
+  <Card title="Singularity Essence">
+    - **Valor**: 4.5
+    - **Demanda**: Alta
+    - **Nota**: Usado para obter a incrivelmente poderosa spec Binah (Arbiter).
+  </Card>
+  <Card title="Cid Kagenou (Shadow)">
+    - **Valor**: 3.0
+    - **Demanda**: Moderada
+    - **Nota**: Requer que ambos os jogadores tenham Maestria 12 para finalizar a troca.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estabilidade de Mercado">
+Sempre verifique os valores de troca mais recentes no servidor oficial do Discord antes de finalizar uma troca. Os valores flutuam rapidamente após grandes patches de balanceamento e atualizações de conteúdo do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes sobre Trocas">
+
+Para ajudar a esclarecer as nuances do sistema de trocas, revise estas perguntas comuns compiladas da comunidade de jogadores.
+
+<FAQ items={[
+  {
+    question: "Por que o comando de troca não está funcionando quando eu o digito?",
+    answer: "Certifique-se de usar o nome de usuário do Roblox exato do outro jogador e não o seu nome de exibição. Ambos os jogadores também devem digitar o comando direcionado um ao outro no mesmo servidor para abrir a janela de troca."
+  },
+  {
+    question: "Qual é o nível mínimo necessário para começar a trocar?",
+    answer: "Você deve alcançar a Maestria 1 para trocar. Isso requer evoluir seu personagem até o nível 50 e, em seguida, selecionar a opção 'Upgrade Mastery' no menu de configurações para resetar seu nível."
+  },
+  {
+    question: "Posso trocar specs de alto nível como Cid Kagenou se minha maestria for muito baixa?",
+    answer: "Não. Certas specs de alto nível possuem restrições especializadas. For exemplo, Cid Kagenou e Sakuya exigem que ambos os jogadores possuam Maestria 12 ou superior para concluir a troca com sucesso."
+  },
+  {
+    question: "O que devo fazer se o botão de confirmar estiver bugado e não aceitar o clique?",
+    answer: "Este é um problema de interface comum, especialmente em dispositivos móveis. Você pode contornar o botão quebrado da interface digitando '!confirm' diretamente no chat do jogo para concluir a transação."
+  }
+]} />
+
+<Callout type="tip" title="Conselho Final">
+Sempre faça trocas em servidores públicos altamente povoados ou coordene por meio de canais confiáveis da comunidade para garantir preços justos e minimizar o risco de lidar com pessoas mal-intencionadas.
+</Callout>
+
+</Section>

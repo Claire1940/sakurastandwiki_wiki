@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Kaneki: Guía de obtención de 2026 y consejos de combate",
+  description: "Domina la especificación de Kaneki en Sakura Stand con nuestra guía de 2026. Aprende la ruta de obtención más rápida, conjuntos de movimientos, consejos de farmeo y estrategias meta de PvP.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d2d2d/ff69b4?text=Sakura+Stand+Kaneki+Guide",
+  date: "2026-07-01",
+  author: "Equipo de Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Sakura Stand Kaneki** es una especificación (Spec) de alto nivel inspirada en Tokyo Ghoul, enfocada en combos cuerpo a cuerpo agresivos y regeneración de salud.
+- **Método de obtención**: Los jugadores deben alcanzar la Maestría 1, obtener la Máscara de parche (Eyepatch Mask) y completar una misión específica de un PNJ que incluye pruebas de combate.
+- **Mecánica principal**: El sistema Kagune proporciona un alto daño de ráfaga y opciones de movilidad únicas durante los estados de combate activo.
+- **Mejor estrategia**: Concéntrate en acertar el movimiento de aturdimiento inicial para encadenar golpes de Kagune de alto daño mientras gestionas tu barra de hambre.
+- **Estado del meta en 2026**: Actualmente clasificada como una especificación de combate de nivel S (S-Tier) tanto para farmear jefes como para enfrentamientos de PvP a media distancia.
+</Callout>
+
+<Section icon={Swords} title="Descripción general de Sakura Stand Kaneki">
+
+Sakura Stand Kaneki sigue siendo una de las especificaciones más icónicas y poderosas en el meta de 2026. Al ser una especificación en lugar de un Stand, permite a los jugadores mantener un alto grado de movilidad mientras utilizan devastadores ataques basados en el Kagune. La especificación está diseñada para jugadores que disfrutan de un estilo de juego de alto riesgo y alta recompensa, donde el daño recibido se compensa con poderosas mecánicas de robo de vida y regeneración.
+
+En la versión actual del juego, Kaneki destaca por romper las guardias enemigas y mantener la presión. A diferencia de los Stands tradicionales que dependen de una entidad invocada, Kaneki transforma directamente al personaje del jugador, ofreciendo una experiencia de combate más visceral. Esta especificación es especialmente favorecida en el ciclo de actualizaciones de 2026 por su capacidad para contrarrestar especificaciones con muchos proyectiles como Emperor o Sukuna a través de habilidades superiores para cerrar distancias.
+
+<CardGrid cols={3}>
+  <Card title="Estilo de combate">
+    - **Agresor cuerpo a cuerpo**
+    - Alto potencial de ráfaga
+    - Excelentes habilidades para cerrar distancias
+  </Card>
+  <Card title="Supervivencia">
+    - **Enfoque en regeneración**
+    - Robo de vida al golpear
+    - Alto escalado de salud base
+  </Card>
+  <Card title="Dificultad">
+    - **Límite de habilidad moderado**
+    - Dependiente de combos
+    - Requiere gestión de recursos
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Rendimiento en 2026">
+Los parches recientes de junio de 2026 han estabilizado el daño infligido por Kaneki, convirtiéndolo en una opción confiable para limpiar incursiones de alto nivel y desafiar la ruta del jefe Naoya Zen'in.
+</Callout>
+
+| Atributo | Valor base | Bonificación de Maestría 10 | Tipo de escalado |
+| --- | --- | --- | --- |
+| **Velocidad de ataque** | Rápida | +15% de velocidad | Agilidad |
+| **Regen. de salud** | 2.5/s | 5.0/s | Vitalidad |
+| **Potencial de combo** | Alto | Cadena infinita | Basado en habilidad |
+| **Ruptura de guardia** | Medio | Alto impacto | Fuerza |
+
+</Section>
+
+<Section icon={Map} title="Cómo conseguir a Kaneki en Sakura Stand">
+
+Obtener la especificación **Sakura Stand Kaneki** requiere una combinación de farmeo de objetos específicos y la finalización de una misión. A diferencia de los Stands básicos que solo requieren una Flecha de Stand, Kaneki forma parte de la categoría de "Especificaciones de anime con misiones complejas", similar a las rutas de Roland o Sandevistan. Debes preparar a tu personaje alcanzando el nivel de Maestría necesario antes de que el PNJ interactúe contigo.
+
+El proceso comienza con el estado "Standless" (Sin Stand). Si actualmente tienes un Stand o una especificación activa, debes consumir una Fruta Rokakaka para restablecer tus habilidades. Una vez que estés en estado Standless, deberás localizar la Máscara de parche (Eyepatch Mask), un objeto raro que cae de cofres específicos o que se puede comprar durante las rotaciones limitadas de la tienda de Auddy (Auddy's Shop).
+
+<Callout type="warning" title="Verificación de requisitos">
+Asegúrate de tener al menos **Maestría 1** antes de intentar esta ruta. El PNJ de la misión ignorará a los jugadores que no hayan demostrado una competencia básica en combate.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Preparación y restablecimiento">
+    Usa una Fruta Rokakaka para volver al estado Standless. Asegúrate de que tu nivel de Maestría sea de al menos 1. Farmea la Máscara de parche en las zonas del Bosque o la Ciudad.
+  </Step>
+  <Step num="2" title="Localizar al PNJ de la misión">
+    Encuentra al PNJ Ghoul Investigator ubicado en el distrito del Callejón Oscuro (Dark Alley). Equípate la Máscara de parche e interactúa con él para iniciar el diálogo de iniciación.
+  </Step>
+  <Step num="3" title="Completar las pruebas de combate">
+    El PNJ te encomendará derrotar a 20 enemigos del mapa y sobrevivir a un encuentro con un mini-jefe sin usar ningún objeto de curación externo.
+  </Step>
+  <Step num="4" title="Transformación final">
+    Después de completar las pruebas, regresa con el PNJ. Se te pedirá que "Aceptes el hambre" (Accept the Hunger). Tras la confirmación, tu personaje se transformará, desbloqueando la especificación de Kaneki.
+  </Step>
+</Steps>
+
+| Objeto necesario | Categoría | Fuente | Tasa de caída / Coste |
+| --- | --- | --- | --- |
+| **Fruta Rokakaka** | Objeto de restablecimiento | Tienda de Auddy / Cajas | 500 de dinero |
+| **Máscara de parche** | Objeto de especificación | Cofres del bosque / Arcade | 2% de tasa de caída |
+| **Carne humana** | Objeto de misión | Botín de combate | 10% de los PNJ |
+| **EXP de Maestría** | Requisito | Combate / Farmeo | 1,000 de EXP |
+
+</Section>
+
+<Section icon={Sparkles} title="Conjunto de movimientos de Kaneki y análisis de habilidades">
+
+El poder de **Sakura Stand Kaneki** radica en su versátil conjunto de movimientos. En el meta de 2026, los jugadores deben dominar el tiempo de liberación del Kagune para maximizar el daño. La mayoría de las habilidades de Kaneki tienen tiempos de reutilización bajos pero altos costes de resistencia, lo que requiere un enfoque equilibrado en el combate. La especificación presenta una mezcla de barridos amplios para el control de masas y estocadas precisas para la eliminación de un solo objetivo.
+
+La habilidad pasiva de Kaneki, "Fisiología Ghoul" (Ghoul Physiology), proporciona un efecto de regeneración de salud constante que aumenta a medida que tu salud disminuye. Esto te hace excepcionalmente difícil de matar en escenarios prolongados de 1v1. Sin embargo, debes mantenerte agresivo; no acertar los golpes hará que tu barra de "Hambre" (Hunger) se agote, reduciendo temporalmente tu daño infligido.
+
+| Tecla | Nombre de la habilidad | Descripción | Daño / Efecto |
+| --- | --- | --- | --- |
+| **clic izq.** | Combo básico | Una serie de puñetazos rápidos y golpes de Kagune. | 15-20 por golpe |
+| **E** | Barrido Kagune | Un amplio tajo horizontal que repele a múltiples enemigos. | 35 de daño + Retroceso |
+| **R** | Estocada perforante | Una rápida estocada hacia adelante que rompe las guardias enemigas al instante. | 45 de daño / Ruptura de guardia |
+| **T** | Devorar | Un movimiento de agarre que inflige daño y cura al jugador. | 30 de daño + 15 de salud |
+| **F** | Forma de ciempiés | Un modo de despertar que aumenta la velocidad y el daño durante 30 s. | Multiplicador de 1.5x |
+| **G** | Quiebre psicológico | Un aturdimiento masivo en área (AoE) que deja a los enemigos vulnerables durante 2 s. | Aturdimiento / Sin daño |
+
+<Callout type="tip" title="Maestría en combos">
+El combo más efectivo de 2026 es: **clic izq. x3 -> R (Ruptura de guardia) -> E (Barrido) -> T (Curación)**. Esta secuencia asegura la máxima presión mientras mantienes tu salud al tope.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Prioridades de farmeo y progresión">
+
+Para maximizar el potencial de tu especificación de Kaneki, debes concentrarte en rutas de farmeo específicas que mejoren tu Maestría y proporcionen los materiales de mejora necesarios. En Sakura Stand, la progresión no se detiene una vez que desbloqueas la especificación. Necesitas invertir tiempo en el sistema de Maestría para desbloquear el despertar de "Ciempiés" (Centipede) y otras pasivas avanzadas.
+
+La actualización de 2026 introdujo la ruta de farmeo de "Espíritus Malditos" (Cursed Spirit), la cual es excelente para los jugadores de Kaneki. Dado que Kaneki tiene un alto robo de vida, puedes farmear estos monstruos de alto daño de manera más eficiente que con muchas otras especificaciones. Concéntrate en áreas con alta densidad de PNJ para mantener tu barra de Hambre llena y tu ganancia de EXP constante.
+
+<Checklist
+  id="kaneki-progression"
+  title="Hitos de Maestría de Kaneki:"
+  items={[
+    "Alcanza la Maestría 3 para desbloquear el movimiento de curación 'Devorar'",
+    "Reúne 10 objetos de Carne humana para mejorar la durabilidad del Kagune",
+    "Derrota al jefe Toji Fushiguro para probar tu potencial de daño de ráfaga",
+    "Alcanza la Maestría 10 para desbloquear la forma de despertar de 'Ciempiés'",
+    "Participa en 5 partidas de PvP para perfeccionar el tiempo de tus combos"
+  ]}
+/>
+
+<Callout type="info" title="Eficiencia de farmeo">
+Los usuarios de Roblox Premium reciben un bono de ganancia de EXP de 1.15x. Si te tomas en serio llegar rápidamente a la Maestría 10, este bono reduce significativamente el tiempo de farmeo para la forma definitiva de Kaneki.
+</Callout>
+
+| Ubicación de farmeo | Tipo de enemigo | Dificultad | Recompensas |
+| --- | --- | --- | --- |
+| **Callejones de la ciudad** | Matones de bajo nivel | Fácil | Dinero básico / EXP de Maestría |
+| **Santuario abandonado** | Miembros de Zen'in | Medio | EXP alta / Títulos de Zen'in |
+| **Profundidades del bosque** | Espíritus malditos | Difícil | Maestría / Caídas raras de máscaras |
+| **Arena de jefes** | Sukuna / Naoya | Extremo | Objetos legendarios / Fichas |
+
+</Section>
+
+<Section icon={Trophy} title="Comparación competitiva: Kaneki contra el Meta">
+
+En el panorama actual de 2026 de Sakura Stand, Kaneki se enfrenta a una dura competencia de especificaciones como Sukuna, Gojo y el recién añadido Naoya Zen'in. Aunque Kaneki carece de las habilidades masivas de área (AoE) de "Expansión de Dominio" de las especificaciones de Jujutsu Kaisen, lo compensa con un combate sostenido superior y una supervivencia individual excepcional.
+
+Kaneki a menudo se considera la elección "Anti-Meta". Su capacidad para romper guardias con la tecla 'R' y curarse a mitad de la pelea lo convierte en una pesadilla para los jugadores que dependen de escudos o tácticas de golpear y correr. En comparación con Stands como Star Platinum o The World, Kaneki ofrece un movimiento más fluido y una menor dependencia de las mecánicas de "Detener el tiempo" con largos tiempos de reutilización.
+
+| Especificación / Stand | Fuerza principal | Debilidad | Nivel en 2026 |
+| --- | --- | --- | --- |
+| **Kaneki** | **Curación sostenida** | Limitaciones de rango | **Nivel S** |
+| **Sukuna** | Daño masivo de ráfaga en área | Tiempos de reutilización altos | **Nivel SS** |
+| **Gojo** | Intocabilidad defensiva | Dependiente de la habilidad | **Nivel S** |
+| **Naoya** | Velocidad extrema | Reserva de salud baja | **Nivel A** |
+| **Star Platinum** | Aturdimientos confiables | Movimientos predecibles | **Nivel B** |
+
+<Callout type="tip" title="Estrategia de PvP">
+Contra Sukuna, espera a que agote su Expansión de Dominio. Usa la movilidad de Kaneki para mantenerte fuera de la zona de impacto inicial, luego arremete con una Estocada perforante una vez que sus movimientos estén en tiempo de reutilización.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Kaneki mejor que Sukuna en Sakura Stand?",
+    answer: "Depende del estilo de juego. Sukuna tiene un mayor daño de ráfaga en área (AoE), pero Kaneki ofrece un sostenimiento superior y mejores capacidades de duelo 1v1 debido a sus pasivas de curación."
+  },
+  {
+    question: "¿Cuál es el mejor objeto para combinar con la especificación de Kaneki?",
+    answer: "Se requiere la Máscara de parche para desbloquearla, pero para el combate activo, se recomiendan objetos que aumenten la Agilidad o la Fuerza para maximizar el daño del Kagune."
+  },
+  {
+    question: "¿Cómo restablezco mi especificación de Kaneki si quiero probar otra cosa?",
+    answer: "Puedes usar una Fruta Rokakaka en cualquier momento para volver al estado Standless. Esto te permitirá comenzar una nueva línea de misiones como la ruta de Sandevistan o Choso."
+  },
+  {
+    question: "¿Tiene Kaneki una evolución en la actualización de 2026?",
+    answer: "Sí, alcanzar la Maestría 10 te permite desbloquear la forma 'Ciempiés' (Centipede), que funciona como una poderosa evolución de despertar con estadísticas mejoradas y nuevos efectos visuales."
+  }
+]} />
+
+</Section>

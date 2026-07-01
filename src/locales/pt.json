@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "specs": "Specs",
+    "tier": "Tier List",
+    "guide": "Guia",
+    "obtainment": "Obtenção",
+    "links": "Links"
+  }
+}

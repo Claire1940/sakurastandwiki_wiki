@@ -10,7 +10,14 @@
       "twitterDescription": "Sakura Stand Wiki covers Roblox codes, tier list, Trello links, specs, stands, skins, items, trading values, and beginner guides for faster progress."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "specs": "Specs",
+    "tier": "Tier List",
+    "guide": "Guide",
+    "obtainment": "Obtainment",
+    "links": "Links"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -1167,20 +1174,18 @@
       "metaDescription": "Find active Sakura Stand codes, reward lists, and step-by-step redemption instructions for free Tokens, Cash, and EXP boosts.",
       "categoryLabel": "CODES",
       "whatIs": "What are Codes?",
-      "whatIsDescription": "Sakura Stand codes grant free rewards such as Tokens, Cash, and EXP boosts. They are usually released around updates, events, and milestones.",
+      "whatIsDescription": "Sakura Stand codes grant free rewards such as Tokens, Cash, and EXP boosts. They are usually released around game updates, events, and community milestones.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Claim Tokens, Cash, and EXP boosts without spending Robux to speed up early progression.",
+        "step2Title": "Faster Progress",
+        "step2Description": "Use free rewards to pull Stands from Arrows and unlock Specs through quests more quickly.",
+        "step3Title": "Stay Current",
+        "step3Description": "Redeem codes as soon as they drop, since developer-issued codes can expire without warning."
+      },
       "featured": "Featured & Active",
       "all": "All Codes"
-    },
-    "tier-list": {
-      "title": "Sakura Stand Tier List",
-      "description": "Sakura Stand tier list for Stands, Specs, skins, and trading value across the current patch.",
-      "metaTitle": "Sakura Stand Tier List - Stands, Specs & Trading",
-      "metaDescription": "Compare Sakura Stand Stands, Specs, skins, and trading value tiers with notes for each ranking category.",
-      "categoryLabel": "TIER LIST",
-      "whatIs": "What is the Tier List?",
-      "whatIsDescription": "The Sakura Stand tier list ranks Stands, Specs, skins, and trading value by combat strength, obtain rarity, and demand.",
-      "featured": "Top Tiers",
-      "all": "All Tiers"
     },
     "specs": {
       "title": "Sakura Stand Specs",
@@ -1189,53 +1194,98 @@
       "metaDescription": "Browse Sakura Stand Specs with obtain methods, skill roles, and best-use notes from manuals to boss and quest routes.",
       "categoryLabel": "SPECS",
       "whatIs": "What are Specs?",
-      "whatIsDescription": "Specs in Sakura Stand are non-Stand combat abilities unlocked through manuals, masks, bosses, NPC quests, events, or special progression chains.",
+      "whatIsDescription": "Specs in Sakura Stand are non-Stand combat abilities unlocked through manuals, masks, bosses, NPC quests, events, and special progression chains based on iconic anime characters.",
+      "why": "Why learn Specs?",
+      "whySteps": {
+        "step1Title": "Unlock New Moves",
+        "step1Description": "Specs add unique skill sets and combos that work alongside your Stand in combat.",
+        "step2Title": "Boss & Quest Routing",
+        "step2Description": "Know the exact manual, boss, and quest steps required to obtain each Spec without wasted runs.",
+        "step3Title": "Team & PvP Roles",
+        "step3Description": "Match the right Spec to your playstyle for PvE bossing, PvP duels, and farming efficiency."
+      },
       "featured": "Featured Specs",
       "all": "All Specs"
     },
-    "stands": {
-      "title": "Sakura Stand Stands",
-      "description": "Sakura Stand Stand list, obtain methods, evolutions, and skill positioning.",
-      "metaTitle": "Sakura Stand Stands - List, Evolutions & Skills",
-      "metaDescription": "Explore Sakura Stand Stands from Arrow pulls to evolutions like Gold Experience Requiem, C-Moon, and Made in Heaven.",
-      "categoryLabel": "STANDS",
-      "whatIs": "What are Stands?",
-      "whatIsDescription": "Stands are JoJo-style combat abilities in Sakura Stand, usually obtained from Stand Arrows and evolved with specific items.",
-      "featured": "Featured Stands",
-      "all": "All Stands"
+    "tier": {
+      "title": "Sakura Stand Tier List",
+      "description": "Sakura Stand tier list for Stands and Specs across PvE, PvP, and trading value in the current patch.",
+      "metaTitle": "Sakura Stand Tier List - Specs, PVP & Trading",
+      "metaDescription": "Compare Sakura Stand Specs and Stands by PvE, PvP, and trading value tiers with notes for each ranking.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Tier List?",
+      "whatIsDescription": "The Sakura Stand tier list ranks Stands and Specs by combat strength, obtain rarity, and current demand, with separate rankings for PvE, PvP, and trading value.",
+      "why": "Why check the tier list?",
+      "whySteps": {
+        "step1Title": "Pick Strong Picks",
+        "step1Description": "Focus your Arrows, manuals, and materials on Stands and Specs that perform well in your game mode.",
+        "step2Title": "Plan Trades",
+        "step2Description": "Use the trading value ranking to judge fair offers and spot high-demand picks.",
+        "step3Title": "Follow the Patch",
+        "step3Description": "Track how balance changes and new Specs shift the rankings each update."
+      },
+      "featured": "Top Tiers",
+      "all": "All Tiers"
     },
-    "skins": {
-      "title": "Sakura Stand Skins",
-      "description": "Sakura Stand skin rarity, gacha, pity, and appearance reference.",
-      "metaTitle": "Sakura Stand Skins - Rarity, Gacha & Showcase",
-      "metaDescription": "Check Sakura Stand skin rarity, drop methods, and trade reference for collectible appearances.",
-      "categoryLabel": "SKINS",
-      "whatIs": "What are Skins?",
-      "whatIsDescription": "Skins change the appearance of Stands and Specs in Sakura Stand and are collected through gacha, events, and trading.",
-      "featured": "Featured Skins",
-      "all": "All Skins"
+    "guide": {
+      "title": "Sakura Stand Guides",
+      "description": "Sakura Stand beginner guides, leveling, farming, and how-to walkthroughs for faster progress.",
+      "metaTitle": "Sakura Stand Guides - Leveling, Farming & How-To",
+      "metaDescription": "Read Sakura Stand guides on leveling, XP farming, trading, selling items, and beginner tips for faster progression.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What are Guides?",
+      "whatIsDescription": "Sakura Stand guides cover beginner basics, leveling routes, XP farming, trading, and step-by-step how-to walkthroughs that help new and returning players progress faster.",
+      "why": "Why read guides?",
+      "whySteps": {
+        "step1Title": "Learn Core Systems",
+        "step1Description": "Understand Stands, Specs, codes, and trading mechanics before committing your resources.",
+        "step2Title": "Level & Farm Faster",
+        "step2Description": "Follow proven leveling and XP farming routes to unlock content and bosses sooner.",
+        "step3Title": "Avoid Common Mistakes",
+        "step3Description": "Pick up trading safety, emote, and selling tips that save time and prevent costly errors."
+      },
+      "featured": "Featured Guides",
+      "all": "All Guides"
     },
-    "items": {
-      "title": "Sakura Stand Items",
-      "description": "Sakura Stand item uses, drop sources, shops, and farming priorities.",
-      "metaTitle": "Sakura Stand Items - Drops, Shops & Farming",
-      "metaDescription": "Track Sakura Stand items, materials, and currencies with drop sources, shop uses, and farming priority.",
-      "categoryLabel": "ITEMS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Items in Sakura Stand include Arrows, manuals, masks, boss drops, and update materials used to unlock and progress abilities.",
-      "featured": "Key Items",
-      "all": "All Items"
+    "obtainment": {
+      "title": "Sakura Stand Obtainment",
+      "description": "How to get Sakura Stand Specs, fragments, and rare items through quests, bosses, and crafting.",
+      "metaTitle": "Sakura Stand Obtainment - How to Get Specs & Items",
+      "metaDescription": "Follow Sakura Stand obtainment routes for Specs, fragments, and rare items with quest, boss, and crafting steps.",
+      "categoryLabel": "OBTAINMENT",
+      "whatIs": "What is Obtainment?",
+      "whatIsDescription": "Obtainment guides explain exactly how to get specific Sakura Stand Specs, fragments, and items, covering required quests, boss fights, materials, and crafting steps.",
+      "why": "Why use obtainment guides?",
+      "whySteps": {
+        "step1Title": "Follow the Right Route",
+        "step1Description": "Get the exact quest chain, boss, and material list for each Spec or item before you start.",
+        "step2Title": "Save Time & Materials",
+        "step2Description": "Avoid wasted runs by preparing the correct fragments, manuals, and requirements in advance.",
+        "step3Title": "Avoid Missed Drops",
+        "step3Description": "Lock in rare drops and crafting outcomes with clear, repeatable steps for each target."
+      },
+      "featured": "Featured Routes",
+      "all": "All Obtainment Guides"
     },
-    "trading": {
-      "title": "Sakura Stand Trading",
-      "description": "Sakura Stand trade values, rules, common scams, and safe trading tips.",
-      "metaTitle": "Sakura Stand Trading - Values, Rules & Scams",
-      "metaDescription": "Learn Sakura Stand trading values, rules, and scam warnings for safe Stand, Spec, and skin trades.",
-      "categoryLabel": "TRADING",
-      "whatIs": "What is Trading?",
-      "whatIsDescription": "Trading in Sakura Stand lets players exchange Stands, Specs, skins, and items based on community value and demand.",
-      "featured": "Trade Highlights",
-      "all": "All Trading Guides"
+    "links": {
+      "title": "Sakura Stand Links",
+      "description": "Official Sakura Stand Trello, Discord, and Roblox links plus how to use each community hub.",
+      "metaTitle": "Sakura Stand Links - Trello, Discord & Roblox",
+      "metaDescription": "Find the official Sakura Stand Trello, Discord, and Roblox pages and learn how to use each hub for codes, patch notes, and updates.",
+      "categoryLabel": "LINKS",
+      "whatIs": "What are Links?",
+      "whatIsDescription": "Sakura Stand links connect you to the official Trello, Discord, and Roblox pages where patch notes, codes, announcements, and community updates are posted by Sakura Society.",
+      "why": "Why use the official links?",
+      "whySteps": {
+        "step1Title": "Get Codes & Patch Notes",
+        "step1Description": "Find newly released codes and update notes on Discord and Trello as soon as they go live.",
+        "step2Title": "Join the Community",
+        "step2Description": "Ask questions, find trade partners, and follow announcements in the active Sakura Stand Discord.",
+        "step3Title": "Report Bugs & Trade Safely",
+        "step3Description": "Use the official Roblox and Discord hubs to report issues and verify trade partners without falling for scams."
+      },
+      "featured": "Official Links",
+      "all": "All Links"
     }
   }
 }

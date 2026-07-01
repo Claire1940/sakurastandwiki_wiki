@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sakura Stand Pilgrim Knight: Hướng dẫn Nhiệm vụ Toàn diện & Vị trí NPC",
+  description: "Làm chủ chuỗi nhiệm vụ Pilgrim Knight trong Sakura Stand với hướng dẫn chi tiết của chúng tôi. Tìm tất cả vị trí NPC, yêu cầu vật phẩm và mẹo tiến trình từng bước.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1a1a2e/f0529c?text=Pilgrim+Knight+Quest+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Sakura Stand Pilgrim Knight**: Một chuỗi nhiệm vụ phức tạp liên quan đến nhiều NPC, yêu cầu bạn phải di chuyển qua Hall of Heroes (Sảnh Anh Hùng) và Depths (Vực Sâu).
+- **NPC Quan Trọng**: Bạn phải tương tác với Syante, Hika, Dast và Mirror (Gương) theo một thứ tự cụ thể.
+- **Địa Điểm Chính**: Tiến trình di chuyển từ Hall of Heroes đến Forgotten Groves (Khu Rừng Bị Lãng Quên) và Lighthouse (Hải Đăng).
+- **Điều Kiện Tiên Quyết**: Thường yêu cầu cấp độ Thông Thạo (Mastery) cao và trạng thái chiến đấu cụ thể để bắt đầu các cuộc đối thoại này.
+- **Phần Thưởng Lớn Nhất**: Mở khóa hệ (spec) Pilgrim Knight mang lại khả năng phòng thủ và tấn công độc đáo cho các nội dung cuối game (end-game).
+</Callout>
+
+<Section icon={Map} title="Giới thiệu về Hệ Pilgrim Knight">
+
+**Sakura stand pilgrim knight** đại diện cho một trong những con đường tiến trình phức tạp nhất trong vũ trụ Sakura Stand. Không giống như các Stand tiêu chuẩn nhận được thông qua việc dùng Mũi Tên (Arrow) thông thường, hệ này yêu cầu người chơi phải tham gia vào một hành trình cốt truyện qua nhiều địa điểm khác nhau trên bản đồ. Nó được thiết kế cho những người chơi thích khám phá và đáp ứng các yêu cầu cụ thể của NPC thay vì chỉ dựa vào cơ chế may rủi (RNG).
+
+Trong meta năm 2026 hiện tại, Pilgrim Knight nổi bật nhờ lối chơi cân bằng trong chiến đấu, mang lại sự kết hợp giữa khả năng sinh tồn cao và lượng sát thương ổn định. Điều này khiến nó trở thành một lựa chọn lý tưởng cho những người chơi muốn chuyển dịch từ việc farm đầu game sang các trận chiến boss nâng cao hơn. Trước khi bắt đầu hành trình này, người chơi nên đảm bảo rằng mình đã nắm rõ bố cục bản đồ, vì nhiệm vụ sẽ đưa bạn từ những ngôi đền sáng nhất đến những vực sâu tăm tối nhất.
+
+<CardGrid cols={3}>
+  <Card title="Tập Trung Khám Phá">
+    - **Tuyến đường nhiều địa điểm**
+    - Tiến trình phụ thuộc nhiều vào NPC
+    - Chuỗi nhiệm vụ giàu cốt truyện
+  </Card>
+  <Card title="Phong Cách Chiến Đấu">
+    - **Phòng thủ cao**
+    - Các chuỗi combo cận chiến ổn định
+    - Kỹ năng tiện ích mang tính chiến thuật
+  </Card>
+  <Card title="Yêu Cầu Người Chơi">
+    - **Thông thạo trung bình**
+    - Di chuyển chính xác
+    - Kiên nhẫn với thời gian chờ của NPC
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Kiểm Tra Độ Thông Thạo">
+Trước khi thử đi theo con đường Pilgrim Knight, hãy tập trung vào việc tăng cấp độ Thông Thạo (Mastery) tổng thể của bạn. Nhiều NPC trong Sakura Stand sẽ từ chối nói chuyện với những người chơi chưa chứng minh được sự cống hiến của họ đối với các cơ chế cốt lõi của trò chơi.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Từng Bước Nhiệm vụ Pilgrim Knight">
+
+Hoàn thành nhiệm vụ **sakura stand pilgrim knight** đòi hỏi phải tuân thủ nghiêm ngặt một thứ tự thực hiện cụ thể. Bỏ lỡ dù chỉ một lần tương tác với NPC cũng có thể làm gián đoạn tiến trình của bạn, buộc bạn phải quay lại các vùng đất nguy hiểm đã qua. Các bước dưới đây phác thảo con đường hiệu quả nhất để hoàn thành chuỗi nhiệm vụ trong phiên bản hiện tại của trò chơi.
+
+<Steps>
+  <Step num="1" title="Bắt đầu với Syante">
+    Hành trình bắt đầu tại Hall of Heroes. Hãy tìm NPC tên là Syante. Tương tác này đóng vai trò là mỏ neo cho toàn bộ chuỗi nhiệm vụ. Đảm bảo bạn đang ở trạng thái chiến đấu chính xác (thường là Standless hoặc một hệ cơ bản) trước khi bắt đầu đối thoại.
+  </Step>
+  <Step num="2" title="Di chuyển đến Forgotten Groves">
+    Sau khi nói chuyện với Syante, hãy hướng về phía Forgotten Groves để tìm Hika. Hika sẽ cung cấp bộ hướng dẫn thứ hai và xác nhận tiến trình của bạn từ Hall of Heroes. Khu vực này có nhiều mối nguy hiểm từ môi trường, vì vậy hãy di chuyển cẩn thiện.
+  </Step>
+  <Step num="3" title="Tìm Dast tại Hải Đăng (Lighthouse)">
+    Điểm kiểm tra thứ ba là Dast, nằm gần Lighthouse. NPC này thường yêu cầu người chơi phải hoàn thành các nhiệm vụ chiến đấu cụ thể hoặc thu thập một số tài nguyên nhỏ. Dast đóng vai trò là người gác cổng cho các giai đoạn cuối của nhiệm vụ.
+  </Step>
+  <Step num="4" title="Gương (Mirror) và Vực Sâu (Depths)">
+    Giai đoạn cuối cùng liên quan đến NPC Mirror và lối vào Depths. Đây là phần nguy hiểm nhất của tuyến đường. Bạn sẽ cần tương tác với Mirror để kích hoạt chuỗi tiến trình cuối cùng nhằm nhận được trạng thái Pilgrim Knight.
+  </Step>
+</Steps>
+
+| Tên NPC | Vị trí Chính | Vai trò trong Nhiệm vụ |
+| :--- | :--- | :--- |
+| **Syante** | Hall of Heroes | Người bắt đầu nhiệm vụ / Đối thoại ban đầu |
+| **Hika** | Forgotten Groves | Người xác nhận tiến trình / Điểm giữa |
+| **Dast** | Lighthouse | Kiểm tra tài nguyên / Người gác cổng |
+| **Mirror** | Lối vào Depths | Thức tỉnh cuối cùng / Trao phần thưởng |
+
+<Callout type="warning" title="Độ Chính Xác Khi Đối Thoại">
+Khi nói chuyện with các NPC như Syante hoặc Dast, hãy đọc kỹ các lựa chọn đối thoại. Chọn sai câu trả lời đôi khi có thể đặt lại thời gian chờ tương tác, làm chậm tiến trình của bạn vài phút.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Yêu Cầu và Chuẩn Bị Vật Phẩm">
+
+Mặc dù nhiệm vụ **sakura stand pilgrim knight** chủ yếu dựa trên đối thoại, bạn không thể bỏ qua các yêu cầu về mặt vật chất. Việc farm các vật phẩm cần thiết trước đó sẽ giúp bạn tránh được những chuyến đi không cần thiết quay lại cửa hàng chính hoặc khu vực lưu trữ. Các cơ chế của trò chơi thường yêu cầu bạn phải ở trạng thái "Standless" để tương tác với các NPC nhiệm vụ, vì vậy việc có sẵn Trái Rokakaka (Rokakaka Fruit) là rất cần thiết.
+
+Dưới đây là bảng phân tích các vật phẩm và chỉ số bạn nên chuẩn bị trước khi đến Hall of Heroes.
+
+| Loại Yêu Cầu | Vật phẩm / Chỉ số | Mục đích |
+| :--- | :--- | :--- |
+| **Vật phẩm Reset** | Trái Rokakaka | Đặt lại năng lực hiện tại về Standless để tương tác với NPC |
+| **Tiền tệ** | Token / Tiền mặt | Cần thiết cho một số khoản "hối lộ" NPC hoặc chi phí di chuyển |
+| **Tiến trình** | Cấp độ Thông Thạo (Mastery) | Mở khóa các nhánh đối thoại nâng cao với Syante và Dast |
+| **Vật phẩm tiêu hao** | Tăng EXP | Khuyên dùng sau khi nhận được hệ này để thăng cấp nhanh chóng |
+
+<CardGrid cols={2}>
+  <Card title="Cột Mốc Thông Thạo">
+    Hầu hết các hệ nâng cao trong Sakura Stand, bao gồm cả những hệ được tìm thấy trong bản cập nhật Naoya, gợi ý cấp độ Thông Thạo từ ít nhất 1 đến 6 tùy thuộc vào độ phức tạp. Đối với Pilgrim Knight, hãy nhắm tới cấp độ Thông Thạo tầm trung để đảm bảo an toàn.
+  </Card>
+  <Card title="Trang Bị Môi Trường">
+    Khu vực Depths và Forgotten Groves có tầm nhìn rất thấp. Việc điều chỉnh độ sáng trong trò chơi hoặc sử dụng các vật phẩm phát sáng cụ thể có thể giúp việc tìm kiếm Dast và Mirror trở nên dễ dàng hơn nhiều.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Chiến Thuật Chuẩn Bị">
+Luôn giữ ít nhất hai Trái Rokakaka trong túi đồ của bạn. Các chuỗi nhiệm vụ trong Sakura Stand thường xuyên yêu cầu bạn chuyển đổi giữa các trạng thái chiến đấu khác nhau để kích hoạt các sự kiện cụ thể.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chiến Đấu và Kỹ Năng của Pilgrim Knight">
+
+Khi bạn đã hoàn thành xuất sắc nhiệm vụ và nhận được hệ **sakura stand pilgrim knight**, đã đến lúc làm chủ bộ kỹ năng của nó. Hệ này được phân loại là lớp "Hiệp Sĩ" (Knight), nghĩa là nó thiên về các cuộc giao tranh từ cự ly gần đến trung bình với sự chú trọng lớn vào việc đỡ đòn (parry) và phản công.
+
+Các kỹ năng liên quan đến hệ này mang lại lợi thế chiến thuật độc đáo trong cả kịch bản PvP và PvE scenarios. Không giống như các hệ dồn sát thương nhanh (high-burst) như Sukuna hay Gojo, Pilgrim Knight tập trung vào việc bào mòn đối thủ trong khi duy trì tư thế phòng thủ vượt trội.
+
+| Loại Kỹ Năng | Mô tả | Trường hợp Sử dụng Tốt nhất |
+| :--- | :--- | :--- |
+| **M1 Cơ Bản** | Chuỗi cận chiến bằng kiếm | Sát thương cơ bản và chuỗi combo bổ trợ |
+| **Tư Thế Phòng Thủ** | Giảm sát thương nhận vào / Đỡ đòn | Khắc chế các chiêu cuối dồn sát thương cao |
+| **Đâm Lướt (Dashing Thrust)** | Thu hẹp khoảng cách với sát thương đâm xuyên | Bắt đầu giao tranh hoặc truy đuổi kẻ địch bỏ chạy |
+| **Thức Tỉnh Diện Rộng** | Làm choáng / Đẩy lùi diện rộng | Kiểm soát đám đông trong Depths hoặc Raid |
+
+So với các hệ phổ biến khác trong phiên bản hiện tại, Pilgrim Knight mang lại một lối chơi khác biệt:
+
+| Tính năng | Pilgrim Knight | Naoya Zen'in | Sandevistan |
+| :--- | :--- | :--- | :--- |
+| **Độ Khó** | Trung bình | Cao (Kỹ thuật) | Trung bình |
+| **Trọng Tâm** | Phòng thủ / Ổn định | Tốc độ / Áp sát dồn dập | Di chuyển / Dồn sát thương |
+| **Cách Sở Hữu** | Nhiệm vụ nhiều NPC | Raid / Tiến trình | Hộp Vật Phẩm / Nhiệm vụ |
+| **Xếp Hạng Meta** | Hạng A (Đáng tin cậy) | Hạng S (PvP) | Hạng S (Tốc độ) |
+
+<Callout type="info" title="Sự Phối Hợp Kỹ Năng">
+Tư thế phòng thủ của Pilgrim Knight có thể được tiếp nối ngay lập tức bằng một cú Đâm Lướt. Điều này cho phép bạn biến sự hung hãn của đối thủ thành một đòn phản công gây sát thương lớn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mục Tiêu Tiến Trình và Danh Sách Cần Làm">
+
+Để đảm bảo bạn đã hoàn toàn làm chủ **sakura stand pilgrim knight** và các nội dung xung quanh, hãy làm theo danh sách kiểm tra hoàn thành này. Điều này sẽ giúp bạn theo dõi tiến trình của mình từ cuộc gặp gỡ ban đầu với Syante cho đến việc làm chủ cuối cùng các cơ chế chiến đấu của hệ này.
+
+<Checklist
+  id="pilgrim-knight-goals"
+  title="Các Cột Mốc Hoàn Thành Pilgrim Knight:"
+  items={[
+    "Nói chuyện với Syante ở Hall of Heroes khi đang ở trạng thái Standless",
+    "Đến Forgotten Groves và hoàn thành cuộc đối thoại của Hika",
+    "Tìm kiếm thành công Dast tại điểm kiểm tra Lighthouse",
+    "Tương tác với Mirror để mở khóa hệ Pilgrim Knight",
+    "Đạt cấp độ tối đa với bộ kỹ năng Pilgrim Knight",
+    "Đỡ đòn (parry) thành công 50 đòn tấn công trong PvP bằng Tư Thế Phòng Thủ"
+  ]}
+/>
+
+<Callout type="tip" title="Mẹo Hiệu Quả">
+Nếu bạn đang gặp khó khăn trong việc tìm kiếm Lighthouse, hãy đi theo đường bờ biển từ khu vực spawn chính. Hầu hết các địa danh trong Sakura Stand đều được đặt dọc theo các cạnh ngoài của bản đồ hoặc gần các trung tâm lớn như Hall of Heroes.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Các Câu Hỏi Thường Gặp">
+
+Nhiệm vụ **sakura stand pilgrim knight** có thể gây bối rối cho cả người chơi mới và người chơi cũ quay trở lại. Dưới đây là các câu hỏi phổ biến nhất liên quan đến tuyến đường và bản thân hệ này.
+
+<FAQ items={[
+  {
+    question: "Tôi có cần một Stand cụ thể để nói chuyện với Syante không?",
+    answer: "Không, trên thực tế, hầu hết người chơi đều thấy rằng trạng thái Standless là yêu cầu bắt buộc đối với nhiều chuỗi nhiệm vụ NPC trong Sakura Stand. Hãy sử dụng một Trái Rokakaka để đặt lại nếu NPC từ chối nói chuyện với bạn."
+  },
+  {
+    question: "Pilgrim Knight có tốt hơn hệ Naoya Zen'in không?",
+    answer: "Điều đó tùy thuộc vào lối chơi của bạn. Naoya được xây dựng cho lối chơi áp sát kỹ thuật tốc độ cao, trong khi Pilgrim Knight được xây dựng cho sự ổn định trong phòng thủ và chiến đấu bền bỉ. Cả hai đều rất mạnh trong meta 2026."
+  },
+  {
+    question: "Điều gì xảy ra nếu tôi bị lạc trong Depths?",
+    answer: "Depths có thể là một mê cung. Nếu bạn bị lạc, hãy tìm các dấu mốc phát sáng gần lối vào hoặc sử dụng khoảng cách gần của Mirror làm hướng dẫn. Đặt lại nhân vật sẽ đưa bạn trở lại điểm spawn, nhưng bạn có thể mất tiến trình nhiệm vụ nếu chưa chạm tới điểm kiểm tra."
+  },
+  {
+    question: "Tôi có thể giao dịch hệ Pilgrim Knight cho người chơi khác không?",
+    answer: "Các hệ tiêu chuẩn thường gắn liền với tiến trình nhân vật của bạn và không thể giao dịch như trang phục (skin). Bạn phải tự mình hoàn thành chuỗi nhiệm vụ để nhận phần thưởng."
+  }
+]} />
+
+<Callout type="info" title="Lời Khuyên Cuối Cùng">
+Thế giới Sakura Stand không ngừng phát triển. Luôn kiểm tra Trello hoặc Discord chính thức để biết các ghi chú vá lỗi mới nhất, vì vị trí NPC hoặc yêu cầu nhiệm vụ cho Pilgrim Knight có thể thay đổi một chút trong các bản cập nhật lớn như khi phát hành Naoya và Choso.
+</Callout>
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sakura Stand Naoya: Guia de Spec de 2026 e Passo a Passo da Raid Zen'in",
+  description: "Domine a Spec Naoya do Sakura Stand com o nosso guia de 2026. Aprenda a rota de progressão Zen'in, mecânicas de raid e estratégias técnicas de rushdown.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/334860/fff?text=Naoya+Zen'in+Guide",
+  date: "2026-07-01",
+  author: "Equipe da Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Sakura Stand Naoya** é uma Spec técnica de rushdown introduzida na atualização de JJK de 2026.
+- **Obtenção** requer encontrar Naobito no Santuário Abandonado (Abandoned Shrine) e completar a rota de progressão Zen'in.
+- **Mecânica Chave** gira em torno de combos de alta velocidade e múltiplas variações de "G" para pressão técnica.
+- **Melhor Estratégia** foca em combate corpo a corpo agressivo ao mesmo tempo em que gerencia os novos sistemas de Expansão de Domínio.
+- **Melhor Opção** para jogadores que preferem combates rápidos e com alto teto de habilidade em vez de dano de explosão simples.
+</Callout>
+
+<Section icon={Sparkles} title="Sakura Stand Naoya: Visão Geral da Atualização de 2026">
+
+A introdução do **Sakura Stand Naoya** marcou uma mudança significativa no meta de combate do ciclo de atualizações de 2026. Como parte da expansão mais ampla "Naoya e Choso", esta Spec foca nos aspectos técnicos do estilo de combate do clã Zen'in. Diferente do poder bruto de Sukuna ou da utilidade defensiva de Gojo, Naoya Zen'in oferece um kit especializado de rushdown que recompensa precisão e tempo (timing).
+
+Esta atualização também trouxe uma reformulação completa nos sistemas de Expansão de Domínio e refinou como as Specs temáticas de JJK interagem com o ambiente. Os jogadores devem navegar por um caminho de progressão complexo que envolve NPCs específicos, encontros de raid e portões de maestria. A Spec Naoya é projetada especificamente para jogabilidade técnica, utilizando mecânicas de velocidade e frame-trap para subjugar oponentes tanto no PvP quanto no conteúdo PvE de alto nível.
+
+| Recurso da Atualização | Descrição | Prioridade |
+| :--- | :--- | :--- |
+| **Nova Spec** | Naoya Zen'in (Rushdown Técnico) | **Alta** |
+| **Nova Raid** | Rota da Raid do Naoya | **Alta** |
+| **Novos Itens** | Pintura da Morte (Death Painting), Resquícios Zen'in (Zen'in Remnants) | Média |
+| **Novos NPCs** | Naobito, John Zen'in | **Alta** |
+| **Reformulação de Sistema** | Mecânicas de Expansão de Domínio | Média |
+
+<Callout type="success" title="Destaque da Atualização">
+A atualização do Naoya inclui correções de bugs significativas para softlocks e bugs de interrupção, tornando as Specs técnicas muito mais confiáveis em partidas competitivas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Como Obter a Spec Naoya Zen'in">
+
+Obter o **Sakura Stand Naoya** é um processo de várias etapas que exige que os jogadores tenham cuidado com as habilidades atualmente equipadas. A rota de progressão Zen'in é estritamente restrita; se você tiver outra Spec de Jujutsu Kaisen equipada, como Sukuna ou Itadori Yuji, os NPCs não interagirão corretamente com você para este caminho específico.
+
+<Steps>
+  <Step num="1" title="Localize Naobito no Santuário Abandonado">
+    Sua jornada começa no Santuário Abandonado (Abandoned Shrine). Você deve se aproximar do NPC Naobito enquanto estiver Sem Stand (Standless) ou com uma Spec que não seja de JJK equipada. Conversar com ele inicia o diálogo do clã Zen'in, o que coloca você no caminho da hierarquia do clã.
+  </Step>
+  <Step num="2" title="Complete a Rota de Progressão Zen'in">
+    Depois de falar com Naobito, você terá a tarefa de provar seu valor. Isso envolve interagir com John Zen'in e completar uma série de testes de combate. Esses testes avaliam sua habilidade de lidar com múltiplos inimigos sem o suporte de Stands de alto nível.
+  </Step>
+  <Step num="3" title="Conquiste a Raid do Naoya">
+    A etapa final é a Raid do Naoya. Este é um encontro especializado onde você deve enfrentar a velocidade técnica do estilo Zen'in. Concluir esta raid com sucesso concede os materiais necessários para finalizar a Spec Naoya Zen'in.
+  </Step>
+  <Step num="4" title="Finalize o Despertar">
+    Assim que a raid for concluída e os requisitos forem atendidos, retorne ao santuário para desbloquear todo o potencial da Spec. Isso lhe concederá os títulos de "Chefe do Clã Zen'in" (Head of Zen'in Clan) ou "Membro do Clã Zen'in" (Zen'in Clan Member), dependendo do seu progresso.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito Crítico">
+Não equipe nenhuma Spec de JJK (como Gojo ou Sukuna) ao iniciar a linha de missões do Naobito, ou a rota de progressão não será ativada. Use uma Fruta Rokakaka se necessário para voltar ao estado Sem Stand (Standless).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Moveset do Naoya e Mecânicas Técnicas">
+
+O núcleo do **Sakura Stand Naoya** reside em sua classificação de "Rushdown Técnico". O moveset é projetado para manter os oponentes em um estado constante de hitstun (atordoamento por golpe), fornecendo ao usuário múltiplas opções de fuga e acompanhamento. Um dos aspectos mais exclusivos do Naoya é o sistema de variação "G", que permite que os movimentos alterem suas propriedades com base no tempo (timing) e nas direções inseridas.
+
+| Nome do Movimento | Tipo | Efeito / Descrição |
+| :--- | :--- | :--- |
+| **Ataque Técnico (Technical Strike)** | Corpo a Corpo | Soco de inicialização rápida que leva a combos de alta velocidade. |
+| **Velocidade Zen'in (Zen'in Speed)** | Mobilidade | Um avanço (dash) que ignora os limites padrão de velocidade de movimento. |
+| **Variação G A (G-Variation A)** | Especial | Um contra-ataque técnico que atordoa o atacante por 1,5 segundos. |
+| **Variação G B (G-Variation B)** | Especial | Um golpe de acompanhamento que escala com a contagem atual de combos. |
+| **Expansão de Domínio (Domain Expansion)** | Ultimate | Versão reformulada de 2026 com efeitos visuais aprimorados. |
+
+A Spec prospera sob pressão agressiva. Ao utilizar o avanço Velocidade Zen'in, os usuários podem fechar a distância instantaneamente, tornando difícil para Stands de longo alcance, como o Emperor, manterem distância. O ajuste de equilíbrio de 2026 também ajustou o escalonamento de dano do Naoya, garantindo que, embora os golpes individuais sejam mais leves, o potencial total de combo esteja entre os mais altos do jogo.
+
+<Callout type="info" title="Dica de Maestria">
+O desempenho do Naoya está fortemente ligado ao seu nível de Maestria. Na Maestria 1, o kit básico é desbloqueado, mas as variações G avançadas e os refinamentos de Domínio exigem níveis mais altos de Maestria para serem totalmente eficazes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Naoya vs. Outras Specs de JJK: Comparação do Meta de 2026">
+
+A escolha entre as várias Specs de JJK no Sakura Stand depende do seu estilo de jogo preferido. Embora o **Sakura Stand Naoya** seja o favorito atual para jogadores técnicos, outras opções como Sukuna ou Choso oferecem vantagens diferentes no meta de 2026.
+
+<CardGrid cols={2}>
+  <Card title="Naoya Zen'in">
+    - **Estilo**: Rushdown Técnico
+    - **Prós**: Velocidade extrema, longas cadeias de combos, contra-ataques técnicos.
+    - **Contras**: Alto teto de habilidade, menor dano por golpe individual.
+    - **Ideal para**: Especialistas em PvP e entusiastas de combos.
+  </Card>
+  <Card title="Sukuna">
+    - **Estilo**: Chefe/Explosão (Burst)
+    - **Prós**: Dano massivo em área (AoE), regeneração de vida, pressão de Domínio.
+    - **Contras**: Inicialização mais lenta, requer 15 Dedos para desbloquear.
+    - **Ideal para**: Farm de chefes e controle de grupo.
+  </Card>
+  <Card title="Choso">
+    - **Estilo**: Manipulação de Sangue/Combo
+    - **Prós**: Pressão de atordoamento, disparos de sangue à distância, ferramentas de despertar.
+    - **Contras**: Dependente de recursos (medidor de Sangue), setups complexos.
+    - **Ideal para**: Combate de médio alcance e atordoamentos táticos.
+  </Card>
+  <Card title="Toji Fushiguro">
+    - **Estilo**: Assassino/Arma
+    - **Prós**: Pressão rápida de corpo a corpo, ferramentas anti-habilidade, alto dano de explosão.
+    - **Contras**: Dependente de drops de chefes, opções defensivas limitadas.
+    - **Ideal para**: Eliminações rápidas e caça a usuários de Stand.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Conselho do Meta">
+Se você estiver tendo dificuldades com o tempo (timing) das variações G do Naoya, considere praticar com a Spec do Choso primeiro. Choso oferece uma sensação semelhante focada em combos, mas com janelas de atordoamento um pouco mais tolerantes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Farmando Resquícios Zen'in e Itens de Atualização">
+
+Para maximizar a eficiência de sua build de **Sakura Stand Naoya**, você precisará farmar itens específicos introduzidos na atualização mais recente. Esses itens não são apenas para o Naoya; eles frequentemente se sobrepõem aos requisitos do Choso e de outros conteúdos temáticos de JJK.
+
+| Nome do Item | Categoria | Fonte | Uso Primário |
+| :--- | :--- | :--- | :--- |
+| **Pintura da Morte (Death Painting)** | Item de Atualização | Rota de Resquícios Kamo | Desbloqueia a Spec Choso / Valor de Troca |
+| **Resquício Zen'in (Zen'in Remnant)** | Progressão | John Zen'in / Raid do Naoya | Necessário para o Despertar da Spec Naoya |
+| **Dedo Amaldiçoado (Cursed Finger)** | Moeda | Farm de Espíritos Amaldiçoados | Usado para Sukuna e bônus de XP de JJK |
+| **Fragmento de Hogyoku (Hogyoku Fragment)** | Material | Farm de Adjuchas / Gillian | Progressão da rota Bleach (Alto Valor) |
+
+Farmar esses itens requer uma rota consistente. O Santuário Abandonado (Abandoned Shrine) e o novo Esconderijo do Kamo (Kamo's Hideout) são os locais principais para o farm de JJK de 2026. Para os usuários do Naoya, focar no encontro de John Zen'in é a maneira mais eficiente de acumular os materiais necessários para desbloqueios de títulos de fim de jogo e refinamentos de Spec.
+
+<Checklist
+  id="naoya-farming-goals"
+  title="Checklist de Progressão do Naoya de 2026:"
+  items={[
+    "Alcançar o Nível de Maestria 1 (mínimo) como Sem Stand (Standless)",
+    "Coletar 5 Resquícios Zen'in da Raid do Naoya",
+    "Obter o título 'Zen'in Clan Member' (Membro do Clã Zen'in)",
+    "Desbloquear todos os três conjuntos de movimentos de Variação G",
+    "Testar sequências de combos na arena de treino"
+  ]}
+/>
+
+<Callout type="info" title="Dica de Farm Pro">
+Usuários do Roblox Premium recebem um bônus de ganho de XP de 1,15x, o que acelera significativamente o farm de Maestria necessário para as técnicas avançadas do Naoya.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes do Sakura Stand Naoya">
+
+<FAQ items={[
+  {
+    question: "Posso obter o Naoya se já tiver o Sukuna equipado?",
+    answer: "Não. Você não deve ter uma Spec de JJK equipada ao iniciar a linha de missões do Naobito. Use uma Fruta Rokakaka para resetar para Sem Stand (Standless) primeiro."
+  },
+  {
+    question: "O que diferencia o Naoya da Spec do Toji?",
+    answer: "Embora ambos sejam rápidos, Naoya é uma Spec técnica de rushdown focada em velocidade e combos de variação G, enquanto Toji é uma Spec de assassino construída em torno de drops de armas e ferramentas anti-Stand."
+  },
+  {
+    question: "Onde fica o Santuário Abandonado (Abandoned Shrine) no mapa de 2026?",
+    answer: "O Santuário Abandonado fica localizado perto da borda da floresta, próximo às novas zonas de atualização de JJK. Procure pelo NPC Naobito em pé perto da entrada."
+  },
+  {
+    question: "O Sakura Stand Naoya é bom para enfrentar chefes no PvE?",
+    answer: "Naoya é excelente para enfrentar chefes de alvo único devido ao seu alto hitstun e potencial de combo, embora possa ter dificuldades em situações de área (AoE) em comparação com o Sukuna."
+  }
+]} />
+
+<Callout type="tip" title="Veredito Final">
+A Spec do Naoya é um investimento recompensador para os jogadores dispostos a aprender seu tempo (timing) intrincado. Fique atualizado por meio do Trello e Discord oficiais do Sakura Stand para quaisquer mudanças de equilíbrio no meio da temporada.
+</Callout>
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand cómo tradear: Guía paso a paso y valores",
+  description: "Domina el sistema de tradeo basado en comandos en Sakura Stand. Aprende los requisitos de maestría, el proceso de tradeo paso a paso y los valores de los objetos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1c1024/fff?text=How+to+Trade",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica principal**: Aprende **cómo tradear en Sakura Stand** usando comandos de chat en lugar de los menús tradicionales de la interfaz de usuario.
+- **Nivel requerido**: Los jugadores deben alcanzar la **Maestría 1** (llegando al nivel 50 y restableciendo) para desbloquear el tradeo básico.
+- **Formato del comando**: Escribe **!trade [Nombre de usuario de Roblox]** en el chat global para iniciar una transacción.
+- **Restricciones de tradeo**: Las especificaciones de alto nivel como Cid Kagenou (Shadow) requieren **Maestría 12** para ambos jugadores.
+- **Sistema de rareza**: Los objetos se valoran en una **escala del 1 al 5** según su rareza y eficacia en combate.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el sistema de tradeo de Sakura Stand">
+
+Sakura Stand cuenta con una economía de tradeo muy activa, pero su ejecución es muy diferente a la de la mayoría de las experiencias de Roblox. En lugar de hacer clic en un jugador o acceder a un menú de centro de tradeo dedicado con un solo botón, debes utilizar comandos de chat específicos para iniciar, aceptar y finalizar transacciones. Esta decisión de diseño evita tradeos accidentales, pero puede resultar confusa para los jugadores nuevos que no están familiarizados con las mecánicas de la línea de comandos.
+
+El sistema de tradeo está diseñado para facilitar intercambios equitativos de Stands, Specs (especificaciones), skins y objetos raros de progresión. Comprender la estructura subyacente, los tiempos de espera y las opciones de la interfaz es esencial para evitar perder objetos de gran valor en tratos injustos.
+
+| Métrica | Detalles |
+| :--- | :--- |
+| Comando principal | !trade [Nombre de usuario de Roblox] |
+| Comando de confirmación | !confirm (usado si el botón de la interfaz falla) |
+| Comando de rechazo | !decline o rechazar a través de la interfaz |
+| Maestría mínima | Maestría 1 (requiere alcanzar el nivel 50) |
+| Enfriamiento del sistema | 1 minuto entre intentos de transacción |
+| Ventana de cancelación | 10 segundos para rechazar después de aceptar |
+
+<Callout type="tip" title="Consejo profesional">
+Planifica siempre tus transacciones con antelación. Debido a que el sistema impone un estricto enfriamiento de un minuto entre los intentos de tradeo, cualquier error tipográfico menor o cancelación de último minuto te obligará a esperar antes de volver a intentarlo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo tradear en Sakura Stand: Paso a paso">
+
+Realizar un tradeo con éxito requiere precisión, ya que el sistema depende en gran medida de escribir los detalles correctos en el menú del chat global. Si cometes un error con el nombre de un jugador, el comando no se ejecutará. Sigue este proceso estructurado para iniciar y completar tus tradeos de forma segura.
+
+<Steps>
+  <Step num="1" title="Encuentra un socio de tradeo">
+    Busca a un jugador con quien comerciar, ya sea en tu servidor actual o a través de los canales de tradeo en la comunidad oficial de Discord de Sakura Stand. Acuerden los objetos y valores antes de iniciar la secuencia de comandos.
+  </Step>
+  <Step num="2" title="Obtén el nombre de usuario de Roblox">
+    Pasa el cursor sobre el personaje del jugador en el juego o consulta la lista de jugadores en la esquina superior derecha de la pantalla. Debes usar su **nombre de usuario de Roblox** exacto, no su nombre de pantalla personalizado ni su etiqueta de juego.
+  </Step>
+  <Step num="3" title="Introduce el comando de tradeo">
+    Abre la ventana del chat global y escribe `!trade [Usuario]` (reemplazando [Usuario] por el nombre de usuario de Roblox real de tu socio). Por ejemplo, si vas a comerciar con un jugador llamado John, escribe `!trade John`.
+  </Step>
+  <Step num="4" title="Haz que tu socio corresponda">
+    El otro jugador debe escribir exactamente el mismo comando dirigido a ti, haciendo referencia a tu nombre de usuario de Roblox (por ejemplo, `!trade TuUsuario`). Una vez que el servidor registre ambos comandos, la ventana de la interfaz de tradeo se abrirá automáticamente en ambas pantallas.
+  </Step>
+  <Step num="5" title="Añade objetos y confirma">
+    Arrastra o haz clic en tus objetos para colocarlos en las ranuras de tradeo. Compara la oferta del otro jugador con los valores de la comunidad. Haz clic en el botón verde "Aceptar". Si el botón de la interfaz no se registra debido a un error común de visualización en dispositivos móviles, escribe `!confirm` directamente en el chat para saltártelo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia crítica">
+Los estafadores suelen utilizar nombres de pantalla que parecen casi idénticos a los de los comerciantes de alto valor, mientras usan nombres de usuario de Roblox completamente diferentes. Verifica siempre el nombre de usuario en la ventana de tradeo antes de hacer clic en confirmar.
+</Callout>
+
+Para asegurarte de que tus sesiones de comercio transcurran sin problemas y sin perder los objetos que tanto te ha costado conseguir, mantén activa esta lista de verificación de seguridad en cada transacción:
+
+<Checklist
+  id="trading-safety"
+  title="Lista de verificación para un tradeo seguro:"
+  items={[
+    "Verifica que el nombre de usuario de Roblox coincida exactamente con la lista de jugadores",
+    "Confirma que ambos jugadores cumplan con los requisitos mínimos de maestría",
+    "Consulta la lista de valores de la comunidad antes de hacer clic en aceptar",
+    "Prepara el comando !confirm en el chat si los botones de la interfaz se congelan",
+    "Utiliza la ventana de rechazo de 10 segundos si notas algún cambio"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos de tradeo y restricciones de maestría">
+
+Para proteger la economía del juego contra los bots, la explotación y el abuso de transferencia directa a través de cuentas alternativas, los desarrolladores han implementado estrictas barreras de progresión en el sistema de tradeo. No puedes simplemente crear una nueva cuenta de Roblox y comerciar inmediatamente objetos raros a tu perfil principal.
+
+El requisito básico para comerciar cualquier objeto o moneda es la **Maestría 1**. Para obtener Maestría, debes alcanzar el nivel máximo de 50, luego abrir el menú de configuración y seleccionar "Upgrade Mastery" (Mejorar Maestría). Esto restablece el nivel de tu personaje a 1, pero aumenta tu nivel de Maestría permanente en 1.
+
+Además, ciertas Specs y Stands del juego final conllevan requisitos de Maestría mucho más altos para evitar que las cuentas de nivel bajo posean habilidades extremadamente poderosas. Tanto el emisor como el receptor deben cumplir con estos umbrales de Maestría específicos para completar el intercambio.
+
+| Nombre de Spec / Stand | Maestría requerida para tradear | Clase de nivel de tradeo |
+| :--- | :--- | :--- |
+| Cid Kagenou (Shadow) | Maestría 12 | Spec de nivel alto |
+| Sakuya | Maestría 12 | Spec de nivel alto |
+| Binah (The Arbiter) | Maestría 1 | Ancla de alto valor |
+| Sandevistan | Maestría 1 | Spec de nivel medio |
+| Ryomen Sukuna | Maestría 1 | Spec de nivel bajo |
+
+<Callout type="info" title="Retención de maestría">
+Si realizas un "Breakthrough" (que restablece tu nivel y puntos de maestría una vez que acumulas 15 maestrías), tus privilegios de tradeo desbloqueados y los objetos de tu inventario permanecerán completamente intactos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sakura Stand Trading Value List">
+
+El comercio en Sakura Stand está dominado por un sistema de valores por puntos impulsado por la comunidad que va de **0.5 a 5.0**. El valor de un objeto se determina por su fuerza de combate general, la rareza visual de la skin, las tasas de aparición de los banners y los límites de circulación actuales.
+
+Al negociar acuerdos, los jugadores buscan intercambios equivalentes basados en estos valores numéricos. Por ejemplo, un objeto con un valor establecido de 4 generalmente equivale a dos objetos valorados en 2 cada uno. Sin embargo, los objetos limitados de alta demanda a menudo exigen un costo adicional, lo que obliga a los compradores a pagar de más para conseguirlos.
+
+### Valores de tradeo de nivel alto (Valor 4.0 – 5.0)
+Estos son cosméticos de élite de edición limitada y objetos raros de banners que alcanzan los precios más altos de la economía.
+
+| Nombre del objeto / skin | Valor de tradeo | Clasificación de rareza |
+| :--- | :--- | :--- |
+| Summer Time: Valentine | 5.0 | Limitado de nivel Dios |
+| Eternal Wing: Unleashed | 5.0 | Limitado de nivel Dios |
+| Singularity Essence (Binah) | 4.5 | Banner de nivel alto |
+| Vessel of Life | 4.0 | Combate de nivel alto |
+| Cross | 4.0 | Combate de nivel alto |
+
+### Valores de tradeo de nivel medio a bajo (Valor 1.0 – 3.5)
+Estos objetos representan especificaciones de combate sólidas y skins moderadamente raras que son muy accesibles para los jugadores en progresión.
+
+| Nombre del objeto / skin | Valor de tradeo | Clasificación de rareza |
+| :--- | :--- | :--- |
+| Anubis: Sibuna | 3.5 | Skin de nivel medio |
+| White Snake: Marshmallow | 3.5 | Skin de nivel medio |
+| Sandevistan: Cyberskeleton | 3.0 | Spec de nivel medio |
+| Cid Kagenou (Shadow) | 3.0 | Spec de nivel medio |
+| Ryomen Sukuna | 2.5 | Spec de nivel bajo |
+| Dio's Bone | 1.0 | Objeto de nivel muy bajo |
+
+<CardGrid cols={3}>
+  <Card title="Summer Time: Valentine">
+    - **Valor**: 5.0
+    - **Demanda**: Extremadamente alta
+    - **Nota**: Requiere pagos excesivos considerables debido al suministro agotado en los servidores.
+  </Card>
+  <Card title="Singularity Essence">
+    - **Valor**: 4.5
+    - **Demanda**: Alta
+    - **Nota**: Se utiliza para obtener la increíblemente poderosa especificación Binah (Arbiter).
+  </Card>
+  <Card title="Cid Kagenou (Shadow)">
+    - **Valor**: 3.0
+    - **Demanda**: Moderada
+    - **Nota**: Requiere que ambos jugadores tengan Maestría 12 para finalizar el tradeo.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Estabilidad del mercado">
+Verifica siempre los últimos valores de tradeo en el servidor oficial de Discord antes de finalizar un trato. Los valores fluctúan rápidamente tras los parches de equilibrio del juego y las actualizaciones de contenido importantes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trading Frequently Asked Questions">
+
+Para ayudar a aclarar los matices del sistema de tradeo, revisa estas preguntas comunes recopiladas de la comunidad de jugadores.
+
+<FAQ items={[
+  {
+    question: "¿Por qué no funciona el comando de tradeo cuando lo escribo?",
+    answer: "Asegúrate de estar usando el nombre de usuario de Roblox exacto del otro jugador y no su nombre de pantalla. Ambos jugadores también deben escribir el comando dirigiéndose el uno al otro en el mismo servidor para abrir la ventana de tradeo."
+  },
+  {
+    question: "¿Cuál es el nivel mínimo requerido para empezar a tradear?",
+    answer: "Debes alcanzar la Maestría 1 para tradear. Esto requiere subir el nivel de tu personaje a 50 y luego seleccionar la opción 'Upgrade Mastery' en tu menú de configuración para restablecer tu nivel."
+  },
+  {
+    question: "¿Puedo tradear especificaciones de alto nivel como Cid Kagenou si mi maestría es demasiado baja?",
+    answer: "No. Ciertas especificaciones de alto nivel tienen restricciones especializadas. Por ejemplo, Cid Kagenou y Sakuya requiren que ambos jugadores posean Maestría 12 o superior para completar con éxito el tradeo."
+  },
+  {
+    question: "¿Qué debo hacer si el botón de confirmación tiene un error y no hace clic?",
+    answer: "Este es un problema común de la interfaz, especialmente en dispositivos móviles. Puedes omitir el botón defectuoso de la interfaz escribiendo '!confirm' directamente en el chat del juego para completar la transacción."
+  }
+]} />
+
+<Callout type="tip" title="Consejo final">
+Comercia siempre en servidores públicos altamente poblados o coordina a través de canales comunitarios de confianza para garantizar precios justos y minimizar el riesgo de tratar con malos actores.
+</Callout>
+
+</Section>

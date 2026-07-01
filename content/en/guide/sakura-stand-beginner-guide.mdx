@@ -1,0 +1,145 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Beginner Guide: Essential Tips for 2026 Progress",
+  description: "Master Sakura Stand with this beginner guide covering core mechanics, Stand and Spec routes, farming tips, and essential progression strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/f0529c/fff?text=Sakura+Stand+Beginner+Guide",
+  date: "2026-07-01",
+  author: "sakura stand Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Sakura Stand beginner guide** focuses on mastering the core fighting and farming loop effectively.
+- **Understand the difference** between Stands and Specs early to optimize your combat build.
+- **Use codes strategically** to boost your EXP and currency for faster initial progression.
+- **Prioritize reliable farming** over chasing high-end bosses until you have a solid moveset.
+- **Check official Trello** regularly for the latest ability mechanics and obtain methods.
+</Callout>
+
+<Section icon={Map} title="Getting Started in Sakura Stand">
+
+Starting your journey in Sakura Stand requires understanding the basic gameplay loop: fighting, farming resources, and refining your character's ability path. Whether you are a fan of JoJo's Bizarre Adventure or looking for a fast-paced anime fighting experience, focusing on the right goals early will save you significant time.
+
+**Video Highlights:**
+- Essential early-game farming routes for beginners.
+- How to efficiently reroll abilities using Rokakaka.
+- Tips for managing your first Stand or Spec progression.
+
+<YouTubeEmbed videoId="41f715875223" title="Going From Noob To Sukuna In Roblox Sakura Stand" />
+
+<Callout type="tip" title="Pro Tip">
+Always check the official [Sakura Stand Trello](https://trello.com/b/YEDWCrGW/official-sakura-stand-🌸) before committing to a long questline. It contains the most accurate move lists and obtain requirements to ensure you don't waste hours on an outdated path.
+</Callout>
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| Combat Style | Select either Stands or Specs | Core |
+| Mobile Support | Fully compatible with touch controls | High |
+| Premium Bonus | 1.15x XP gain for Premium users | Moderate |
+| Farming Loop | Defeat NPCs to earn XP and items | Critical |
+
+</Section>
+
+<Section icon={Target} title="Core Progression Steps">
+
+Progression in this experience is not just about raw power; it is about choosing a path that matches your current skill level and resource availability. Follow these steps to build a consistent character.
+
+<Steps>
+  <Step num="1" title="Initial Assessment">
+    Launch the game and prioritize learning the basic controls. Avoid jumping into complex boss fights immediately; spend time mastering your first Stand's moveset on weaker NPCs.
+  </Step>
+  <Step num="2" title="Ability Selection">
+    Decide between a Stand (Arrow-based) or a Spec (Manual/Quest-based). Stands are generally faster to acquire for beginners, while Specs offer deeper, quest-heavy gameplay.
+  </Step>
+  <Step num="3" title="Resource Farming">
+    Collect Tokens and Cash by participating in events and fighting enemies. Use these resources to purchase items from the shop that facilitate your chosen ability route.
+  </Step>
+  <Step num="4" title="Questing and Bosses">
+    Once your Mastery level is sufficient, tackle specific NPC questlines. Use the official Discord to track current event objectives and limited-time rewards.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Warning">
+The game includes full-bright flashing lights and intense visual effects. If you are sensitive to such stimuli, adjust your graphics settings immediately to ensure a safe and comfortable experience.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Stands vs. Specs: What to Choose?">
+
+Choosing between Stands and Specs defines your combat identity. Stands usually rely on RNG-based Arrow pulls, while Specs often involve deliberate, multi-step quest chains.
+
+<CardGrid cols={2}>
+  <Card title="Stands (Arrow Path)">
+    - **Fast acquisition**
+    - Classic JoJo-inspired mechanics
+    - Perfect for early-game grinding
+    - Evolve through specific items
+  </Card>
+  <Card title="Specs (Quest Path)">
+    - **In-depth skill sets**
+    - Requires mastery and quest completion
+    - High-reward anime-themed abilities
+    - Better for specialized PvP roles
+  </Card>
+</CardGrid>
+
+| Ability Type | Primary Source | Best For |
+| :--- | :--- | :--- |
+| Stand | Stand Arrow | Beginners & collectors |
+| Spec | Manuals/NPC Quests | PvP & boss farming |
+| Evolution | Boss Drops/Items | End-game progression |
+
+</Section>
+
+<Section icon={Shield} title="Farming and Resource Management">
+
+Efficient farming is the backbone of your success. You need to balance your time between gathering items and progressing through levels.
+
+<Checklist
+  id="farming-goals"
+  title="Beginner Farming Goals:"
+  items={[
+    "Accumulate 5+ Stand Arrows for rerolling",
+    "Identify a reliable NPC spawn for XP farming",
+    "Reach Mastery 1 to unlock basic quest chains",
+    "Save Rokakaka for resetting undesirable abilities"
+  ]}
+/>
+
+<Callout type="success" title="Strategy">
+Focus on farming items that have high trade value early on. Even if you don't use them, these items can be leveraged in the trading community to secure better gear or progression materials later.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I redeem codes in Sakura Stand?",
+    answer: "Open the menu (M key), navigate to the Settings tab, enter your active code into the box, and press Enter to claim your rewards."
+  },
+  {
+    question: "What is the best way to get a new Stand?",
+    answer: "The most common method is using a Stand Arrow while in the Standless state. For specific evolved Stands, you must follow the questlines outlined in the official Trello."
+  },
+  {
+    question: "Is Sakura Stand beginner-friendly?",
+    answer: "Yes, the early game is designed to be accessible. By following the Sakura Stand beginner guide and utilizing official resources, you can progress smoothly without feeling overwhelmed."
+  },
+  {
+    question: "Where can I find update information?",
+    answer: "Always check the official Discord server and the Trello board for the latest patch notes, sneak peeks, and balance changes."
+  }
+]} />
+
+</Section>

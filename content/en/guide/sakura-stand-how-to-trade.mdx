@@ -1,0 +1,191 @@
+import { Map, Target, Shield, Trophy, Swords, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand how to trade: Step-by-Step Guide & Values",
+  description: "Master the command-based trading system in Sakura Stand. Learn the mastery requirements, step-by-step trading process, and item values.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1c1024/fff?text=How+to+Trade",
+  date: "2026-07-01",
+  author: "sakura stand Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary mechanic**: Learn **sakura stand how to trade** using chat commands rather than traditional GUI menus.
+- **Required level**: Players must reach **Mastery 1** (by hitting level 50 and resetting) to unlock basic trading.
+- **Command format**: Type **!trade [Roblox Username]** in the global chat to initiate a transaction.
+- **Trading restrictions**: High-tier specs like Cid Kagenou (Shadow) require **Mastery 12** for both players.
+- **Rarity system**: Items are valued on a **1 to 5 scale** based on rarity and combat effectiveness.
+</Callout>
+
+<Section icon={Map} title="Understanding the Sakura Stand Trading System">
+
+Sakura Stand features a highly active trading economy, but its execution is vastly different from most Roblox experiences. Instead of clicking on a player or accessing a dedicated trading hub menu with a single button, you must utilize specific chat commands to initiate, accept, and finalize transactions. This design choice prevents accidental trades but can be confusing for new players who are unfamiliar with command-line mechanics.
+
+The trading system is built to facilitate equal exchanges of Stands, Specs, skins, and rare progression items. Understanding the underlying structure, cooldowns, and interface options is essential to prevent losing high-value items to unfair deals.
+
+| Metric | Details |
+| :--- | :--- |
+| Core Command | !trade [Roblox Username] |
+| Confirm Command | !confirm (used if UI button bugs out) |
+| Decline Command | !decline or decline via UI |
+| Minimum Mastery | Mastery 1 (requires reaching Level 50) |
+| System Cooldown | 1 minute between transaction attempts |
+| Cancel Window | 10 seconds to decline after accepting |
+
+<Callout type="tip" title="Pro Tip">
+Always plan your transactions ahead of time. Because the system enforces a strict one-minute cooldown between trade attempts, minor typos or last-minute cancellations will force you to wait before trying again.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Trade in Sakura Stand: Step-by-Step">
+
+Executing a trade successfully requires precision, as the system relies heavily on typing the correct details in the global chat menu. If you make a mistake with a player's name, the command will fail to execute. Follow this structured process to initiate and complete your trades safely.
+
+<Steps>
+  <Step num="1" title="Find a Trade Partner">
+    Locate a player to trade with either in your current live server or through the trading channels in the official Sakura Stand Discord community. Agree on the items and values before initiating the command sequence.
+  </Step>
+  <Step num="2" title="Retrieve the Roblox Username">
+    Hover over the player's in-game character or check the player list in the top-right corner of your screen. You must use their exact **Roblox Username**, not their customized display name or gaming tag.
+  </Step>
+  <Step num="3" title="Enter the Trade Command">
+    Open the global chat window and type `!trade [Username]` (replacing [Username] with your partner's actual Roblox username). For example, if trading with a player named John, type `!trade John`.
+  </Step>
+  <Step num="4" title="Have your Partner Reciprocate">
+    The other player must type the exact same command back to you, referencing your Roblox username (e.g., `!trade YourUsername`). Once both commands are registered by the server, the trading GUI window will automatically pop open on both screens.
+  </Step>
+  <Step num="5" title="Add Items and Confirm">
+    Drag or click your items to place them into the trade slots. Double-check the other player's offer against community values. Click the green "Accept" button. If the UI button fails to register due to a common mobile display bug, type `!confirm` directly in the chat to bypass it.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Warning">
+Scammers often use display names that look nearly identical to high-value traders while using completely different Roblox usernames. Always double-check the username in the trade window before clicking confirm.
+</Callout>
+
+To ensure your trading sessions go smoothly without losing hard-earned items, keep this quick safety checklist active during every transaction:
+
+<Checklist
+  id="trading-safety"
+  title="Safe Trading Checklist:"
+  items={[
+    "Verify the Roblox username matches the player list exactly",
+    "Confirm both players meet the minimum mastery requirements",
+    "Consult the community value list before clicking accept",
+    "Prepare the !confirm command in chat if the UI buttons freeze",
+    "Utilize the 10-second decline window if you notice any changes"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Trading Requirements & Mastery Restrictions">
+
+To protect the game's economy from botting, exploitation, and direct transfer abuse via alternative accounts, developers have implemented strict progression gates on the trading system. You cannot simply create a new Roblox account and immediately trade rare items to your main profile.
+
+The baseline requirement to trade any item or currency is **Mastery 1**. To earn Mastery, you must reach the maximum level cap of 50, then open your settings menu and select "Upgrade Mastery". This resets your character's level back to 1 but increases your permanent Mastery level by 1. 
+
+Furthermore, specific endgame Specs and Stands carry much higher Mastery requirements to prevent low-level accounts from holding overpowered abilities. Both the sender and the receiver must meet these specific Mastery thresholds to complete the exchange.
+
+| Spec / Stand Name | Required Mastery to Trade | Trading Tier Class |
+| :--- | :--- | :--- |
+| Cid Kagenou (Shadow) | Mastery 12 | High-Tier Spec |
+| Sakuya | Mastery 12 | High-Tier Spec |
+| Binah (The Arbiter) | Mastery 1 | High-Value Anchor |
+| Sandevistan | Mastery 1 | Mid-Tier Spec |
+| Ryomen Sukuna | Mastery 1 | Low-Tier Spec |
+
+<Callout type="info" title="Mastery Retention">
+If you perform a "Breakthrough" (which resets your level and mastery points once you accumulate 15 masteries), your unlocked trading privileges and inventory items remain completely intact.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sakura Stand Trading Value List">
+
+Trading in Sakura Stand is dominated by a community-driven point value system ranging from **0.5 to 5.0**. An item's value is determined by its overall combat strength, visual skin rarity, banner drop rates, and current circulation limits. 
+
+When negotiating deals, players aim for equal exchanges based on these numerical values. For example, an item with a set value of 4 is generally worth two items valued at 2 each. However, high-demand limited items often command a premium, forcing buyers to overpay to secure them.
+
+### High-Tier Trade Values (Value 4.0 – 5.0)
+These are elite, limited-edition cosmetics and rare banner items that command the highest prices in the economy.
+
+| Item / Skin Name | Trade Value | Rarity Classification |
+| :--- | :--- | :--- |
+| Summer Time: Valentine | 5.0 | God-Tier Limited |
+| Eternal Wing: Unleashed | 5.0 | God-Tier Limited |
+| Singularity Essence (Binah) | 4.5 | High-Tier Banner |
+| Vessel of Life | 4.0 | High-Tier Combat |
+| Cross | 4.0 | High-Tier Combat |
+
+### Mid-to-Low Tier Trade Values (Value 1.0 – 3.5)
+These items represent solid combat specs and moderately rare skins that are highly accessible to progressing players.
+
+| Item / Skin Name | Trade Value | Rarity Classification |
+| :--- | :--- | :--- |
+| Anubis: Sibuna | 3.5 | Mid-Tier Skin |
+| White Snake: Marshmallow | 3.5 | Mid-Tier Skin |
+| Sandevistan: Cyberskeleton | 3.0 | Mid-Tier Spec |
+| Cid Kagenou (Shadow) | 3.0 | Mid-Tier Spec |
+| Ryomen Sukuna | 2.5 | Low-Tier Spec |
+| Dio's Bone | 1.0 | Very Low-Tier Item |
+
+<CardGrid cols={3}>
+  <Card title="Summer Time: Valentine">
+    - **Value**: 5.0
+    - **Demand**: Extremely High
+    - **Note**: Requires substantial overpays due to depleted server supply.
+  </Card>
+  <Card title="Singularity Essence">
+    - **Value**: 4.5
+    - **Demand**: High
+    - **Note**: Used to obtain the incredibly powerful Binah (Arbiter) spec.
+  </Card>
+  <Card title="Cid Kagenou (Shadow)">
+    - **Value**: 3.0
+    - **Demand**: Moderate
+    - **Note**: Requires both players to be Mastery 12 to finalize the trade.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Market Stability">
+Always verify the latest trading values on the official Discord server before finalizing a trade. Values fluctuate rapidly following major game balance patches and content updates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trading Frequently Asked Questions">
+
+To help clarify the nuances of the trading system, review these common questions compiled from the player community.
+
+<FAQ items={[
+  {
+    question: "Why is the trade command not working when I type it?",
+    answer: "Ensure you are using the other player's exact Roblox username and not their display name. Both players must also type the command targeting each other in the same server to open the trade window."
+  },
+  {
+    question: "What is the minimum level required to start trading?",
+    answer: "You must reach Mastery 1 to trade. This requires leveling your character to 50, then selecting the 'Upgrade Mastery' option in your settings menu to reset your level."
+  },
+  {
+    question: "Can I trade high-tier specs like Cid Kagenou if my mastery is too low?",
+    answer: "No. Certain high-tier specs have specialized restrictions. For example, Cid Kagenou and Sakuya require both players to possess Mastery 12 or higher to successfully complete the trade."
+  },
+  {
+    question: "What should I do if the confirm button is bugged and won't click?",
+    answer: "This is a common interface issue, especially on mobile devices. You can bypass the broken UI button by typing '!confirm' directly into the game chat to complete the transaction."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Always trade within public, highly populated servers or coordinate through trusted community channels to ensure fair pricing and minimize the risk of dealing with bad actors.
+</Callout>
+
+</Section>

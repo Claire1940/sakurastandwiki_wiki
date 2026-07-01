@@ -1,0 +1,215 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand lei heng: Guía de Obtención y Exhibición de Movimientos",
+  description: "Aprende cómo obtener la spec de Lei Heng en Sakura Stand, domina la mecánica de Tigermark Rounds y desbloquea la skin del 5th Sinner en esta guía detallada de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Lei+Heng+Spec+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de sakura stand"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Spec Principal**: La spec **sakura stand lei heng** es un estilo de combate inspirado en Project Moon añadido en la actualización Monster and Tiger.
+- **Ruta de Obtención**: Invoca a Toji en la cascada, derrótalo cuando aparezca como el jefe **The Capo**, y usa la espada que suelta en **Anubis** con un 60% de Worthiness.
+- **Mecánica Central**: Gestiona las **Tigermark Rounds** para infligir daño por quemadura y ejecutar la ráfaga de espadas definitiva.
+- **Aura Shin**: Pierde salud para acumular un buff de daño masivo de hasta **4.8x** y ganar defensa cuando estés bajo de vida.
+</Callout>
+
+<Section icon={Map} title="Cómo desbloquear la spec sakura stand lei heng">
+
+La spec **sakura stand lei heng** es uno de los estilos de combate más únicos mecánicamente y gratificantes introducidos en la actualización Monster and Tiger. Inspirada en el universo de Project Moon, esta spec requiere que los jugadores participen en un farmeo de jefe de alto riesgo, gestionen un complejo sistema de munición y dominen el arte del escalado de daño con poca salud. Para desbloquear esta poderosa spec, debes seguir una secuencia específica de combates contra jefes, obtención de objetos y requisitos de Stand.
+
+Primero, los jugadores deben viajar al área de la **Cascada** (Waterfall) en el mapa. Puedes llegar a esta ubicación rápidamente pagando dinero al NPC de viaje. Una vez en la cascada, tu objetivo principal es invocar al jefe Toji Fushiguro. Cada vez que Toji es invocado, existe una probabilidad aleatoria de que sea reemplazado por el jefe **The Capo (Lei Heng)** en su lugar.
+
+Derrotar a The Capo no es tarea fácil, ya que cuenta con múltiples fases agresivas. En su primera fase, utiliza habilidades rápidas de corte azules y púrpuras. En su segunda fase, tras una breve cinemática, sigue un patrón de ataque estricto (Rojo -> Púrpura -> Verde -> Azul). Finalmente, en su tercera fase, entra en un estado despertado y repite habilidades Rojas imposibles de chocar (unclashable) y cortes Azules rápidos. Debes esquivar sus habilidades Rojas (como Tanglecleaver) por completo, ya que no se pueden bloquear con choques.
+
+Al derrotar a The Capo, hay un **40% de probabilidad** de que suelte la **Tiantui Star Blade** (a menudo llamada la Espada del Capo). Una vez que obtengas con éxito este arma, debes equipar el Stand **Anubis**. Asegúrate de que tu personaje tenga al menos un **60% de Worthiness** antes de usar la Tiantui Star Blade en Anubis. Al hacerlo, se consumirá la espada y desbloquearás permanentemente la spec Lei Heng en tu cuenta. También hay una rara **probabilidad del 1%** de que la spec se desbloquee con su variante shiny altamente codiciada, **Lei Heng | The 5th Sinner**.
+
+| Requisito | Detalle | Tasa/Valor |
+| :--- | :--- | :--- |
+| **Stand Anubis** | Debe estar equipado para usar la espada | **Requerido** |
+| **Worthiness** | Nivel mínimo de merecimiento para evitar fallar | **60%** |
+| **Aparición del Capo** | Probabilidad de que Toji aparezca como The Capo | **Aleatorio** |
+| **Drop de la Espada** | Probabilidad de que el Capo suelte la Tiantui Star Blade | **40%** |
+| **Tasa de Shiny** | Probabilidad de obtener la variante shiny de Lei Heng | **1%** |
+
+<Callout type="warning" title="Advertencia de RNG">
+La aparición de The Capo en lugar de Toji depende enteramente del azar. Prepárate para llevar suficiente dinero para el viaje rápido y múltiples invocaciones del jefe, ya que puede tomar varios intentos asegurar tanto la aparición del jefe como el drop del 40% de la espada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas Centrales y Habilidades Pasivas">
+
+Lo que diferencia a la spec **sakura stand lei heng** de las specs tradicionales de tipo rushdown es su dependencia de pasivas de alto riesgo y la gestión táctica de munición. En lugar de depender solo de los enfriamientos (cooldowns), los jugadores deben vigilar su reserva de salud y su munición para maximizar su producción de daño.
+
+### Fuerza Interior y el Aura Shin
+La principal mecánica de escalado de daño de Lei Heng es la **Fuerza Interior** (Inner Strength). A medida que recibes daño durante el combate, tus capacidades ofensivas se multiplican. Específicamente, después de que tu personaje pierda un total de **350 HP**, un aura amarilla distintiva conocida como **Shin [心]** envolverá el modelo de tu personaje. Esta aura otorga un **buff de daño plano del 20%**. El buff puede acumularse dinámicamente durante enfrentamientos prolongados, permitiendo a los jugadores hábiles alcanzar un **multiplicador de daño masivo de 4.8x** cuando luchan con poca salud.
+
+### Espíritu Implacable
+Para complementar la naturaleza arriesgada de luchar con poca salud, la pasiva **Espíritu Implacable** (Unrelenting Spirit) se activa automáticamente cuando tu salud cae por debajo del **20%**. Al activarse, recibes un **buff de defensa plano del 15%** para ayudarte a sobrevivir a golpes críticos. Además, tus teclas de acceso rápido estándar sufren un cambio: tu movimiento H normal rebota a Shin H+, y tu movimiento H+ normal rebota a Shin H, dándote acceso instantáneo a tus remates más fuertes sin necesidad de comandos complejos.
+
+### Munición Tigermark
+Lei Heng presenta un recurso de combate único llamado **Tigermark Rounds**. Apareces con **12 Tigermark Rounds**. Cada habilidad ofensiva en tu conjunto de movimientos (excluyendo las recargas) consume estas rondas. Gestionar este recurso es vital porque cada ronda restante en tu recámara aumenta el daño de tus habilidades principales, **Tanglecleaver** y **Savage Tigerslayer's Perfected Flurry of Blades**, en **+4.95**. Además, mientras tengas al menos una Tigermark Round activa, todos tus ataques básicos aplican un **efecto de quemadura** persistente a tu objetivo.
+
+### Savage Tigermark Rounds
+Al ejecutar con éxito tu movimiento de contraataque (T), sacrificas instantáneamente todas tus rondas estándar actuales para ganar **6 Savage Tigermark Rounds**. Estas rondas especializadas son el requisito exclusivo necesario para desbloquear y lanzar tu habilidad definitiva, Savage Tigerslayer's Perfected Flurry of Blades.
+
+| Nombre de la Pasiva | Condición de Activación | Efecto del Buff |
+| :--- | :--- | :--- |
+| **Fuerza Interior** | Perder 350 HP en total | **Buff de daño del 20%** (acumula hasta **4.8x**) |
+| **Espíritu Implacable** | Salud cae por debajo del 20% | **Buff de defensa del 15%** y cambio de movimientos H/H+ |
+| **Tigermark Rounds** | Al aparecer / Recargar | **+4.95 de daño** por ronda a movimientos clave y efecto de quemadura |
+| **Savage Rounds** | Acertar con éxito el Contraataque (T) | **6 Savage Rounds** para desbloquear la ráfaga definitiva |
+
+<Callout type="tip" title="Gestión de Munición">
+Vigila siempre tus Tigermark Rounds. Si dejas que tu munición llegue a cero, perderás tanto tu pasiva de quemadura como los masivos bonos de daño en tus habilidades principales. Intenta recargar durante ventanas seguras cuando tu oponente esté derribado o aturdido.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose Completo de Movimientos y Teclas">
+
+Dominar la spec **sakura stand lei heng** requiere una comprensión profunda de sus teclas y cómo interactúan con tu reserva de munición. Debido a que tus movimientos consumen rondas para infligir el máximo daño, presionar botones a ciegas te dejará vulnerable y sin munición rápidamente.
+
+- **Combo M1 (Click Izquierdo)**: Una serie rápida de golpes cuerpo a cuerpo que infligen daño constante y aplican quemadura si tienes Tigermark Rounds activas. Aunque es rápido, el combo M1 tiene un aturdimiento relativamente débil y no se puede encadenar fácilmente con otros movimientos sin el espaciado adecuado.
+- **Tanglecleaver (E)**: Lei Heng desenvaina su espada para un corte pesado y amplio. Este movimiento consume tus Tigermark Rounds para infligir daño escalado. Es excelente para romper bloqueos y mantener a raya a los oponentes agresivos.
+- **Savage Tigerslayer's Perfected Flurry of Blades (H+ / Shin H)**: La habilidad definitiva de la spec. Este movimiento solo se puede ejecutar cuando tienes **Savage Tigermark Rounds** activas (obtenidas mediante un contraataque exitoso). Desata una ráfaga inevitable de cortes de alto daño que trituran la barra de salud del oponente.
+- **Contraataque (T)**: Lei Heng entra en una breve postura defensiva. Si un oponente te golpea durante esta ventana, bloquearás el ataque, negarás el daño y convertirás instantáneamente tu reserva de munición actual en **6 Savage Tigermark Rounds**.
+- **Recarga (R)**: Una breve canalización que restaura tu reserva estándar de **12 Tigermark Rounds**. Estás completamente inmóvil y vulnerable a interrupciones durante la animación de recarga.
+
+| Nombre del Movimiento | Tecla | Daño Base | Propiedades Especiales |
+| :--- | :--- | :--- | :--- |
+| **Combo M1** | Click Izquierdo | **Varía** | Golpes rápidos, bajo aturdimiento, no conecta con otros movimientos |
+| **Tanglecleaver** | E | **Medio** | Consume Tigermark Rounds, escala daño, inflige quemadura |
+| **Perfected Flurry** | H+ / Shin H | **Alto** | Requiere Savage Rounds, corte masivo de múltiples golpes |
+| **Contraataque** | T | **N/A** | Otorga 6 Savage Rounds tras un bloqueo exitoso |
+| **Recarga** | R | **N/A** | Restaura 12 Tigermark Rounds, vulnerable durante el lanzamiento |
+
+<Callout type="success" title="Activación del Contraataque Perfecto">
+Lograr que tu Contraataque (T) tenga éxito es el aspecto más importante de jugar con Lei Heng. Es tu única puerta de entrada para obtener Savage Rounds y desatar tu devastadora ráfaga definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategia de Combate y Combos Paso a Paso">
+
+Debido a que los movimientos de Lei Heng no se encadenan de forma tan fluida como las specs de tipo rushdown como Garou, debes jugar de forma deliberada. Tu objetivo principal es provocar que tu oponente golpee tu contraataque, asegurar tus Savage Rounds y luego castigarlo con tus multiplicadores de daño escalados.
+
+<Steps>
+  <Step num="1" title="Daño Progresivo y Aplicación de Quemaduras">
+    Comienza el enfrentamiento conectando golpes M1 básicos para aplicar el efecto de quemadura pasivo de tus Tigermark Rounds. No te sobreextiendas, ya que tus M1 tienen poco aturdimiento y no pueden transicionar de forma segura a habilidades pesadas. Mantén tu distancia y usa la amenaza de tu espada para controlar el espacio.
+  </Step>
+  <Step num="2" title="Provocar el Contraataque">
+    Una vez que tu oponente intente contraatacar con un combo agresivo, activa tu Contraataque (T). El tiempo es crucial aquí; activarlo demasiado pronto lo hace fácilmente predecible, mientras que activarlo demasiado tarde resultará en que seas aturdido. Un bloqueo exitoso asegura tus 6 Savage Rounds.
+  </Step>
+  <Step num="3" title="Ejecutar la Ráfaga Definitiva">
+    Con tus Savage Rounds activas, desata inmediatamente tu definitiva, Savage Tigerslayer's Perfected Flurry of Blades (Shin H / H+). Esta secuencia de cortes de múltiples golpes inflige un daño masivo que escala fuertemente si ya has perdido salud y has activado tu aura Shin amarilla.
+  </Step>
+  <Step num="4" title="Retirada Segura y Recarga">
+    Después de ejecutar tu ráfaga, tu oponente será lanzado hacia atrás y quedará temporalmente aturdido. Usa esta ventana de seguridad para retroceder, crear distancia y presionar R para recargar de forma segura tus 12 Tigermark Rounds estándar. No intentes recargar mientras estés cerca de un oponente activo, ya que serás interrumpido fácilmente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Sinergia del Aura Shin">
+No entres en pánico cuando tu salud baje. Lei Heng se vuelve significativamente más fuerte con poca vida debido al **escalado de daño de 4.8x** de Fuerza Interior y la defensa extra de Espíritu Implacable. Juega con paciencia y deja que tus buffs pasivos te lleven a la victoria.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lei Heng vs. Otras Specs de Élite">
+
+Al comparar la spec **sakura stand lei heng** con otras opciones de alto nivel introducidas en el mismo ciclo de actualización (como Garou, Sanji o Pilgrim Knight), esta ocupa un nicho altamente especializado. No es un estilo rushdown directo; en cambio, es una potencia defensiva basada en contraataques que recompensa a los jugadores pacientes.
+
+<CardGrid cols={2}>
+  <Card title="Spec de Lei Heng">
+    - Escalado de daño de **alto riesgo y alta recompensa** hasta 4.8x
+    - Estilo de juego de contraataque fuerte que desbloquea una definitiva devastadora
+    - Requiere una gestión activa de la munición y las ventanas de recarga
+  </Card>
+  <Card title="Spec de Garou">
+    - **Rushdown agresivo de corto alcance** con alto potencial de combo
+    - Excelente bloqueo por aturdimiento y presión continua sobre el bloqueo
+    - Más fácil de aprender para principiantes en comparación con las specs basadas en munición
+  </Card>
+  <Card title="Spec de Sanji">
+    - **Alta movilidad** con combos rápidos de patadas aéreas
+    - Excelente para perseguir a los que huyen y mantener el control del mapa
+    - Carece de contraataques defensivos y pasivas de escalado de salud
+  </Card>
+  <Card title="Pilgrim Knight">
+    - **Tanque defensivo** con alto control de masas y utilidad de bloqueo
+    - Cuenta con movimientos diseñados para secuestrar y desplazar a los oponentes
+    - Velocidad de ataque más lenta pero altamente castigador al contacto
+  </Card>
+</CardGrid>
+
+| Nombre de la Spec | Rol de Combate | Dificultad | Método de Obtención |
+| :--- | :--- | :--- | :--- |
+| **Lei Heng** | Escalado de daño / Contraataque | **Difícil** | Drop de jefe en cascada + Merecimiento Anubis |
+| **Garou** | Rushdown / Combo cuerpo a cuerpo | **Media** | Cadena de misiones del santuario abandonado |
+| **Sanji** | Aéreo / Alta movilidad | **Media** | Banner de Gacha / Ruta de objeto especial |
+| **Pilgrim Knight** | Defensivo / Control de masas | **Difícil** | Misión de múltiples NPCs y recorrido en Depths |
+
+<Callout type="tip" title="Elección Estratégica">
+Si disfrutas de combos agresivos y continuos donde persigues constantemente a tu oponente, elige Garou. Sin embargo, si prefieres un estilo de juego metódico donde castigas los errores de tu oponente y conviertes una situación de poca salud en una remontada instantánea, Lei Heng es la mejor opción.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Maestría y Ruta de Progresión">
+
+Para optimizar completamente tu rendimiento con la spec **sakura stand lei heng**, recomendamos seguir esta lista de verificación de progresión estructurada para asegurar que tienes todas las herramientas y estrategias preparadas.
+
+<Checklist
+  id="lei-heng-mastery"
+  title="Hitos de Maestría de Lei Heng:"
+  items={[
+    "Obtén el Stand Anubis usando una Haunted Sword siendo Standless",
+    "Viaja a la Cascada y farmea a Toji hasta que aparezca como The Capo",
+    "Derrota a The Capo y asegura el drop de la Tiantui Star Blade (tasa del 40%)",
+    "Sube tu Worthiness a al menos 60% antes de usar la espada en Anubis",
+    "Practica provocar a los oponentes en partidas 1v1 para acertar tu Contraataque (T) consistentemente",
+    "Domina el tiempo de recarga (R) para mantener tus Tigermark Rounds por encima de cero durante los combos"
+  ]}
+/>
+
+<Callout type="success" title="Listo para el Combate">
+Una vez que hayas completado todos estos hitos, tendrás un dominio completo del ciclo de combate de Lei Heng. ¡Lleva tu nueva spec a las arenas 1v1 y deja que tu escalado de daño domine la tabla de clasificación!
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la tasa de drop de la Tiantui Star Blade en Sakura Stand?",
+    answer: "La Tiantui Star Blade tiene una tasa de drop del 40% al derrotar al jefe The Capo (Lei Heng) en el área de la cascada."
+  },
+  {
+    question: "¿Puedo usar la Tiantui Star Blade en cualquier Stand?",
+    answer: "No. Debes tener el Stand Anubis equipado y tener al menos un 60% de Worthiness para usar con éxito la espada y desbloquear la spec Lei Heng."
+  },
+  {
+    question: "¿Cómo funciona el aura Shin amarilla para Lei Heng?",
+    answer: "El aura Shin amarilla se activa automáticamente después de perder 350 HP. Otorga un buff de daño del 20% que puede escalar hasta un multiplicador masivo de 4.8x a medida que tu salud disminuye más."
+  },
+  {
+    question: "¿Cuál es la diferencia entre las Tigermark Rounds estándar y las Savage Rounds?",
+    answer: "Las Tigermark Rounds estándar (máximo 12) aumentan el daño de tus movimientos básicos y aplican un efecto de quemadura. Las Savage Rounds (máximo 6) se obtienen solo al acertar un contraataque exitoso y son necesarias para lanzar tu ráfaga de espadas definitiva."
+  }
+]} />
+
+<Callout type="tip" title="Soporte de la Comunidad">
+Si encuentras algún problema al invocar al jefe o transformar tu Stand, asegúrate de revisar el Trello oficial de Sakura Stand o unirte al servidor de Discord para verificar el estado más reciente del servidor y los parches de actualización.
+</Callout>
+
+</Section>

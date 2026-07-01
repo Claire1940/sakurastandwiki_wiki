@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sakura Stand Dullahan: Guía de Obtención 2026 y Análisis de Movimientos",
+  description: "Domina la especialidad Dullahan en Sakura Stand con nuestra guía de 2026. Aprende cómo obtener Remembrance of Dullahan, el escalado de movimientos y estrategias de combate de nivel S.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d2a4a/fff?text=Sakura+Stand+Dullahan+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de Sakura Stand",
+  keywords: "Sakura Stand, Dullahan, guía de obtención, conjunto de movimientos, meta 2026, Remembrance of Dullahan"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Especialidad Principal**: **Sakura Stand Dullahan** es una habilidad de combate de nivel S obtenida a través del objeto Remembrance of Dullahan.
+- **Método de Obtención**: Usa el objeto **Remembrance of Dullahan** en un personaje **Standless** con nivel de Maestría 1 o superior.
+- **Estilo de Combate**: Se centra en ataques rápidos de alta movilidad, proyectiles espectrales y efectos de estado (debuffs) de maldición en área de efecto (AoE).
+- **Clasificación en el Meta**: Actualmente clasificado como una **Elección de Combate Fuerte (Nivel S)** en el parche de equilibrio de mediados de 2026.
+- **Estrategia Principal**: Encadena la movilidad de Spectral Steed con Headless Slash para mantener la presión mientras evitas contraataques.
+</Callout>
+
+<Section icon={Map} title="Introducción a la Especialidad Dullahan en Sakura Stand">
+
+En el meta evolutivo de 2026, **Sakura Stand Dullahan** (categorizado oficialmente bajo la línea de especialidad "Remembrance of Dullahan") ha consolidado su posición como una de las habilidades de alto nivel más confiables tanto para PvP como para PvE. Inspirada en el caballero sin cabeza del folclore, esta especialidad ofrece una combinación única de velocidad sobrenatural y ataques cuerpo a cuerpo de gran daño. A diferencia de los Stands tradicionales que dependen del combate basado en invocaciones, Dullahan transforma el estado base del jugador, proporcionando atributos físicos mejorados y un arsenal espectral.
+
+De acuerdo con los últimos datos de la lista de niveles de 2026, Dullahan se sitúa cómodamente en el **Nivel S**, categorizado junto a pesos pesados como Sandevistan y Shinra. Su principal atractivo reside en su capacidad para castigar a objetivos estáticos mientras mantiene suficiente utilidad defensiva para sobrevivir a encuentros de alta presión.
+
+| Requisito | Valor / Condición | Importancia |
+| :--- | :--- | :--- |
+| **Estado Base** | Standless | Obligatorio |
+| **Nivel de Maestría** | Nivel 1+ | Alta |
+| **Objeto Principal** | Remembrance of Dullahan | Esencial |
+| **Método de Obtención** | Consumo de Objeto | Instantáneo |
+| **Nivel de Combate** | Nivel S (Elección Fuerte) | Meta 2026 |
+
+<Callout type="tip" title="Requisito de Maestría">
+Aunque técnicamente puedes usar el objeto en Maestría 1, se recomienda encarecidamente alcanzar la Maestría 3 para desbloquear todo el potencial de su escalado de daño pasivo. La especialidad **sakura stand dullahan** escala significativamente con el crecimiento general de tu personaje.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Obtener Dullahan: Guía Paso a Paso">
+
+Asegurar la especialidad **Sakura Stand Dullahan** requiere una secuencia específica de acciones. No puedes obtener esta habilidad mediante una Stand Arrow estándar; en su lugar, pertenece a la categoría "Spec" (Especialidad), que requiere una progresión basada en objetos.
+
+<Steps>
+  <Step num="1" title="Lograr el Estado Standless">
+    Usa una **Fruta Rokakaka** para restablecer tu habilidad actual. Debes estar en el estado base **Standless** para consumir el Remembrance of Dullahan. Puedes comprar Rokakaka en la tienda de Auddy o encontrarlas en cajas que aparecen por el mapa.
+  </Step>
+  <Step num="2" title="Farmear Remembrance of Dullahan">
+    El objeto principal, **Remembrance of Dullahan**, es un botín raro que se encuentra en **Cajas** o se obtiene a través de **Eventos Estacionales** específicos. En el ciclo de actualización actual de 2026, los jugadores han informado de mayores tasas de aparición durante los ciclos nocturnos del juego o a través de rutas de farmeo de cofres de alto nivel.
+  </Step>
+  <Step num="3" title="Verificar el Nivel de Maestría">
+    Abre tu menú (M) y verifica tu Maestría. Asegúrate de tener al menos **Maestría 1**. Si estás por debajo de esto, farmea NPCs como los Thugs o los miembros del Clan Zen'in para ganar rápidamente la experiencia necesaria.
+  </Step>
+  <Step num="4" title="Consumir el Objeto">
+    Con el objeto en tu inventario y tu personaje en estado Standless, selecciona el **Remembrance of Dullahan** y úsalo. Tu personaje experimentará una transformación visual, lo que significa la activación de la especialidad Dullahan.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Pérdida de Objeto">
+Si usas una Fruta Rokakaka *después* de obtener Dullahan, perderás la especialidad y volverás a Standless. Necesitarás otro objeto Remembrance of Dullahan para recuperarlo. Siempre verifica dos veces antes de restablecer.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análisis del Conjunto de Movimientos y Estrategia de Combate">
+
+La eficacia en combate de **Sakura Stand Dullahan** se define por su versátil conjunto de movimientos. Destaca en enfrentamientos a media distancia y puede cerrar la brecha rápidamente usando su montura espectral.
+
+<CardGrid cols={3}>
+  <Card title="Proeza Cuerpo a Cuerpo">
+    - **Headless Slash**: Un ataque rápido hacia adelante que inflige daño por sangrado.
+    - **Soul Reap**: Un golpe descendente pesado que restaura una pequeña porción de HP al impactar.
+    - **Potencial de Combo**: Alta sinergia con cadenas básicas de M1.
+  </Card>
+  <Card title="Movilidad y Velocidad">
+    - **Spectral Steed**: Invoca un caballo fantasma para viajar a gran velocidad y pisotear enemigos.
+    - **Shadow Dash**: Un teletransporte de corto alcance que esquiva la mayoría de los proyectiles.
+    - **Cierre de Brechas**: Excelente para perseguir a quienes huyen en PvP.
+  </Card>
+  <Card title="Control de Área">
+    - **Dullahan's Curse**: Crea una zona de oscuridad que ralentiza y debilita a los enemigos.
+    - **Phantom Wail**: Un grito de área basado en aturdimiento que interrumpe el lanzamiento de habilidades enemigas.
+    - **Control de Masas**: Ideal para farmear grupos de NPCs.
+  </Card>
+</CardGrid>
+
+Para maximizar tu daño, debes entender el escalado de tus habilidades. La siguiente tabla desglosa las habilidades principales y su rendimiento en el parche de 2026.
+
+| Nombre del Movimiento | Comando | Tipo de Daño | Factor de Escalado | Enfriamiento |
+| :--- | :--- | :--- | :--- | :--- |
+| **Headless Slash** | E | Físico/Sangrado | 1.2x Maestría | 6s |
+| **Soul Reap** | R | Daño Verdadero | 1.5x Maestría | 12s |
+| **Spectral Steed** | Z | Movilidad/Impacto | 0.8x Maestría | 15s |
+| **Dullahan's Curse** | T | Debuff/DoT | 0.5x Maestría | 20s |
+| **Phantom Wail** | F | Aturdimiento/AoE | Aturdimiento Fijo | 25s |
+
+<Callout type="success" title="Consejo de Combate Pro">
+Comienza tu enfrentamiento con **Dullahan's Curse** para ralentizar al oponente, seguido de **Phantom Wail** para inmovilizarlo. Esto te permite asestar un combo completo de **Headless Slash** sin el riesgo de ser bloqueado.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparación en el Meta: Dullahan vs. Otras Especialidades de Nivel S">
+
+Elegir la especialidad **Sakura Stand Dullahan** a menudo depende del estilo de juego personal. Aunque es una elección de nivel S, compite con otras especialidades de alto valor como Sandevistan y Cid Kagenou. Entender dónde brilla Dullahan es crucial para el juego competitivo.
+
+**Fortalezas de Dullahan:**
+- **Sostenibilidad**: A diferencia de Sandevistan, que depende de ráfagas de daño momentáneas, Dullahan tiene una producción de daño constante y un robo de vida menor a través de Soul Reap.
+- **Facilidad de Uso**: El conjunto de movimientos es intuitivo para principiantes, pero ofrece suficiente profundidad para que los jugadores avanzados dominen el tiempo del "Shadow Dash".
+- **Claridad Visual**: En la actualización de 2026, los efectos de Dullahan se han optimizado para reducir el desorden en pantalla manteniendo una estética poderosa.
+
+**Debilidades de Dullahan:**
+- **Dependencia de Enfriamientos**: Si fallas el aturdimiento de Phantom Wail, quedas vulnerable ante especialidades de ataque rápido como Naoya Zen'in.
+- **Dependencia de Maestría**: Los jugadores con Maestría baja encontrarán el daño insuficiente en comparación con evoluciones basadas en Stands como Gold Experience Requiem.
+
+| Característica | Dullahan | Sandevistan | Cid Kagenou |
+| :--- | :--- | :--- | :--- |
+| **Velocidad** | Alta (Corcel) | Extrema (Ráfaga) | Moderada |
+| **Durabilidad** | Alta | Baja | Muy Alta |
+| **Dificultad** | Media | Alta | Alta |
+| **Nivel PvP** | S | SS | SS |
+| **Nivel PvE** | S | A | S |
+
+<Callout type="info" title="Nota de Equilibrio 2026">
+El parche de junio de 2026 aumentó los fotogramas activos de **Spectral Steed**, haciendo que sea más difícil para los oponentes interrumpir tu movimiento. Esto ha impulsado significativamente la utilidad de Dullahan en guerras de facciones a gran escala.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión e Hitos">
+
+Si tu objetivo es dominar la especialidad **Sakura Stand Dullahan**, sigue esta lista de verificación para asegurarte de estar totalmente optimizado para el contenido de juego tardío.
+
+<Checklist
+  id="dullahan-mastery-goals"
+  title="Objetivos de Completado de Dullahan:"
+  items={[
+    "Alcanzar el Nivel de Maestría 10 para maximizar el escalado de daño",
+    "Obtener el título 'Headless Horseman' tras 500 eliminaciones en PvP",
+    "Lograr con éxito un combo de más de 50 golpes usando Spectral Steed y M1s",
+    "Derrotar en solitario al jefe Toji Fushiguro usando solo habilidades de Dullahan",
+    "Desbloquear la variante de aspecto secreta 'Spectral Blue' (Limitada por Evento)"
+  ]}
+/>
+
+<Callout type="tip" title="Eficiencia de Farmeo">
+Para subir de nivel la Maestría lo más rápido posible, dirígete al **Abandoned Shrine** o a la ruta de **Hueco Mundo**. La alta densidad de enemigos en estas áreas permite que los movimientos AoE de Dullahan como **Dullahan's Curse** brillen, otorgándote miles de XP por minuto.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Sakura Stand Dullahan mejor que Sukuna?",
+    answer: "Depende del contexto. Sukuna ofrece un mayor daño de ráfaga bruto y la utilidad de Domain Expansion, pero Dullahan proporciona mejor movilidad y una presión constante. En el meta de 2026, Sukuna suele clasificarse un poco más alto (SS), pero Dullahan es más accesible para jugadores de nivel medio."
+  },
+  {
+    question: "¿Puedo intercambiar el objeto Remembrance of Dullahan?",
+    answer: "Sí, el Remembrance of Dullahan es un objeto intercambiable. Su valor fluctúa según el ciclo de eventos actual, así que consulta los canales de intercambio oficiales del Discord de Sakura Stand para ver los valores más recientes."
+  },
+  {
+    question: "¿Funciona Dullahan en dispositivos móviles?",
+    answer: "Sí, la página oficial de Roblox confirma el soporte móvil completo. El conjunto de movimientos de Dullahan está mapeado eficientemente para controles táctiles, aunque calcular el tiempo del teletransporte Shadow Dash puede ser un poco más desafiante en pantallas pequeñas."
+  },
+  {
+    question: "¿Cómo restablezco mi especialidad Dullahan?",
+    answer: "Para restablecer Dullahan y volver a Standless, debes consumir una Fruta Rokakaka. Esto eliminará permanentemente la especialidad a menos que tengas otro objeto Remembrance of Dullahan para volver a aplicarla."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "codes": "Code",
+    "specs": "Specs",
+    "tier": "Bảng Xếp Hạng",
+    "guide": "Hướng Dẫn",
+    "obtainment": "Cách Nhận",
+    "links": "Liên Kết"
+  }
+}

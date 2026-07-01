@@ -1,1 +1,698 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "sakura-stand-codes",
+        "file": "sakura-stand-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "sakura-stand-beginner-guide",
+        "file": "sakura-stand-beginner-guide"
+      },
+      {
+        "slug": "sakura-stand-best-way-to-level-up",
+        "file": "sakura-stand-best-way-to-level-up"
+      },
+      {
+        "slug": "sakura-stand-guide",
+        "file": "sakura-stand-guide"
+      },
+      {
+        "slug": "sakura-stand-how-to-emote",
+        "file": "sakura-stand-how-to-emote"
+      },
+      {
+        "slug": "sakura-stand-how-to-sell-items",
+        "file": "sakura-stand-how-to-sell-items"
+      },
+      {
+        "slug": "sakura-stand-how-to-trade",
+        "file": "sakura-stand-how-to-trade"
+      },
+      {
+        "slug": "sakura-stand-xp-farm",
+        "file": "sakura-stand-xp-farm"
+      }
+    ],
+    "links": [
+      {
+        "slug": "sakura-stand-discord",
+        "file": "sakura-stand-discord"
+      },
+      {
+        "slug": "sakura-stand-roblox",
+        "file": "sakura-stand-roblox"
+      },
+      {
+        "slug": "sakura-stand-trello",
+        "file": "sakura-stand-trello"
+      }
+    ],
+    "obtainment": [
+      {
+        "slug": "sakura-stand-how-to-get-frieren",
+        "file": "sakura-stand-how-to-get-frieren"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-hogyoku-fragment",
+        "file": "sakura-stand-how-to-get-hogyoku-fragment"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-naoya",
+        "file": "sakura-stand-how-to-get-naoya"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "sakura-stand-aizen",
+        "file": "sakura-stand-aizen"
+      },
+      {
+        "slug": "sakura-stand-choso",
+        "file": "sakura-stand-choso"
+      },
+      {
+        "slug": "sakura-stand-deku",
+        "file": "sakura-stand-deku"
+      },
+      {
+        "slug": "sakura-stand-dullahan",
+        "file": "sakura-stand-dullahan"
+      },
+      {
+        "slug": "sakura-stand-ego",
+        "file": "sakura-stand-ego"
+      },
+      {
+        "slug": "sakura-stand-ichigo",
+        "file": "sakura-stand-ichigo"
+      },
+      {
+        "slug": "sakura-stand-kaneki",
+        "file": "sakura-stand-kaneki"
+      },
+      {
+        "slug": "sakura-stand-lei-heng",
+        "file": "sakura-stand-lei-heng"
+      },
+      {
+        "slug": "sakura-stand-made-in-heaven",
+        "file": "sakura-stand-made-in-heaven"
+      },
+      {
+        "slug": "sakura-stand-miku",
+        "file": "sakura-stand-miku"
+      },
+      {
+        "slug": "sakura-stand-naoya",
+        "file": "sakura-stand-naoya"
+      },
+      {
+        "slug": "sakura-stand-noya",
+        "file": "sakura-stand-noya"
+      },
+      {
+        "slug": "sakura-stand-pilgrim-knight",
+        "file": "sakura-stand-pilgrim-knight"
+      },
+      {
+        "slug": "sakura-stand-ronin",
+        "file": "sakura-stand-ronin"
+      },
+      {
+        "slug": "sakura-stand-saber",
+        "file": "sakura-stand-saber"
+      },
+      {
+        "slug": "sakura-stand-sancho",
+        "file": "sakura-stand-sancho"
+      },
+      {
+        "slug": "sakura-stand-starrk",
+        "file": "sakura-stand-starrk"
+      },
+      {
+        "slug": "sakura-stand-sukuna-legacy",
+        "file": "sakura-stand-sukuna-legacy"
+      },
+      {
+        "slug": "sakura-stand-wonder-of-u",
+        "file": "sakura-stand-wonder-of-u"
+      },
+      {
+        "slug": "sakura-stand-yuta",
+        "file": "sakura-stand-yuta"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "sakura-stand-pve-tier-list",
+        "file": "sakura-stand-pve-tier-list"
+      },
+      {
+        "slug": "sakura-stand-pvp-tier-list",
+        "file": "sakura-stand-pvp-tier-list"
+      },
+      {
+        "slug": "sakura-stand-spec-tier-list",
+        "file": "sakura-stand-spec-tier-list"
+      },
+      {
+        "slug": "sakura-stand-tier-list",
+        "file": "sakura-stand-tier-list"
+      },
+      {
+        "slug": "sakura-stand-trading-tier-list",
+        "file": "sakura-stand-trading-tier-list"
+      },
+      {
+        "slug": "sakura-stand-value-list",
+        "file": "sakura-stand-value-list"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "sakura-stand-codes",
+        "file": "sakura-stand-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "sakura-stand-beginner-guide",
+        "file": "sakura-stand-beginner-guide"
+      },
+      {
+        "slug": "sakura-stand-best-way-to-level-up",
+        "file": "sakura-stand-best-way-to-level-up"
+      },
+      {
+        "slug": "sakura-stand-guide",
+        "file": "sakura-stand-guide"
+      },
+      {
+        "slug": "sakura-stand-how-to-emote",
+        "file": "sakura-stand-how-to-emote"
+      },
+      {
+        "slug": "sakura-stand-how-to-sell-items",
+        "file": "sakura-stand-how-to-sell-items"
+      },
+      {
+        "slug": "sakura-stand-how-to-trade",
+        "file": "sakura-stand-how-to-trade"
+      },
+      {
+        "slug": "sakura-stand-xp-farm",
+        "file": "sakura-stand-xp-farm"
+      }
+    ],
+    "links": [
+      {
+        "slug": "sakura-stand-discord",
+        "file": "sakura-stand-discord"
+      },
+      {
+        "slug": "sakura-stand-roblox",
+        "file": "sakura-stand-roblox"
+      },
+      {
+        "slug": "sakura-stand-trello",
+        "file": "sakura-stand-trello"
+      }
+    ],
+    "obtainment": [
+      {
+        "slug": "sakura-stand-how-to-get-frieren",
+        "file": "sakura-stand-how-to-get-frieren"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-hogyoku-fragment",
+        "file": "sakura-stand-how-to-get-hogyoku-fragment"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-naoya",
+        "file": "sakura-stand-how-to-get-naoya"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "sakura-stand-aizen",
+        "file": "sakura-stand-aizen"
+      },
+      {
+        "slug": "sakura-stand-choso",
+        "file": "sakura-stand-choso"
+      },
+      {
+        "slug": "sakura-stand-deku",
+        "file": "sakura-stand-deku"
+      },
+      {
+        "slug": "sakura-stand-dullahan",
+        "file": "sakura-stand-dullahan"
+      },
+      {
+        "slug": "sakura-stand-ego",
+        "file": "sakura-stand-ego"
+      },
+      {
+        "slug": "sakura-stand-ichigo",
+        "file": "sakura-stand-ichigo"
+      },
+      {
+        "slug": "sakura-stand-kaneki",
+        "file": "sakura-stand-kaneki"
+      },
+      {
+        "slug": "sakura-stand-lei-heng",
+        "file": "sakura-stand-lei-heng"
+      },
+      {
+        "slug": "sakura-stand-made-in-heaven",
+        "file": "sakura-stand-made-in-heaven"
+      },
+      {
+        "slug": "sakura-stand-miku",
+        "file": "sakura-stand-miku"
+      },
+      {
+        "slug": "sakura-stand-naoya",
+        "file": "sakura-stand-naoya"
+      },
+      {
+        "slug": "sakura-stand-noya",
+        "file": "sakura-stand-noya"
+      },
+      {
+        "slug": "sakura-stand-pilgrim-knight",
+        "file": "sakura-stand-pilgrim-knight"
+      },
+      {
+        "slug": "sakura-stand-ronin",
+        "file": "sakura-stand-ronin"
+      },
+      {
+        "slug": "sakura-stand-saber",
+        "file": "sakura-stand-saber"
+      },
+      {
+        "slug": "sakura-stand-sancho",
+        "file": "sakura-stand-sancho"
+      },
+      {
+        "slug": "sakura-stand-starrk",
+        "file": "sakura-stand-starrk"
+      },
+      {
+        "slug": "sakura-stand-sukuna-legacy",
+        "file": "sakura-stand-sukuna-legacy"
+      },
+      {
+        "slug": "sakura-stand-wonder-of-u",
+        "file": "sakura-stand-wonder-of-u"
+      },
+      {
+        "slug": "sakura-stand-yuta",
+        "file": "sakura-stand-yuta"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "sakura-stand-pve-tier-list",
+        "file": "sakura-stand-pve-tier-list"
+      },
+      {
+        "slug": "sakura-stand-pvp-tier-list",
+        "file": "sakura-stand-pvp-tier-list"
+      },
+      {
+        "slug": "sakura-stand-spec-tier-list",
+        "file": "sakura-stand-spec-tier-list"
+      },
+      {
+        "slug": "sakura-stand-tier-list",
+        "file": "sakura-stand-tier-list"
+      },
+      {
+        "slug": "sakura-stand-trading-tier-list",
+        "file": "sakura-stand-trading-tier-list"
+      },
+      {
+        "slug": "sakura-stand-value-list",
+        "file": "sakura-stand-value-list"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "sakura-stand-codes",
+        "file": "sakura-stand-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "sakura-stand-beginner-guide",
+        "file": "sakura-stand-beginner-guide"
+      },
+      {
+        "slug": "sakura-stand-best-way-to-level-up",
+        "file": "sakura-stand-best-way-to-level-up"
+      },
+      {
+        "slug": "sakura-stand-guide",
+        "file": "sakura-stand-guide"
+      },
+      {
+        "slug": "sakura-stand-how-to-emote",
+        "file": "sakura-stand-how-to-emote"
+      },
+      {
+        "slug": "sakura-stand-how-to-sell-items",
+        "file": "sakura-stand-how-to-sell-items"
+      },
+      {
+        "slug": "sakura-stand-how-to-trade",
+        "file": "sakura-stand-how-to-trade"
+      },
+      {
+        "slug": "sakura-stand-xp-farm",
+        "file": "sakura-stand-xp-farm"
+      }
+    ],
+    "links": [
+      {
+        "slug": "sakura-stand-discord",
+        "file": "sakura-stand-discord"
+      },
+      {
+        "slug": "sakura-stand-roblox",
+        "file": "sakura-stand-roblox"
+      },
+      {
+        "slug": "sakura-stand-trello",
+        "file": "sakura-stand-trello"
+      }
+    ],
+    "obtainment": [
+      {
+        "slug": "sakura-stand-how-to-get-frieren",
+        "file": "sakura-stand-how-to-get-frieren"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-hogyoku-fragment",
+        "file": "sakura-stand-how-to-get-hogyoku-fragment"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-naoya",
+        "file": "sakura-stand-how-to-get-naoya"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "sakura-stand-aizen",
+        "file": "sakura-stand-aizen"
+      },
+      {
+        "slug": "sakura-stand-choso",
+        "file": "sakura-stand-choso"
+      },
+      {
+        "slug": "sakura-stand-deku",
+        "file": "sakura-stand-deku"
+      },
+      {
+        "slug": "sakura-stand-dullahan",
+        "file": "sakura-stand-dullahan"
+      },
+      {
+        "slug": "sakura-stand-ego",
+        "file": "sakura-stand-ego"
+      },
+      {
+        "slug": "sakura-stand-ichigo",
+        "file": "sakura-stand-ichigo"
+      },
+      {
+        "slug": "sakura-stand-kaneki",
+        "file": "sakura-stand-kaneki"
+      },
+      {
+        "slug": "sakura-stand-lei-heng",
+        "file": "sakura-stand-lei-heng"
+      },
+      {
+        "slug": "sakura-stand-made-in-heaven",
+        "file": "sakura-stand-made-in-heaven"
+      },
+      {
+        "slug": "sakura-stand-miku",
+        "file": "sakura-stand-miku"
+      },
+      {
+        "slug": "sakura-stand-naoya",
+        "file": "sakura-stand-naoya"
+      },
+      {
+        "slug": "sakura-stand-noya",
+        "file": "sakura-stand-noya"
+      },
+      {
+        "slug": "sakura-stand-pilgrim-knight",
+        "file": "sakura-stand-pilgrim-knight"
+      },
+      {
+        "slug": "sakura-stand-ronin",
+        "file": "sakura-stand-ronin"
+      },
+      {
+        "slug": "sakura-stand-saber",
+        "file": "sakura-stand-saber"
+      },
+      {
+        "slug": "sakura-stand-sancho",
+        "file": "sakura-stand-sancho"
+      },
+      {
+        "slug": "sakura-stand-starrk",
+        "file": "sakura-stand-starrk"
+      },
+      {
+        "slug": "sakura-stand-sukuna-legacy",
+        "file": "sakura-stand-sukuna-legacy"
+      },
+      {
+        "slug": "sakura-stand-wonder-of-u",
+        "file": "sakura-stand-wonder-of-u"
+      },
+      {
+        "slug": "sakura-stand-yuta",
+        "file": "sakura-stand-yuta"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "sakura-stand-pve-tier-list",
+        "file": "sakura-stand-pve-tier-list"
+      },
+      {
+        "slug": "sakura-stand-pvp-tier-list",
+        "file": "sakura-stand-pvp-tier-list"
+      },
+      {
+        "slug": "sakura-stand-spec-tier-list",
+        "file": "sakura-stand-spec-tier-list"
+      },
+      {
+        "slug": "sakura-stand-tier-list",
+        "file": "sakura-stand-tier-list"
+      },
+      {
+        "slug": "sakura-stand-trading-tier-list",
+        "file": "sakura-stand-trading-tier-list"
+      },
+      {
+        "slug": "sakura-stand-value-list",
+        "file": "sakura-stand-value-list"
+      }
+    ]
+  },
+  "vi": {
+    "codes": [
+      {
+        "slug": "sakura-stand-codes",
+        "file": "sakura-stand-codes"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "sakura-stand-beginner-guide",
+        "file": "sakura-stand-beginner-guide"
+      },
+      {
+        "slug": "sakura-stand-best-way-to-level-up",
+        "file": "sakura-stand-best-way-to-level-up"
+      },
+      {
+        "slug": "sakura-stand-guide",
+        "file": "sakura-stand-guide"
+      },
+      {
+        "slug": "sakura-stand-how-to-emote",
+        "file": "sakura-stand-how-to-emote"
+      },
+      {
+        "slug": "sakura-stand-how-to-sell-items",
+        "file": "sakura-stand-how-to-sell-items"
+      },
+      {
+        "slug": "sakura-stand-how-to-trade",
+        "file": "sakura-stand-how-to-trade"
+      },
+      {
+        "slug": "sakura-stand-xp-farm",
+        "file": "sakura-stand-xp-farm"
+      }
+    ],
+    "links": [
+      {
+        "slug": "sakura-stand-discord",
+        "file": "sakura-stand-discord"
+      },
+      {
+        "slug": "sakura-stand-roblox",
+        "file": "sakura-stand-roblox"
+      },
+      {
+        "slug": "sakura-stand-trello",
+        "file": "sakura-stand-trello"
+      }
+    ],
+    "obtainment": [
+      {
+        "slug": "sakura-stand-how-to-get-frieren",
+        "file": "sakura-stand-how-to-get-frieren"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-hogyoku-fragment",
+        "file": "sakura-stand-how-to-get-hogyoku-fragment"
+      },
+      {
+        "slug": "sakura-stand-how-to-get-naoya",
+        "file": "sakura-stand-how-to-get-naoya"
+      }
+    ],
+    "specs": [
+      {
+        "slug": "sakura-stand-aizen",
+        "file": "sakura-stand-aizen"
+      },
+      {
+        "slug": "sakura-stand-choso",
+        "file": "sakura-stand-choso"
+      },
+      {
+        "slug": "sakura-stand-deku",
+        "file": "sakura-stand-deku"
+      },
+      {
+        "slug": "sakura-stand-dullahan",
+        "file": "sakura-stand-dullahan"
+      },
+      {
+        "slug": "sakura-stand-ego",
+        "file": "sakura-stand-ego"
+      },
+      {
+        "slug": "sakura-stand-ichigo",
+        "file": "sakura-stand-ichigo"
+      },
+      {
+        "slug": "sakura-stand-kaneki",
+        "file": "sakura-stand-kaneki"
+      },
+      {
+        "slug": "sakura-stand-lei-heng",
+        "file": "sakura-stand-lei-heng"
+      },
+      {
+        "slug": "sakura-stand-made-in-heaven",
+        "file": "sakura-stand-made-in-heaven"
+      },
+      {
+        "slug": "sakura-stand-miku",
+        "file": "sakura-stand-miku"
+      },
+      {
+        "slug": "sakura-stand-naoya",
+        "file": "sakura-stand-naoya"
+      },
+      {
+        "slug": "sakura-stand-noya",
+        "file": "sakura-stand-noya"
+      },
+      {
+        "slug": "sakura-stand-pilgrim-knight",
+        "file": "sakura-stand-pilgrim-knight"
+      },
+      {
+        "slug": "sakura-stand-ronin",
+        "file": "sakura-stand-ronin"
+      },
+      {
+        "slug": "sakura-stand-saber",
+        "file": "sakura-stand-saber"
+      },
+      {
+        "slug": "sakura-stand-sancho",
+        "file": "sakura-stand-sancho"
+      },
+      {
+        "slug": "sakura-stand-starrk",
+        "file": "sakura-stand-starrk"
+      },
+      {
+        "slug": "sakura-stand-sukuna-legacy",
+        "file": "sakura-stand-sukuna-legacy"
+      },
+      {
+        "slug": "sakura-stand-wonder-of-u",
+        "file": "sakura-stand-wonder-of-u"
+      },
+      {
+        "slug": "sakura-stand-yuta",
+        "file": "sakura-stand-yuta"
+      }
+    ],
+    "tier": [
+      {
+        "slug": "sakura-stand-pve-tier-list",
+        "file": "sakura-stand-pve-tier-list"
+      },
+      {
+        "slug": "sakura-stand-pvp-tier-list",
+        "file": "sakura-stand-pvp-tier-list"
+      },
+      {
+        "slug": "sakura-stand-spec-tier-list",
+        "file": "sakura-stand-spec-tier-list"
+      },
+      {
+        "slug": "sakura-stand-tier-list",
+        "file": "sakura-stand-tier-list"
+      },
+      {
+        "slug": "sakura-stand-trading-tier-list",
+        "file": "sakura-stand-trading-tier-list"
+      },
+      {
+        "slug": "sakura-stand-value-list",
+        "file": "sakura-stand-value-list"
+      }
+    ]
+  }
+}

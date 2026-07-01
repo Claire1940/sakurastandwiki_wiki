@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand ego: Guia de Herrscher e Red Mist E.G.O.",
+  description: "Domine as mecânicas de sakura stand ego. Aprenda como obter a Herrscher of Human Ego e completar a rota da quest de Red Mist E.G.O. neste guia de 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a2e/f0529c?text=Sakura+Stand+Ego+Guide",
+  date: "2026-07-01",
+  author: "Equipe da Wiki de sakura stand",
+  keywords: "sakura stand ego, herrscher of human ego, red mist ego, jinpachi ego, guia"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **sakura stand ego**: Refere-se a specs de combate de alto nível, incluindo Herrscher of Human Ego e Red Mist E.G.O.
+- **Herrscher of Human Ego**: Uma spec premium baseada em banner que requer giros de Arrow of Novae.
+- **Red Mist E.G.O.**: Uma spec de drop de chefe obtida ao derrotar The Red Mist e usar o item Mimicry.
+- **Jinpachi Ego**: O NPC catalisador para a rota de progressão de Yoichi Isagi (Blue Lock).
+- **Meta Status**: Ambas as principais specs de Ego estão atualmente nos tiers SS e S para PvP e PvE.
+</Callout>
+
+<Section icon={Map} title="Entendendo as Mecânicas de sakura stand ego">
+
+No meta atual de 2026, o termo **sakura stand ego** engloba várias identidades de combate distintas de alto nível. Os jogadores costumam confundi-las porque a palavra "Ego" aparece em três grandes sistemas de jogo: a Herrscher of Human: Ego inspirada em Honkai, a Red Mist E.G.O. (Exoskeleton of General Objects) inspirada em Project Moon, e o NPC Jinpachi Ego inspirado em Blue Lock. Cada uma representa um aumento significativo de poder para jogadores que buscam ir além de Stands básicos como Star Platinum ou Crazy Diamond.
+
+<CardGrid cols={3}>
+  <Card title="Herrscher of Human: Ego">
+    - **Fonte**: Gacha de Banner
+    - **Estilo**: Burst à Distância/AoE
+    - **Dificuldade**: Baixa (Econômica)
+  </Card>
+  <Card title="The Red Mist (E.G.O.)">
+    - **Fonte**: Progressão de Chefe
+    - **Estilo**: Roubo de Vida/Melee Agressivo
+    - **Dificuldade**: Alta (Combate)
+  </Card>
+  <Card title="Yoichi Isagi (Ego)">
+    - **Fonte**: Missões de NPC
+    - **Estilo**: Técnico/Velocidade
+    - **Dificuldade**: Média (Missões)
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica Profissional">
+Se você é um novo jogador, não tente a rota da Red Mist até ter pelo menos Maestria 6 e uma Spec de farm confiável como Sukuna ou Cid Kagenou. A luta contra o chefe é um teste rigoroso de equipamento.
+</Callout>
+
+| Tipo de Spec Ego | Recurso Primário | Dificuldade de Obtenção | Melhor Modo de Jogo |
+| :--- | :--- | :--- | :--- |
+| **Herrscher of Human** | Tokens / Pyroxene | ★★★★☆ | Farm PvE / PvP em Grupo |
+| **The Red Mist** | Drops de Chefe / Mimicry | ★★★★★ | PvP 1v1 / Raids de Chefe |
+| **Yoichi Isagi** | Blue Lock Invitation | ★★★☆☆ | Mobilidade / PvP Técnico |
+
+</Section>
+
+<Section icon={Swords} title="A Rota de Progressão de The Red Mist E.G.O.">
+
+The Red Mist é amplamente considerada uma das specs melee mais poderosas na história do **sakura stand ego**. Ela foca na mecânica de "E.G.O. Manifestation", concedendo ao jogador um roubo de vida massivo e cortes de alto dano. Ao contrário das specs de banner, esta requer um ciclo dedicado de caça a chefes.
+
+**Destaques em Vídeo:**
+- Detalhamento dos padrões do chefe The Red Mist.
+- Como farmar inimigos do mapa eficientemente para acionar o portal.
+- Demonstração do despertar E.G.O. Manifestation.
+
+<Steps>
+  <Step num="1" title="Localize Carmen e Q3">
+    Navegue até a área Dark Alley. Você deve interagir com a NPC Carmen para iniciar a história, depois encontrar Q3, que serve como o guardião para o encontro com a Red Mist.
+  </Step>
+  <Step num="2" title="Farmar Inimigos do Mapa">
+    Você não pode simplesmente entrar na arena do chefe. Você deve construir progresso derrotando inimigos padrão do mapa. Quando seu progresso for suficiente, fale com Q3 para abrir o portal para o encontro com a Red Mist.
+  </Step>
+  <Step num="3" title="Derrotar o Chefe The Red Mist">
+    Esta é uma luta de várias fases. O chefe usa Greater Split: Horizontal e Vertical, que podem derrotar jogadores despreparados com um golpe. Foque em esquivar dos indicadores de brilho vermelho.
+  </Step>
+  <Step num="4" title="Usar Mimicry em Standless">
+    Assim que o chefe for derrotado, há uma chance de dropar o item **Mimicry**. Redefina sua habilidade atual usando uma Fruta Rokakaka para se tornar Standless, então use o Mimicry para obter a Spec.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso do Chefe">
+O chefe Red Mist tem uma mecânica de roubo de vida. Se você receber muitos golpes, ela se curará totalmente, fazendo a luta durar indefinidamente. Use habilidades de alto atordoamento (stun) para interromper os combos dela.
+</Callout>
+
+| Item de Drop | Taxa de Drop | Caso de Uso |
+| :--- | :--- | :--- |
+| **Mimicry** | Baixa (aprox. 5-10%) | Desbloqueia a Spec The Red Mist |
+| **E.G.O. Shards** | Garantido | Usado para upgrades de título e skin |
+| **Red Mist Page** | Raro | Desbloqueio Cosmético / Lore |
+
+</Section>
+
+<Section icon={Sparkles} title="Herrscher of Human Ego: Maestria de Banner">
+
+A **Herrscher of Human Ego** é uma Spec obtida através do banner "Arrow of Novae". É um espetáculo visual, transformando o jogador em um arqueiro etéreo com capacidades massivas de área de efeito. Na atualização de junho de 2026, esta spec continua sendo uma escolha de primeira linha para limpar raids rapidamente.
+
+Para obter esta spec, você deve participar do sistema gacha. Isso requer Pyroxene ou Tokens, que podem ser farmados através de missões diárias ou resgatados via códigos de Sakura Stand.
+
+| Mecânica de Banner | Requisito | Notas |
+| :--- | :--- | :--- |
+| **Sistema de Pity** | 80 - 100 Giros | Garante um drop de alta raridade |
+| **Moeda** | Pyroxene / Tokens | Tokens são mais fáceis de farmar para F2P |
+| **Taxa de Drop** | ~1.5% (Sem Pity) | Requer uma economia significativa |
+
+<Callout type="success" title="Estratégia do Meta">
+Herrscher of Human Ego é melhor usada em lutas de equipe. Seu despertar "Origin" fornece um bônus massivo para aliados enquanto prende inimigos em um domínio cristalino, tornando-a o híbrido definitivo de suporte e carry.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Metas de Farm e Checklist">
+
+Para dominar qualquer spec de **sakura stand ego**, você precisa de uma rotina de farm consistente. Esteja você girando banners ou caçando chefes, estes marcos são essenciais para a progressão na versão 2026 do jogo.
+
+<Checklist
+  id="ego-farming-goals"
+  title="Checklist de Progressão de Ego:"
+  items={[
+    "Alcançar Nível de Maestria 6 para desbloquear missões de alto nível",
+    "Acumular 5.000+ Tokens para segurança no Banner",
+    "Derrotar o chefe Red Mist pelo menos 5 vezes para aprender os padrões",
+    "Obter 3 Frutas Rokakaka para redefinições de habilidade",
+    "Completar a árvore de diálogo de Jinpachi Ego no Basketball Court"
+  ]}
+/>
+
+<Callout type="info" title="Requisito Importante">
+A maioria das missões relacionadas a Ego exige que você esteja **Standless**. Sempre mantenha um estoque de Frutas Rokakaka em seu inventário para não perder o surgimento de um chefe ou uma janela de missão.
+</Callout>
+
+| Local de Farm | Recompensa Primária | Spec Recomendada |
+| :--- | :--- | :--- |
+| **Abandoned Shrine** | EXP / Itens Zen'in | Sukuna / Choso |
+| **Dark Alley** | Progresso da Red Mist | Cid Kagenou / Sandevistan |
+| **Basketball Court** | Progresso de Blue Lock | Standless (Obrigatório) |
+
+</Section>
+
+<Section icon={Trophy} title="Jinpachi Ego e a Rota Blue Lock">
+
+O terceiro pilar da palavra-chave **sakura stand ego** é o NPC Jinpachi Ego. Localizado no Basketball Court (Quadra de Basquete), ele é o ponto de partida para a spec Yoichi Isagi. Esta rota é única porque foca nas mecânicas de "Flow" e "Metavision" em vez de magia de anime tradicional ou Stands.
+
+1. **Fale com Jinpachi Ego**: Encontrado perto das arquibancadas no Basketball Court.
+2. **Complete o Teste**: Você será encarregado de desafios específicos de combate e movimento.
+3. **Obtenha o Blue Lock Invitation**: Esta recompensa permite que você desperte as habilidades de Isagi, concedendo velocidade aprimorada e a habilidade de "ver" os movimentos dos inimigos antes que eles atinjam.
+
+<Callout type="tip" title="Dica Técnica">
+A spec Isagi é altamente dependente do ping. Se você tiver alta latência, a mecânica de esquiva Metavision pode não ser acionada corretamente. Pratique no servidor privado para acertar o tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Perguntas Frequentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "A Herrscher of Human Ego é melhor que a The Red Mist?",
+    answer: "Depende do modo. Herrscher é superior para PvE e combate em grupo devido ao seu AoE. The Red Mist é melhor para PvP 1v1 e chefes solo por causa do seu roubo de vida e alto dano em alvo único."
+  },
+  {
+    question: "Como eu consigo o item Mimicry para a Red Mist E.G.O.?",
+    answer: "Você deve derrotar o chefe Red Mist após entrar no portal fornecido pelo Q3. O item é um drop raro do baú do chefe."
+  },
+  {
+    question: "Onde o Jinpachi Ego está localizado no Sakura Stand?",
+    answer: "Jinpachi Ego está localizado na área do Basketball Court. Ele é essencial para iniciar a linha de missões de Yoichi Isagi (Blue Lock)."
+  },
+  {
+    question: "Posso ter várias specs de Ego ao mesmo tempo?",
+    answer: "Não, você só pode equipar um Stand ou Spec por vez. No entanto, você pode armazenar sua spec atual no NPC Stand Storage e alternar entre elas conforme necessário."
+  }
+]} />
+
+</Section>

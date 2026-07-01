@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Kaneki: Hướng dẫn sở hữu & Mẹo chiến đấu 2026",
+  description: "Làm chủ Hệ chiến (Spec) Kaneki trong Sakura Stand với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu lộ trình sở hữu nhanh nhất, bộ kỹ năng, mẹo cày cuốc và chiến thuật PvP meta.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/2d2d2d/ff69b4?text=Sakura+Stand+Kaneki+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Sakura Stand Kaneki** là một Hệ chiến (Spec) bậc cao lấy cảm hứng từ Tokyo Ghoul, tập trung vào các chuỗi chiêu thức (combo) cận chiến dồn dập và khả năng hồi phục máu.
+- **Cách sở hữu**: Người chơi phải đạt Mastery 1 (Thông thạo 1), thu thập Mặt nạ bịt mắt (Eyepatch Mask) và hoàn thành một chuỗi nhiệm vụ NPC cụ thể bao gồm các thử thách chiến đấu.
+- **Cơ chế cốt lõi**: Hệ thống Kagune cung cấp lượng sát thương bộc phát lớn và các tùy chọn cơ động độc đáo trong trạng thái chiến đấu chủ động.
+- **Chiến thuật tốt nhất**: Tập trung vào việc đánh trúng chiêu khống chế (stun) ban đầu để nối tiếp chuỗi các đòn tấn công Kagune sát thương cao trong khi quản lý thanh năng lượng đói (hunger bar) của bạn.
+- **Trạng thái Meta 2026**: Hiện được xếp hạng là Hệ chiến bậc S (S-Tier) cho cả việc cày boss và các cuộc chạm trán PvP tầm trung.
+</Callout>
+
+<Section icon={Swords} title="Tổng quan về Sakura Stand Kaneki">
+
+Sakura Stand Kaneki vẫn là một trong những Hệ chiến (Spec) mang tính biểu tượng và mạnh mẽ nhất trong meta năm 2026. Là một Hệ chiến thay vì là Stand, nó cho phép người chơi duy trì mức độ cơ động cao trong khi sử dụng các đòn tấn công hủy diệt dựa trên Kagune. Hệ chiến này được thiết kế cho những người chơi thích lối chơi mạo hiểm cao, phần thưởng lớn, nơi việc gánh chịu sát thương được bù đắp bằng các cơ chế hút máu và hồi phục mạnh mẽ.
+
+Trong phiên bản hiện tại của trò chơi, Kaneki vượt trội trong việc phá đỡ đòn (guard break) của kẻ địch và duy trì áp lực. Khác với các Stand truyền thống dựa vào một thực thể được triệu hồi, Kaneki biến đổi trực tiếp nhân vật của người chơi, mang lại trải nghiệm chiến đấu chân thực hơn. Hệ chiến này đặc biệt được ưa chuộng trong chu kỳ cập nhật 2026 nhờ khả năng khắc chế các Hệ chiến thiên về tầm xa như Emperor hoặc Sukuna thông qua các kỹ năng áp sát vượt trội.
+
+<CardGrid cols={3}>
+  <Card title="Phong cách chiến đấu">
+    - **Cận chiến dồn dập (Melee Aggressor)**
+    - Tiềm năng dồn sát thương cao
+    - Khả năng áp sát tuyệt vời
+  </Card>
+  <Card title="Khả năng sinh tồn">
+    - **Tập trung vào hồi phục**
+    - Hút máu khi đánh trúng
+    - Tỷ lệ máu cơ bản cao
+  </Card>
+  <Card title="Độ khó">
+    - **Yêu cầu kỹ năng trung bình**
+    - Phụ thuộc vào chuỗi chiêu thức (combo)
+    - Yêu cầu quản lý tài nguyên
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Hiệu suất năm 2026">
+Các bản vá gần đây vào tháng 6 năm 2026 đã ổn định lượng sát thương đầu ra của Kaneki, khiến nó trở thành một lựa chọn đáng tin cậy để vượt các phó bản (raid) cấp cao và thách thức lộ trình boss Naoya Zen'in.
+</Callout>
+
+| Thuộc tính | Giá trị cơ bản | Thưởng Mastery 10 | Loại chỉ số phụ thuộc |
+| --- | --- | --- | --- |
+| **Tốc độ đánh** | Nhanh | +15% Tốc độ | Nhanh nhẹn (Agility) |
+| **Hồi máu** | 2.5/giây | 5.0/giây | Sinh lực (Vitality) |
+| **Tiềm năng Combo** | Cao | Chuỗi vô hạn | Dựa trên kỹ năng |
+| **Phá đỡ đòn** | Trung bình | Tác động cao | Sức mạnh (Strength) |
+
+</Section>
+
+<Section icon={Map} title="Cách sở hữu Kaneki trong Sakura Stand">
+
+Việc sở hữu Hệ chiến **Sakura Stand Kaneki** đòi hỏi sự kết hợp giữa cày cuốc vật phẩm cụ thể và hoàn thành nhiệm vụ. Không giống như các Stand cơ bản chỉ cần Mũi tên Stand (Stand Arrow), Kaneki thuộc nhóm "Hệ chiến Anime nặng về nhiệm vụ" (Quest-Heavy Anime Specs), tương tự như lộ trình Roland hoặc Sandevistan. Bạn phải chuẩn bị cho nhân vật của mình bằng cách đạt cấp độ Mastery cần thiết trước khi NPC tương tác với bạn.
+
+Quá trình bắt đầu với trạng thái không có Stand (Standless). Nếu bạn hiện đang kích hoạt một Stand hoặc Hệ chiến khác, bạn phải tiêu thụ Quả Rokakaka (Rokakaka Fruit) để thiết lập lại các khả năng của mình. Khi đã ở trạng thái Standless, bạn cần tìm Mặt nạ bịt mắt (Eyepatch Mask), một vật phẩm hiếm rơi ra từ các rương cụ thể hoặc có thể mua trong các đợt mở bán giới hạn tại Cửa hàng của Auddy (Auddy's Shop).
+
+<Callout type="warning" title="Kiểm tra yêu cầu">
+Hãy đảm bảo bạn có ít nhất **Mastery 1** trước khi thử lộ trình này. NPC nhiệm vụ sẽ phớt lờ những người chơi chưa chứng minh được khả năng chiến đấu cơ bản.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Chuẩn bị và Thiết lập lại">
+    Sử dụng Quả Rokakaka để trở về trạng thái Standless. Đảm bảo cấp độ Mastery của bạn ít nhất là 1. Cày Mặt nạ bịt mắt (Eyepatch Mask) ở khu vực Rừng (Forest) hoặc Thành phố (City).
+  </Step>
+  <Step num="2" title="Tìm NPC nhiệm vụ">
+    Tìm NPC Ghoul Investigator nằm ở khu phố Hẻm tối (Dark Alley). Trang bị Mặt nạ bịt mắt và tương tác với họ để kích hoạt cuộc đối thoại bắt đầu.
+  </Step>
+  <Step num="3" title="Hoàn thành các thử thách chiến đấu">
+    NPC sẽ giao nhiệm vụ cho bạn đánh bại 20 kẻ địch trên bản đồ và sống sót qua một cuộc chạm trán mini-boss mà không sử dụng bất kỳ vật phẩm hồi máu bên ngoài nào.
+  </Step>
+  <Step num="4" title="Biến đổi cuối cùng">
+    Sau khi hoàn thành các thử thách, hãy quay lại gặp NPC. Bạn sẽ được nhắc "Chấp nhận cơn đói" (Accept the Hunger). Sau khi xác nhận, nhân vật của bạn sẽ biến đổi, mở khóa Hệ chiến Kaneki.
+  </Step>
+</Steps>
+
+| Vật phẩm cần thiết | Phân loại | Nguồn | Tỷ lệ rơi / Chi phí |
+| --- | --- | --- | --- |
+| **Quả Rokakaka (Rokakaka Fruit)** | Vật phẩm Reset | Cửa hàng Auddy / Rương | 500 Cash |
+| **Mặt nạ bịt mắt (Eyepatch Mask)** | Vật phẩm Hệ chiến | Rương trong Rừng / Arcade | Tỷ lệ rơi 2% |
+| **Thịt người (Human Meat)** | Vật phẩm Nhiệm vụ | Rơi ra khi chiến đấu | 10% từ NPC |
+| **Mastery XP** | Yêu cầu | Chiến đấu / Cày cuốc | 1,000 XP |
+
+</Section>
+
+<Section icon={Sparkles} title="Phân tích bộ kỹ năng của Kaneki">
+
+Sức mạnh của **Sakura Stand Kaneki** nằm ở bộ kỹ năng linh hoạt của nó. Trong meta năm 2026, người chơi phải thành thạo thời điểm giải phóng Kagune để tối đa hóa sát thương. Hầu hết các kỹ năng của Kaneki đều có thời gian hồi chiêu ngắn nhưng tiêu tốn nhiều thể lực (stamina), đòi hỏi một cách tiếp cận chiến đấu cân bằng. Hệ chiến này có sự kết hợp giữa các đòn quét rộng để kiểm soát đám đông và các đòn đâm tập trung để tiêu diệt mục tiêu đơn lẻ.
+
+Khả năng nội tại của Kaneki, "Ghoul Physiology" (Sinh lý Ghoul), cung cấp hiệu ứng hồi máu liên tục và hiệu ứng này sẽ tăng lên khi lượng máu của bạn giảm xuống thấp hơn. Điều này khiến bạn trở nên cực kỳ khó bị hạ gục trong các tình huống 1v1 kéo dài. Tuy nhiên, bạn phải luôn chủ động tấn công; nếu không đánh trúng mục tiêu, thanh "Đói" (Hunger) của bạn sẽ cạn kiệt, tạm thời làm giảm lượng sát thương đầu ra.
+
+| Phím | Tên kỹ năng | Mô tả | Sát thương / Hiệu ứng |
+| --- | --- | --- | --- |
+| **Chuột trái (LMB)** | Combo cơ bản | Một chuỗi các cú đấm nhanh và đòn tấn công bằng Kagune. | 15-20 mỗi đòn |
+| **E** | Quét Kagune | Một nhát chém ngang rộng đẩy lùi nhiều kẻ địch. | 35 Sát thương + Đẩy lùi |
+| **R** | Đòn đâm xuyên | Một cú đâm nhanh về phía trước phá vỡ thế đỡ đòn của kẻ địch ngay lập tức. | 45 Sát thương / Phá đỡ đòn |
+| **T** | Ngốn ngấu (Devour) | Một chiêu vồ lấy gây sát thương và hồi máu cho người chơi. | 30 Sát thương + 15 Máu |
+| **F** | Dạng Rết (Centipede Form) | Chế độ thức tỉnh giúp tăng tốc độ và sát thương trong 30 giây. | Hệ số nhân 1.5x |
+| **G** | Suy sụp tâm lý | Một chiêu gây choáng diện rộng (AoE) cực lớn khiến kẻ địch sơ hở trong 2 giây. | Choáng / Không gây sát thương |
+
+<Callout type="tip" title="Làm chủ Combo">
+Combo hiệu quả nhất năm 2026 là: **LMB x3 -> R (Phá đỡ đòn) -> E (Quét) -> T (Hồi máu)**. Chuỗi chiêu thức này đảm bảo áp lực tối đa trong khi vẫn giữ cho lượng máu của bạn ở mức cao.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Ưu tiên cày cuốc và Tiến trình">
+
+Để tối đa hóa tiềm năng của Hệ chiến Kaneki, bạn phải tập trung vào các lộ trình cày cuốc cụ thể giúp nâng cao Mastery của bạn và cung cấp các vật liệu nâng cấp cần thiết. Trong Sakura Stand, tiến trình không dừng lại sau khi bạn mở khóa Hệ chiến. Bạn cần đầu tư thời gian vào hệ thống Mastery để mở khóa thức tỉnh "Centipede" (Rết) và các nội tại nâng cao khác.
+
+Bản cập nhật 2026 đã giới thiệu lộ trình cày "Chú linh" (Cursed Spirit), rất phù hợp cho người chơi Kaneki. Vì Kaneki có khả năng hút máu cao, bạn có thể cày những quái vật có sát thương cao này hiệu quả hơn nhiều Hệ chiến khác. Hãy tập trung vào các khu vực có mật độ NPC cao để giữ cho thanh Đói luôn đầy và lượng XP nhận được luôn ổn định.
+
+<Checklist
+  id="kaneki-progression"
+  title="Các mốc Mastery của Kaneki:"
+  items={[
+    "Đạt Mastery 3 để mở khóa kỹ năng hồi máu 'Devour'",
+    "Thu thập 10 vật phẩm Thịt người (Human Meat) để nâng cấp độ bền của Kagune",
+    "Đánh bại boss Toji Fushiguro để thử nghiệm tiềm năng dồn sát thương",
+    "Đạt Mastery 10 để mở khóa dạng Thức tỉnh 'Centipede'",
+    "Tham gia 5 trận đấu PvP để tinh chỉnh thời gian combo"
+  ]}
+/>
+
+<Callout type="info" title="Hiệu suất cày cuốc">
+Người dùng Roblox Premium nhận được thêm 1.15x XP thưởng. Nếu bạn thực sự nghiêm túc về việc đạt Mastery 10 nhanh chóng, phần thưởng này sẽ giảm đáng kể thời gian cày cuốc để đạt được dạng tối thượng của Kaneki.
+</Callout>
+
+| Địa điểm cày cuốc | Loại kẻ địch | Độ khó | Phần thưởng |
+| --- | --- | --- | --- |
+| **Hẻm thành phố** | Côn đồ cấp thấp | Dễ | Tiền cơ bản / Mastery XP |
+| **Đền thờ bỏ hoang** | Thành viên gia tộc Zen'in | Trung bình | XP cao / Danh hiệu Zen'in |
+| **Rừng sâu** | Chú linh | Khó | Mastery / Rơi mặt nạ hiếm |
+| **Đấu trường Boss** | Sukuna / Naoya | Cực kỳ khó | Vật phẩm huyền thoại / Token |
+
+</Section>
+
+<Section icon={Trophy} title="So sánh cạnh tranh: Kaneki so với Meta">
+
+Trong bối cảnh hiện tại của Sakura Stand năm 2026, Kaneki đối mặt với sự cạnh tranh gay gắt từ các Hệ chiến như Sukuna, Gojo và Naoya Zen'in mới được thêm vào. Mặc dù Kaneki thiếu khả năng 'Bành trướng Lãnh địa' (Domain Expansion) diện rộng của các Hệ chiến Jujutsu Kaisen, nhưng nó bù đắp lại bằng khả năng chiến đấu bền bỉ vượt trội và khả năng sinh tồn cá nhân.
+
+Kaneki thường được coi là lựa chọn "Chống Meta" (Anti-Meta). Khả năng phá đỡ đòn bằng phím 'R' và hồi máu ngay giữa trận đấu khiến nó trở thành cơn ác mộng đối với những người chơi phụ thuộc vào lá chắn hoặc chiến thuật đánh-và-chạy (hit-and-run). Khi so sánh với các Stand như Star Platinum hoặc The World, Kaneki mang lại chuyển động mượt mà hơn và ít phụ thuộc hơn vào cơ chế "Ngưng đọng thời gian" (Time Stop) có thời gian hồi chiêu lâu.
+
+| Hệ chiến / Stand | Sức mạnh chính | Điểm yếu | Xếp hạng 2026 |
+| --- | --- | --- | --- |
+| **Kaneki** | **Hồi phục bền bỉ** | Giới hạn tầm đánh | **Bậc S (S-Tier)** |
+| **Sukuna** | Sát thương AoE bộc phát lớn | Thời gian hồi chiêu lâu | **Bậc SS (SS-Tier)** |
+| **Gojo** | Khả năng phòng thủ không thể chạm tới | Phụ thuộc vào kỹ năng | **Bậc S (S-Tier)** |
+| **Naoya** | Tốc độ cực hạn | Lượng máu thấp | **Bậc A (A-Tier)** |
+| **Star Platinum** | Khống chế đáng tin cậy | Các chiêu thức dễ đoán | **Bậc B (B-Tier)** |
+
+<Callout type="tip" title="Chiến thuật PvP">
+Khi đối đầu với Sukuna, hãy đợi họ sử dụng hết Bành trướng Lãnh địa. Sử dụng sự cơ động của Kaneki để đứng ngoài vùng ảnh hưởng ban đầu, sau đó lao vào với Đòn đâm xuyên (Piercing Strike) khi các chiêu thức của họ đang trong thời gian hồi.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Kaneki có tốt hơn Sukuna trong Sakura Stand không?",
+    answer: "Điều đó phụ thuộc vào lối chơi. Sukuna có sát thương bộc phát diện rộng (AoE) cao hơn, nhưng Kaneki mang lại khả năng hồi phục bền bỉ và đấu tay đôi 1v1 vượt trội nhờ các nội tại hồi máu của nó."
+  },
+  {
+    question: "Vật phẩm tốt nhất để kết hợp với Hệ chiến Kaneki là gì?",
+    answer: "Mặt nạ bịt mắt (Eyepatch Mask) là bắt buộc để mở khóa, nhưng trong chiến đấu chủ động, các vật phẩm tăng Nhanh nhẹn (Agility) hoặc Sức mạnh (Strength) được khuyên dùng để tối đa hóa sát thương của Kagune."
+  },
+  {
+    question: "Làm cách nào để thiết lập lại Hệ chiến Kaneki nếu tôi muốn thử một hệ chiến khác?",
+    answer: "Bạn có thể sử dụng Quả Rokakaka bất kỳ lúc nào để quay lại trạng thái Standless. Điều này sẽ cho phép bạn bắt đầu một chuỗi nhiệm vụ mới như lộ trình Sandevistan hoặc Choso."
+  },
+  {
+    question: "Kaneki có dạng tiến hóa nào trong bản cập nhật 2026 không?",
+    answer: "Có, đạt Mastery 10 cho phép bạn mở khóa dạng 'Centipede' (Rết), hoạt động như một dạng tiến hóa thức tỉnh mạnh mẽ với các chỉ số được nâng cao và hiệu ứng hình ảnh mới."
+  }
+]} />
+
+</Section>

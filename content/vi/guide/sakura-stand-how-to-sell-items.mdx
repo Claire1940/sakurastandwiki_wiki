@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Coins, ShoppingBag, ArrowLeftRight } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cách bán vật phẩm trong Sakura Stand: Hướng dẫn giao dịch & cửa hàng năm 2026",
+  description: "Tìm hiểu cách bán vật phẩm trong Sakura Stand, làm chủ hệ thống giao dịch và tối đa hóa Token cũng như Cash của bạn với hướng dẫn tài nguyên chuyên sâu năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/f0529c/fff?text=Selling+Items+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **cách bán vật phẩm trong sakura stand**: Người chơi chủ yếu "bán" bằng cách giao dịch các vật phẩm/skin hiếm với người khác hoặc sử dụng các cửa hàng NPC để trao đổi các loại tiền tệ cụ thể.
+- **Tiền tệ chính**: Sử dụng **Token** và **Cash** để mua các vật phẩm tiến trình thiết yếu từ Cửa hàng của Auddy hoặc Cửa hàng Đột phá.
+- **Giá trị giao dịch**: Các skin hiếm và vật phẩm giới hạn sự kiện có giá trị thị trường cao nhất; luôn kiểm tra Discord chính thức để biết các bậc giao dịch hiện tại.
+- **Đặt lại kho đồ**: Sử dụng **Quả Rokakaka** để xóa Stand hoặc Spec hiện tại của bạn, cho phép bạn "bán lại" ô của mình để lấy một khả năng mới.
+- **Vật phẩm cập nhật**: Các vật phẩm mới từ bản cập nhật Naoya và Choso, như **Death Painting**, hiện đang có giá cực cao trên thị trường người chơi.
+</Callout>
+
+<Section icon={Coins} title="Thấu hiểu nền kinh tế Sakura Stand">
+
+Để làm chủ **cách bán vật phẩm trong sakura stand**, trước tiên bạn phải hiểu hệ thống tiền tệ kép thúc đẩy nền kinh tế của trò chơi. Không giống như các game RPG truyền thống có nút "Bán" duy nhất trong mọi menu, trải nghiệm này tập trung vào việc chuyển đổi tài nguyên và thương mại giữa người chơi với người chơi. Cash là công cụ chính của bạn cho các tương tác cơ bản tại cửa hàng, trong khi Token thường được dành riêng cho các nâng cấp cấp cao hơn và các cơ chế gacha cụ thể.
+
+| Loại tiền tệ | Nguồn chính | Công dụng chính | Độ ưu tiên |
+| :--- | :--- | :--- | :--- |
+| **Cash** | Cày NPC, Boss, Code | Mua Arrow, Rokakaka, Manual | Cao |
+| **Token** | Nhiệm vụ hàng ngày, Boss đặc biệt, Code | Quay Banner, Vật phẩm cao cấp | Tối đa |
+| **Tăng EXP** | Code, Thành viên Premium | Tăng tốc tiến trình Thông thạo (Mastery) | Trung bình |
+
+Trong meta năm 2026 hiện tại, "giá trị" của một vật phẩm không chỉ là giá bán ở cửa hàng; nó được quyết định bởi tính hữu dụng của nó trong việc tiến hóa Stand hoặc Spec. Ví dụ: một **Stand Arrow** thì rẻ và phong phú, nhưng một **Requiem Arrow** hoặc một **Mảnh Hogyoku** lại đại diện cho hàng giờ cày cuốc miệt mài, khiến chúng có giá trị hơn nhiều trong giới giao dịch.
+
+<Callout type="tip" title="Mẹo kinh tế">
+Luôn quy đổi các mã code còn hoạt động trước khi cố gắng bán các vật phẩm khó khăn lắm mới kiếm được của bạn. Code thường mang lại một lượng Cash và Token khổng lồ, giúp bạn không phải thanh lý sớm kho đồ hiếm của mình trong giai đoạn đầu game.
+</Callout>
+
+</Section>
+
+<Section icon={ArrowLeftRight} title="Cách bán vật phẩm trong Sakura Stand thông qua giao dịch">
+
+Cách hiệu quả nhất để "bán" vật phẩm đúng với giá trị thực của chúng là thông qua hệ thống giao dịch giữa người chơi. Bởi vì nhiều vật phẩm cấp cao như **Arasaka Suitcase** hoặc **Mimicry** không thể bán cho NPC với giá hợp lý, cộng đồng đã thiết lập một nền kinh tế trao đổi hàng hóa mạnh mẽ. Đây là nơi bạn đổi những vật phẩm hiếm dư thừa của mình để lấy các vật phẩm hoặc skin cụ thể mà bạn thực sự cần.
+
+**Các danh mục giao dịch và nhu cầu thị trường:**
+
+<CardGrid cols={3}>
+  <Card title="Skin & Vật phẩm trang trí">
+    - **Tính thanh khoản cao**
+    - Giá trị dựa trên độ hiếm/pity
+    - Tốt nhất cho lợi nhuận dài hạn
+  </Card>
+  <Card title="Vật phẩm tiến hóa">
+    - **Nhu cầu ổn định**
+    - Các vật phẩm như Dio's Bone
+    - Thiết yếu cho việc thăng tiến
+  </Card>
+  <Card title="Vật phẩm giới hạn sự kiện">
+    - **Giá trị cực cao**
+    - Vật phẩm theo mùa (Padoru)
+    - Giá trị tăng dần theo thời gian
+  </Card>
+</CardGrid>
+
+Khi bạn đang tìm **cách bán vật phẩm trong sakura stand** cho những người chơi khác, bạn phải lưu ý đến các yêu cầu về "Thông thạo" (Mastery). Một số giao dịch bị khóa sau các cấp độ người chơi hoặc cấp bậc Thông thạo cụ thể để ngăn chặn gian lận và đảm bảo cân bằng game.
+
+<Callout type="warning" title="An toàn giao dịch">
+Không bao giờ chấp nhận giao dịch ngoài cửa sổ giao dịch chính thức. Những kẻ lừa đảo thường hứa hẹn "giao dịch chéo" hoặc "thanh toán sau". Nếu nó không nằm trong hộp giao dịch, nó không tồn tại.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingBag} title="Tương tác với các cửa hàng và thương nhân NPC">
+
+Trong khi giao dịch với người chơi dành cho các tài sản có giá trị cao, các cửa hàng NPC là nơi bạn tìm đến để dọn dẹp kho đồ cơ bản hoặc mua các công cụ nền tảng. **Cửa hàng của Auddy** là địa điểm được người chơi ghé thăm nhiều nhất khi cần xoay vòng vật phẩm của mình. Tại đây, bạn có thể chi tiêu số Cash tích lũy của mình để "đầu tư" vào các cơ hội RNG tốt hơn.
+
+**Các thương nhân NPC chính trong năm 2026:**
+
+| Tên thương nhân | Vị trí | Vật phẩm chính được bán | Tiền tệ |
+| :--- | :--- | :--- | :--- |
+| **Auddy** | Sảnh chính | Arrow, Rokakaka, Hamon Manual | Cash |
+| **Cửa hàng Đột phá** | Khu vực sự kiện | Túi quà, Vật phẩm theo mùa | Token/Sự kiện |
+| **Urahara Kisuke** | Khu vực cửa hàng | Vật phẩm tiến trình Bleach | Cash/Nhiệm vụ |
+| **Jinpachi Ego** | Sân bóng rổ | Thư mời Blue Lock | Nhiệm vụ/Cash |
+
+Bán thời gian của bạn để lấy vật phẩm và sau đó "bán" những vật phẩm đó để lấy những thứ tốt hơn là vòng lặp cốt lõi. Ví dụ: bạn cày NPC để lấy Cash, mua **Quả Rokakaka** từ Auddy và sử dụng chúng để đặt lại Stand của mình cho đến khi bạn quay ra một Stand cấp cao mà sau đó bạn có thể giao dịch (bán) cho người chơi khác để lấy các skin hiếm.
+
+<Callout type="success" title="Chiến lược lợi nhuận">
+Nếu bạn có dư thừa Cash, hãy mua sạch kho Quả Rokakaka. Những quả này luôn có nhu cầu cao vì người chơi liên tục cần đặt lại Spec của họ cho các bản cập nhật mới như nhánh **Naoya Zen'in** hoặc **Choso**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Từng bước: Chuẩn bị vật phẩm để bán">
+
+Trước khi bạn đến trung tâm giao dịch hoặc các cửa hàng, bạn cần đảm bảo kho đồ của mình đã được tối ưu hóa. Hãy làm theo các bước sau để tối đa hóa giá trị bạn nhận được khi quyết định **cách bán vật phẩm trong sakura stand**.
+
+<Steps>
+  <Step num="1" title="Kiểm toán kho đồ">
+    Kiểm tra kho đồ của bạn để tìm các vật phẩm trùng lặp. Các vật phẩm như **Stand Arrow** và **Hamon Manual** tích lũy rất nhanh và tốt hơn là nên sử dụng hoặc bỏ đi để nhường chỗ cho các vật phẩm rơi ra có giá trị cao như **Ngón tay nguyền rủa**.
+  </Step>
+  <Step num="2" title="Kiểm tra các bậc xếp hạng hiện tại">
+    Truy cập Discord hoặc Trello chính thức. Giá trị thị trường của các skin như **Cid Kagenou** hoặc **Flandre Scarlet** biến động hàng tuần dựa trên các bản vá cân bằng. Đừng bán rẻ một skin đang thống trị meta.
+  </Step>
+  <Step num="3" title="Xác minh Thông thạo">
+    Đảm bảo bạn đã đạt đến cấp độ Thông thạo yêu cầu (thường là Thông thạo 1 trở lên) để tham gia giao dịch các Spec cụ thể hoặc vật phẩm tiến hóa.
+  </Step>
+  <Step num="4" title="Thực hiện giao dịch">
+    Vào trung tâm giao dịch, tìm một đối tác uy tín và sử dụng giao diện giao dịch an toàn để trao đổi vật phẩm của bạn lấy tiền tệ hoặc tài sản mong muốn.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lưu ý về Thông thạo">
+Người dùng Roblox Premium được tăng 1.15x EXP. Nếu bạn đang cày vật phẩm để bán, phần thưởng này sẽ giảm đáng kể thời gian cần thiết để đạt đến các ngưỡng Thông thạo yêu cầu cho giao dịch cấp cao.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Các vật phẩm giá trị cần cày và bán">
+
+Không phải tất cả các vật phẩm đều được tạo ra như nhau. Nếu mục tiêu của bạn là tích lũy tài sản, bạn nên tập trung nỗ lực cày cuốc vào các vật phẩm có giá trị "bán lại" cao trong cộng đồng. Chu kỳ cập nhật năm 2026 đã giới thiệu một số mục tiêu ưu tiên cao mới.
+
+| Tên vật phẩm | Danh mục | Độ hiếm | Nhu cầu thị trường |
+| :--- | :--- | :--- | :--- |
+| **Death Painting** | Cập nhật JJK | Hiếm | **Tối đa** |
+| **Sukuna's Finger** | Tiến trình JJK | Không phổ biến | **Cao** |
+| **Mảnh Hogyoku** | Dòng Bleach | Hiếm | **Cao** |
+| **Cyan Cyberdeck** | Sandevistan | Không phổ biến | **Trung bình** |
+| **Mimicry** | Vật phẩm rơi từ Boss | Rất hiếm | **Tối đa** |
+
+**Death Painting** hiện là vật phẩm hot nhất do sự ra mắt của Choso Spec. Cày theo tuyến đường Kamo Remnant là cách hiệu quả nhất để có được vật phẩm này để bán/giao dịch. Tương tự, các vật phẩm rơi ra từ boss như **Mimicry** từ The Red Mist luôn được săn đón vì trận chiến với boss này rất thử thách đối với những người chơi solo.
+
+<Callout type="warning" title="Biến động thị trường">
+Các vật phẩm cập nhật mới luôn bắt đầu với nhu cầu "Tối đa" nhưng sẽ giảm nhanh chóng khi có nhiều người chơi hoàn thành nhiệm vụ hơn. Hãy bán **Death Painting** và các vật phẩm **Zen'in** của bạn sớm trong chu kỳ cập nhật để có lợi nhuận tốt nhất.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra quản lý kho đồ">
+
+Để duy trì hiệu quả trong hành trình tìm kiếm sự giàu có, hãy sử dụng danh sách kiểm tra này để quản lý các vật phẩm của bạn trước khi chúng làm đầy kho lưu trữ. Tổ chức hợp lý là bước đầu tiên để bán hàng thành công.
+
+<Checklist
+  id="selling-prep"
+  title="Danh sách kiểm tra trước khi bán:"
+  items={[
+    "Xác minh khả năng giao dịch của vật phẩm trong Trello chính thức",
+    "Kiểm tra các yêu cầu Thông thạo 1+ trên nhân vật của bạn",
+    "Hợp nhất các vật phẩm có thể cộng dồn như Arrow và Manual",
+    "So sánh độ hiếm skin của bạn với Bảng xếp hạng (Tier List) hiện tại",
+    "Dọn dẹp các vật phẩm cơ bản tại Cửa hàng của Auddy để giải phóng các ô chứa"
+  ]}
+/>
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Sử dụng **Máy ảnh bí ẩn** trong các sự kiện thời tiết cụ thể để có được các biến thể theo mùa. Các biến thể "Thời gian" (Mùa hè, Mưa, Mùa đông) này thường bán được giá hơn nhiều so với các phiên bản cơ bản do tính khả dụng có hạn của chúng.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể bán trực tiếp Stand của mình lấy Cash cho NPC không?",
+    answer: "Không, bạn không thể bán Stand để lấy Cash. Bạn phải sử dụng Quả Rokakaka để đặt lại ô Stand của mình. Tuy nhiên, bạn có thể giao dịch skin Stand với những người chơi khác để lấy các vật phẩm có giá trị Cash."
+  },
+  {
+    question: "Nơi tốt nhất để tìm người mua cho các vật phẩm của tôi là ở đâu?",
+    answer: "Discord chính thức của Sakura Stand là nơi tốt nhất. Nó có các kênh giao dịch chuyên dụng nơi bạn có thể đăng tin nhắn 'Cần bán' (LTS) hoặc 'Cần trao đổi' (LTT)."
+  },
+  {
+    question: "Có vật phẩm nào không thể bán hoặc giao dịch không?",
+    answer: "Có, một số vật phẩm thiết yếu cho nhiệm vụ và trang bị khởi đầu cơ bản được liên kết linh hồn với tài khoản của bạn. Luôn kiểm tra mô tả vật phẩm trong kho đồ của bạn; if nút 'Giao dịch' bị xám, vật phẩm đó không thể bán cho người khác."
+  },
+  {
+    question: "Làm thế nào để tôi bán vật phẩm lấy Token?",
+    answer: "Token nhìn chung không thể giao dịch giữa các người chơi. Để 'bán' vật phẩm lấy Token, bạn thường tham gia vào các chương trình trao đổi dành riêng cho sự kiện hoặc giao dịch vật phẩm của mình để lấy các skin hiếm có thể 'phân rã' trong một số cơ chế cập nhật nhất định, mặc dù điều này khá hiếm."
+  }
+]} />
+
+</Section>

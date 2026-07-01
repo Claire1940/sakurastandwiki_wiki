@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Sakura Stand Naoya: Hướng dẫn Spec 2026 & Cách vượt Raid Zen'in",
+  description: "Làm chủ Spec Naoya trong Sakura Stand với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu lộ trình thăng tiến Zen'in, cơ chế raid và các chiến thuật rushdown kỹ thuật.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/334860/fff?text=Naoya+Zen'in+Guide",
+  date: "2026-07-01",
+  author: "Đội ngũ Wiki Sakura Stand",
+  keywords: "sakura stand naoya, hướng dẫn naoya, raid zen'in, lộ trình thăng tiến naoya, jjk spec"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Sakura Stand Naoya** là một Spec rushdown kỹ thuật được giới thiệu trong bản cập nhật JJK 2026.
+- **Cách sở hữu** yêu cầu tìm Naobito tại Đền thờ bỏ hoang (Abandoned Shrine) và hoàn thành lộ trình thăng tiến của gia tộc Zen'in.
+- **Cơ chế chính** xoay quanh các combo tốc độ cao và nhiều biến thể phím "G" để tạo áp lực kỹ thuật.
+- **Chiến thuật tốt nhất** tập trung vào cận chiến chủ động trong khi quản lý hệ thống Bành trướng Lãnh địa (Domain Expansion) mới.
+- **Lựa chọn hàng đầu** cho những người chơi thích lối chơi tốc độ nhanh, yêu cầu kỹ năng cao thay vì chỉ dồn sát thương đơn thuần.
+</Callout>
+
+<Section icon={Sparkles} title="Sakura Stand Naoya: Tổng quan bản cập nhật 2026">
+
+Sự ra đời của **Sakura Stand Naoya** đánh dấu một sự thay đổi đáng kể trong meta chiến đấu của chu kỳ cập nhật 2026. Là một phần của bản mở rộng "Naoya và Choso", Spec này tập trung vào các khía cạnh kỹ thuật trong phong cách chiến đấu của gia tộc Zen'in. Khác với sức mạnh thô bạo của Sukuna hay khả năng phòng thủ của Gojo, Naoya Zen'in cung cấp một bộ kỹ năng rushdown chuyên biệt, đề cao sự chính xác và thời điểm.
+
+Bản cập nhật này cũng mang đến một sự thay đổi hoàn toàn cho hệ thống Bành trướng Lãnh địa và tinh chỉnh cách các Spec chủ đề JJK tương tác với môi trường. Người chơi phải vượt qua một lộ trình thăng tiến phức tạp bao gồm các NPC cụ thể, các trận chiến raid và các mốc làm chủ (mastery). Spec Naoya được thiết kế đặc biệt cho lối chơi kỹ thuật, tận dụng tốc độ và cơ chế bẫy khung hình (frame-trap) để áp đảo đối thủ trong cả PvP và PvE cấp độ cao.
+
+| Tính năng cập nhật | Mô tả | Độ ưu tiên |
+| :--- | :--- | :--- |
+| **Spec mới** | Naoya Zen'in (Rushdown kỹ thuật) | **Cao** |
+| **Raid mới** | Lộ trình Raid Naoya | **Cao** |
+| **Vật phẩm mới** | Bức tranh Tử vong, Tàn tích Zen'in | Trung bình |
+| **NPC mới** | Naobito, John Zen'in | **Cao** |
+| **Làm lại hệ thống** | Cơ chế Bành trướng Lãnh địa | Trung bình |
+
+<Callout type="success" title="Điểm nhấn cập nhật">
+Bản cập nhật Naoya bao gồm các bản sửa lỗi quan trọng cho các lỗi treo (softlock) và lỗi ngắt quãng, giúp các Spec kỹ thuật trở nên ổn định hơn nhiều trong các trận đấu xếp hạng.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách sở hữu Spec Naoya Zen'in">
+
+Sở hữu **Sakura Stand Naoya** là một quá trình gồm nhiều giai đoạn, yêu cầu người chơi phải thận trọng về các khả năng hiện đang trang bị. Lộ trình thăng tiến Zen'in bị giới hạn nghiêm ngặt; nếu bạn đang trang bị một Spec Jujutsu Kaisen khác, chẳng hạn như Sukuna hoặc Itadori Yuji, các NPC sẽ không tương tác đúng cách cho con đường cụ thể này.
+
+<Steps>
+  <Step num="1" title="Tìm Naobito tại Đền thờ bỏ hoang">
+    Hành trình của bạn bắt đầu tại Đền thờ bỏ hoang (Abandoned Shrine). Bạn phải tiếp cận NPC Naobito khi đang ở trạng thái Standless hoặc trang bị một Spec không thuộc JJK. Nói chuyện với ông ta sẽ bắt đầu cuộc đối thoại về gia tộc Zen'in, đưa bạn vào con đường phân cấp của gia tộc.
+  </Step>
+  <Step num="2" title="Hoàn thành lộ trình thăng tiến Zen'in">
+    Sau khi nói chuyện với Naobito, bạn sẽ được giao nhiệm vụ chứng minh giá trị của mình. Điều này bao gồm việc tương tác với John Zen'in và hoàn thành một loạt các thử thách chiến đấu. Những thử thách này kiểm tra khả năng đối phó với nhiều kẻ thù mà không cần dựa vào các Stand bậc cao.
+  </Step>
+  <Step num="3" title="Chinh phục Raid Naoya">
+    Bước cuối cùng là Raid Naoya. Đây là một cuộc chạm trán chuyên biệt, nơi bạn phải đối mặt với tốc độ kỹ thuật của phong cách Zen'in. Vượt qua raid này thành công sẽ ban cho bạn các nguyên liệu cần thiết để hoàn tất Spec Naoya Zen'in.
+  </Step>
+  <Step num="4" title="Hoàn tất Thức tỉnh">
+    Sau khi vượt qua raid và đáp ứng đủ các yêu cầu, hãy quay lại đền thờ để mở khóa toàn bộ tiềm năng của Spec. Điều này sẽ ban cho bạn danh hiệu "Người đứng đầu gia tộc Zen'in" hoặc "Thành viên gia tộc Zen'in" tùy thuộc vào tiến trình của bạn.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Yêu cầu quan trọng">
+Đừng trang bị bất kỳ Spec JJK nào (như Gojo hoặc Sukuna) khi bắt đầu chuỗi nhiệm vụ của Naobito, nếu không lộ trình thăng tiến sẽ không được kích hoạt. Sử dụng Trái Rokakaka nếu cần để trở về trạng thái Standless.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Bộ kỹ năng và Cơ chế Kỹ thuật của Naoya">
+
+Cốt lõi của **Sakura Stand Naoya** nằm ở phân loại "Rushdown Kỹ thuật". Bộ kỹ năng được thiết kế để giữ đối thủ trong trạng thái bị choáng (hitstun) liên tục trong khi cung cấp cho người dùng nhiều lựa chọn thoát hiểm và truy kích. Một trong những khía cạnh độc đáo nhất của Naoya là hệ thống biến thể "G", cho phép các kỹ năng thay đổi thuộc tính dựa trên thời điểm và hướng bấm phím.
+
+| Tên kỹ năng | Loại | Hiệu ứng / Mô tả |
+| :--- | :--- | :--- |
+| **Technical Strike** | Cận chiến | Cú đấm khởi động nhanh dẫn đến các combo tốc độ cao. |
+| **Zen'in Speed** | Cơ động | Cú lướt vượt qua giới hạn tốc độ di chuyển tiêu chuẩn. |
+| **G-Variation A** | Đặc biệt | Một đòn phản công kỹ thuật làm choáng kẻ tấn công trong 1.5 giây. |
+| **G-Variation B** | Đặc biệt | Một đòn đánh bồi tăng tiến theo số lượng combo hiện tại. |
+| **Domain Expansion** | Tuyệt kỹ | Phiên bản 2026 được làm lại với hiệu ứng hình ảnh nâng cao. |
+
+Spec này phát huy mạnh mẽ khi gây áp lực chủ động. Bằng cách sử dụng cú lướt Zen'in Speed, người dùng có thể thu hẹp khoảng cách ngay lập tức, khiến các Stand tầm xa như Emperor khó duy trì khoảng cách. Đợt cân bằng năm 2026 cũng điều chỉnh tỷ lệ sát thương cho Naoya, đảm bảo rằng mặc dù các đòn đánh đơn lẻ nhẹ hơn, nhưng tổng tiềm năng combo vẫn thuộc hàng cao nhất trong trò chơi.
+
+<Callout type="info" title="Mẹo làm chủ">
+Hiệu quả của Naoya phụ thuộc rất nhiều vào cấp độ Mastery của bạn. Ở Mastery 1, bộ kỹ năng cơ bản sẽ được mở khóa, nhưng các biến thể G nâng cao và tinh chỉnh Lãnh địa yêu cầu các bậc Mastery cao hơn để đạt hiệu quả tối đa.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Naoya so với các Spec JJK khác: So sánh Meta 2026">
+
+Việc lựa chọn giữa các Spec JJK khác nhau trong Sakura Stand phụ thuộc vào lối chơi ưa thích của bạn. Trong khi **Sakura Stand Naoya** là lựa chọn yêu thích hiện tại cho những người chơi kỹ thuật, các lựa chọn khác như Sukuna hoặc Choso lại mang đến những lợi thế khác nhau trong meta 2026.
+
+<CardGrid cols={2}>
+  <Card title="Naoya Zen'in">
+    - **Phong cách**: Rushdown kỹ thuật
+    - **Ưu điểm**: Tốc độ cực cao, chuỗi combo dài, phản công kỹ thuật.
+    - **Nhược điểm**: Yêu cầu kỹ năng cao, sát thương đơn lẻ thấp.
+    - **Tốt nhất cho**: Chuyên gia PvP và những người đam mê combo.
+  </Card>
+  <Card title="Sukuna">
+    - **Phong cách**: Boss/Dồn sát thương
+    - **Ưu điểm**: Sát thương diện rộng (AoE) lớn, hồi phục máu, áp lực Lãnh địa.
+    - **Nhược điểm**: Khởi động chậm hơn, yêu cầu 15 Ngón tay để mở khóa.
+    - **Tốt nhất cho**: Farm Boss và kiểm soát đám đông.
+  </Card>
+  <Card title="Choso">
+    - **Phong cách**: Xích Huyết Thao Thuật/Combo
+    - **Ưu điểm**: Áp lực gây choáng, bắn máu tầm xa, công cụ thức tỉnh.
+    - **Nhược điểm**: Phụ thuộc vào tài nguyên (Thanh máu), thiết lập phức tạp.
+    - **Tốt nhất cho**: Chiến đấu tầm trung và gây choáng chiến thuật.
+  </Card>
+  <Card title="Toji Fushiguro">
+    - **Phong cách**: Sát thủ/Vũ khí
+    - **Ưu điểm**: Áp lực cận chiến nhanh, công cụ chống kỹ năng, dồn sát thương cao.
+    - **Nhược điểm**: Phụ thuộc vào vật phẩm rơi từ Boss, khả năng phòng thủ hạn chế.
+    - **Tốt nhất cho**: Kết liễu nhanh và săn lùng người dùng Stand.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Lời khuyên Meta">
+Nếu bạn đang gặp khó khăn với thời điểm bấm các biến thể G của Naoya, hãy cân nhắc luyện tập với Spec Choso trước. Choso mang lại cảm giác combo dồn dập tương tự nhưng với các cửa sổ gây choáng dễ thực hiện hơn một chút.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Farm Tàn tích Zen'in và các vật phẩm cập nhật">
+
+Để tối đa hóa hiệu quả của bản build **Sakura Stand Naoya**, bạn sẽ cần farm các vật phẩm cụ thể được giới thiệu trong bản cập nhật mới nhất. Những vật phẩm này không chỉ dành cho Naoya; chúng thường trùng lặp với các yêu cầu cho Choso và các nội dung chủ đề JJK khác.
+
+| Tên vật phẩm | Danh mục | Nguồn gốc | Công dụng chính |
+| :--- | :--- | :--- | :--- |
+| **Death Painting** | Vật phẩm cập nhật | Lộ trình Tàn tích Kamo | Mở khóa Spec Choso / Giá trị giao dịch |
+| **Zen'in Remnant** | Thăng tiến | John Zen'in / Raid Naoya | Cần thiết để Thức tỉnh Spec Naoya |
+| **Cursed Finger** | Tiền tệ | Farm Nguyền hồn | Dùng cho Sukuna và tăng XP JJK |
+| **Hogyoku Fragment** | Nguyên liệu | Farm Adjuchas / Gillian | Thăng tiến lộ trình Bleach (Giá trị cao) |
+
+Việc farm những vật phẩm này đòi hỏi một lộ trình nhất quán. Đền thờ bỏ hoang và Hang ổ mới của Kamo là những địa điểm chính để farm JJK năm 2026. Đối với người dùng Naoya, tập trung vào cuộc chạm trán với John Zen'in là cách hiệu quả nhất để tích lũy các nguyên liệu cần thiết cho việc mở khóa danh hiệu cuối game và tinh chỉnh Spec.
+
+<Checklist
+  id="naoya-farming-goals"
+  title="Danh sách kiểm tra tiến trình Naoya 2026:"
+  items={[
+    "Đạt Mastery cấp độ 1 (tối thiểu) ở trạng thái Standless",
+    "Thu thập 5 Tàn tích Zen'in từ Raid Naoya",
+    "Nhận danh hiệu 'Thành viên gia tộc Zen'in'",
+    "Mở khóa tất cả ba bộ kỹ năng biến thể G",
+    "Thử nghiệm các chuỗi combo trong đấu trường tập luyện"
+  ]}
+/>
+
+<Callout type="info" title="Mẹo Farm chuyên nghiệp">
+Người dùng Roblox Premium sẽ nhận được phần thưởng tăng 1.15x XP, giúp đẩy nhanh đáng kể quá trình cày Mastery cần thiết cho các kỹ thuật nâng cao của Naoya.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi thường gặp về Sakura Stand Naoya">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể lấy Naoya nếu đã trang bị Sukuna không?",
+    answer: "Không. Bạn không được trang bị Spec JJK nào khi bắt đầu chuỗi nhiệm vụ của Naobito. Hãy sử dụng Trái Rokakaka để reset về Standless trước."
+  },
+  {
+    question: "Điều gì làm Naoya khác biệt so với Spec Toji?",
+    answer: "Mặc dù cả hai đều nhanh, Naoya là một Spec rushdown kỹ thuật tập trung vào tốc độ và các combo biến thể G, trong khi Toji là một Spec sát thủ được xây dựng dựa trên vũ khí rơi ra và các công cụ chống Stand."
+  },
+  {
+    question: "Đền thờ bỏ hoang nằm ở đâu trong bản đồ 2026?",
+    answer: "Đền thờ bỏ hoang nằm gần bìa rừng, sát với các khu vực cập nhật JJK mới hơn. Hãy tìm NPC Naobito đứng gần lối vào."
+  },
+  {
+    question: "Sakura Stand Naoya có tốt để đánh Boss PvE không?",
+    answer: "Naoya rất xuất sắc để đánh Boss đơn mục tiêu nhờ khả năng gây choáng cao và tiềm năng combo, mặc dù nó có thể gặp khó khăn trong các tình huống diện rộng (AoE) so với Sukuna."
+  }
+]} />
+
+<Callout type="tip" title="Lời kết">
+Spec Naoya là một khoản đầu tư xứng đáng cho những người chơi sẵn sàng học hỏi các thời điểm kỹ thuật phức tạp của nó. Hãy cập nhật thông tin qua Trello và Discord chính thức của Sakura Stand để biết về bất kỳ thay đổi cân bằng giữa mùa nào.
+</Callout>
+
+</Section>
