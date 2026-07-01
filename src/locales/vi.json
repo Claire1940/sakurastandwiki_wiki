@@ -1,10 +1,1291 @@
 {
+  "seo": {
+    "home": {
+      "title": "Sakura Stand Wiki - Code, Tier List & Trello",
+      "description": "Sakura Stand Wiki cung cấp code Roblox, tier list, link Trello, specs, stands, skins, vật phẩm, giá trị giao dịch và hướng dẫn cho người mới để tiến triển nhanh hơn.",
+      "keywords": "sakura stand, roblox, code, tier list, trello, specs, stands, skins, vật phẩm, giao dịch",
+      "ogTitle": "Sakura Stand Wiki - Code, Tier List & Trello",
+      "ogDescription": "Sakura Stand Wiki cung cấp code Roblox, tier list, link Trello, specs, stands, skins, vật phẩm, giá trị giao dịch và hướng dẫn cho người mới để tiến triển nhanh hơn.",
+      "twitterTitle": "Sakura Stand Wiki - Code, Tier List & Trello",
+      "twitterDescription": "Sakura Stand Wiki cung cấp code Roblox, tier list, link Trello, specs, stands, skins, vật phẩm, giá trị giao dịch và hướng dẫn cho người mới để tiến triển nhanh hơn."
+    }
+  },
   "nav": {
     "codes": "Code",
     "specs": "Specs",
-    "tier": "Bảng Xếp Hạng",
-    "guide": "Hướng Dẫn",
-    "obtainment": "Cách Nhận",
-    "links": "Liên Kết"
+    "tier": "Tier List",
+    "guide": "Hướng dẫn",
+    "obtainment": "Cách nhận",
+    "links": "Liên kết"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "more": "Thêm",
+    "playNow": "Chơi trên Roblox",
+    "switchLanguage": "Đổi ngôn ngữ",
+    "switchTheme": "Đổi giao diện",
+    "lightMode": "Chế độ sáng",
+    "darkMode": "Chế độ tối",
+    "notFound": "Không tìm thấy trang",
+    "notFoundDescription": "Trang bạn đang tìm kiếm không tồn tại.",
+    "backToHome": "Quay lại Trang chủ",
+    "relatedArticles": "Bài viết liên quan",
+    "readMore": "Đọc thêm",
+    "articlesComingSoon": "Bài viết sắp ra mắt"
+  },
+  "hero": {
+    "badge": "Giả lập Chiến đấu & Cày cuốc Anime",
+    "title": "Sakura Stand Wiki",
+    "description": "Sakura Stand là một trải nghiệm chiến đấu anime trên Roblox, nơi người chơi thu thập Stands và Specs, cày tài nguyên, nhập code, giao dịch skins và tiến triển qua các lộ trình boss và vật phẩm.",
+    "keywords": "Sakura Stand, Roblox, code, tier list, Trello, specs, stands, skins, giao dịch",
+    "getFreeCodesCTA": "Nhận Code Miễn Phí",
+    "playOnRobloxCTA": "Chơi trên Roblox",
+    "stats": {
+      "stat1": {
+        "value": "321.6M+",
+        "label": "Tổng lượt truy cập"
+      },
+      "stat2": {
+        "value": "2K+",
+        "label": "Người chơi trực tuyến"
+      },
+      "stat3": {
+        "value": "79.6%",
+        "label": "Đánh giá người dùng"
+      },
+      "stat4": {
+        "value": "289K+",
+        "label": "Lượt yêu thích"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Lối chơi Sakura Stand",
+    "description": "Thu thập Stand và Spec lấy cảm hứng từ JoJo's Bizarre Adventure và các bộ anime khác, farm tài nguyên, nhập mã code và thăng tiến qua các tuyến đấu boss và vật phẩm trong trải nghiệm chiến đấu trên Roblox này."
+  },
+  "tools": {
+    "title": "Sakura Stand",
+    "titleHighlight": "Tài nguyên",
+    "subtitle": "Mọi thứ bạn cần về mã code Sakura Stand, bảng xếp hạng (tier list), Stand, Spec, vật phẩm và các bản cập nhật",
+    "cards": [
+      {
+        "icon": "Sao chép",
+        "title": "Mã Code Sakura Stand",
+        "description": "Các mã code còn hiệu lực, phần thưởng và cách nhập chúng"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Sakura Stand Trello & Discord",
+        "description": "Liên kết Trello, Discord, Roblox chính thức và cộng đồng"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Hướng dẫn cho người mới chơi Sakura Stand",
+        "description": "Các bước đầu tiên, vòng lặp cốt lõi, XP và các mục tiêu sớm"
+      },
+      {
+        "icon": "Star",
+        "title": "Bảng xếp hạng Sakura Stand",
+        "description": "Xếp hạng Stand, Spec, skin và giá trị giao dịch"
+      },
+      {
+        "icon": "Users",
+        "title": "Stand & Spec trong Sakura Stand",
+        "description": "Các tuyến kỹ năng, phương pháp sở hữu và vai trò chiêu thức"
+      },
+      {
+        "icon": "Package",
+        "title": "Vật phẩm & Farm trong Sakura Stand",
+        "description": "Vật phẩm, tỉ lệ rơi, cửa hàng và các ưu tiên farm"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Boss & Nhiệm vụ trong Sakura Stand",
+        "description": "Boss, NPC, địa điểm và các tuyến nhiệm vụ"
+      },
+      {
+        "icon": "Clock",
+        "title": "Cập nhật Sakura Stand",
+        "description": "Spec mới, skin, mã code và ghi chú bản vá"
+      }
+    ]
+  },
+  "modules": {
+    "sakuraStandCodes": {
+      "title": "Mã Code Sakura Stand",
+      "subtitle": "Nhận mã code Sakura Stand để lấy các phần thưởng miễn phí như Token, Cash, tăng EXP và tiền thưởng cập nhật sự kiện.",
+      "intro": "Mã code Sakura Stand thường được phát hành vào các dịp cập nhật mới, sửa lỗi đóng server, sự kiện cột mốc và ra mắt nội dung mới. Trang trò chơi hiện tại làm nổi bật các mã code mới như một phần của chu kỳ cập nhật mới nhất, cùng với các Spec mới, skin mới và sửa lỗi.",
+      "codes": [
+        {
+          "code": "RTZREWORK",
+          "reward": "Phần thưởng miễn phí",
+          "status": "Đang hoạt động",
+          "best_for": "Phần thưởng cập nhật"
+        },
+        {
+          "code": "JOJOMONTH",
+          "reward": "Phần thưởng miễn phí",
+          "status": "Đang hoạt động",
+          "best_for": "Phần thưởng sự kiện"
+        },
+        {
+          "code": "deathduriyay67",
+          "reward": "Phần thưởng miễn phí",
+          "status": "Hoạt động",
+          "best_for": "Phần thưởng tiến trình"
+        },
+        {
+          "code": "SireisSupervision",
+          "reward": "Token",
+          "status": "Hoạt động",
+          "best_for": "Tăng tiền tệ"
+        },
+        {
+          "code": "GrandOrder",
+          "reward": "Tăng EXP",
+          "status": "Hoạt động",
+          "best_for": "Lên cấp"
+        },
+        {
+          "code": "TypingMoon",
+          "reward": "Tiền",
+          "status": "Hoạt động",
+          "best_for": "Chi tiêu sớm"
+        }
+      ],
+      "steps": [
+        {
+          "step": "Mở Sakura Stand trên Roblox",
+          "detail": "Khởi chạy trải nghiệm Sakura Stand chính thức từ trang trò chơi Roblox."
+        },
+        {
+          "step": "Mở menu",
+          "detail": "Nhấn M hoặc sử dụng nút menu, sau đó mở tab Cài đặt."
+        },
+        {
+          "step": "Nhập mã",
+          "detail": "Dán mã vào ô Enter Code và nhấn Enter để nhận phần thưởng."
+        },
+        {
+          "step": "Kiểm tra các lý do lỗi phổ biến",
+          "detail": "Mã có thể không hoạt động khi hết hạn, yêu cầu cấp độ Mastery cụ thể, nhập sai chữ hoa chữ thường, hoặc đã được đổi trên tài khoản trước đó."
+        }
+      ]
+    },
+    "sakuraStandTrelloDiscord": {
+      "title": "Trello, Discord và các liên kết chính thức của Sakura Stand",
+      "subtitle": "Sử dụng các liên kết Sakura Stand chính thức để theo dõi các bản cập nhật, kiểm tra hệ thống trò chơi và truy cập trải nghiệm trực tiếp.",
+      "intro": "Trello chính thức là trung tâm tham khảo chính cho các cơ chế của Sakura Stand, trong khi Discord là nơi người chơi theo dõi các thông báo, ghi chú bản vá, xem trước, mã quà tặng và các cuộc thảo luận trong cộng đồng. Trang trò chơi Roblox và trang cộng đồng Sakura Society là những điểm khởi đầu an toàn nhất cho trải nghiệm trực tiếp và thông tin về nhà sáng tạo.",
+      "links": [
+        {
+          "label": "Trello chính thức của Sakura Stand",
+          "url": "https://trello.com/b/YEDWCrGW/official-sakura-stand",
+          "type": "Cơ sở dữ liệu trò chơi",
+          "content": "Bao gồm các Stand, Spec, kỹ năng, skin, vật phẩm, boss, nhiệm vụ, sự kiện, NPC, địa điểm và thông tin chung về trò chơi.",
+          "use_case": "Tốt nhất để kiểm tra chi tiết khả năng, phương pháp sở hữu, danh sách kỹ năng và hệ thống trò chơi."
+        },
+        {
+          "label": "Discord chính thức của Sakura Stand",
+          "url": "https://discord.com/invite/sakurastand",
+          "type": "Máy chủ cộng đồng",
+          "content": "Được sử dụng cho các thông báo, ghi chú cập nhật, xem trước, mã quà tặng, câu hỏi, thảo luận giao dịch và thông tin cộng đồng được ghim.",
+          "use_case": "Tốt nhất cho các cập nhật trực tiếp, các đợt phát mã mới nhất, kiểm tra giá trị giao dịch và các thay đổi cân bằng."
+        },
+        {
+          "label": "Trang trò chơi Sakura Stand trên Roblox",
+          "url": "https://www.roblox.com/games/8534845015/Sakura-Stand",
+          "type": "Trang trò chơi chính thức",
+          "content": "Trang trải nghiệm Roblox chính thức của Sakura Stand bởi Sakura Society, hiện tại có tiêu đề xoay quanh bản cập nhật Naoya và Choso.",
+          "use_case": "Tốt nhất để khởi chạy trò chơi, đọc mô tả chính thức, kiểm tra ghi chú cập nhật và xác nhận hỗ trợ di động."
+        },
+        {
+          "label": "Cộng đồng Roblox Sakura Society",
+          "url": "https://www.roblox.com/communities/6490343/Sakura-Society",
+          "type": "Cộng đồng nhà sáng tạo",
+          "content": "Cộng đồng Roblox kết nối với Sakura Stand và nhà phát triển Sakura Society.",
+          "use_case": "Tốt nhất để tìm trung tâm nhà sáng tạo đứng sau trải nghiệm và xác nhận danh tính chính thức trên phía Roblox."
+        }
+      ]
+    },
+    "sakuraStandBeginnerGuide": {
+      "title": "Hướng dẫn cho người mới chơi Sakura Stand",
+      "subtitle": "Tìm hiểu vòng lặp cơ bản, nơi kiểm tra kỹ năng, cách thức hoạt động của EXP và những gì người chơi mới nên làm đầu tiên.",
+      "intro": "Sakura Stand là một trải nghiệm chiến đấu và cày cuốc trên Roblox lấy cảm hứng chủ yếu từ JoJo's Bizarre Adventure và các bộ anime khác. Trò chơi hỗ trợ người chơi trên di động, bao gồm Stands và Specs là các lựa chọn xây dựng nhân vật cốt lõi, và tặng người dùng Roblox Premium mức thưởng nhận XP gấp 1,15 lần.",
+      "steps": [
+        {
+          "title": "Đọc cảnh báo trò chơi trước tiên",
+          "description": "Sakura Stand bao gồm các hiệu ứng ánh sáng nhấp nháy cường độ cao và các hiệu ứng hình ảnh khác có thể ảnh hưởng đến người chơi bị chứng đau nửa đầu, thị lực thay đổi, co giật hoặc các triệu chứng nhạy cảm tương tự.",
+          "tip": "Điều chỉnh đồ họa của bạn và tránh các phiên chơi dài nếu các hiệu ứng nhấp nháy làm phiền bạn."
+        },
+        {
+          "title": "Hiểu vòng lặp lối chơi cốt lõi",
+          "description": "Trò chơi tuân theo vòng lặp mô phỏng chiến đấu và cày cuốc: chiến đấu với kẻ thù, đạt được tiến trình, cải thiện nhân vật của bạn và hướng tới các Stands, Specs, trang phục và nội dung cập nhật mạnh hơn.",
+          "tip": "Đừng vội vàng săn đuổi mọi Spec mới ngay lập tức; trước tiên hãy học kỹ một bộ kỹ năng để có thể cày cuốc một cách an toàn."
+        },
+        {
+          "title": "Lựa chọn giữa Stands và Specs",
+          "description": "Stands và Specs là những lựa chọn bản sắc chiến đấu chính trong Sakura Stand. Trello chính thức là nơi tốt nhất để kiểm tra các kỹ năng, phương pháp sở hữu và chi tiết cơ chế trước khi đầu tư tài nguyên.",
+          "tip": "Sử dụng tính năng tìm kiếm trên Trello cho chính xác tên Stand hoặc Spec thay vì cuộn qua từng cột."
+        },
+        {
+          "title": "Sử dụng mã code sớm",
+          "description": "Các mã code có thể cung cấp các phần thưởng miễn phí như Tokens, Cash, tăng tốc EXP hoặc tiền thưởng cập nhật. Mở menu, vào Settings, nhập một mã code còn hoạt động và nhấn Enter.",
+          "tip": "Chỉ kích hoạt tăng tốc EXP khi bạn đã sẵn sàng cày cuốc tích cực, chứ không phải khi bạn vẫn đang tìm hiểu vị trí các nút bấm."
+        },
+        {
+          "title": "Cày XP và xây dựng sự ổn định",
+          "description": "Trang trò chơi Roblox xác nhận hỗ trợ di động và tăng 1,15 lần XP cho người dùng Premium. Quá trình thăng tiến sẽ suôn sẻ hơn khi bạn lặp lại các trận chiến đáng tin cậy thay vì nhảy vào các mục tiêu cuối game quá sớm.",
+          "tip": "Cày cuốc ổn định tốt hơn là giao dịch ngẫu nhiên và săn đuổi boss lúc mới bắt đầu."
+        },
+        {
+          "title": "Theo dõi các bản cập nhật qua các kênh chính thức",
+          "description": "Ghi chú cập nhật hiện tại đề cập đến nội dung Spec mới, trang phục mới, mã code mới và sửa lỗi. Discord và Trello là những nơi quan trọng để theo dõi các thay đổi sau mỗi bản cập nhật.",
+          "tip": "Kiểm tra ghi chú cập nhật trước khi cho rằng một hướng dẫn cũ vẫn còn áp dụng được, vì cân bằng trò chơi thay đổi thường xuyên."
+        }
+      ]
+    },
+    "sakuraStandTierList": {
+      "title": "Bảng xếp hạng Sakura Stand",
+      "subtitle": "So sánh các lựa chọn chiến đấu mạnh mẽ, các danh mục giá trị giao dịch và bảng xếp hạng nhạy cảm với cập nhật cho Sakura Stand.",
+      "intro": "Xếp hạng trong Sakura Stand thay đổi khi có Specs, trang phục, nội dung boss mới và các bản cập nhật cân bằng. Hãy sử dụng mô-đun này như một cái nhìn tổng quan thực tế về thứ hạng, sau đó kiểm tra các tin nhắn ghim trên Discord và thẻ Trello chính thức để biết chi tiết kỹ năng, phương pháp sở hữu và thay đổi giá trị giao dịch mới nhất.",
+      "tiers": [
+        {
+          "category": "Các lựa chọn chiến đấu hàng đầu",
+          "tier": "SS",
+          "entries": [
+            "Cid Kagenou",
+            "Flandre Scarlet",
+            "Green Boy",
+            "Gold Experience Requiem",
+            "Nokotan",
+            "Frieren",
+            "Kokushibo",
+            "Akaza"
+          ],
+          "notes": "Những lựa chọn giá trị cao thường được theo dõi vì hiệu suất chiến đấu mạnh mẽ, cách sở hữu hiếm, hoặc nhu cầu cao trong các phiên bản cập nhật."
+        },
+        {
+          "category": "Lựa chọn chiến đấu mạnh mẽ",
+          "tier": "S",
+          "entries": [
+            "Sandevistan",
+            "Shinra",
+            "Saber Artoria",
+            "Saber Alter",
+            "Remembrance of Dullahan",
+            "Metallica",
+            "Kaiju No. 8",
+            "Wonder of U",
+            "Gebura"
+          ],
+          "notes": "Những lựa chọn mạnh mẽ cho chiến đấu, cày cuốc, đánh boss hoặc nhu cầu giao dịch, tùy thuộc vào bản cập nhật hiện tại và mục tiêu của người chơi."
+        },
+        {
+          "category": "Lựa chọn tầm trung đến cao đáng tin cậy",
+          "tier": "A",
+          "entries": [
+            "Anubis Requiem",
+            "C-Moon",
+            "Garou",
+            "Midknight Vessel of Life",
+            "Isagi Yoichi",
+            "Suguru Geto",
+            "Herrscher of Flamescion",
+            "Yuta Okkotsu",
+            "The World"
+          ],
+          "notes": "Những lựa chọn hữu ích với bộ kỹ năng ổn định hoặc giá trị thăng tiến, đặc biệt khi kết hợp với phong cách chơi phù hợp."
+        },
+        {
+          "category": "Có thể chơi được nhưng mang tính tình huống hơn",
+          "tier": "B",
+          "entries": [
+            "The Red Mist",
+            "Sukuna",
+            "Roland",
+            "Alucard",
+            "Gojo",
+            "Toji Fushiguro",
+            "Eternal Wing"
+          ],
+          "notes": "Những lựa chọn khả thi có thể cần thêm kiến thức về kèo đấu, kỹ năng thực hiện tốt hơn hoặc mục tiêu cụ thể để cảm thấy xứng đáng khi sử dụng."
+        },
+        {
+          "category": "Lựa chọn cho người mới và giá trị thấp",
+          "tier": "D",
+          "entries": [
+            "Crazy Diamond",
+            "Star Platinum",
+            "Cross",
+            "Will of Fate",
+            "Emperor",
+            "Anubis"
+          ],
+          "notes": "Các lựa chọn có mức ưu tiên thấp hơn cho sức mạnh lâu dài hoặc giao dịch, nhưng vẫn hữu ích để tìm hiểu các cơ chế cơ bản."
+        },
+        {
+          "category": "Bảng Giá trị Giao dịch",
+          "tier": "Giao dịch",
+          "entries": [
+            "Stands",
+            "Specs",
+            "Skins",
+            "Skins Sự kiện",
+            "Vật phẩm Giới hạn"
+          ],
+          "notes": "Giá trị giao dịch nên được kiểm tra thông qua các tin nhắn ghim trên Discord và cộng đồng giao dịch vì nhu cầu thay đổi thường xuyên."
+        }
+      ]
+    },
+    "sakuraStandStandsSpecs": {
+      "title": "Stands và Specs của Sakura Stand",
+      "subtitle": "Duyệt qua các nhánh Stand và Spec chính, từ việc dùng Stand Arrow và các tiến hóa JoJo cổ điển cho đến các năng lực anime yêu cầu nhiều nhiệm vụ như Naoya, Choso, Sukuna, Roland và Sandevistan.",
+      "intro": "Sakura Stand xoay quanh hai con đường năng lực: Stands, thường đến từ Stand Arrow và các vật phẩm tiến hóa Stand, và Specs, thường đến từ sách hướng dẫn, mặt nạ, boss, nhiệm vụ NPC, sự kiện hoặc các chuỗi tiến trình đặc biệt. Hãy sử dụng phần này để quyết định xem bạn muốn một năng lực khởi đầu nhanh, một Spec tập trung vào PvP, hay một con đường cày cuốc dài hạn với các yêu cầu về boss và vật phẩm.",
+      "groups": [
+        {
+          "group": "Các Nhánh Stand từ Mũi tên và Stand Cốt lõi",
+          "summary": "Các lượt quay nhanh ở đầu game và các tiến hóa Stand cổ điển. Đây là những nhánh đầu tiên mà hầu hết người chơi mới thử nghiệm trước khi chuyển sang các nhiệm vụ dài hơn.",
+          "entries": [
+            {
+              "name": "Star Platinum",
+              "type": "Stand",
+              "obtain": "Sử dụng Stand Arrow lên Standless.",
+              "role": "Năng lực khởi đầu cận chiến",
+              "best_for": "Người chơi mới muốn có một nhánh Stand đơn giản trước khi cày các tiến hóa hiếm hơn."
+            },
+            {
+              "name": "Crazy Diamond",
+              "type": "Stand",
+              "obtain": "Sử dụng Stand Arrow lên Standless.",
+              "role": "Stand chiến đấu cân bằng",
+              "best_for": "Người chơi muốn có một năng lực đơn giản từ kho Mũi tên."
+            },
+            {
+              "name": "Golden Experience",
+              "type": "Stand",
+              "obtain": "Sử dụng Stand Arrow lên Standless.",
+              "role": "Nền tảng tiến hóa",
+              "best_for": "Người chơi có kế hoạch nâng cấp lên Gold Experience Requiem."
+            },
+            {
+              "name": "White Snake",
+              "type": "Stand",
+              "obtain": "Sử dụng Stand Arrow lên Standless.",
+              "role": "Nền tảng tiến hóa",
+              "best_for": "Người chơi có kế hoạch đi theo nhánh C-Moon và Made in Heaven."
+            },
+            {
+              "name": "Emperor",
+              "type": "Stand",
+              "obtain": "Sử dụng Stand Arrow lên Standless.",
+              "role": "Áp lực tầm xa",
+              "best_for": "Những người chơi ưa thích kiểm soát khoảng cách thay vì cận chiến thuần túy."
+            }
+          ]
+        },
+        {
+          "group": "Các tuyến tiến hóa Stand",
+          "summary": "Nâng cấp Stand dựa trên vật phẩm, yêu cầu một Stand cơ bản cụ thể trước khi vật phẩm tiến hóa hoặc điều kiện địa điểm có hiệu lực.",
+          "entries": [
+            {
+              "name": "The World",
+              "type": "Stand",
+              "obtain": "Sử dụng Dio's Bone lên Unawakened Dio.",
+              "role": "Tiến hóa tập trung vào ngưng đọng thời gian",
+              "best_for": "Những người chơi muốn một tuyến phát triển JoJo cổ điển."
+            },
+            {
+              "name": "Gold Experience Requiem",
+              "type": "Stand",
+              "obtain": "Sử dụng Requiem Arrow lên Golden Experience.",
+              "role": "Stand tiến hóa giá trị cao",
+              "best_for": "Những người chơi đang tìm kiếm một tuyến cuối mạnh mẽ hơn từ Golden Experience."
+            },
+            {
+              "name": "C-Moon",
+              "type": "Stand",
+              "obtain": "Sử dụng Green Baby lên White Snake.",
+              "role": "Bước tiến hóa theo chủ đề trọng lực",
+              "best_for": "Những người chơi đang tiến tới Made in Heaven."
+            },
+            {
+              "name": "Made in Heaven",
+              "type": "Stand",
+              "obtain": "Mang C-Moon và Dio's Diary đến Highest Peak trong thời gian New Moon ngoài đời thực.",
+              "role": "Stand tiến hóa tuyến cuối",
+              "best_for": "Những người chơi thích cày cuốc theo điều kiện thời gian."
+            },
+            {
+              "name": "Anubis",
+              "type": "Stand",
+              "obtain": "Sử dụng Haunted Sword lên Standless.",
+              "role": "Stand cận chiến dựa trên vũ khí",
+              "best_for": "Những người chơi muốn áp lực từ kiếm và tiến trình dựa trên vật phẩm."
+            }
+          ]
+        },
+        {
+          "group": "Spec cổ điển",
+          "summary": "Các tuyến Spec đơn giản được xây dựng xoay quanh việc sử dụng vật phẩm trực tiếp hoặc tương tác với bản đồ. Đây là những tuyến huấn luyện cơ bản trước khi bước vào các chuỗi nhiệm vụ anime lớn hơn.",
+          "entries": [
+            {
+              "name": "Standless",
+              "type": "Spec cơ bản",
+              "obtain": "Bắt đầu trò chơi mà không có năng lực hoặc sử dụng Rokakaka Fruit để thiết lập lại Stand hoặc Spec hiện tại của bạn.",
+              "role": "Trạng thái cơ bản và yêu cầu nhiệm vụ",
+              "best_for": "Bắt đầu hầu hết các tuyến vật phẩm, NPC và nhiệm vụ."
+            },
+            {
+              "name": "Hamon",
+              "type": "Spec",
+              "obtain": "Sử dụng Hamon Manual lên Standless.",
+              "role": "Phong cách chiến đấu cận chiến",
+              "best_for": "Những người chơi muốn một Spec đơn giản dựa trên sách hướng dẫn."
+            },
+            {
+              "name": "Vampirism",
+              "type": "Spec",
+              "obtain": "Sử dụng Stone Mask lên Standless.",
+              "role": "Spec chiến đấu thiên về tấn công",
+              "best_for": "Những người chơi thích mở khóa trực tiếp bằng vật phẩm."
+            },
+            {
+              "name": "Spin",
+              "type": "Spec",
+              "obtain": "Sử dụng Spin Manual lên Standless.",
+              "role": "Phong cách chiến đấu dựa trên Steel-ball và chuyển động xoay",
+              "best_for": "Những người chơi muốn tạo áp lực tầm trung từ một Spec cổ điển."
+            },
+            {
+              "name": "Rock Human",
+              "type": "Spec",
+              "obtain": "Tương tác với Nest khi đang là Standless.",
+              "role": "Spec tương tác với bản đồ",
+              "best_for": "Những người chơi đang tìm hiểu các con đường mở khóa không cần vật phẩm."
+            }
+          ]
+        },
+        {
+          "group": "Các Spec Jujutsu Kaisen",
+          "summary": "Các lộ trình có nhu cầu cao tập trung vào vật phẩm nguyền rủa, đấu boss, NPC, và nội dung cập nhật Naoya và Choso mới hơn.",
+          "entries": [
+            {
+              "name": "Itadori Yuji",
+              "type": "Spec",
+              "obtain": "Đạt Mastery 1, sau đó đi theo lộ trình tiến trình Jujutsu liên kết với kẻ thù nguyền rủa và tiến trình Sukuna's Finger.",
+              "role": "Lộ trình khởi đầu JJK",
+              "best_for": "Những người chơi có kế hoạch mở khóa Gojo hoặc Sukuna sau này."
+            },
+            {
+              "name": "Gojo",
+              "type": "Spec",
+              "obtain": "Hoàn thành nhiệm vụ của Gojo khi đang sử dụng Itadori Yuji.",
+              "role": "Spec chiến đấu kiểm soát cao",
+              "best_for": "Những người chơi muốn một năng lực JJK tập trung vào PvP phổ biến."
+            },
+            {
+              "name": "Sukuna",
+              "type": "Spec",
+              "obtain": "Ăn 15 Sukuna Finger với Itadori Yuji, sau đó hoàn thành lộ trình boss Sukuna.",
+              "role": "Spec nguyền rủa mở khóa bằng cách đánh Boss",
+              "best_for": "Những người chơi muốn khả năng hồi phục, dồn sát thương mạnh và áp lực kiểu domain."
+            },
+            {
+              "name": "Toji Fushiguro",
+              "type": "Spec",
+              "obtain": "Đánh bại Toji Fushiguro và thu thập các vũ khí rơi ra theo yêu cầu cùng các vật phẩm lộ trình aura.",
+              "role": "Spec sát thủ thiên về vũ khí",
+              "best_for": "Những người chơi thích farm boss và áp lực cận chiến nhanh."
+            },
+            {
+              "name": "Naoya Zen'in",
+              "type": "Spec",
+              "obtain": "Bắt đầu thông qua Naobito tại ngôi đền bỏ hoang mà không trang bị Spec JJK, sau đó hoàn thành tiến trình Zen'in và lộ trình raid Naoya.",
+              "role": "Spec tấn công dồn dập kỹ thuật",
+              "best_for": "Những người chơi muốn có một kỹ năng nhanh, hung hãn từ bản cập nhật Naoya và Choso."
+            },
+            {
+              "name": "Choso",
+              "type": "Spec",
+              "obtain": "Sử dụng Death Painting lên Standless sau khi cày lộ trình Kamo Remnant.",
+              "role": "Spec combo điều khiển máu",
+              "best_for": "Những người chơi muốn áp lực gây choáng, bắn máu và các công cụ thức tỉnh."
+            }
+          ]
+        },
+        {
+          "group": "Các Spec Anime nặng về nhiệm vụ",
+          "summary": "Các lộ trình dài hơn với các mốc thông thạo, chuỗi nhiệm vụ NPC, vật phẩm rơi từ boss, hoặc yêu cầu vật phẩm nhiều bước.",
+          "entries": [
+            {
+              "name": "Deku",
+              "type": "Spec",
+              "obtain": "Thăng tiến One For All qua các giai đoạn, đánh bại boss Deku để lấy One For All's Grace, sau đó sử dụng All Might's Hair sau bước nhiệm vụ cuối cùng.",
+              "role": "Spec tiến triển theo giai đoạn",
+              "best_for": "Những người chơi thích tiến trình đánh boss lặp lại và các chuỗi nhiệm vụ."
+            },
+            {
+              "name": "Sandevistan",
+              "type": "Spec",
+              "obtain": "Đạt Thông thạo 1 với Standless, thu thập Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support và Tech Monitor, sau đó hoàn thành nhiệm vụ của N4Animation.",
+              "role": "Spec tốc độ và thiết bị mạng (cyberware)",
+              "best_for": "Những người chơi muốn một lộ trình lấy cảm hứng từ Cyberpunk với các bộ phận từ hòm tiếp tế."
+            },
+            {
+              "name": "Sandevistan | Cyberskeleton",
+              "type": "Tiến hóa Spec",
+              "obtain": "Sử dụng lộ trình Arasaka Suitcase sau khi sở hữu Sandevistan và hoàn thành tiến trình tiếp theo của N4Animation.",
+              "role": "Tiến hóa thiết bị mạng (cyberware) nâng cao",
+              "best_for": "Những người chơi muốn kéo dài quá trình cày cuốc Sandevistan."
+            },
+            {
+              "name": "Roland / The Black Silence",
+              "type": "Spec",
+              "obtain": "Bắt đầu với Olivier trong Dark Alley ở Thông thạo 6 và Standless, sau đó hoàn thành chuỗi nhiệm vụ Perception-Blocking Mask, Harold, AMM và Library Invitation.",
+              "role": "Spec chuỗi nhiệm vụ vũ khí",
+              "best_for": "Những người chơi muốn một lộ trình dài với việc thu thập vũ khí từ boss."
+            },
+            {
+              "name": "The Red Mist",
+              "type": "Spec",
+              "obtain": "Sử dụng Mimicry lên Standless sau khi đánh bại boss The Red Mist và hoàn thành lộ trình E.G.O.",
+              "role": "Spec chiến đấu rơi từ boss",
+              "best_for": "Những người chơi thích các lộ trình PvE khó và áp lực hút máu."
+            },
+            {
+              "name": "Kurosaki Ichigo",
+              "type": "Dòng Spec",
+              "obtain": "Tiến triển qua lộ trình Hollow và Soul Reaper, sau đó sử dụng chuỗi nhiệm vụ của Urahara Kisuke và Hogyoku Fragment cho các hình dạng sau này.",
+              "role": "Dòng tiến trình phong cách Bleach",
+              "best_for": "Người chơi muốn cày cuốc PvE với nhiều hình thái."
+            }
+          ]
+        },
+        {
+          "group": "Spec Vật phẩm và Sự kiện",
+          "summary": "Các Spec được mở khóa thông qua trái cây, vật phẩm mùa giải, banner, sự kiện hoặc các lộ trình cửa hàng đặc biệt.",
+          "entries": [
+            {
+              "name": "Mochi Mochi No Mi",
+              "type": "Spec",
+              "obtain": "Sử dụng Mochi Mochi Devil Fruit lên Standless.",
+              "role": "Spec Devil Fruit",
+              "best_for": "Người chơi cày cuốc các lượt mở khóa kiểu trái cây hiếm."
+            },
+            {
+              "name": "Bomu Bomu No Mi",
+              "type": "Spec",
+              "obtain": "Sử dụng Bomu Bomu Devil Fruit lên Standless.",
+              "role": "Spec phong cách cháy nổ",
+              "best_for": "Người chơi thu thập các kỹ năng lấy cảm hứng từ One Piece."
+            },
+            {
+              "name": "Bari Bari No Mi",
+              "type": "Spec",
+              "obtain": "Sử dụng Bari Bari Devil Fruit lên Standless.",
+              "role": "Spec phong cách rào chắn",
+              "best_for": "Người chơi muốn có sự đa dụng từ các lộ trình vật phẩm hiếm."
+            },
+            {
+              "name": "Hie Hie No Mi",
+              "type": "Spec",
+              "obtain": "Sử dụng Hie Hie Devil Fruit lên Standless.",
+              "role": "Spec khống chế băng",
+              "best_for": "Người chơi muốn gây áp lực khống chế và đóng băng."
+            },
+            {
+              "name": "Padoru",
+              "type": "Spec mùa giải",
+              "obtain": "Sử dụng Bag of Presents lên Standless.",
+              "role": "Spec thu thập kiểu sự kiện",
+              "best_for": "Nhà sưu tầm và người chơi nội dung mùa giải."
+            },
+            {
+              "name": "Herrscher of Human Ego",
+              "type": "Spec Banner",
+              "obtain": "Quay thông qua lộ trình banner Arrow of Novae.",
+              "role": "Cày cuốc cao cấp dựa trên banner",
+              "best_for": "Người chơi săn đuổi các kỹ năng banner hiếm."
+            }
+          ]
+        }
+      ]
+    },
+    "sakuraStandItemsFarming": {
+      "title": "Vật phẩm và Cày cuốc trong Sakura Stand",
+      "subtitle": "Theo dõi các vật phẩm mở khóa Stand, Spec, chuỗi nhiệm vụ, boss và các lộ trình cuối game trong Sakura Stand.",
+      "intro": "Việc cày cuốc vật phẩm trong Sakura Stand liên kết trực tiếp với việc mở khóa kỹ năng, lộ trình nhiệm vụ, tiến trình diệt boss và nâng cấp cuối game. Arrow, Rokakaka, sách hướng dẫn, mặt nạ, vật phẩm rơi từ boss, bộ phận cyberware, và các vật phẩm cập nhật đều có những công dụng tiến trình cụ thể.",
+      "items": [
+        {
+          "item": "Stand Arrow",
+          "category": "Mở khóa khởi đầu",
+          "source": "Hộp, rương và các lộ trình cày cuốc vật phẩm thông thường",
+          "use": "Sử dụng lên Standless để quay các Stand trong nhóm Arrow như Star Platinum, Crazy Diamond, Golden Experience, White Snake và Emperor.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Trái Rokakaka",
+          "category": "Vật phẩm Reset",
+          "source": "Rương và Cửa hàng của Auddy",
+          "use": "Đưa Stand hoặc Spec hiện tại trở về trạng thái Standless.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Hamon Manual",
+          "category": "Mở khóa Spec",
+          "source": "Rương, Cửa hàng của Auddy, và vòng quay Arcade",
+          "use": "Sử dụng khi ở trạng thái Standless để nhận Hamon.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Stone Mask",
+          "category": "Mở khóa Spec",
+          "source": "Rương và các tuyến đường cày vật phẩm",
+          "use": "Sử dụng khi ở trạng thái Standless để nhận Vampirism.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Spin Manual",
+          "category": "Mở khóa Spec",
+          "source": "Rương và các tuyến đường cày vật phẩm",
+          "use": "Sử dụng khi ở trạng thái Standless để nhận Spin.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Haunted Sword",
+          "category": "Mở khóa Stand",
+          "source": "Rương, Túi quà, và các tuyến đường cày vật phẩm",
+          "use": "Sử dụng khi ở trạng thái Standless để nhận Anubis.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Mũi tên Requiem",
+          "category": "Tiến hóa Stand",
+          "source": "Tuyến nhiệm vụ Turtle Polnareff và các nguồn vật phẩm hiếm",
+          "use": "Sử dụng lên Golden Experience để nhận Gold Experience Requiem.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Dio's Bone",
+          "category": "Tiến hóa Stand",
+          "source": "Tiến trình kỹ năng và các tuyến đường cày vật phẩm",
+          "use": "Sử dụng lên Unawakened Dio để nhận The World.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Green Baby",
+          "category": "Tiến hóa Stand",
+          "source": "Tiến trình kỹ năng và các tuyến đường cày vật phẩm",
+          "use": "Sử dụng lên White Snake để nhận C-Moon.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Nhật ký của Dio",
+          "category": "Tiến hóa Stand giai đoạn cuối",
+          "source": "Các tuyến farm vật phẩm giai đoạn cuối game",
+          "use": "Mang theo C-Moon đến Highest Peak trong thời gian New Moon ngoài đời thực để tiến cấp Made in Heaven.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Mysterious Camera",
+          "category": "Tuyến Stand theo mùa",
+          "source": "Hộp, Túi quà, và các tuyến farm vật phẩm",
+          "use": "Sử dụng trong đúng mùa hoặc điều kiện thời tiết để nhận Summer Time, Rainy Time, hoặc Winter Time.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Mảnh Cyber Loot Box",
+          "category": "Tiến trình Cyberware",
+          "source": "Cyber Loot box",
+          "use": "Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support, và Tech Monitor là cần thiết cho tuyến Sandevistan.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Vali Arasaka",
+          "category": "Tiến hóa Cyberware",
+          "source": "Cyber Loot box",
+          "use": "Sử dụng sau Sandevistan cho tuyến tiến trình Sandevistan | Cyberskeleton.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Ngón tay của Sukuna",
+          "category": "Tiến trình JJK",
+          "source": "Farm nguyền hồn và vật phẩm rơi từ người chơi gắn liền với tiến trình vật chứa",
+          "use": "Ăn 15 ngón với Itadori Yuji để mở khóa tuyến boss Sukuna.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Death Painting",
+          "category": "Vật phẩm bản cập nhật JJK",
+          "source": "Tuyến Kamo Remnant",
+          "use": "Sử dụng lên Standless để nhận Choso.",
+          "priority": "Cao"
+        },
+        {
+          "item": "One For All's Grace",
+          "category": "Vật phẩm rơi từ Boss",
+          "source": "Boss Deku",
+          "use": "Tăng tiến trình giai đoạn One For All theo tuyến Deku.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Tóc của All Might",
+          "category": "Phần thưởng nhiệm vụ",
+          "source": "Tuyến nhiệm vụ NameClan",
+          "use": "Sử dụng sau khi đạt đến giai đoạn One For All và tiến trình nhiệm vụ yêu cầu để nhận Deku.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Mảnh Hogyoku",
+          "category": "Tiến trình Bleach",
+          "source": "Tuyến đường farm Adjuchas và Gillian",
+          "use": "Được sử dụng trong tiến trình liên quan đến Kurosaki Ichigo và Aizen sau này.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Mặt nạ ngăn chặn nhận thức",
+          "category": "Vật phẩm nhiệm vụ Roland",
+          "source": "Chuỗi nhiệm vụ Olivier",
+          "use": "Bắt đầu chuỗi tiến trình Roland / The Black Silence sâu hơn.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Mảnh tàn lửa",
+          "category": "Vật phẩm nhiệm vụ Roland",
+          "source": "Chuỗi nhiệm vụ Harold",
+          "use": "Tiếp tục tuyến đường Roland sau bước Mặt nạ ngăn chặn nhận thức.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Thư mời Thư viện",
+          "category": "Vật phẩm nhiệm vụ Roland",
+          "source": "Chuỗi nhiệm vụ AMM",
+          "use": "Mở khóa các bước cuối của tuyến đường Roland / The Black Silence.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Mimicry",
+          "category": "Vật phẩm rơi từ Boss",
+          "source": "Boss The Red Mist",
+          "use": "Sử dụng lên Standless để nhận được The Red Mist.",
+          "priority": "Cao"
+        },
+        {
+          "item": "Thư mời Blue Lock",
+          "category": "Phần thưởng nhiệm vụ",
+          "source": "Chuỗi nhiệm vụ Isagi Yoichi",
+          "use": "Được sử dụng cho tiến trình Yoichi Isagi.",
+          "priority": "Trung bình"
+        },
+        {
+          "item": "Túi quà",
+          "category": "Vật phẩm Cửa hàng Breakthrough",
+          "source": "Cửa hàng Breakthrough",
+          "use": "Trao phần thưởng vật phẩm ngẫu nhiên và có thể mở khóa Padoru khi sử dụng lên Standless.",
+          "priority": "Trung bình"
+        }
+      ]
+    },
+    "sakuraStandBossesQuests": {
+      "title": "Sakura Stand Boss, NPC và Nhiệm vụ",
+      "subtitle": "Sử dụng các thẻ tuyến đường này để nhảy từ một kỹ năng mục tiêu đến NPC, boss, địa điểm và chuỗi phần thưởng phía sau nó trong Sakura Stand.",
+      "intro": "Nhiều kỹ năng trong Sakura Stand bị khóa sau NPC, vật phẩm rơi từ boss, thời gian xuất hiện, giới hạn tinh thông và các tuyến đường nhiều bước. Mô-đun này biến các tuyến đường đó thành các thẻ trang chủ ngắn để người chơi có thể tìm thấy đúng NPC hoặc boss một cách nhanh chóng.",
+      "routes": [
+        {
+          "title": "Tuyến đường Naoya Zen'in",
+          "type": "Tuyến đường Spec Bản cập nhật Mới",
+          "npc": "Tuyến đường raid Naobito, John Zen'in, Naoya",
+          "location": "Đền thờ bỏ hoang và khu vực cập nhật Naoya",
+          "requirements": [
+            "Không trang bị JJK Spec khi bắt đầu tuyến đường",
+            "Nói chuyện với Naobito tại đền thờ bỏ hoang",
+            "Hoàn thành tuyến đường tiến trình Zen'in"
+          ],
+          "rewards": [
+            "Naoya Zen'in Spec",
+            "Tiến trình danh hiệu liên quan đến Zen'in"
+          ],
+          "goal": "Cày nội dung cập nhật Naoya hiện tại và mở khóa một Spec kỹ thuật áp sát tốc độ cao."
+        },
+        {
+          "title": "Tuyến đường Choso",
+          "type": "Tuyến đường Spec Bản cập nhật Mới",
+          "npc": "Kamo Remnant",
+          "location": "Tuyến đường Nơi ẩn náu của Kamo",
+          "requirements": [
+            "Cày các cuộc chạm trán Kamo Remnant",
+            "Nhận Death Painting",
+            "Sử dụng Death Painting lên Standless"
+          ],
+          "rewards": [
+            "Choso Spec",
+            "Tiến trình Blood Manipulator"
+          ],
+          "goal": "Mở khóa một Spec điều khiển máu với khả năng gây áp lực combo và các công cụ thức tỉnh."
+        },
+        {
+          "title": "Tuyến đường Sukuna",
+          "type": "Tuyến đường Boss JJK",
+          "npc": "Sukuna NPC và Sukuna boss",
+          "location": "Công viên bên lề và đấu trường Sukuna boss",
+          "requirements": [
+            "Sử dụng Itadori Yuji",
+            "Ăn 15 Sukuna Fingers",
+            "Vượt qua trận đấu Sukuna boss"
+          ],
+          "rewards": [
+            "Sukuna Spec"
+          ],
+          "goal": "Chuyển đổi Itadori Yuji thành Sukuna thông qua việc cày ngón tay và đánh bại boss."
+        },
+        {
+          "title": "Tuyến đường Toji Fushiguro",
+          "type": "Tuyến đường Vật phẩm rơi từ Boss",
+          "npc": "Toji Fushiguro boss",
+          "location": "Tuyến đường chạm trán Boss",
+          "requirements": [
+            "Đánh bại Toji Fushiguro",
+            "Thu thập các vũ khí yêu cầu rơi ra",
+            "Hoàn thành tuyến đường hào quang và vật phẩm"
+          ],
+          "rewards": [
+            "Inverted Spear of Heaven",
+            "Chain of a Thousand Miles",
+            "Split Soul Katana"
+          ],
+          "goal": "Cày vũ khí rơi từ boss cho tuyến đường sát thủ cận chiến tốc độ cao."
+        },
+        {
+          "title": "Tuyến đường Deku và One For All",
+          "type": "Lộ trình Boss Tiến triển Giai đoạn",
+          "npc": "Kuzma, boss Deku, NameClan",
+          "location": "Vị trí xuất hiện Kuzma, Ruined City, khu vực lều trong rừng",
+          "requirements": [
+            "Đạt Mastery 3 và trang bị Standless",
+            "Bắt đầu One For All Giai đoạn 1 thông qua Kuzma",
+            "Đánh bại Deku để lấy One For All's Grace",
+            "Hoàn thành nhiệm vụ Standless của NameClan"
+          ],
+          "rewards": [
+            "Nâng cấp giai đoạn One For All",
+            "All Might's Hair",
+            "Deku Spec"
+          ],
+          "goal": "Phát triển từ One For All thành Deku thông qua tiến trình giai đoạn và cày boss lặp lại."
+        },
+        {
+          "title": "Lộ trình Roland / The Black Silence",
+          "type": "Chuỗi nhiệm vụ dài",
+          "npc": "Olivier, Harold, AMM, boss The Black Silence",
+          "location": "Dark Alley, trại trong rừng, lộ trình ven biển, Library",
+          "requirements": [
+            "Đạt Mastery 6 và trang bị Standless",
+            "Nói chuyện với Olivier tại Dark Alley",
+            "Hoàn thành bước Perception-Blocking Mask",
+            "Hoàn thành các nhiệm vụ của Harold và AMM cùng lộ trình Library"
+          ],
+          "rewards": [
+            "Perception-Blocking Mask",
+            "Smoldering Fragment",
+            "Library Invitation",
+            "Roland / The Black Silence Spec"
+          ],
+          "goal": "Thực hiện một trong những chuỗi nhiệm vụ dài nhất để sở hữu Spec chiến đấu thiên về vũ khí."
+        },
+        {
+          "title": "Lộ trình The Red Mist",
+          "type": "Lộ trình Boss và E.G.O.",
+          "npc": "Carmen, Q3, boss The Red Mist",
+          "location": "Lộ trình cổng Dark Alley và Red Mist",
+          "requirements": [
+            "Tăng tiến trình bằng cách tiêu diệt kẻ địch trên bản đồ",
+            "Nói chuyện với Q3 để tiếp cận cuộc chạm trán Red Mist",
+            "Đánh bại boss The Red Mist",
+            "Sử dụng Mimicry lên Standless"
+          ],
+          "rewards": [
+            "Mimicry",
+            "The Red Mist Spec"
+          ],
+          "goal": "Cày lộ trình boss khó để lấy kỹ năng E.G.O. thiên về hút máu."
+        },
+        {
+          "title": "Lộ trình Sandevistan",
+          "type": "Chuỗi nhiệm vụ Cyberware",
+          "npc": "N4Animation",
+          "location": "Lộ trình nhiệm vụ Cyberware",
+          "requirements": [
+            "Đạt Mastery 1 và trang bị Standless",
+            "Thu thập Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support, và Tech Monitor",
+            "Hoàn thành nhiệm vụ của N4Animation",
+            "Sử dụng Arasaka Suitcase cho tiến trình Cyberskeleton"
+          ],
+          "rewards": [
+            "Spec Sandevistan",
+            "Tiến trình Sandevistan | Cyberskeleton"
+          ],
+          "goal": "Biến các bộ phận từ cyberware loot-box thành một nhánh Spec tập trung vào tốc độ."
+        },
+        {
+          "title": "Nhánh Kurosaki Ichigo",
+          "type": "Nhánh tiến trình Bleach",
+          "npc": "Urahara Kisuke, Hollows, Gillians, Adjuchas",
+          "location": "Cửa hàng của Urahara và nhánh Hueco Mundo",
+          "requirements": [
+            "Farm kẻ địch Hollow",
+            "Tiến triển các bước Substitute Shinigami và Shikai",
+            "Sử dụng chuỗi nhiệm vụ sau của Urahara Kisuke",
+            "Thu thập Hogyoku Fragment cho tiến trình dạng nâng cao"
+          ],
+          "rewards": [
+            "Các dạng Kurosaki Ichigo",
+            "Tiến trình Bankai và Vasto Lorde"
+          ],
+          "goal": "Tiến triển qua một chuỗi kỹ năng nhiều dạng theo phong cách Bleach."
+        },
+        {
+          "title": "Nhánh Aizen và Starrk",
+          "type": "Chuỗi nhiệm vụ Hueco Mundo",
+          "npc": "Aizen, Nnoiritra Gilga, Barragan / Vasto Lorde",
+          "location": "Las Noches và Hueco Mundo",
+          "requirements": [
+            "Tiến triển các nhiệm vụ liên quan đến Soul Reaper",
+            "Farm kẻ địch thuộc hệ Hollow",
+            "Hoàn thành các yêu cầu diệt boss và thu thập kiếm liên kết với tiến trình Aizen"
+          ],
+          "rewards": [
+            "Tiến trình Spec Aizen",
+            "Tiến trình nhánh Coyote Starrk"
+          ],
+          "goal": "Farm nhánh Bleach dài hơn liên kết với Las Noches, kẻ địch Hollow và tiêu diệt boss."
+        },
+        {
+          "title": "Nhánh Yoichi Isagi",
+          "type": "Chuỗi nhiệm vụ Anime Thể Thao",
+          "npc": "Jinpachi Ego và Isagi Yoichi",
+          "location": "Sân bóng rổ",
+          "requirements": [
+            "Nói chuyện với Jinpachi Ego",
+            "Hoàn thành các bước nhiệm vụ Yoichi Isagi",
+            "Sử dụng Blue Lock Invitation cho tiến trình thức tỉnh"
+          ],
+          "rewards": [
+            "Tiến trình Yoichi Isagi",
+            "Blue Lock Invitation"
+          ],
+          "goal": "Mở khóa và thức tỉnh nhánh lấy cảm hứng từ Blue Lock."
+        },
+        {
+          "title": "Nhánh Pilgrim Knight",
+          "type": "Chuỗi nhiệm vụ nhiều NPC",
+          "npc": "Syante, Hika, Dast, Mirror",
+          "location": "Hall of Heroes, Forgotten Groves, Lighthouse, lối vào Depths",
+          "requirements": [
+            "Bắt đầu với Syante tại Hall of Heroes",
+            "Tiến triển qua các bước của Hika và Dast",
+            "Tiếp tục tuyến đường Mirror và Depths"
+          ],
+          "rewards": [
+            "Tiến trình Pilgrim Knight"
+          ],
+          "goal": "Theo dõi chuỗi nhiệm vụ đa địa điểm với nhiều điểm kiểm tra NPC."
+        }
+      ]
+    },
+    "sakuraStandUpdates": {
+      "title": "Các bản cập nhật và Ghi chú vá lỗi của Sakura Stand",
+      "subtitle": "Theo dõi các thay đổi nội dung Sakura Stand mới nhất, bao gồm các Spec, skin, mã code, tuyến đường boss, sửa lỗi và cập nhật Trello.",
+      "intro": "Trang trò chơi Roblox, Discord chính thức, nhóm Sakura Society và Trello chính thức là các kênh cập nhật chính cho Sakura Stand. Dòng thời gian này được thiết kế cho các cập nhật trang chủ liên tục, vì vậy các Spec, mã code, sự kiện và thay đổi cân bằng mới có thể được thêm vào theo thời gian.",
+      "entries": [
+        {
+          "date": "Tháng 6 năm 2026",
+          "label": "Danh sách Roblox hiện tại",
+          "headline": "Bản cập nhật Naoya và Choso",
+          "changes": [
+            "Tiêu đề trải nghiệm Roblox hiện đang làm nổi bật Naoya và Choso.",
+            "Naoya Zen'in và Choso là những tuyến đường Spec mới tiêu biểu.",
+            "Bản cập nhật thêm hoạt động mã code mới, skin mới và sửa lỗi từ nhật ký cập nhật Roblox công khai."
+          ],
+          "tag": "Các Spec mới",
+          "priority": "Cao"
+        },
+        {
+          "date": "Tháng 6 năm 2026",
+          "label": "Tuyến đường Spec mới",
+          "headline": "Đã thêm tuyến đường Naoya Zen'in",
+          "changes": [
+            "Tiến trình Naoya bắt đầu thông qua tuyến đường Zen'in gắn liền với Naobito và ngôi đền bỏ hoang.",
+            "Naoya sử dụng phong cách chiến đấu kỹ thuật nhanh với nhiều biến thể G.",
+            "Naoya gắn liền với hướng làm lại Domain Expansion mới hơn."
+          ],
+          "tag": "Spec",
+          "priority": "Cao"
+        },
+        {
+          "date": "Tháng 6 năm 2026",
+          "label": "Tuyến đường Spec mới",
+          "headline": "Đã thêm tuyến đường Choso",
+          "changes": [
+            "Choso được mở khóa thông qua Death Painting trên Standless.",
+            "Death Painting gắn liền với tuyến đường Kamo Remnant.",
+            "Choso tập trung vào thao túng máu, áp lực gây choáng và các công cụ thức tỉnh."
+          ],
+          "tag": "Spec",
+          "priority": "Cao"
+        },
+        {
+          "date": "Tháng 6 năm 2026",
+          "label": "Khu vực và Cày cuốc mới",
+          "headline": "Tuyến đường Kamo's Hideout và Kamo Remnant",
+          "changes": [
+            "Kamo's Hideout hỗ trợ tuyến đường tiến triển của Choso.",
+            "Cày cuốc Kamo Remnant kết nối với Death Painting.",
+            "John Zen'in xuất hiện như một phần của danh sách chạm trán trong bản cập nhật Naoya và Choso."
+          ],
+          "tag": "Địa điểm",
+          "priority": "Cao"
+        },
+        {
+          "date": "Tháng 6 năm 2026",
+          "label": "Danh hiệu mới",
+          "headline": "Các mục tiêu danh hiệu chủ đề Zen'in và máu",
+          "changes": [
+            "Head of Zen'in Clan được liên kết với chủ đề bản cập nhật Naoya.",
+            "Zen'in Clan Member hỗ trợ lộ trình phát triển Zen'in mới.",
+            "Blood Manipulator hỗ trợ lộ trình phát triển Choso và các mục tiêu thu thập."
+          ],
+          "tag": "Danh hiệu",
+          "priority": "Trung bình"
+        },
+        {
+          "date": "Tháng 6 năm 2026",
+          "label": "Cân bằng và Hoàn thiện",
+          "headline": "Đợt hoàn thiện kỹ năng và sửa lỗi",
+          "changes": [
+            "Furioso Replica của Index Nursefather đã được cải thiện về tầm đánh và sát thương.",
+            "Hiệu ứng hình ảnh của Lei Heng đã được điều chỉnh để nhất quán hơn.",
+            "Itadori Yuji đã nhận được các cập nhật câu thoại bổ sung.",
+            "Nhiều lỗi pose, dash, softlock và ngắt chiêu đã được khắc phục trên một số kỹ năng."
+          ],
+          "tag": "Cân bằng",
+          "priority": "Trung bình"
+        },
+        {
+          "date": "Hiện tại",
+          "label": "Nhật ký cập nhật Roblox",
+          "headline": "Các danh mục cập nhật công khai",
+          "changes": [
+            "Spec mới",
+            "Skin mới",
+            "Code mới",
+            "Lỗi đã khắc phục"
+          ],
+          "tag": "Nhật ký bản vá",
+          "priority": "Cao"
+        },
+        {
+          "date": "Đang tiến hành",
+          "label": "Trello chính thức",
+          "headline": "Đồng bộ hóa nội dung Trello",
+          "changes": [
+            "Thẻ Stand và Spec",
+            "Các mục vật phẩm và boss",
+            "Tài liệu tham khảo NPC và tuyến nhiệm vụ",
+            "Nội dung cập nhật mới nhất"
+          ],
+          "tag": "Tham khảo",
+          "priority": "Cao"
+        },
+        {
+          "date": "Đang tiến hành",
+          "label": "Discord chính thức",
+          "headline": "Theo dõi thông báo Discord",
+          "changes": [
+            "Thông báo từ nhà phát triển",
+            "Bài đăng ghi chú bản vá",
+            "Đợt phát code",
+            "Xem trước và thông báo sự kiện"
+          ],
+          "tag": "Cộng đồng",
+          "priority": "Cao"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Sakura Stand",
+    "titleHighlight": "Câu hỏi thường gặp",
+    "subtitle": "Câu trả lời nhanh về code Sakura Stand, Stands, Specs, và tiến trình chơi",
+    "questions": [
+      {
+        "question": "Sakura Stand là gì?",
+        "answer": "Sakura Stand là một trải nghiệm chiến đấu và cày cuốc anime trên Roblox được phát triển bởi Sakura Society. Trò chơi được lấy cảm hứng chủ yếu từ JoJo's Bizarre Adventure và các bộ anime khác, với Stands và Specs là các lối xây dựng chiến đấu cốt lõi."
+      },
+      {
+        "question": "Làm thế nào để nhập code Sakura Stand?",
+        "answer": "Mở Sakura Stand trên Roblox, nhấn M hoặc nút menu để mở Settings, dán code còn hoạt động vào ô Enter Code, và nhấn Enter. Code có thể không hoạt động nếu đã hết hạn, nhập sai, bị khóa thông thạo (mastery-locked), hoặc đã được đổi trước đó."
+      },
+      {
+        "question": "Sự khác biệt giữa Stands và Specs trong Sakura Stand là gì?",
+        "answer": "Stands thường đến từ Stand Arrows và các vật phẩm tiến hóa Stand, trong khi Specs đến từ sách hướng dẫn, mặt nạ, boss, nhiệm vụ NPC, sự kiện, hoặc các chuỗi tiến trình đặc biệt. Cả hai đều là những lựa chọn bản sắc chiến đấu cốt lõi trong Sakura Stand."
+      },
+      {
+        "question": "Tôi có thể chơi Sakura Stand ở đâu?",
+        "answer": "Sakura Stand có sẵn trên Roblox thông qua trang trò chơi chính thức của Sakura Society. Trò chơi hỗ trợ người chơi trên PC và thiết bị di động."
+      },
+      {
+        "question": "Sakura Stand có tốn tiền không?",
+        "answer": "Sakura Stand là trò chơi miễn phí trên Roblox. Có các tùy chọn mua hàng và gói thành viên Roblox Premium, và Premium sẽ tăng 1,15 lần lượng XP nhận được."
+      },
+      {
+        "question": "Tôi có thể tìm ghi chú cập nhật và code mới của Sakura Stand ở đâu?",
+        "answer": "Discord chính thức, Trello, và trang trò chơi Roblox là những nguồn cập nhật chính của Sakura Stand. Các Specs, skins, code mới và ghi chú bản vá sẽ được đăng tải ở đó sau mỗi bản cập nhật."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Sẵn sàng chơi Sakura Stand?",
+    "description": "Tham gia cộng đồng Sakura Stand trên Discord và Roblox để nhận code, danh sách xếp hạng (tier list), giao dịch và các bản cập nhật mới nhất!",
+    "joinCommunity": "Tham gia Discord",
+    "joinGame": "Chơi trên Roblox"
+  },
+  "footer": {
+    "title": "Sakura Stand Wiki",
+    "description": "Trung tâm tài nguyên toàn diện của bạn về code Sakura Stand, bảng xếp hạng (tier list), specs, stands, skins, vật phẩm, giá trị giao dịch và các liên kết Trello.",
+    "resources": "Tài nguyên",
+    "community": "Cộng đồng",
+    "legal": "Pháp lý",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "trello": "Trello",
+    "roblox": "Chơi trên Roblox",
+    "about": "Giới thiệu",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "copyrightNotice": "Bản quyền",
+    "copyright": "© 2026 Sakura Stand Wiki. Không liên kết với các nhà phát triển của Sakura Stand.",
+    "disclaimer": "Trang web tài nguyên không chính thức do người hâm mộ tạo ra."
+  },
+  "pages": {
+    "codes": {
+      "title": "Code Sakura Stand",
+      "description": "Các mã code Sakura Stand đang hoạt động, phần thưởng, các bước nhập code và cách tránh các mã đã hết hạn.",
+      "metaTitle": "Code Sakura Stand - Các mã đang hoạt động & Cách nhập",
+      "metaDescription": "Tìm các mã code Sakura Stand đang hoạt động, danh sách phần thưởng và hướng dẫn nhập code từng bước để nhận Token, Cash và tăng EXP miễn phí.",
+      "categoryLabel": "CODE",
+      "whatIs": "Code là gì?",
+      "whatIsDescription": "Các mã code Sakura Stand cung cấp các phần thưởng miễn phí như Token, Cash và tăng EXP. Chúng thường được phát hành vào các dịp cập nhật trò chơi, sự kiện và các cột mốc cộng đồng.",
+      "why": "Tại sao nên nhập code?",
+      "whySteps": {
+        "step1Title": "Tài nguyên miễn phí",
+        "step1Description": "Nhận Token, Cash và tăng EXP mà không cần tốn Robux để đẩy nhanh tiến trình ban đầu.",
+        "step2Title": "Tiến triển nhanh hơn",
+        "step2Description": "Sử dụng phần thưởng miễn phí để triệu hồi Stand từ Arrow và mở khóa Spec thông qua các nhiệm vụ nhanh hơn.",
+        "step3Title": "Luôn cập nhật",
+        "step3Description": "Hãy nhập mã ngay khi chúng ra mắt, vì các mã do nhà phát triển phát hành có thể hết hạn mà không báo trước."
+      },
+      "featured": "Nổi bật & Đang hoạt động",
+      "all": "Tất cả Code"
+    },
+    "specs": {
+      "title": "Spec Sakura Stand",
+      "description": "Các lộ trình Spec Sakura Stand, phương pháp sở hữu, kỹ năng và các trường hợp sử dụng tốt nhất.",
+      "metaTitle": "Spec Sakura Stand - Lộ trình, Kỹ năng & Cách sở hữu",
+      "metaDescription": "Duyệt qua các Spec Sakura Stand với phương pháp sở hữu, vai trò kỹ năng và ghi chú sử dụng tốt nhất từ sách hướng dẫn đến lộ trình đánh boss và làm nhiệm vụ.",
+      "categoryLabel": "SPEC",
+      "whatIs": "Spec là gì?",
+      "whatIsDescription": "Spec trong Sakura Stand là các khả năng chiến đấu không phải Stand, được mở khóa thông qua sách hướng dẫn, mặt nạ, boss, nhiệm vụ NPC, sự kiện và các chuỗi tiến trình đặc biệt dựa trên các nhân vật anime biểu tượng.",
+      "why": "Tại sao nên học Spec?",
+      "whySteps": {
+        "step1Title": "Mở khóa chiêu thức mới",
+        "step1Description": "Spec bổ sung các bộ kỹ năng và combo độc đáo hoạt động song song với Stand của bạn trong chiến đấu.",
+        "step2Title": "Lộ trình Boss & Nhiệm vụ",
+        "step2Description": "Biết chính xác các bước về sách hướng dẫn, boss và nhiệm vụ cần thiết để sở hữu mỗi Spec mà không tốn công vô ích.",
+        "step3Title": "Vai trò trong Đội & PvP",
+        "step3Description": "Chọn Spec phù hợp với lối chơi của bạn để đánh boss PvE, đấu PvP và cày cuốc hiệu quả."
+      },
+      "featured": "Spec nổi bật",
+      "all": "Tất cả Spec"
+    },
+    "tier": {
+      "title": "Bảng xếp hạng Sakura Stand",
+      "description": "Bảng xếp hạng Sakura Stand cho Stand và Spec trong PvE, PvP và giá trị giao dịch trong bản cập nhật hiện tại.",
+      "metaTitle": "Bảng xếp hạng Sakura Stand - Spec, PVP & Giao dịch",
+      "metaDescription": "So sánh Spec và Stand trong Sakura Stand theo các cấp bậc PvE, PvP và giá trị giao dịch với ghi chú cho từng thứ hạng.",
+      "categoryLabel": "BẢNG XẾP HẠNG",
+      "whatIs": "Bảng xếp hạng là gì?",
+      "whatIsDescription": "Bảng xếp hạng Sakura Stand xếp hạng Stand và Spec theo sức mạnh chiến đấu, độ hiếm khi sở hữu và nhu cầu hiện tại, với các bảng xếp hạng riêng biệt cho PvE, PvP và giá trị giao dịch.",
+      "why": "Tại sao nên xem bảng xếp hạng?",
+      "whySteps": {
+        "step1Title": "Chọn những lựa chọn mạnh mẽ",
+        "step1Description": "Tập trung Arrows, manuals, và nguyên liệu của bạn vào các Stands và Specs hoạt động hiệu quả trong chế độ chơi của bạn.",
+        "step2Title": "Lập kế hoạch giao dịch",
+        "step2Description": "Sử dụng bảng xếp hạng giá trị giao dịch để đánh giá các lời đề nghị hợp lý và phát hiện các lựa chọn có nhu cầu cao.",
+        "step3Title": "Theo dõi bản cập nhật",
+        "step3Description": "Theo dõi cách các thay đổi cân bằng và các Specs mới làm thay đổi thứ hạng trong mỗi bản cập nhật."
+      },
+      "featured": "Các bậc xếp hạng hàng đầu",
+      "all": "Tất cả các bậc xếp hạng"
+    },
+    "guide": {
+      "title": "Hướng dẫn Sakura Stand",
+      "description": "Hướng dẫn Sakura Stand cho người mới bắt đầu, cách tăng cấp, cày cuốc, và các bài hướng dẫn chi tiết để tiến bộ nhanh hơn.",
+      "metaTitle": "Hướng dẫn Sakura Stand - Tăng cấp, Cày cuốc & Cách thực hiện",
+      "metaDescription": "Đọc các hướng dẫn Sakura Stand về cách tăng cấp, cày XP, giao dịch, bán vật phẩm, và các mẹo cho người mới bắt đầu để tiến bộ nhanh hơn.",
+      "categoryLabel": "HƯỚNG DẪN",
+      "whatIs": "Hướng dẫn là gì?",
+      "whatIsDescription": "Hướng dẫn Sakura Stand bao gồm các kiến thức cơ bản cho người mới, lộ trình tăng cấp, cày XP, giao dịch, và các bài hướng dẫn từng bước giúp người chơi mới và người chơi cũ quay trở lại tiến bộ nhanh hơn.",
+      "why": "Tại sao nên đọc hướng dẫn?",
+      "whySteps": {
+        "step1Title": "Tìm hiểu các hệ thống cốt lõi",
+        "step1Description": "Hiểu rõ về Stands, Specs, mã code, và cơ chế giao dịch trước khi sử dụng tài nguyên của bạn.",
+        "step2Title": "Tăng cấp & Cày cuốc nhanh hơn",
+        "step2Description": "Đi theo các lộ trình tăng cấp và cày XP đã được chứng minh để mở khóa nội dung và boss sớm hơn.",
+        "step3Title": "Tránh các sai lầm thường gặp",
+        "step3Description": "Nắm bắt các mẹo giao dịch an toàn, biểu cảm (emote), và bán vật phẩm giúp tiết kiệm thời gian và tránh các lỗi tốn kém."
+      },
+      "featured": "Hướng dẫn nổi bật",
+      "all": "Tất cả hướng dẫn"
+    },
+    "obtainment": {
+      "title": "Cách sở hữu trong Sakura Stand",
+      "description": "Cách nhận Specs, fragments, và các vật phẩm hiếm trong Sakura Stand thông qua nhiệm vụ, boss, và chế tạo.",
+      "metaTitle": "Cách sở hữu trong Sakura Stand - Cách nhận Specs & Vật phẩm",
+      "metaDescription": "Lộ trình sở hữu Sakura Stand cho Specs, fragments, và các vật phẩm hiếm với các bước làm nhiệm vụ, đánh boss, và chế tạo.",
+      "categoryLabel": "CÁCH SỞ HỮU",
+      "whatIs": "Cách sở hữu là gì?",
+      "whatIsDescription": "Hướng dẫn sở hữu giải thích chính xác cách để nhận các Specs, fragments, và vật phẩm cụ thể trong Sakura Stand, bao gồm các nhiệm vụ yêu cầu, trận chiến boss, nguyên liệu, và các bước chế tạo.",
+      "why": "Tại sao nên sử dụng hướng dẫn sở hữu?",
+      "whySteps": {
+        "step1Title": "Đi đúng lộ trình",
+        "step1Description": "Có được chuỗi nhiệm vụ, boss, và danh sách nguyên liệu chính xác cho mỗi Spec hoặc vật phẩm trước khi bạn bắt đầu.",
+        "step2Title": "Tiết kiệm thời gian & Nguyên liệu",
+        "step2Description": "Tránh các lượt chơi lãng phí bằng cách chuẩn bị trước các fragments, manuals, và các yêu cầu chuẩn xác.",
+        "step3Title": "Tránh bỏ lỡ vật phẩm rơi ra",
+        "step3Description": "Đảm bảo nhận được các vật phẩm rơi ra hiếm và kết quả chế tạo với các bước rõ ràng, có thể lặp lại cho mỗi mục tiêu."
+      },
+      "featured": "Lộ trình nổi bật",
+      "all": "Tất cả hướng dẫn sở hữu"
+    },
+    "links": {
+      "title": "Liên kết Sakura Stand",
+      "description": "Các liên kết Trello, Discord và Roblox chính thức của Sakura Stand cùng với cách sử dụng từng trung tâm cộng đồng.",
+      "metaTitle": "Liên kết Sakura Stand - Trello, Discord & Roblox",
+      "metaDescription": "Tìm các trang Trello, Discord và Roblox chính thức của Sakura Stand và tìm hiểu cách sử dụng từng trung tâm để nhận mã code, ghi chú bản vá và các bản cập nhật.",
+      "categoryLabel": "LIÊN KẾT",
+      "whatIs": "Liên kết là gì?",
+      "whatIsDescription": "Các liên kết Sakura Stand kết nối bạn với các trang Trello, Discord và Roblox chính thức, nơi các ghi chú bản vá, mã code, thông báo và cập nhật cộng đồng được đăng bởi Sakura Society.",
+      "why": "Tại sao nên sử dụng các liên kết chính thức?",
+      "whySteps": {
+        "step1Title": "Nhận Code & Ghi chú bản vá",
+        "step1Description": "Tìm các mã code mới phát hành và ghi chú cập nhật trên Discord và Trello ngay khi chúng được ra mắt.",
+        "step2Title": "Tham gia cộng đồng",
+        "step2Description": "Đặt câu hỏi, tìm đối tác giao dịch và theo dõi các thông báo trong Discord hoạt động tích cực của Sakura Stand.",
+        "step3Title": "Báo lỗi & Giao dịch an toàn",
+        "step3Description": "Sử dụng các trung tâm Roblox và Discord chính thức để báo cáo sự cố và xác minh đối tác giao dịch mà không bị lừa đảo."
+      },
+      "featured": "Liên kết chính thức",
+      "all": "Tất cả liên kết"
+    }
   }
 }

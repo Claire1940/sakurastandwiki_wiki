@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Sakura Stand Wiki - Códigos, Tier List y Trello",
+      "description": "Sakura Stand Wiki cubre códigos de Roblox, tier list, enlaces de Trello, specs, stands, skins, objetos, valores de intercambio y guías para principiantes para un progreso más rápido.",
+      "keywords": "sakura stand, roblox, códigos, tier list, trello, specs, stands, skins, objetos, intercambios",
+      "ogTitle": "Sakura Stand Wiki - Códigos, Tier List y Trello",
+      "ogDescription": "Sakura Stand Wiki cubre códigos de Roblox, tier list, enlaces de Trello, specs, stands, skins, objetos, valores de intercambio y guías para principiantes para un progreso más rápido.",
+      "twitterTitle": "Sakura Stand Wiki - Códigos, Tier List y Trello",
+      "twitterDescription": "Sakura Stand Wiki cubre códigos de Roblox, tier list, enlaces de Trello, specs, stands, skins, objetos, valores de intercambio y guías para principiantes para un progreso más rápido."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "specs": "Specs",
@@ -6,5 +17,1275 @@
     "guide": "Guía",
     "obtainment": "Obtención",
     "links": "Enlaces"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Roblox",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Simulador de combate y farmeo de anime",
+    "title": "Sakura Stand Wiki",
+    "description": "Sakura Stand es una experiencia de combate de anime en Roblox donde los jugadores coleccionan Stands y Specs, farmean recursos, canjean códigos, intercambian skins y progresan a través de rutas de jefes y objetos.",
+    "keywords": "Sakura Stand, Roblox, códigos, tier list, Trello, specs, stands, skins, intercambios",
+    "getFreeCodesCTA": "Obtén códigos gratis",
+    "playOnRobloxCTA": "Jugar en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "321.6M+",
+        "label": "Visitas totales"
+      },
+      "stat2": {
+        "value": "2K+",
+        "label": "Jugadores en línea"
+      },
+      "stat3": {
+        "value": "79.6%",
+        "label": "Calificación de usuarios"
+      },
+      "stat4": {
+        "value": "289K+",
+        "label": "Favoritos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Sakura Stand",
+    "description": "Colecciona Stands y Specs inspirados en JoJo's Bizarre Adventure y otros anime, farmea recursos, canjea códigos y progresa a través de rutas de jefes y objetos en esta experiencia de lucha de Roblox."
+  },
+  "tools": {
+    "title": "Sakura Stand",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas sobre códigos, tier lists, Stands, Specs, objetos y actualizaciones de Sakura Stand",
+    "cards": [
+      {
+        "icon": "Copiar",
+        "title": "Códigos de Sakura Stand",
+        "description": "Códigos activos, recompensas y cómo canjearlos"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Trello y Discord de Sakura Stand",
+        "description": "Enlaces oficiales de Trello, Discord, Roblox y de la comunidad"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía de Sakura Stand para principiantes",
+        "description": "Primeros pasos, ciclo de juego principal, XP y objetivos iniciales"
+      },
+      {
+        "icon": "Star",
+        "title": "Tier List de Sakura Stand",
+        "description": "Clasificaciones de Stands, Specs, skins y valores de intercambio"
+      },
+      {
+        "icon": "Users",
+        "title": "Stands y Specs de Sakura Stand",
+        "description": "Rutas de habilidades, métodos de obtención y roles de habilidades"
+      },
+      {
+        "icon": "Package",
+        "title": "Objetos y farmeo de Sakura Stand",
+        "description": "Objetos, drops, tiendas y prioridades de farmeo"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Jefes y misiones de Sakura Stand",
+        "description": "Jefes, NPCs, ubicaciones y rutas de misiones"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones de Sakura Stand",
+        "description": "Nuevos Specs, skins, códigos y notas del parche"
+      }
+    ]
+  },
+  "modules": {
+    "sakuraStandCodes": {
+      "title": "Códigos de Sakura Stand",
+      "subtitle": "Canjea códigos de Sakura Stand para obtener recompensas gratuitas como Tokens, Dinero, potenciadores de EXP y bonificaciones de actualización de eventos.",
+      "intro": "Los códigos de Sakura Stand se suelen lanzar con las nuevas actualizaciones, correcciones por cierre de servidores, eventos de hitos y lanzamientos de contenido. La página actual del juego destaca los nuevos códigos como parte del último ciclo de actualización, junto con nuevos Specs, nuevas skins y correcciones de errores.",
+      "codes": [
+        {
+          "code": "RTZREWORK",
+          "reward": "Recompensas gratuitas",
+          "status": "Activo",
+          "best_for": "Recompensas de actualización"
+        },
+        {
+          "code": "JOJOMONTH",
+          "reward": "Recompensas gratuitas",
+          "status": "Activo",
+          "best_for": "Recompensas de evento"
+        },
+        {
+          "code": "deathduriyay67",
+          "reward": "Recompensas gratuitas",
+          "status": "Activo",
+          "best_for": "Recompensas de progresión"
+        },
+        {
+          "code": "SireisSupervision",
+          "reward": "Tokens",
+          "status": "Activo",
+          "best_for": "Potenciador de dinero"
+        },
+        {
+          "code": "GrandOrder",
+          "reward": "Potenciador de EXP",
+          "status": "Activo",
+          "best_for": "Subir de nivel"
+        },
+        {
+          "code": "TypingMoon",
+          "reward": "Dinero",
+          "status": "Activo",
+          "best_for": "Gasto anticipado"
+        }
+      ],
+      "steps": [
+        {
+          "step": "Abre Sakura Stand en Roblox",
+          "detail": "Inicia la experiencia oficial de Sakura Stand desde la página del juego en Roblox."
+        },
+        {
+          "step": "Abre el menú",
+          "detail": "Presiona M o usa el botón de menú, luego abre la pestaña de Configuración."
+        },
+        {
+          "step": "Ingresa el código",
+          "detail": "Pega el código en la casilla \"Enter Code\" y presiona Enter para reclamar la recompensa."
+        },
+        {
+          "step": "Revisa los motivos comunes de fallo",
+          "detail": "Los códigos pueden fallar si han expirado, si requieren un nivel de Maestría específico, si se escriben con mayúsculas y minúsculas incorrectas, o si ya han sido canjeados en la cuenta."
+        }
+      ]
+    },
+    "sakuraStandTrelloDiscord": {
+      "title": "Trello, Discord y enlaces oficiales de Sakura Stand",
+      "subtitle": "Usa los enlaces oficiales de Sakura Stand para seguir las actualizaciones, consultar los sistemas del juego y acceder a la experiencia en vivo.",
+      "intro": "El Trello oficial es el centro de referencia principal para las mecánicas de Sakura Stand, mientras que Discord es donde los jugadores siguen los anuncios, notas de parches, adelantos, códigos y discusiones de la comunidad. La página del juego en Roblox y la página de la comunidad de Sakura Society son los puntos de partida más seguros para la experiencia en vivo y la información del creador.",
+      "links": [
+        {
+          "label": "Trello oficial de Sakura Stand",
+          "url": "https://trello.com/b/YEDWCrGW/official-sakura-stand",
+          "type": "Base de datos del juego",
+          "content": "Cubre Stands, Specs, movimientos, skins, objetos, jefes, misiones, eventos, NPCs, ubicaciones e información general del juego.",
+          "use_case": "Ideal para consultar detalles de habilidades, métodos de obtención, listas de movimientos y sistemas del juego."
+        },
+        {
+          "label": "Discord oficial de Sakura Stand",
+          "url": "https://discord.com/invite/sakurastand",
+          "type": "Servidor de la comunidad",
+          "content": "Se usa para anuncios, notas de actualización, adelantos, códigos, preguntas, discusiones de intercambios e información fijada de la comunidad.",
+          "use_case": "Ideal para actualizaciones en vivo, lanzamientos de códigos actuales, verificación de intercambios y cambios de equilibrio."
+        },
+        {
+          "label": "Página del juego Sakura Stand en Roblox",
+          "url": "https://www.roblox.com/games/8534845015/Sakura-Stand",
+          "type": "Página oficial del juego",
+          "content": "La página de la experiencia de Roblox en vivo para Sakura Stand de Sakura Society, actualmente titulada en torno a la actualización de Naoya y Choso.",
+          "use_case": "Ideal para iniciar el juego, leer la descripción oficial, consultar las notas de actualización y confirmar el soporte para dispositivos móviles."
+        },
+        {
+          "label": "Comunidad de Roblox de Sakura Society",
+          "url": "https://www.roblox.com/communities/6490343/Sakura-Society",
+          "type": "Comunidad de creadores",
+          "content": "La comunidad de Roblox conectada a Sakura Stand y su desarrollador Sakura Society.",
+          "use_case": "Ideal para encontrar el centro de creadores detrás de la experiencia y confirmar la identidad oficial en el lado de Roblox."
+        }
+      ]
+    },
+    "sakuraStandBeginnerGuide": {
+      "title": "Guía de Sakura Stand para principiantes",
+      "subtitle": "Aprende el ciclo básico, dónde consultar los movimientos, cómo funciona la EXP y qué deben hacer primero los jugadores nuevos.",
+      "intro": "Sakura Stand es una experiencia de lucha y farmeo en Roblox inspirada principalmente en JoJo's Bizarre Adventure y otras series de anime. El juego es compatible con jugadores de dispositivos móviles, incluye Stands y Specs como opciones principales de equipamiento y otorga a los usuarios de Roblox Premium una bonificación de ganancia de XP de 1.15x.",
+      "steps": [
+        {
+          "title": "Lee primero la advertencia del juego",
+          "description": "Sakura Stand incluye efectos de luces parpadeantes de brillo completo y otros efectos visuales que pueden afectar a jugadores con migraña, visión alterada, convulsiones o sensibilidad similar.",
+          "tip": "Ajusta tus gráficos y evita sesiones largas si los efectos parpadeantes te molestan."
+        },
+        {
+          "title": "Entiende el ciclo de juego principal",
+          "description": "El juego sigue un ciclo de simulador de lucha y farmeo: lucha contra enemigos, progresa, mejora a tu personaje y trabaja para conseguir Stands, Specs, skins y contenido de actualización más fuertes.",
+          "tip": "No persigas cada nueva Spec inmediatamente; primero aprende bien un conjunto de movimientos para farmear de forma segura."
+        },
+        {
+          "title": "Elige entre Stands y Specs",
+          "description": "Los Stands y Specs son las principales opciones de identidad de combate en Sakura Stand. El Trello oficial es el mejor lugar para consultar los movimientos, los métodos de obtención y los detalles de las mecánicas antes de comprometer recursos.",
+          "tip": "Usa la búsqueda de Trello para encontrar el nombre exacto del Stand o de la Spec en lugar de desplazarte por todas las columnas."
+        },
+        {
+          "title": "Usa los códigos pronto",
+          "description": "Los códigos pueden proporcionar recompensas gratuitas como Tokens, Cash, potenciadores de EXP o bonificaciones de actualización. Abre el menú, ve a Settings, introduce un código que funcione y presiona Enter.",
+          "tip": "Canjea los potenciadores de EXP cuando estés listo para farmear activamente, no cuando aún estés aprendiendo dónde están los botones."
+        },
+        {
+          "title": "Farmea XP y crea consistencia",
+          "description": "La página del juego de Roblox confirma el soporte para dispositivos móviles y una ganancia de XP de 1.15x para los usuarios Premium. La progresión es más fluida cuando repites combates confiables en lugar de saltar a los objetivos de final de juego demasiado pronto.",
+          "tip": "El farmeo estable supera a los intercambios aleatorios y a la caza de jefes al principio."
+        },
+        {
+          "title": "Sigue las actualizaciones a través de los canales oficiales",
+          "description": "Las notas de actualización actuales mencionan nuevo contenido de Spec, nuevas skins, nuevos códigos y correcciones de errores. Discord y Trello son los lugares clave para seguir los cambios después de cada actualización.",
+          "tip": "Consulta las notas de actualización antes de asumir que una guía antigua sigue siendo válida, ya que el equilibrio del juego cambia a menudo."
+        }
+      ]
+    },
+    "sakuraStandTierList": {
+      "title": "Tier List de Sakura Stand",
+      "subtitle": "Compara las mejores opciones de combate, las categorías de valor de intercambio y las clasificaciones sensibles a las actualizaciones para Sakura Stand.",
+      "intro": "Las clasificaciones de Sakura Stand cambian cuando llegan nuevas Specs, skins, contenido de jefes y actualizaciones de equilibrio. Usa este módulo como una descripción práctica de los niveles, luego consulta los mensajes fijados oficiales de Discord y las tarjetas de Trello para obtener los detalles de movimientos, métodos de obtención y cambios en el valor de intercambio más recientes.",
+      "tiers": [
+        {
+          "category": "Mejores opciones de combate",
+          "tier": "SS",
+          "entries": [
+            "Cid Kagenou",
+            "Flandre Scarlet",
+            "Green Boy",
+            "Gold Experience Requiem",
+            "Nokotan",
+            "Frieren",
+            "Kokushibo",
+            "Akaza"
+          ],
+          "notes": "Selecciones de alto valor comúnmente seguidas por su fuerte desempeño en combate, rutas de obtención raras o alta demanda en la era de actualización."
+        },
+        {
+          "category": "Selecciones Fuertes de Combate",
+          "tier": "S",
+          "entries": [
+            "Sandevistan",
+            "Shinra",
+            "Saber Artoria",
+            "Saber Alter",
+            "Remembrance of Dullahan",
+            "Metallica",
+            "Kaiju No. 8",
+            "Wonder of U",
+            "Gebura"
+          ],
+          "notes": "Opciones sólidas para combate, farmeo, jefes o interés en intercambios, dependiendo del parche actual y los objetivos del jugador."
+        },
+        {
+          "category": "Selecciones Confiables de Rango Medio-Alto",
+          "tier": "A",
+          "entries": [
+            "Anubis Requiem",
+            "C-Moon",
+            "Garou",
+            "Midknight Vessel of Life",
+            "Isagi Yoichi",
+            "Suguru Geto",
+            "Herrscher of Flamescion",
+            "Yuta Okkotsu",
+            "The World"
+          ],
+          "notes": "Selecciones útiles con conjuntos de movimientos sólidos o valor de progresión, especialmente cuando se combinan con el estilo de juego adecuado."
+        },
+        {
+          "category": "Jugable pero más Situacional",
+          "tier": "B",
+          "entries": [
+            "The Red Mist",
+            "Sukuna",
+            "Roland",
+            "Alucard",
+            "Gojo",
+            "Toji Fushiguro",
+            "Eternal Wing"
+          ],
+          "notes": "Selecciones viables que pueden requerir más conocimiento de los enfrentamientos, mejor ejecución u objetivos específicos para que valga la pena usarlas."
+        },
+        {
+          "category": "Selecciones para Principiantes y de Bajo Valor",
+          "tier": "D",
+          "entries": [
+            "Crazy Diamond",
+            "Star Platinum",
+            "Cross",
+            "Will of Fate",
+            "Emperor",
+            "Anubis"
+          ],
+          "notes": "Opciones de menor prioridad para poder a largo plazo o intercambio, pero útiles para aprender las mecánicas básicas."
+        },
+        {
+          "category": "Tablero de Valores de Intercambio",
+          "tier": "Intercambio",
+          "entries": [
+            "Stands",
+            "Specs",
+            "Skins",
+            "Skins de Evento",
+            "Objetos Limitados"
+          ],
+          "notes": "El valor de intercambio debe consultarse en los mensajes fijados de Discord y la comunidad de intercambio porque la demanda cambia frecuentemente."
+        }
+      ]
+    },
+    "sakuraStandStandsSpecs": {
+      "title": "Stands y Specs de Sakura Stand",
+      "subtitle": "Explora las rutas principales de Stand y Spec, desde tiradas de Arrow y evoluciones clásicas de JoJo hasta habilidades de anime con misiones pesadas como Naoya, Choso, Sukuna, Roland y Sandevistan.",
+      "intro": "Sakura Stand se basa en dos caminos de habilidades: Stands, que suelen provenir de Arrows y objetos de evolución de Stand, y Specs, que suelen provenir de manuales, máscaras, jefes, misiones de NPC, eventos o cadenas de progresión especiales. Usa esta sección para decidir si quieres una habilidad inicial rápida, un Spec enfocado en PvP o una ruta de farmeo larga con requisitos de jefes y objetos.",
+      "groups": [
+        {
+          "group": "Rutas de Arrow y Stand Base",
+          "summary": "Tiradas rápidas para el inicio del juego y evoluciones clásicas de Stand. Estas son las primeras rutas que la mayoría de los jugadores nuevos prueban antes de pasar a misiones más largas.",
+          "entries": [
+            {
+              "name": "Star Platinum",
+              "type": "Stand",
+              "obtain": "Usa una Stand Arrow en Standless.",
+              "role": "Habilidad inicial de combate a corta distancia",
+              "best_for": "Jugadores nuevos que quieren una ruta de Stand simple antes de farmear evoluciones más raras."
+            },
+            {
+              "name": "Crazy Diamond",
+              "type": "Stand",
+              "obtain": "Usa una Stand Arrow en Standless.",
+              "role": "Stand de combate equilibrado",
+              "best_for": "Jugadores que quieren una habilidad directa del grupo de Arrows."
+            },
+            {
+              "name": "Golden Experience",
+              "type": "Stand",
+              "obtain": "Usa una Stand Arrow en Standless.",
+              "role": "Base de evolución",
+              "best_for": "Jugadores que planean avanzar hacia Gold Experience Requiem."
+            },
+            {
+              "name": "White Snake",
+              "type": "Stand",
+              "obtain": "Usa una Stand Arrow en Standless.",
+              "role": "Base de evolución",
+              "best_for": "Jugadores que planean la ruta de C-Moon y Made in Heaven."
+            },
+            {
+              "name": "Emperor",
+              "type": "Stand",
+              "obtain": "Usa una Stand Arrow en Standless.",
+              "role": "Presión a distancia",
+              "best_for": "Jugadores que prefieren el control de distancia en lugar del cuerpo a cuerpo puro."
+            }
+          ]
+        },
+        {
+          "group": "Rutas de evolución de Stand",
+          "summary": "Mejoras de Stand basadas en objetos que requieren un Stand base específico antes de que el objeto de evolución o la condición de ubicación importen.",
+          "entries": [
+            {
+              "name": "The World",
+              "type": "Stand",
+              "obtain": "Usa Dio's Bone en Unawakened Dio.",
+              "role": "Evolución centrada en la detención del tiempo",
+              "best_for": "Jugadores que quieren una ruta de progresión clásica de JoJo."
+            },
+            {
+              "name": "Gold Experience Requiem",
+              "type": "Stand",
+              "obtain": "Usa una Requiem Arrow en Golden Experience.",
+              "role": "Stand evolucionado de alto valor",
+              "best_for": "Jugadores que buscan una ruta final más fuerte desde Golden Experience."
+            },
+            {
+              "name": "C-Moon",
+              "type": "Stand",
+              "obtain": "Usa Green Baby en White Snake.",
+              "role": "Paso de evolución con temática de gravedad",
+              "best_for": "Jugadores que progresan hacia Made in Heaven."
+            },
+            {
+              "name": "Made in Heaven",
+              "type": "Stand",
+              "obtain": "Lleva C-Moon y Dio's Diary a Highest Peak durante una luna nueva de la vida real.",
+              "role": "Stand evolucionado de ruta tardía",
+              "best_for": "Jugadores que disfrutan del farmeo con condiciones de tiempo."
+            },
+            {
+              "name": "Anubis",
+              "type": "Stand",
+              "obtain": "Usa Haunted Sword en Standless.",
+              "role": "Stand cuerpo a cuerpo basado en armas",
+              "best_for": "Jugadores que quieren presión de espada y progresión basada en objetos."
+            }
+          ]
+        },
+        {
+          "group": "Specs clásicos",
+          "summary": "Rutas simples de Spec creadas en torno al uso directo de objetos o la interacción con el mapa. Estas son rutas de entrenamiento limpias antes de las líneas de misiones de anime más grandes.",
+          "entries": [
+            {
+              "name": "Standless",
+              "type": "Spec base",
+              "obtain": "Comienza el juego sin una habilidad o usa Rokakaka Fruit para restablecer tu Stand o Spec actual.",
+              "role": "Estado base y requisito de misión",
+              "best_for": "Iniciar la mayoría de las rutas de objetos, NPC y misiones."
+            },
+            {
+              "name": "Hamon",
+              "type": "Spec",
+              "obtain": "Usa Hamon Manual en Standless.",
+              "role": "Estilo de combate a corta distancia",
+              "best_for": "Jugadores que quieren un Spec simple basado en manuales."
+            },
+            {
+              "name": "Vampirismo",
+              "type": "Spec",
+              "obtain": "Usar Stone Mask en Standless.",
+              "role": "Spec de combate agresivo",
+              "best_for": "Jugadores que prefieren desbloqueos directos por objetos."
+            },
+            {
+              "name": "Spin",
+              "type": "Spec",
+              "obtain": "Usar Spin Manual en Standless.",
+              "role": "Estilo de combate basado en Steel Balls y rotación",
+              "best_for": "Jugadores que quieren presión a media distancia de un Spec clásico."
+            },
+            {
+              "name": "Rock Human",
+              "type": "Spec",
+              "obtain": "Interactuar con un Nest mientras estás Standless.",
+              "role": "Spec de interacción con el mapa",
+              "best_for": "Jugadores que buscan rutas de desbloqueo que no requieran objetos."
+            }
+          ]
+        },
+        {
+          "group": "Specs de Jujutsu Kaisen",
+          "summary": "Rutas de alta demanda centradas en objetos malditos, combates de jefes, NPCs y el contenido más nuevo de la actualización de Naoya y Choso.",
+          "entries": [
+            {
+              "name": "Itadori Yuji",
+              "type": "Spec",
+              "obtain": "Alcanzar Maestría 1, luego seguir la ruta de progresión de Jujutsu ligada a los enemigos malditos y al progreso de Sukuna's Fingers.",
+              "role": "Ruta de inicio de JJK",
+              "best_for": "Jugadores que planean desbloquear a Gojo o Sukuna más adelante."
+            },
+            {
+              "name": "Gojo",
+              "type": "Spec",
+              "obtain": "Completar la misión de Gojo mientras usas a Itadori Yuji.",
+              "role": "Spec de combate de alto control",
+              "best_for": "Jugadores que quieren una habilidad popular de JJK enfocada en PvP."
+            },
+            {
+              "name": "Sukuna",
+              "type": "Spec",
+              "obtain": "Comer 15 Sukuna Fingers con Itadori Yuji, luego completar la ruta del jefe Sukuna.",
+              "role": "Spec de maldición desbloqueada por jefe",
+              "best_for": "Jugadores que quieren regeneración, gran daño explosivo y presión estilo dominio."
+            },
+            {
+              "name": "Toji Fushiguro",
+              "type": "Spec",
+              "obtain": "Derrotar a Toji Fushiguro y recolectar sus drops de armas requeridos y objetos de la ruta de aura.",
+              "role": "Spec de asesino centrado en armas",
+              "best_for": "Jugadores a los que les gusta farmear jefes y la presión cuerpo a cuerpo rápida."
+            },
+            {
+              "name": "Naoya Zen'in",
+              "type": "Spec",
+              "obtain": "Empieza a través de Naobito en el santuario abandonado sin un JJK Spec equipado, luego completa la progresión Zen'in y la ruta de raid de Naoya.",
+              "role": "Spec de rushdown técnico",
+              "best_for": "Jugadores que quieren una habilidad rápida y agresiva de la actualización de Naoya y Choso."
+            },
+            {
+              "name": "Choso",
+              "type": "Spec",
+              "obtain": "Usa Death Painting en Standless después de farmear la ruta de Kamo Remnant.",
+              "role": "Spec de combos de manipulación de sangre",
+              "best_for": "Jugadores que quieren presión de aturdimiento, disparos de sangre y herramientas de despertar."
+            }
+          ]
+        },
+        {
+          "group": "Specs de anime con muchas misiones",
+          "summary": "Rutas más largas con bloqueos de maestría, líneas de misiones de NPC, drops de jefes o requisitos de objetos de múltiples pasos.",
+          "entries": [
+            {
+              "name": "Deku",
+              "type": "Spec",
+              "obtain": "Progresa One For All a través de sus etapas, derrota al jefe Deku para obtener One For All's Grace, luego usa All Might's Hair después del paso final de la misión.",
+              "role": "Spec con progresión basada en etapas",
+              "best_for": "Jugadores a los que les gusta la progresión repetida de jefes y las cadenas de misiones."
+            },
+            {
+              "name": "Sandevistan",
+              "type": "Spec",
+              "obtain": "Alcanza Maestría 1 con Standless, recolecta Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support y Tech Monitor, luego completa la misión de N4Animation.",
+              "role": "Spec de velocidad y cyberware",
+              "best_for": "Jugadores que quieren una ruta inspirada en Cyberpunk con piezas de cajas de botín."
+            },
+            {
+              "name": "Sandevistan | Cyberskeleton",
+              "type": "Evolución de Spec",
+              "obtain": "Usa la ruta de Arasaka Suitcase después de obtener Sandevistan y completar la progresión de seguimiento de N4Animation.",
+              "role": "Evolución de cyberware avanzada",
+              "best_for": "Jugadores que extienden el grindeo de Sandevistan."
+            },
+            {
+              "name": "Roland / The Black Silence",
+              "type": "Spec",
+              "obtain": "Comienza con Olivier en Dark Alley en Maestría 6 y Standless, luego completa la línea de misiones de Perception-Blocking Mask, Harold, AMM y Library Invitation.",
+              "role": "Spec de misión de cadena de armas",
+              "best_for": "Jugadores que quieren una ruta larga con recolección de armas de jefes."
+            },
+            {
+              "name": "The Red Mist",
+              "type": "Spec",
+              "obtain": "Usa Mimicry en Standless después de derrotar al jefe The Red Mist y completar la ruta E.G.O.",
+              "role": "Spec de combate con drops de jefes",
+              "best_for": "Jugadores que disfrutan de rutas PvE difíciles y presión de robo de vida."
+            },
+            {
+              "name": "Kurosaki Ichigo",
+              "type": "Línea de Spec",
+              "obtain": "Progresa a través de las rutas Hollow y Soul Reaper, luego usa la línea de misiones de Urahara Kisuke y Hogyoku Fragment para formas posteriores.",
+              "role": "Línea de progresión al estilo Bleach",
+              "best_for": "Jugadores que buscan un farmeo PvE multiforma."
+            }
+          ]
+        },
+        {
+          "group": "Specs de Objetos y Eventos",
+          "summary": "Specs desbloqueadas a través de frutas, objetos de temporada, banners, eventos o rutas de tiendas especiales.",
+          "entries": [
+            {
+              "name": "Mochi Mochi No Mi",
+              "type": "Spec",
+              "obtain": "Usa Mochi Mochi Devil Fruit en Standless.",
+              "role": "Spec de Fruta del Diablo",
+              "best_for": "Jugadores que farmean desbloqueos raros de estilo fruta."
+            },
+            {
+              "name": "Bomu Bomu No Mi",
+              "type": "Spec",
+              "obtain": "Usa Bomu Bomu Devil Fruit en Standless.",
+              "role": "Spec de estilo explosión",
+              "best_for": "Jugadores que coleccionan habilidades inspiradas en One Piece."
+            },
+            {
+              "name": "Bari Bari No Mi",
+              "type": "Spec",
+              "obtain": "Usa Bari Bari Devil Fruit en Standless.",
+              "role": "Spec de estilo barrera",
+              "best_for": "Jugadores que buscan utilidad en rutas de objetos raros."
+            },
+            {
+              "name": "Hie Hie No Mi",
+              "type": "Spec",
+              "obtain": "Usa Hie Hie Devil Fruit en Standless.",
+              "role": "Spec de control de hielo",
+              "best_for": "Jugadores que buscan presión de congelación y control."
+            },
+            {
+              "name": "Padoru",
+              "type": "Spec de temporada",
+              "obtain": "Usa Bag of Presents en Standless.",
+              "role": "Spec coleccionable de estilo evento",
+              "best_for": "Coleccionistas y jugadores de contenido de temporada."
+            },
+            {
+              "name": "Herrscher of Human Ego",
+              "type": "Spec de Banner",
+              "obtain": "Tira en la ruta del banner Arrow of Novae.",
+              "role": "Farmeo premium basado en banners",
+              "best_for": "Jugadores que buscan habilidades raras de banner."
+            }
+          ]
+        }
+      ]
+    },
+    "sakuraStandItemsFarming": {
+      "title": "Objetos y Farmeo de Sakura Stand",
+      "subtitle": "Rastrea los objetos que desbloquean Stands, Specs, líneas de misiones, jefes y rutas de juego tardío en Sakura Stand.",
+      "intro": "El farmeo de objetos en Sakura Stand conecta directamente con los desbloqueos de habilidades, rutas de misiones, progresión de jefes y mejoras de juego tardío. Arrows, Rokakaka, manuales, máscaras, drops de jefes, partes de cyberware y objetos de actualización tienen usos de progresión específicos.",
+      "items": [
+        {
+          "item": "Stand Arrow",
+          "category": "Desbloqueo inicial",
+          "source": "Cajas, cofres y rutas comunes de farmeo de objetos",
+          "use": "Úsalo en Standless para obtener Stands del grupo Arrow como Star Platinum, Crazy Diamond, Golden Experience, White Snake y Emperor.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Fruta Rokakaka",
+          "category": "Objeto de reinicio",
+          "source": "Cajas y Tienda de Auddy",
+          "use": "Reinicia el Stand o Spec actual a Standless.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Manual de Hamon",
+          "category": "Desbloqueo de Spec",
+          "source": "Cajas, Tienda de Auddy y tiradas de Arcade",
+          "use": "Úsalo en Standless para obtener Hamon.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Máscara de Piedra",
+          "category": "Desbloqueo de Spec",
+          "source": "Cajas y rutas de farmeo de objetos",
+          "use": "Úsalo en Standless para obtener Vampirism.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Manual de Spin",
+          "category": "Desbloqueo de Spec",
+          "source": "Cajas y rutas de farmeo de objetos",
+          "use": "Úsalo en Standless para obtener Spin.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Espada Encantada",
+          "category": "Desbloqueo de Stand",
+          "source": "Cajas, Bolsa de Regalos y rutas de farmeo de objetos",
+          "use": "Úsalo en Standless para obtener Anubis.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Flecha Requiem",
+          "category": "Evolución de Stand",
+          "source": "Ruta de misión de Polnareff Tortuga y fuentes de objetos raros",
+          "use": "Úsalo en Golden Experience para obtener Gold Experience Requiem.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Hueso de Dio",
+          "category": "Evolución de Stand",
+          "source": "Progresión de habilidades y rutas de farmeo de objetos",
+          "use": "Úsalo en Unawakened Dio para obtener The World.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Bebé Verde",
+          "category": "Evolución de Stand",
+          "source": "Progresión de habilidades y rutas de farmeo de objetos",
+          "use": "Úsalo en White Snake para obtener C-Moon.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Diario de Dio",
+          "category": "Evolución tardía de Stand",
+          "source": "Rutas de farmeo de objetos de juego tardío",
+          "use": "Llévalo con C-Moon al Pico más alto durante una Luna nueva en la vida real para la progresión de Made in Heaven.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Cámara misteriosa",
+          "category": "Ruta estacional de Stand",
+          "source": "Cajas, Bolsa de regalos y rutas de farmeo de objetos",
+          "use": "Úsalo durante la estación o condición climática correcta para obtener Summer Time, Rainy Time o Winter Time.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Piezas de Cyber Loot Box",
+          "category": "Progresión de Cyberware",
+          "source": "Cyber Loot Boxes",
+          "use": "Se requieren Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support y Tech Monitor para la ruta de Sandevistan.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Maletín de Arasaka",
+          "category": "Evolución de Cyberware",
+          "source": "Cyber Loot Boxes",
+          "use": "Se usa después de Sandevistan para la ruta de progresión de Sandevistan | Cyberskeleton.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Dedo de Sukuna",
+          "category": "Progresión de JJK",
+          "source": "Farmeo de espíritus malditos y drops de jugadores vinculados al progreso del recipiente",
+          "use": "Come 15 con Itadori Yuji para desbloquear la ruta del jefe Sukuna.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Pintura de la muerte",
+          "category": "Objeto de la actualización de JJK",
+          "source": "Ruta de Kamo Remnant",
+          "use": "Úsalo en Standless para obtener a Choso.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Gracia de One For All",
+          "category": "Drop de jefe",
+          "source": "Jefe Deku",
+          "use": "Aumenta el progreso de la etapa de One For All hacia la ruta de Deku.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Pelo de All Might",
+          "category": "Recompensa de misión",
+          "source": "Ruta de misión de NameClan",
+          "use": "Úsalo después de alcanzar la etapa requerida de One For All y el progreso de la misión para obtener a Deku.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Fragmento de Hogyoku",
+          "category": "Progresión de Bleach",
+          "source": "Rutas de farmeo de Adjuchas y Gillian",
+          "use": "Usado en la progresión posterior relacionada con Kurosaki Ichigo y Aizen.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Máscara de bloqueo de percepción",
+          "category": "Objeto de misión de Roland",
+          "source": "Línea de misiones de Olivier",
+          "use": "Inicia la cadena de progresión más profunda de Roland / The Black Silence.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Fragmento humeante",
+          "category": "Objeto de misión de Roland",
+          "source": "Línea de misiones de Harold",
+          "use": "Continúa la ruta de Roland después del paso de la Máscara de bloqueo de percepción.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Invitación de la biblioteca",
+          "category": "Objeto de misión de Roland",
+          "source": "Línea de misiones de AMM",
+          "use": "Desbloquea los pasos finales de la ruta de Roland / The Black Silence.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Mimicry",
+          "category": "Botín de jefe",
+          "source": "Jefe The Red Mist",
+          "use": "Usar en Standless para obtener The Red Mist.",
+          "priority": "Alto"
+        },
+        {
+          "item": "Invitación de Blue Lock",
+          "category": "Recompensa de misión",
+          "source": "Línea de misiones de Isagi Yoichi",
+          "use": "Usado para la progresión de Yoichi Isagi.",
+          "priority": "Medio"
+        },
+        {
+          "item": "Bolsa de regalos",
+          "category": "Objeto de la Breakthrough Shop",
+          "source": "Breakthrough Shop",
+          "use": "Otorga recompensas de objetos aleatorios y puede desbloquear a Padoru al usarse en Standless.",
+          "priority": "Medio"
+        }
+      ]
+    },
+    "sakuraStandBossesQuests": {
+      "title": "Jefes, NPCs y misiones de Sakura Stand",
+      "subtitle": "Usa estas cartas de ruta para saltar desde una habilidad objetivo al NPC, jefe, ubicación y cadena de recompensas detrás de ella en Sakura Stand.",
+      "intro": "Muchas habilidades de Sakura Stand están bloqueadas detrás de NPCs, botines de jefes, temporizadores de aparición, bloqueos de maestría y rutas de varios pasos. Este módulo convierte esas rutas en cartas cortas en la página principal para que los jugadores puedan encontrar al NPC o jefe correcto rápidamente.",
+      "routes": [
+        {
+          "title": "Ruta de Naoya Zen'in",
+          "type": "Ruta de Spec de la nueva actualización",
+          "npc": "Ruta de incursión de Naobito, John Zen'in y Naoya",
+          "location": "Santuario abandonado y áreas de actualización de Naoya",
+          "requirements": [
+            "No equipes un Spec de JJK al comenzar la ruta",
+            "Habla con Naobito en el santuario abandonado",
+            "Completa la ruta de progresión de Zen'in"
+          ],
+          "rewards": [
+            "Spec de Naoya Zen'in",
+            "Progresión de títulos relacionados con Zen'in"
+          ],
+          "goal": "Farmea el contenido actual de la actualización de Naoya y desbloquea un Spec de rushdown técnico y rápido."
+        },
+        {
+          "title": "Ruta de Choso",
+          "type": "Ruta de Spec de la nueva actualización",
+          "npc": "Remanente de Kamo",
+          "location": "Ruta de la guarida de Kamo",
+          "requirements": [
+            "Farmea encuentros del Remanente de Kamo",
+            "Obtén la Pintura de la Muerte",
+            "Usa la Pintura de la Muerte en Standless"
+          ],
+          "rewards": [
+            "Spec de Choso",
+            "Progresión de Manipulador de Sangre"
+          ],
+          "goal": "Desbloquea un Spec de manipulación de sangre con presión de combos y herramientas de despertar."
+        },
+        {
+          "title": "Ruta de Sukuna",
+          "type": "Ruta del jefe de JJK",
+          "npc": "NPC de Sukuna y jefe Sukuna",
+          "location": "Parque lateral y arena del jefe Sukuna",
+          "requirements": [
+            "Usa a Itadori Yuji",
+            "Come 15 dedos de Sukuna",
+            "Completa la batalla contra el jefe Sukuna"
+          ],
+          "rewards": [
+            "Spec de Sukuna"
+          ],
+          "goal": "Convierte a Itadori Yuji en Sukuna a través del farmeo de dedos y la derrota del jefe."
+        },
+        {
+          "title": "Ruta de Toji Fushiguro",
+          "type": "Ruta de drops de jefe",
+          "npc": "Jefe Toji Fushiguro",
+          "location": "Ruta de encuentro con el jefe",
+          "requirements": [
+            "Derrota a Toji Fushiguro",
+            "Recolecta los drops de armas requeridos",
+            "Completa la ruta de aura y objetos"
+          ],
+          "rewards": [
+            "Lanza Invertida del Cielo",
+            "Cadena de las Mil Millas",
+            "Katana de Alma Dividida"
+          ],
+          "goal": "Farmea los drops de armas de jefe para una ruta rápida de asesino cuerpo a cuerpo."
+        },
+        {
+          "title": "Ruta de Deku y One For All",
+          "type": "Ruta de Jefes de Progresión por Etapas",
+          "npc": "Kuzma, jefe Deku, NameClan",
+          "location": "Ubicaciones de aparición de Kuzma, Ruined City, área de la carpa del bosque",
+          "requirements": [
+            "Alcanza Mastery 3 y equipa Standless",
+            "Inicia One For All Etapa 1 a través de Kuzma",
+            "Derrota a Deku para obtener One For All's Grace",
+            "Completa la misión Standless de NameClan"
+          ],
+          "rewards": [
+            "Mejoras de etapa de One For All",
+            "All Might's Hair",
+            "Deku Spec"
+          ],
+          "goal": "Evoluciona de One For All a Deku a través de la progresión por etapas y el farmeo repetido de jefes."
+        },
+        {
+          "title": "Ruta de Roland / The Black Silence",
+          "type": "Cadena de misiones larga",
+          "npc": "Olivier, Harold, AMM, jefe The Black Silence",
+          "location": "Dark Alley, campamento del bosque, ruta al lado de la playa, Library",
+          "requirements": [
+            "Alcanza Mastery 6 y equipa Standless",
+            "Habla con Olivier en Dark Alley",
+            "Completa el paso de Perception-Blocking Mask",
+            "Supera las tareas de Harold y AMM y la ruta de Library"
+          ],
+          "rewards": [
+            "Perception-Blocking Mask",
+            "Smoldering Fragment",
+            "Library Invitation",
+            "Roland / The Black Silence Spec"
+          ],
+          "goal": "Sigue una de las cadenas de misiones más largas para un Spec de combate centrado en armas."
+        },
+        {
+          "title": "Ruta de The Red Mist",
+          "type": "Ruta de Jefes y E.G.O.",
+          "npc": "Carmen, Q3, jefe The Red Mist",
+          "location": "Ruta de Dark Alley y el portal de Red Mist",
+          "requirements": [
+            "Progresa eliminando enemigos en el mapa",
+            "Habla con Q3 para acceder al encuentro con Red Mist",
+            "Derrota al jefe The Red Mist",
+            "Usa Mimicry en Standless"
+          ],
+          "rewards": [
+            "Mimicry",
+            "The Red Mist Spec"
+          ],
+          "goal": "Farmea una ruta de jefe difícil para obtener una habilidad E.G.O. con mucho robo de vida."
+        },
+        {
+          "title": "Ruta de Sandevistan",
+          "type": "Cadena de misiones de Cyberware",
+          "npc": "N4Animation",
+          "location": "Ruta de la misión Cyberware",
+          "requirements": [
+            "Alcanza Mastery 1 y equipa Standless",
+            "Recolecta Cyan Cyberdeck, Crimson Cyberdeck, Cortex Support y Tech Monitor",
+            "Completa la misión de N4Animation",
+            "Usa Arasaka Suitcase para la progresión de Cyberskeleton"
+          ],
+          "rewards": [
+            "Spec de Sandevistan",
+            "Sandevistan | Progresión de Cyberskeleton"
+          ],
+          "goal": "Convierte las partes de las loot-box de cyberware en una ruta de Spec enfocada en velocidad."
+        },
+        {
+          "title": "Ruta de Kurosaki Ichigo",
+          "type": "Ruta de progresión de Bleach",
+          "npc": "Urahara Kisuke, Hollows, Gillians, Adjuchas",
+          "location": "Tienda de Urahara y ruta de Hueco Mundo",
+          "requirements": [
+            "Farmear enemigos Hollow",
+            "Progresa en los pasos de Substitute Shinigami y Shikai",
+            "Usa la línea de misiones posterior de Urahara Kisuke",
+            "Recolecta Hogyoku Fragment para la progresión de forma avanzada"
+          ],
+          "rewards": [
+            "Formas de Kurosaki Ichigo",
+            "Progresión de Bankai y Vasto Lorde"
+          ],
+          "goal": "Avanza a través de una cadena de habilidades de múltiples formas al estilo de Bleach."
+        },
+        {
+          "title": "Rutas de Aizen y Starrk",
+          "type": "Línea de misiones de Hueco Mundo",
+          "npc": "Aizen, Nnoiritra Gilga, Barragan / Vasto Lorde",
+          "location": "Las Noches y Hueco Mundo",
+          "requirements": [
+            "Progresa en las tareas relacionadas con Soul Reaper",
+            "Farmear enemigos de la familia Hollow",
+            "Completa los requisitos de jefes y recolección de espadas vinculados a la progresión de Aizen"
+          ],
+          "rewards": [
+            "Progresión de Spec de Aizen",
+            "Progreso de la ruta de Coyote Starrk"
+          ],
+          "goal": "Farmear la ruta más larga de Bleach vinculada a Las Noches, enemigos Hollow y asesinatos de jefes."
+        },
+        {
+          "title": "Ruta de Yoichi Isagi",
+          "type": "Línea de misiones de Sports Anime",
+          "npc": "Jinpachi Ego e Isagi Yoichi",
+          "location": "Cancha de baloncesto",
+          "requirements": [
+            "Habla con Jinpachi Ego",
+            "Completa los pasos de la misión de Yoichi Isagi",
+            "Usa Blue Lock Invitation para el progreso del despertar"
+          ],
+          "rewards": [
+            "Progresión de Yoichi Isagi",
+            "Blue Lock Invitation"
+          ],
+          "goal": "Desbloquea y despierta la ruta inspirada en Blue Lock."
+        },
+        {
+          "title": "Ruta de Pilgrim Knight",
+          "type": "Línea de misiones de múltiples NPC",
+          "npc": "Syante, Hika, Dast, Mirror",
+          "location": "Salón de los Héroes, Arboledas Olvidadas, Faro, entrada a Depths",
+          "requirements": [
+            "Comienza con Syante en el Salón de los Héroes",
+            "Progresa a través de los pasos de Hika y Dast",
+            "Continúa la ruta de Mirror y Depths"
+          ],
+          "rewards": [
+            "Progresión de Pilgrim Knight"
+          ],
+          "goal": "Sigue una línea de misiones multiubicación con varios puntos de control de NPC."
+        }
+      ]
+    },
+    "sakuraStandUpdates": {
+      "title": "Actualizaciones y notas del parche de Sakura Stand",
+      "subtitle": "Sigue los últimos cambios de contenido de Sakura Stand, incluyendo nuevas Specs, skins, códigos, rutas de jefes, correcciones de errores y actualizaciones de Trello.",
+      "intro": "La página del juego en Roblox, el Discord oficial, el grupo Sakura Society y el Trello oficial son la vía principal de actualización para Sakura Stand. Esta línea de tiempo está diseñada para actualizaciones continuas de la página de inicio, por lo que se pueden agregar nuevas Specs, códigos, eventos y cambios de equilibrio con el tiempo.",
+      "entries": [
+        {
+          "date": "Junio de 2026",
+          "label": "Listado actual de Roblox",
+          "headline": "Actualización de Naoya y Choso",
+          "changes": [
+            "El título de la experiencia de Roblox actualmente destaca a Naoya y Choso.",
+            "Naoya Zen'in y Choso son las nuevas rutas de Spec principales.",
+            "La actualización añade nueva actividad de códigos, nuevas skins y correcciones de errores del registro de actualizaciones público de Roblox."
+          ],
+          "tag": "Nuevas Specs",
+          "priority": "Alto"
+        },
+        {
+          "date": "Junio de 2026",
+          "label": "Nueva ruta de Spec",
+          "headline": "Ruta de Naoya Zen'in añadida",
+          "changes": [
+            "La progresión de Naoya comienza a través de la ruta Zen'in vinculada a Naobito y al santuario abandonado.",
+            "Naoya usa un estilo de combate técnico y rápido con múltiples variaciones de G.",
+            "Naoya está vinculado a la nueva dirección del rework de Domain Expansion."
+          ],
+          "tag": "Spec",
+          "priority": "Alto"
+        },
+        {
+          "date": "Junio de 2026",
+          "label": "Nueva ruta de Spec",
+          "headline": "Ruta de Choso añadida",
+          "changes": [
+            "Choso se desbloquea a través de Death Painting en Standless.",
+            "Death Painting está vinculado a la ruta de Kamo Remnant.",
+            "Choso se centra en la manipulación de sangre, la presión de aturdimiento y las herramientas de despertar."
+          ],
+          "tag": "Spec",
+          "priority": "Alto"
+        },
+        {
+          "date": "Junio de 2026",
+          "label": "Nueva área y farmeo",
+          "headline": "Guarida de Kamo y ruta de Kamo Remnant",
+          "changes": [
+            "La Guarida de Kamo apoya la ruta de progresión de Choso.",
+            "El farmeo de Kamo Remnant se conecta con Death Painting.",
+            "John Zen'in aparece como parte del grupo de encuentros de la actualización de Naoya y Choso."
+          ],
+          "tag": "Ubicación",
+          "priority": "Alto"
+        },
+        {
+          "date": "Junio 2026",
+          "label": "Nuevos Títulos",
+          "headline": "Objetivos de títulos con temática de Zen'in y sangre",
+          "changes": [
+            "Head of Zen'in Clan está vinculado al tema de la actualización de Naoya.",
+            "Zen'in Clan Member apoya la nueva ruta de progresión Zen'in.",
+            "Blood Manipulator apoya la progresión de Choso y los objetivos de colección."
+          ],
+          "tag": "Títulos",
+          "priority": "Medio"
+        },
+        {
+          "date": "Junio 2026",
+          "label": "Balance y Pulido",
+          "headline": "Pulido de habilidades y fase de corrección de errores",
+          "changes": [
+            "Furioso Replica de Index Nursefather recibió mejoras de rango y daño.",
+            "Los efectos visuales de Lei Heng fueron ajustados para una mejor consistencia.",
+            "Itadori Yuji recibió actualizaciones adicionales de frases de voz.",
+            "Se corrigieron múltiples errores de pose, dash, softlock e interrupción en varias habilidades."
+          ],
+          "tag": "Balance",
+          "priority": "Medio"
+        },
+        {
+          "date": "Actual",
+          "label": "Registro de actualizaciones de Roblox",
+          "headline": "Categorías de actualización pública",
+          "changes": [
+            "Nueva Spec",
+            "Nuevos Skins",
+            "Nuevos códigos",
+            "Errores corregidos"
+          ],
+          "tag": "Registro de parches",
+          "priority": "Alto"
+        },
+        {
+          "date": "En curso",
+          "label": "Trello Oficial",
+          "headline": "Sincronización de contenido de Trello",
+          "changes": [
+            "Cartas de Stand y Spec",
+            "Entradas de objetos y jefes",
+            "Referencias de NPC y rutas de misiones",
+            "Contenido de la última actualización"
+          ],
+          "tag": "Referencia",
+          "priority": "Alto"
+        },
+        {
+          "date": "En curso",
+          "label": "Discord Oficial",
+          "headline": "Seguimiento de anuncios de Discord",
+          "changes": [
+            "Anuncios de desarrolladores",
+            "Publicaciones de notas de parches",
+            "Lanzamientos de códigos",
+            "Adelantos y avisos de eventos"
+          ],
+          "tag": "Comunidad",
+          "priority": "Alto"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Sakura Stand",
+    "titleHighlight": "FAQ",
+    "subtitle": "Respuestas rápidas sobre códigos, Stands, Specs y progreso de Sakura Stand",
+    "questions": [
+      {
+        "question": "¿Qué es Sakura Stand?",
+        "answer": "Sakura Stand es una experiencia de lucha y farmeo de anime en Roblox desarrollada por Sakura Society. Está inspirada principalmente en JoJo's Bizarre Adventure y otros animes, con Stands y Specs como las configuraciones de combate principales."
+      },
+      {
+        "question": "¿Cómo canjeo los códigos de Sakura Stand?",
+        "answer": "Abre Sakura Stand en Roblox, presiona M o el botón de menú para abrir Settings, pega un código válido en el recuadro Enter Code y presiona Enter. Los códigos pueden fallar si están expirados, mal escritos, bloqueados por maestría o ya canjeados."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre Stands y Specs en Sakura Stand?",
+        "answer": "Los Stands suelen provenir de Stand Arrows e ítems de evolución de Stand, mientras que las Specs provienen de manuales, máscaras, jefes, misiones de NPC, eventos o cadenas de progresión especiales. Ambos son elecciones de identidad de combate fundamentales en Sakura Stand."
+      },
+      {
+        "question": "¿Dónde puedo jugar Sakura Stand?",
+        "answer": "Sakura Stand está disponible en Roblox a través de la página oficial del juego de Sakura Society. El juego es compatible con jugadores de PC y móviles."
+      },
+      {
+        "question": "¿Sakura Stand cuesta dinero?",
+        "answer": "Sakura Stand es gratuito en Roblox. Existen compras opcionales y membresía de Roblox Premium, y Premium otorga un bono de ganancia de XP de 1.15x."
+      },
+      {
+        "question": "¿Dónde puedo encontrar notas de actualización y nuevos códigos de Sakura Stand?",
+        "answer": "El Discord oficial, Trello y la página del juego en Roblox son las principales fuentes de actualización de Sakura Stand. Las nuevas Specs, skins, códigos y notas de parches se publican allí después de cada actualización."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar Sakura Stand?",
+    "description": "¡Únete a la comunidad de Sakura Stand en Discord y Roblox para obtener códigos, tier lists, trading y las últimas actualizaciones!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Sakura Stand",
+    "description": "Tu centro de recursos completo para códigos, tier list, specs, stands, skins, ítems, valores de trading y enlaces de Trello de Sakura Stand.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "reddit": "Reddit",
+    "trello": "Trello",
+    "roblox": "Jugar en Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Sakura Stand Wiki. No afiliado con los desarrolladores de Sakura Stand.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Sakura Stand",
+      "description": "Códigos de Sakura Stand activos, recompensas, pasos de canje y cómo evitar códigos caducados.",
+      "metaTitle": "Códigos de Sakura Stand - Códigos activos y cómo canjear",
+      "metaDescription": "Encuentra códigos de Sakura Stand activos, listas de recompensas e instrucciones de canje paso a paso para obtener Tokens, Cash y potenciadores de EXP gratuitos.",
+      "categoryLabel": "CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos de Sakura Stand otorgan recompensas gratuitas como Tokens, Cash y potenciadores de EXP. Generalmente se lanzan durante actualizaciones del juego, eventos y logros de la comunidad.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Recursos gratuitos",
+        "step1Description": "Reclama Tokens, Cash y potenciadores de EXP sin gastar Robux para acelerar el progreso inicial.",
+        "step2Title": "Progreso más rápido",
+        "step2Description": "Usa recompensas gratuitas para obtener Stands de Arrows y desbloquear Specs mediante misiones más rápidamente.",
+        "step3Title": "Mantente al día",
+        "step3Description": "Canjea los códigos en cuanto salgan, ya que los códigos emitidos por los desarrolladores pueden caducar sin previo aviso."
+      },
+      "featured": "Destacados y activos",
+      "all": "Todos los códigos"
+    },
+    "specs": {
+      "title": "Specs de Sakura Stand",
+      "description": "Rutas de Specs de Sakura Stand, métodos de obtención, habilidades y mejores escenarios de uso.",
+      "metaTitle": "Specs de Sakura Stand - Rutas, habilidades y cómo obtenerlos",
+      "metaDescription": "Explora los Specs de Sakura Stand con métodos de obtención, roles de habilidades y notas de mejor uso, desde manuales hasta rutas de jefes y misiones.",
+      "categoryLabel": "SPECS",
+      "whatIs": "¿Qué son los Specs?",
+      "whatIsDescription": "Los Specs en Sakura Stand son habilidades de combate ajenas a los Stands que se desbloquean mediante manuales, máscaras, jefes, misiones de NPC, eventos y cadenas de progresión especiales basadas en personajes icónicos de anime.",
+      "why": "¿Por qué aprender Specs?",
+      "whySteps": {
+        "step1Title": "Desbloquea nuevos movimientos",
+        "step1Description": "Los Specs añaden conjuntos de habilidades y combos únicos que funcionan junto a tu Stand en combate.",
+        "step2Title": "Rutas de jefes y misiones",
+        "step2Description": "Conoce el manual exacto, el jefe y los pasos de misión necesarios para obtener cada Spec sin desperdiciar intentos.",
+        "step3Title": "Roles de equipo y PvP",
+        "step3Description": "Elige el Spec adecuado para tu estilo de juego en jefes PvE, duelos PvP y eficiencia de farmeo."
+      },
+      "featured": "Specs destacados",
+      "all": "Todos los Specs"
+    },
+    "tier": {
+      "title": "Tier List de Sakura Stand",
+      "description": "Tier List de Sakura Stand para Stands y Specs en PvE, PvP y valor de intercambio en el parche actual.",
+      "metaTitle": "Tier List de Sakura Stand - Specs, PVP e intercambios",
+      "metaDescription": "Compara Specs y Stands de Sakura Stand por niveles de PvE, PvP y valor de intercambio con notas para cada clasificación.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "¿Qué es la Tier List?",
+      "whatIsDescription": "La Tier List de Sakura Stand clasifica Stands y Specs por fuerza de combate, rareza de obtención y demanda actual, con clasificaciones separadas para PvE, PvP y valor de intercambio.",
+      "why": "¿Por qué consultar la Tier List?",
+      "whySteps": {
+        "step1Title": "Elige opciones fuertes",
+        "step1Description": "Enfoca tus flechas, manuales y materiales en los Stands y Specs que rindan bien en tu modo de juego.",
+        "step2Title": "Planifica tus intercambios",
+        "step2Description": "Usa la clasificación de valores de intercambio para evaluar ofertas justas y detectar elecciones de alta demanda.",
+        "step3Title": "Sigue el parche",
+        "step3Description": "Sigue cómo los cambios de equilibrio y las nuevas Specs cambian las clasificaciones en cada actualización."
+      },
+      "featured": "Tiers superiores",
+      "all": "Todos los tiers"
+    },
+    "guide": {
+      "title": "Guías de Sakura Stand",
+      "description": "Guías para principiantes, nivelación, farming y tutoriales de Sakura Stand para progresar más rápido.",
+      "metaTitle": "Guías de Sakura Stand - Nivelación, farming y tutoriales",
+      "metaDescription": "Lee las guías de Sakura Stand sobre nivelación, farming de EXP, intercambios, venta de objetos y consejos para principiantes para progresar más rápido.",
+      "categoryLabel": "GUÍAS",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Las guías de Sakura Stand cubren los conceptos básicos para principiantes, rutas de nivelación, farming de EXP, intercambios y tutoriales paso a paso que ayudan a los jugadores nuevos y que regresan a progresar más rápido.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende los sistemas principales",
+        "step1Description": "Comprende los Stands, Specs, códigos y mecánicas de intercambio antes de comprometer tus recursos.",
+        "step2Title": "Sube de nivel y haz farming más rápido",
+        "step2Description": "Sigue rutas probadas de nivelación y farming de EXP para desbloquear contenido y jefes más pronto.",
+        "step3Title": "Evita errores comunes",
+        "step3Description": "Aprende consejos de seguridad en intercambios, emotes y ventas que ahorran tiempo y evitan errores costosos."
+      },
+      "featured": "Guías destacadas",
+      "all": "Todas las guías"
+    },
+    "obtainment": {
+      "title": "Obtención en Sakura Stand",
+      "description": "Cómo conseguir Specs, fragmentos y objetos raros de Sakura Stand a través de misiones, jefes y crafteo.",
+      "metaTitle": "Obtención en Sakura Stand - Cómo conseguir Specs y objetos",
+      "metaDescription": "Sigue las rutas de obtención de Sakura Stand para Specs, fragmentos y objetos raros con pasos de misiones, jefes y crafteo.",
+      "categoryLabel": "OBTENCIÓN",
+      "whatIs": "¿Qué es la obtención?",
+      "whatIsDescription": "Las guías de obtención explican exactamente cómo conseguir Specs, fragmentos y objetos específicos de Sakura Stand, cubriendo las misiones requeridas, combates contra jefes, materiales y pasos de crafteo.",
+      "why": "¿Por qué usar guías de obtención?",
+      "whySteps": {
+        "step1Title": "Sigue la ruta correcta",
+        "step1Description": "Obtén la cadena de misiones, el jefe y la lista de materiales exactos para cada Spec u objeto antes de empezar.",
+        "step2Title": "Ahorra tiempo y materiales",
+        "step2Description": "Evita intentos en vano preparando los fragmentos, manuales y requisitos correctos con anticipación.",
+        "step3Title": "Evita perder drops",
+        "step3Description": "Asegura drops raros y resultados de crafteo con pasos claros y repetibles para cada objetivo."
+      },
+      "featured": "Rutas destacadas",
+      "all": "Todas las guías de obtención"
+    },
+    "links": {
+      "title": "Enlaces de Sakura Stand",
+      "description": "Enlaces oficiales de Sakura Stand en Trello, Discord y Roblox, además de cómo usar cada centro comunitario.",
+      "metaTitle": "Enlaces de Sakura Stand - Trello, Discord y Roblox",
+      "metaDescription": "Encuentra las páginas oficiales de Sakura Stand en Trello, Discord y Roblox y aprende a usar cada centro para obtener códigos, notas de parches y actualizaciones.",
+      "categoryLabel": "ENLACES",
+      "whatIs": "¿Qué son los enlaces?",
+      "whatIsDescription": "Los enlaces de Sakura Stand te conectan con las páginas oficiales de Trello, Discord y Roblox, donde Sakura Society publica notas de parches, códigos, anuncios y actualizaciones de la comunidad.",
+      "why": "¿Por qué usar los enlaces oficiales?",
+      "whySteps": {
+        "step1Title": "Obtén códigos y notas de parches",
+        "step1Description": "Encuentra códigos recién lanzados y notas de actualización en Discord y Trello tan pronto como estén disponibles.",
+        "step2Title": "Únete a la comunidad",
+        "step2Description": "Haz preguntas, encuentra socios de intercambio y sigue los anuncios en el activo Discord de Sakura Stand.",
+        "step3Title": "Reporta errores e intercambia de forma segura",
+        "step3Description": "Usa los centros oficiales de Roblox y Discord para reportar problemas y verificar socios de intercambio sin caer en estafas."
+      },
+      "featured": "Enlaces oficiales",
+      "all": "Todos los enlaces"
+    }
   }
 }
