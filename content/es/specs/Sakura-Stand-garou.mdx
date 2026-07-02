@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Garou: Guía de Obtención y Estrategia de Combate 2026",
+  description: "Domina el Spec de Garou en Sakura Stand con nuestra guía de 2026. Aprende cómo obtener al Cazador de Héroes, dominar su conjunto de movimientos y dominar el meta actual de Nivel A.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/f0529c?text=Sakura+Stand+Garou+Guide",
+  date: "2026-07-02",
+  author: "Equipo de la Wiki de Sakura Stand",
+  keywords: "sakura stand, garou, guía, combate, meta 2026, cazador de héroes"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Sakura Stand garou** es un Spec de combate de alta movilidad actualmente clasificado en el **Nivel A** del meta de 2026.
+- El **método de obtención** implica alcanzar niveles específicos de Maestría y utilizar la línea de misiones del Cazador de Héroes o manuales.
+- La **jugabilidad principal** se centra en combos cuerpo a cuerpo agresivos, contraataques y tácticas de asalto a alta velocidad.
+- La **mejor sinergia** se logra usando potenciadores de EXP y Tokens de códigos activos para alcanzar los requisitos de Maestría más rápido.
+- La **estrategia principal** requiere dominar el tiempo del "Flowing Water Rock Smashing Fist" para contraataques efectivos en PvP.
+</Callout>
+
+<Section icon={Map} title="Introducción al Spec de Garou en Sakura Stand">
+
+En el panorama en constante evolución de Sakura Stand, el Spec **Sakura Stand garou** sigue siendo uno de los favoritos de los jugadores que prefieren un combate de artes marciales de alta habilidad y gran recompensa por encima de las habilidades tradicionales de Stand. Inspirado en el "Cazador de Héroes" de la serie One Punch Man, este Spec ofrece un estilo de juego único que premia la precisión y el posicionamiento agresivo. A diferencia de los Stands que dependen de invocaciones etéreas, Garou es un "Spec", lo que significa que el poder reside directamente en los movimientos físicos y las técnicas del personaje del jugador.
+
+Según las clasificaciones del meta de 2026, Garou se sitúa cómodamente en el **Nivel A**, lo que lo convierte en una "Elección Confiable de Nivel Medio-Alto". Si bien puede no tener el poder bruto abrumador de entidades de Nivel SS como Cid Kagenou o Flandre Scarlet, su versatilidad tanto en escenarios PvP como PvE asegura que siga siendo un elemento básico para los jugadores competitivos. El Spec se caracteriza por su estilo "Flowing Water Rock Smashing Fist", que enfatiza el desvío de los ataques enemigos y su devolución con una fuerza intensificada.
+
+| Atributo | Calificación | Descripción |
+| :--- | :--- | :--- |
+| **Nivel de Combate** | **Nivel A** | Confiable para la mayoría de los encuentros de alto nivel y duelos PvP. |
+| **Dificultad** | ★★★★☆ | Requiere una sincronización precisa para los contraataques y extensiones de combo. |
+| **Movilidad** | ★★★★★ | Velocidad de desplazamiento excepcional y habilidades para cerrar distancias. |
+| **Versatilidad** | ★★★★☆ | Efectivo tanto en el farmeo de jefes como en el combate 1v1. |
+| **Facilidad de Obtención** | ★★☆☆☆ | Requiere una Maestría significativa y la finalización de una misión específica. |
+
+<Callout type="tip" title="Perspectiva del Editor">
+Si estás pasando de una build basada en Stand a una basada en Spec, Garou es una excelente opción. Te enseña los fundamentos del ritmo de combate de Sakura Stand sin la complejidad de gestionar el posicionamiento de un Stand.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Obtener a Garou: Guía Paso a Paso">
+
+Obtener el Spec **Sakura Stand garou** es una prueba de paciencia y competencia en combate. Como muchos Specs avanzados en el juego, como Sukuna o Toji Fushiguro, Garou está bloqueado tras requisitos de Maestría. La Maestría representa la experiencia de tu personaje y la profundidad de conocimiento dentro de los sistemas del juego. Para la ruta del Cazador de Héroes, primero debes deshacerte de tus habilidades actuales y volver al estado "Standless" (Sin Stand).
+
+<Steps>
+  <Step num="1" title="Alcanzar el Estado Sin Stand">
+    Usa una **Fruta Rokakaka** para resetear tu Stand o Spec actual. Puedes encontrarlas en cajas aleatorias o comprarlas en la Tienda de Auddy. Estar Sin Stand es un requisito previo para comenzar la mayoría de las líneas de misiones relacionadas con Specs.
+  </Step>
+  <Step num="2" title="Alcanzar el Requisito de Maestría">
+    Asegúrate de que tu personaje haya alcanzado el nivel de Maestría requerido. La mayoría de los Specs de alto nivel en 2026 requieren al menos Maestría 1 o superior. Farmear NPCs o usar potenciadores de EXP de códigos como `GrandOrder` puede acelerar significativamente este proceso.
+  </Step>
+  <Step num="3" title="Localizar al NPC de la Misión">
+    Busca en el mapa al NPC asociado con el camino del Cazador de Héroes. En las actualizaciones actuales, los NPCs se encuentran a menudo en áreas apartadas como el Callejón Oscuro o las afueras del bosque. Consulta el Trello Oficial para las coordenadas de aparición más recientes.
+  </Step>
+  <Step num="4" title="Completar las Pruebas de Combate">
+    La misión de Garou normalmente implica derrotar a una serie de enemigos usando solo tus puños. Esto demuestra tu valía para heredar las técnicas del Cazador de Héroes. También es posible que necesites recolectar objetos específicos como "Esencia de Héroe" o "Manuales de Artes Marciales".
+  </Step>
+  <Step num="5" title="Ascensión Final">
+    Una vez completadas todas las tareas, interactúa con el NPC de la misión una última vez para finalizar la transformación. Tu personaje ahora tendrá acceso al conjunto de movimientos de Garou, reemplazando tus ataques básicos de Sin Stand.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito de Maestría">
+No intentes comenzar la misión sin verificar primero tu nivel de Maestría. Muchos jugadores pierden horas completando tareas solo para descubrir que no pueden aceptar la recompensa final porque su Maestría es demasiado baja.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Conjunto de Movimientos y Mecánicas de Combate de Garou">
+
+La fuerza de **Sakura Stand garou** reside en su potencial de combos fluidos. El conjunto de movimientos está diseñado para mantener a los oponentes fuera de balance mientras proporciona opciones defensivas para negar el daño entrante. Comprender las variaciones de "G" y la sincronización de tus teclas "R" es esencial para el juego de alto nivel.
+
+La siguiente tabla describe las habilidades principales disponibles para el Spec Garou en el parche actual de 2026:
+
+| Nombre del Movimiento | Tecla | Descripción del Efecto | Rol en Combate |
+| :--- | :--- | :--- | :--- |
+| **Flowing Water** | **LMB/M1** | Una secuencia de ataques rápidos con alto potencial de aturdimiento. | Combo Básico |
+| **Rock Smashing Fist** | **Q** | Un golpe pesado que rompe los bloqueos enemigos. | Rompeguardia |
+| **Hunter's Dash** | **E** | Una embestida a alta velocidad que puede usarse para iniciar o escapar. | Movilidad |
+| **Water Stream Rock** | **R** | Una postura de contraataque que desvía el siguiente golpe y toma represalias. | Defensa/Contraataque |
+| **God Slayer Instant** | **F** | Una ráfaga de ataques de fuego rápido que inflige un daño masivo. | Ultimate/Rematador |
+| **Awakening** | **G** | Aumenta la velocidad y el daño durante un corto periodo. | Mejora (Buff) |
+
+<Callout type="info" title="Consejo Pro de Combate">
+El movimiento **Water Stream Rock (R)** es tu herramienta más poderosa en PvP. Si se sincroniza correctamente contra un ataque pesado o una habilidad definitiva, puedes negar completamente el daño y poner a tu oponente en una larga animación de aturdimiento, lo que permite un combo completo de seguimiento.
+</Callout>
+
+En 2026, el meta se ha desplazado hacia los reworks de "Domain Expansion" y estilos técnicos de asalto (como la actualización de Naoya Zen'in). Garou sigue siendo relevante porque su kit contrarresta naturalmente a los personajes de asalto agresivo. Al utilizar la postura de contraataque, puedes castigar a los jugadores que lanzan movimientos de alta velocidad sin un plan estratégico.
+
+</Section>
+
+<Section icon={Shield} title="Comparación del Meta: Garou vs. Otros Specs Principales">
+
+Para entender dónde encaja **Sakura Stand garou** en tu repertorio, es útil compararlo con otros Specs populares que dominan actualmente las listas de niveles de 2026. Mientras que Garou es un Spec de Artes Marciales, otros como Sukuna o Gojo dependen de la Energía Maldita o habilidades sobrenaturales.
+
+<CardGrid cols={3}>
+  <Card title="Garou (Nivel A)">
+    - **Enfoque**: Cuerpo a cuerpo puro y contraataques
+    - **Pros**: Alta movilidad, excelentes opciones defensivas.
+    - **Contras**: Requiere gran habilidad del jugador para sincronizar contraataques.
+  </Card>
+  <Card title="Sukuna (Nivel B)">
+    - **Enfoque**: Ráfaga y Regeneración
+    - **Pros**: Daño pesado, presión de dominio.
+    - **Contras**: Movimiento más lento en comparación con Garou.
+  </Card>
+  <Card title="Naoya Zen'in (Nivel S)">
+    - **Enfoque**: Asalto Técnico
+    - **Pros**: Extremadamente rápido, difícil de rastrear.
+    - **Contras**: Frágil; fácilmente castigado por el contraataque de Garou.
+  </Card>
+</CardGrid>
+
+Como se muestra en la comparación, Garou es la elección "anti-meta". Mientras que Naoya y otros personajes de Nivel S dependen de la velocidad, la capacidad de Garou para desviar y contraatacar lo convierte en una pesadilla para los jugadores que se sobreextienden.
+
+| Factor de Comparación | Garou | Sukuna | Naoya Zen'in |
+| :--- | :--- | :--- | :--- |
+| **Techo de Habilidad** | Alto | Moderado | Muy Alto |
+| **Viabilidad en PvP** | Excelente | Buena | Define el Meta |
+| **Eficiencia en PvE** | Buena | Excelente | Moderada |
+| **Longitud del Combo** | Largo | Corto/Ráfaga | Potencial Infinito |
+
+<Callout type="success" title="Recomendación de Estrategia">
+Usa a Garou si disfrutas de un estilo de juego "reactivo". En lugar de ser el primero en atacar, provoca a tu oponente para que use sus movimientos de largo tiempo de reutilización, contrarréstalos y luego desata tu combo completo mientras están indefensos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización: Farmeo de Maestría y XP para Garou">
+
+Para desbloquear verdaderamente el potencial de **Sakura Stand garou**, debes invertir en la progresión de tu personaje. La Maestría no solo desbloquea el Spec, sino que también mejora el escalado de tus movimientos. En el entorno de 2026, hay varias formas de optimizar tu ruta de farmeo.
+
+<Checklist
+  id="garou-optimization"
+  title="Prioridades de Farmeo para Usuarios de Garou:"
+  items={[
+    "Canjea todos los códigos activos para obtener potenciadores de EXP y Tokens.",
+    "Farmea Espíritus Malditos o Jefes para aumentar los niveles de Maestría rápidamente.",
+    "Equipa skins que proporcionen beneficios cosméticos menores o de seguimiento de estadísticas.",
+    "Utiliza el bono de 1.15x XP de Roblox Premium si está disponible.",
+    "Practica cadenas de combos en la arena de entrenamiento para minimizar los errores de ejecución."
+  ]}
+/>
+
+Farmear la ruta de **Kamo Remnant** o la **raid de Naoya** puede proporcionar drops de alto valor que pueden intercambiarse por objetos como el **Death Painting** o **Fragmentos de Hogyoku**. Incluso si no usas esos Specs específicos, su valor de intercambio es inmenso, lo que te permite asegurar los recursos necesarios para tu build de Garou.
+
+| Objetivo de Farmeo | Ubicación | Recompensa | Prioridad |
+| :--- | :--- | :--- | :--- |
+| **Cursed Spirits** | Afueras de la Ciudad | XP de Maestría | Alta |
+| **Auddy's Shop** | Hub Principal | Rokakaka/Manuales | Media |
+| **Misiones Diarias** | Tablón de Misiones | Tokens/Dinero | Media |
+| **Jefes de Evento** | Arena de Eventos | Skins/Objetos Limitados | Alta |
+
+<Callout type="tip" title="Consejo de Maestría">
+Recuerda que la ganancia de Maestría está ligada al daño infligido. Usar un Stand de alto DPS como **Star Platinum** o **The World** para farmear Maestría antes de cambiar a Garou (vía Rokakaka) es la forma más eficiente de evitar el farmeo inicial del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es Sakura Stand garou mejor que Sukuna?",
+    answer: "Depende de tu estilo de juego. Garou destaca en PvP 1v1 debido a sus contraataques y movilidad, mientras que Sukuna es generalmente mejor para el farmeo de jefes PvE debido a su alto daño de ráfaga y regeneración."
+  },
+  {
+    question: "¿Cómo reseteo mi Spec para obtener a Garou?",
+    answer: "Debes usar una Fruta Rokakaka mientras tu Spec o Stand actual esté equipado. Esto te devolverá al estado Sin Stand, que es necesario para comenzar la línea de misiones de Garou."
+  },
+  {
+    question: "¿En qué nivel está Garou en el meta de Sakura Stand de 2026?",
+    answer: "Garou está clasificado actualmente como un Spec de Nivel A. Se considera una elección confiable de nivel medio-alto que funciona excepcionalmente bien contra metas de asalto de alta velocidad."
+  },
+  {
+    question: "¿Necesito Maestría para usar a Garou?",
+    answer: "Sí, la mayoría de los Specs avanzados en Sakura Stand requieren al menos Maestría 1. Algunos pasos de evolución específicos o requisitos de misión pueden pedir niveles de Maestría aún más altos."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El mundo de Sakura Stand está en constante cambio. Si bien esta guía refleja el estado de **Sakura Stand garou** en julio de 2026, consulta siempre el Trello Oficial y el Discord para conocer las últimas notas del parche y ajustes de equilibrio.
+</Callout>
+
+</Section>

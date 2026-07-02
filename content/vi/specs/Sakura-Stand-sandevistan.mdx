@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Sandevistan: Hướng dẫn sở hữu & Phân tích Spec",
+  description: "Tìm hiểu cách sở hữu Sandevistan spec trong Sakura Stand. Hướng dẫn chi tiết về cày bộ phận, yêu cầu nhiệm vụ và phân tích bộ kỹ năng cho năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/0a0a23/00f2ff?text=Sandevistan+Spec+Guide",
+  date: "2026-07-02",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Sandevistan trong Sakura Stand** là một spec cao cấp chủ đề Cyberpunk yêu cầu **bốn bộ phận cyberware độc nhất**.
+- Phương pháp sở hữu chính bao gồm việc tiêu diệt **Jotaro**, người có tỷ lệ rơi hộp vật phẩm cần thiết cao nhất.
+- Sau khi thu thập đủ các bộ phận, người chơi phải hoàn thành một **nhiệm vụ Standless** bao gồm gây sát thương và giành chiến thắng 1v1.
+- Spec này nổi tiếng với **khả năng cơ động cao** và hiệu ứng làm chậm thời gian đặc trưng được kích hoạt bằng phím H.
+- **Mẹo chiến thuật**: Sử dụng tốc độ của Sandevistan để thu hẹp khoảng cách và sử dụng cú nhảy "Face Breaker" để đạt hiệu quả PvP tối đa.
+</Callout>
+
+<Section icon={Map} title="Cách sở hữu Sandevistan Spec trong Sakura Stand">
+
+Bản cập nhật Cyberpunk đã giới thiệu một trong những spec độc đáo nhất về mặt cơ chế: Sandevistan. Được truyền cảm hứng từ những trận chiến khoa học viễn tưởng kịch tính, spec này mang lại tốc độ và khả năng bộc phát vô song. Tuy nhiên, việc sở hữu nó được coi là một trong những quá trình cày cuốc vất vả nhất trong meta năm 2026. Bạn cần cân bằng giữa sự kiên trì và hiệu quả chiến đấu để thu thập bốn thành phần cyberware thiết yếu trước khi bắt đầu chuỗi nhiệm vụ chính thức.
+
+**Điểm nhấn Video:**
+- Phân tích chi tiết về **bốn bộ phận cyberware** cần thiết cho nhiệm vụ.
+- Phân tích **tỷ lệ xuất hiện boss Jotaro** và xác suất rơi hộp vật phẩm.
+- Hướng dẫn thực hiện các mục tiêu **nhiệm vụ Sandevistan** bằng Standless.
+- Trình diễn đầy đủ các **chuỗi M1 và kỹ năng đặc biệt** trong môi trường PvP.
+
+<YouTubeEmbed videoId="nf8FMJDBUNM" title="Cập nhật Sakura Stand Sandevistan Spec" />
+
+Để bắt đầu hành trình, bạn phải tương tác với một NPC cụ thể sau khi thu thập đủ các bộ phận cần thiết. Lưu ý rằng tỷ lệ rơi vật phẩm cực kỳ thấp, khiến đây trở thành một spec "đẳng cấp" dành cho những người chơi tận tâm hoặc những người sẵn sàng đầu tư tài nguyên lớn để triệu hồi boss.
+
+<Callout type="warning" title="Cảnh báo tỷ lệ rơi">
+Tỷ lệ xuất hiện cơ bản của hộp vật phẩm đặc biệt cực kỳ thấp (theo lịch sử là khoảng 0.7%). Ngay cả sau khi nhận được hộp, chỉ có 20% khả năng nó chứa một trong bốn bộ phận cụ thể mà bạn cần.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Yêu cầu cày cuốc và Dữ liệu NPC">
+
+Việc cày các bộ phận **Sandevistan trong Sakura Stand** yêu cầu hiểu biết sâu sắc về cơ chế boss và thời gian xuất hiện. Jotaro vẫn là mục tiêu khả thi nhất vì vị trí xuất hiện cố định và tỷ lệ rơi cao hơn đáng kể so với các NPC phụ. Người chơi thường lập các "nhóm cày" để xoay vòng boss và tối đa hóa số lượng hộp vật phẩm nhận được mỗi giờ.
+
+| Tên NPC | Thời gian xuất hiện | Tỷ lệ rơi hộp | Độ khó |
+| :--- | :--- | :--- | :--- |
+| **Jotaro** | 90 Phút | Cao nhất (khoảng 0.7-1%) | Cao |
+| **NPC phụ** | Liên tục | Cực thấp | Thấp |
+| **Boss đặc biệt** | Theo sự kiện | Thay đổi | Rất cao |
+
+Quá trình cày cuốc được chia thành hai giai đoạn: "Giai đoạn Loot" và "Giai đoạn Nhiệm vụ". Trong Giai đoạn Loot, mục tiêu của bạn là thu thập bốn thành phần sau:
+
+| Tên thành phần | Mô tả | Độ hiếm |
+| :--- | :--- | :--- |
+| **Neural Link** | Cần thiết để đồng bộ hóa cyberware | Hiếm |
+| **Synaptic Accelerator** | Tăng thời gian phản ứng trong chiến đấu | Hiếm |
+| **Reflex Tuner** | Cải thiện tốc độ di chuyển vật lý | Hiếm |
+| **Sandevistan Core** | Trái tim sức mạnh của spec | Cực hiếm |
+
+<Callout type="tip" title="Mẹo hiệu quả">
+Nếu bạn cày F2P, hãy ưu tiên các build sát thương cao để hạ gục Jotaro nhanh nhất có thể. Nếu dùng Robux, việc triệu hồi nhiều Jotaro cùng lúc trong server riêng là cách nhanh nhất để ép rơi hộp vật phẩm.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="Chiến thuật F2P">
+    - **Thời gian đầu tư**: Ước tính 10-15 ngày chơi tích cực.
+    - **Trọng tâm**: Xoay vòng boss ổn định và đổi server liên tục.
+    - **Rủi ro**: Dễ nản lòng do tỷ lệ rơi ngẫu nhiên (RNG).
+  </Card>
+  <Card title="Chiến thuật Premium">
+    - **Thời gian đầu tư**: 2-4 giờ tập trung triệu hồi.
+    - **Trọng tâm**: Triệu hồi boss bằng Robux để lấy vật phẩm ngay lập tức.
+    - **Rủi ro**: Chi phí cao (khoảng 200 Robux mỗi lần triệu hồi).
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Các bước nhiệm vụ Sandevistan">
+
+Khi đã có đủ bốn bộ phận trong túi đồ, hãy nói chuyện với NPC chỉ định để đổi lấy nhiệm vụ chính thức. Nhiệm vụ này độc đáo vì nó bắt buộc bạn phải chơi ở trạng thái **Standless**, kiểm tra kỹ năng chiến đấu cơ bản của bạn mà không có sự hỗ trợ của một Stand mạnh mẽ. Giai đoạn này được thiết kế để chứng minh bạn xứng đáng với những nâng cấp cybernetic.
+
+<Steps>
+  <Step num="1" title="Tiếp nhận ban đầu">
+    Nói chuyện với NPC Cyberpunk khi có đủ cả bốn bộ phận. Xác nhận bạn muốn bắt đầu nhiệm vụ, các vật phẩm này sẽ bị tiêu hao vĩnh viễn.
+  </Step>
+  <Step num="2" title="Thành thạo chiến đấu">
+    Gây một lượng sát thương khổng lồ khi đang ở trạng thái Standless. Cách tốt nhất là thực hiện với các NPC có lượng máu cao hoặc trong các trận đấu boss nơi bạn có thể tung đòn an toàn.
+  </Step>
+  <Step num="3" title="Thử nghiệm độ bền">
+    Nhận và đỡ một lượng sát thương nhất định. Bạn có thể hoàn thành nhanh chóng bằng cách để các NPC phụ đánh trong khi đang giữ nút đỡ đòn hoặc sử dụng vật phẩm hồi máu.
+  </Step>
+  <Step num="4" title="Thử thách cuối cùng">
+    Thắng một trận 1v1 trong đấu trường khi đang Standless. Đây là bước khó nhất vì bạn có khả năng đối đầu với những người chơi có Stand hoặc Spec đã tiến hóa hoàn toàn.
+  </Step>
+</Steps>
+
+| Mục tiêu nhiệm vụ | Yêu cầu | Phương pháp tốt nhất |
+| :--- | :--- | :--- |
+| **Gây sát thương** | Ngưỡng cao | Cày Jotaro hoặc Thugs |
+| **Nhận sát thương** | Ngưỡng trung bình | Chịu đòn từ các NPC phụ |
+| **Đỡ sát thương** | Ngưỡng trung bình | Giữ đỡ đòn trước các NPC đánh nhanh |
+| **Thắng 1v1** | 1 Trận thắng | Sử dụng di chuyển để nhử kỹ năng Stand |
+
+<Callout type="success" title="Chiến thuật 1v1">
+Để thắng 1v1 Standless, hãy tập trung vào "trao đổi M1". Hầu hết người chơi phụ thuộc nhiều vào kỹ năng Stand; nếu bạn có thể né các đòn tấn công chính của họ, bạn có thể thắng bằng cách tiêu hao đối thủ và di chuyển vượt trội.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Phân tích Bộ kỹ năng">
+
+Spec **Sandevistan trong Sakura Stand** được xây dựng cho tốc độ, khả năng né tránh và các đợt tấn công bất ngờ. Mặc dù mô hình hình ảnh cho cánh tay có thể trông chưa hoàn thiện trong một số phiên bản, nhưng hiệu suất cơ học là hàng đầu cho những người đam mê PvP thích lối chơi "đánh và chạy".
+
+| Phím kỹ năng | Tên chiêu thức | Mô tả | Tiện ích |
+| :--- | :--- | :--- | :--- |
+| **M1** | Combo cơ bản | Các đòn đánh vật lý nhanh | Bổ trợ combo |
+| **Q** | Hỏa lực nhanh | Một loạt các cú đấm tốc độ cao | Bộc phát sát thương |
+| **E** | Face Breaker | Cú nhảy tấn công với tầm xa khá | Thu hẹp khoảng cách |
+| **R** | Rocket Leap | Nhảy/bay cơ động cao | Thoát thân/Mở giao tranh |
+| **H** | Sandevistan | Kích hoạt hiệu ứng làm chậm thời gian | Buff cực mạnh |
+
+Phím "H" là tính năng định nghĩa của spec này. Khi kích hoạt, nhân vật của bạn bước vào trạng thái siêu tốc, khiến bạn khó bị đánh trúng hơn đáng kể đồng thời cho phép bạn tái định vị sau lưng kẻ thù ngay lập tức. Điều này thường được sử dụng để chuẩn bị cho "Face Breaker" hoặc thoát khỏi một combo chết người.
+
+<Callout type="info" title="Phối hợp kỹ năng">
+Kết hợp **kích hoạt phím H** với **Face Breaker** để thực hiện một pha mở giao tranh tạo cảm giác không thể đỡ được. Việc tăng tốc khiến cú nhảy gần như tức thời từ góc nhìn của đối thủ.
+</Callout>
+
+<Checklist
+  id="sandevistan-mastery"
+  title="Danh sách kiểm tra thành thạo:"
+  items={[
+    "Thực hành chuyển đổi combo từ M1 sang Q",
+    "Học phạm vi tối đa của cú nhảy Face Breaker",
+    "Nắm vững thời điểm kích hoạt phím H để né đòn",
+    "Sử dụng Rocket Leap để thiết lập lại trận đấu khi thấp máu",
+    "Phối hợp bộc phát Sandevistan với chiêu cuối của đồng đội"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Meta PvP và Đánh giá cuối cùng">
+
+Trong meta năm 2026 hiện tại, Sandevistan chiếm một vị trí độc đáo. Nó không phải là một spec "tank" như một số Stand nặng ký khác, nhưng khả năng điều phối nhịp độ trận đấu của nó là vô song. Nếu bạn thích một lối chơi đòi hỏi kỹ năng cơ học và thời gian phản ứng cao, thì việc cày cuốc là hoàn toàn xứng đáng.
+
+| Khía cạnh | Đánh giá | Lý do |
+| :--- | :--- | :--- |
+| **Độ cơ động** | ★★★★★ | Rocket Leap và phím H là đẳng cấp |
+| **Sát thương** | ★★★☆☆ | Ổn định, nhưng phụ thuộc vào việc tung trọn combo |
+| **Độ dễ sử dụng** | ★★☆☆☆ | Yêu cầu thời điểm chuẩn xác và thành thạo Standless |
+| **Độ khó cày cuốc** | ★★★★★ | Nằm trong số các spec khó sở hữu nhất |
+
+<Callout type="warning" title="Trạng thái phát triển">
+Hãy lưu ý rằng một số người chơi thấy spec này "không ấn tượng" so với công sức bỏ ra để sở hữu. Luôn thử nghiệm spec trong trận đấu riêng nếu có thể trước khi cam kết cày F2P trong 13 ngày.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Spec Sandevistan trong Sakura Stand có vĩnh viễn không?",
+    answer: "Có, một khi bạn hoàn thành nhiệm vụ và nhận được spec, nó sẽ gắn liền với nhân vật của bạn trừ khi bạn chọn ghi đè nó bằng một Stand hoặc Spec khác."
+  },
+  {
+    question: "Tôi có thể giao dịch các bộ phận cyberware với người chơi khác không?",
+    answer: "Hiện tại, các bộ phận cyberware thường không thể giao dịch để tránh việc bỏ qua quá trình cày cuốc, mặc dù các bản cập nhật game trong năm 2026 có thể thay đổi điều này."
+  },
+  {
+    question: "Hiệu ứng Sandevistan có thời gian hồi chiêu không?",
+    answer: "Có, việc kích hoạt phím H có thời gian hồi chiêu đáng kể để tránh việc người chơi duy trì trạng thái siêu tốc vô hạn. Quản lý thời gian hồi chiêu hợp lý là chìa khóa để thắng các trận PvP."
+  },
+  {
+    question: "Cách nhanh nhất để hoàn thành mục tiêu nhiệm vụ 'Nhận sát thương' là gì?",
+    answer: "Phương pháp hiệu quả nhất là tìm một nhóm NPC yếu (như Thugs) và đứng giữa họ. Sử dụng vật phẩm hồi máu hoặc nhờ một người bạn chơi vai trò hỗ trợ để giữ máu trong khi bạn chịu đòn."
+  }
+]} />
+
+</Section>
