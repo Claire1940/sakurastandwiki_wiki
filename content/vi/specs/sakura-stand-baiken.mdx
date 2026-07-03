@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand baiken: Hướng dẫn sở hữu & Phân tích bộ kỹ năng",
+  description: "Làm chủ hệ kỹ năng (spec) sakura stand baiken với hướng dẫn năm 2026 của chúng tôi. Tìm hiểu cách tìm Poster truy nã (Bounty Poster), hoàn thành nhiệm vụ Chứng tỏ bản thân (Prove Yourself) và mở khóa đấu trường Gears.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Baiken+Obtainment+Guide",
+  date: "2026-07-03",
+  author: "Đội ngũ Wiki sakura stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Từ khóa chính**: Hệ kỹ năng **sakura stand baiken** là một phong cách chiến đấu samurai cấp cao dựa trên loạt game Guilty Gear.
+- **Cơ chế cốt lõi**: Người chơi phải sử dụng stand **Anubis** trong suốt toàn bộ chuỗi nhiệm vụ để đủ điều kiện chuyển đổi.
+- **Chiến thuật tốt nhất**: Cày yêu cầu 2,000 sát thương trên các NPC có lượng máu cao hoặc những người chơi sẵn lòng giúp đỡ để đẩy nhanh giai đoạn "Chứng tỏ bản thân".
+- **Mẹo quan trọng**: Đảm bảo Anubis của bạn đạt **Thông thạo 4 (Mastery 4)** trước khi cố gắng nói chuyện với Kuzma, nếu không tiến trình nhiệm vụ sẽ bị đình trệ.
+- **Lựa chọn hàng đầu**: Baiken hiện là lựa chọn hàng đầu cho PvP nhờ tầm đánh linh hoạt và các chiêu thức kết liễu "Bí kỹ" (Secret Art) có sát thương cực cao.
+</Callout>
+
+<Section icon={Map} title="Tổng quan cách sở hữu sakura stand baiken">
+
+Hệ kỹ năng **sakura stand baiken** đại diện cho một trong những phong cách chiến đấu bổ ích nhất về mặt cơ chế trong trò chơi. Được truyền cảm hứng từ nữ samurai một tay, một mắt trong loạt game Guilty Gear, hệ kỹ năng này tập trung vào sự chính xác, phản công và sức mạnh áp đảo. Sở hữu Baiken không phải là một nhiệm vụ đơn giản; nó đòi hỏi sự kết hợp giữa may mắn, cày cuốc và năng lực chiến đấu. Trước tiên, bạn phải thành thạo những điều cơ bản của stand Anubis trước khi có thể hy vọng bước đi trên con đường của samurai lang thang.
+
+**Điểm nhấn Video:**
+- Hướng dẫn chi tiết về vị trí xuất hiện của NPC Baiken và Kuzma.
+- Hướng dẫn trực quan cách nhận biết Poster truy nã (Bounty Poster) trong cửa hàng.
+- Trình diễn chiến đấu chống lại Gears trong đấu trường cuối cùng.
+- Trình diễn toàn bộ bộ kỹ năng bao gồm cả Bí kỹ (Secret Art) tàn phá.
+
+<YouTubeEmbed videoId="lmxSZy0EvCQ" title="Obtaining Everything in The NEW Sakura Stand Update" />
+
+<Callout type="tip" title="Yêu cầu Thông thạo">
+Mặc dù một số hướng dẫn cũ cho rằng Thông thạo 3 là đủ, nhưng meta năm 2026 và tình trạng trò chơi hiện tại khuyến nghị mạnh mẽ bạn nên đạt **Thông thạo 4** trên Anubis để đảm bảo tất cả các tương tác với NPC được kích hoạt chính xác.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Điều kiện tiên quyết và Yêu cầu xuất hiện">
+
+Trước khi bắt đầu hành trình mở khóa **sakura stand baiken**, bạn phải đáp ứng một số yêu cầu bắt buộc. Quan trọng nhất là sở hữu stand Anubis. Điều cực kỳ quan trọng cần lưu ý là Anubis của bạn phải ở trạng thái **không trang bị skin** (không áp dụng skin tùy chỉnh) trong suốt thời gian thực hiện nhiệm vụ. Nếu bạn đang trang bị skin, các NPC nhiệm vụ có thể không nhận diện được tiến trình của bạn, buộc bạn phải khởi động lại các bước cụ thể.
+
+| Yêu cầu | Danh mục | Mức độ quan trọng |
+| :--- | :--- | :--- |
+| Stand Anubis | Yêu cầu cơ bản | Bắt buộc (Phải không có skin) |
+| Cấp độ Thông thạo | Tiến trình | Khuyến nghị Cấp 4 cho Kuzma |
+| Poster truy nã (Bounty Poster) | Vật phẩm nhiệm vụ | Tỷ lệ xuất hiện 20% mỗi 5 phút |
+| Tiền tệ | Tài nguyên | 1,000 Yên cho Haunted Sword |
+
+Ngoài các vật phẩm, bạn phải lưu ý đến thời gian xuất hiện của các NPC thiết yếu. Baiken và Kuzma không ở lại trên bản đồ vô thời hạn, và tỷ lệ xuất hiện thấp của họ có thể biến nhiệm vụ này thành một thử thách của sự kiên nhẫn.
+
+| Thực thể | Tỷ lệ xuất hiện | Thời gian tồn tại | Vị trí |
+| :--- | :--- | :--- | :--- |
+| Poster truy nã (Bounty Poster) | 20% / 5 phút | Cho đến khi được nhặt | Gần Auddy Capsule trong Cửa hàng |
+| NPC Baiken | 50% / 20 phút | 15 phút | Các điểm rừng/núi khác nhau |
+| Kuzma (All For One) | 10% / 5 phút | Thay đổi | Các vị trí ẩn |
+
+<Callout type="warning" title="Nguy cơ biến mất">
+NPC Baiken sẽ biến mất sau 15 minutes. Nếu bạn đang ở giữa một bước nhiệm vụ và cô ấy biến mất, bạn sẽ phải đợi khung thời gian xuất hiện 20 phút tiếp theo của cô ấy để tiếp tục.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Các bước sở hữu chi tiết">
+
+Mở khóa hệ kỹ năng **sakura stand baiken** bao gồm một chuỗi các nhiệm vụ liên kết với nhau. Bạn không thể bỏ qua các bước và phải làm theo các lời thoại hướng dẫn một cách cẩn thận để đảm bảo trò chơi đánh dấu nhân vật của bạn đã "sẵn sàng" cho thử thách tiếp theo.
+
+<Steps>
+  <Step num="1" title="Sở hữu Haunted Sword">
+    Đầu tiên, hãy sở hữu stand Anubis. Điều này thường được thực hiện thông qua Mũi tên tiêu chuẩn hoặc các nhiệm vụ cụ thể. Khi bạn đã có Anubis, hãy đảm bảo bạn đã đạt đến cấp độ Thông thạo yêu cầu bằng cách sử dụng stand trong chiến đấu.
+  </Step>
+  <Step num="2" title="Săn tìm Poster truy nã">
+    Đi đến Cửa hàng và tìm gần capsule "Auddy với bạn". Bạn đang tìm kiếm một **Poster truy nã** vật lý. Nó có 20% cơ hội xuất hiện mỗi 5 phút. Hãy nhặt nó để bắt đầu chuỗi nhiệm vụ.
+  </Step>
+  <Step num="3" title="Tìm kiếm Samurai lang thang">
+    Định vị NPC Baiken. Cô ấy có nhiều điểm xuất hiện khác nhau trên bản đồ. Sau khi tìm thấy, cô ấy sẽ giao cho bạn nhiệm vụ **Chứng tỏ bản thân** (Prove Yourself), bao gồm các thử thách chiến đấu cường độ cao.
+  </Step>
+  <Step num="4" title="Thử thách chiến đấu">
+    Hoàn thành các mục tiêu sau bằng Anubis: Tiêu diệt 5 người chơi, gây tổng cộng 2,000 sát thương, và tung thành công đòn tấn công phím **Y** của Anubis lên người chơi 9 lần.
+  </Step>
+  <Step num="5" title="Gặp gỡ Kuzma">
+    Sau khi chứng tỏ bản thân, Baiken sẽ cử bạn đi tìm "Người đàn ông đó" (Kuzma/All For One). Hãy đảm bảo Anubis của bạn đã được rút kiếm khi nói chuyện với ông ta. Bước này là nơi cấp độ Thông thạo 4 được kiểm tra nghiêm ngặt.
+  </Step>
+  <Step num="6" title="Đánh bại các Gears">
+    Quay trở lại gặp Baiken. Cô ấy sẽ dịch chuyển bạn đến một đấu trường riêng tư. Bạn phải đánh bại ba con chó săn máy được gọi là "Gears". Chúng không quá mạnh, nhưng có thể áp đảo bạn nếu bạn không sử dụng các kỹ năng đỡ đòn hiệu quả.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Chiến đấu trong đấu trường">
+Trong trận chiến với Gear, hãy tập trung vào từng con một. Các cuộc tấn công của chúng có thể bị đỡ, và việc sử dụng các kỹ năng diện rộng của Anubis sẽ giúp dọn dẹp chúng nhanh hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Bộ kỹ năng và Phân tích chiến đấu của Baiken">
+
+Khi bạn đã hoàn thành các thử thách và nhận được thanh kiếm dự phòng từ Baiken, nhân vật của bạn sẽ biến đổi. Hệ kỹ năng **sakura stand baiken** thay thế bộ kỹ năng Anubis của bạn bằng một bộ công cụ linh hoạt bao gồm kiếm, súng lục và thậm chí cả xích cơ khí.
+
+| Phím | Tên chiêu thức | Sát thương | Mô tả |
+| :--- | :--- | :--- | :--- |
+| Q | Heavy | 25 | Một chùm năng lượng phía trước với độ đẩy lùi cao |
+| E | Tatami | 28 | Giẫm lên một tấm thảm hất văng kẻ thù lên trên |
+| R | Rifle | Thay đổi | Đạn tầm xa để rỉa máu |
+| Y | Chain Lash | Trung bình | Kéo kẻ thù về phía bạn để thực hiện combo |
+| G | Secret Art | 140 | Chiêu kết liễu điện ảnh hoành tráng (Thời gian hồi chiêu cao) |
+| J | Taki | Tiện ích | Một kỹ năng di chuyển/tấn công chuyên dụng |
+| H | Metto Kush | Tiện ích | Chiêu thức tái định vị chiến thuật |
+
+Cốt lõi trong lối chơi của Baiken xoay quanh **Chain Lash (Y)**. Chiêu thức này cho phép bạn kéo một kẻ thù ở xa trực tiếp vào phạm vi cận chiến của mình, thiết lập thế trận cho một cú hất **Tatami (E)** hoặc một cú đánh mạnh **Heavy (Q)**.
+
+<CardGrid cols={2}>
+  <Card title="Thống trị PvP">
+    Baiken vượt trội trong các tình huống 1v1. Khả năng kéo kẻ thù và làm choáng chúng bằng Tatami khiến cô trở thành cơn ác mộng đối với những stand có độ cơ động thấp.
+  </Card>
+  <Card title="Tiện ích PvE">
+    Sát thương cao của kỹ năng G (Secret Art) cho phép Baiken tiêu diệt các boss và quái cấp cao tương đối dễ dàng so với Anubis cơ bản.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mẹo Combo">
+Một combo hiệu quả tiêu chuẩn là **Y (Kéo) -> E (Hất) -> M1 x3 -> Q (Kết liễu)**. Chuỗi này tối đa hóa sát thương trong khi vẫn giữ đối thủ trong trạng thái bị khóa cứng (stun-lock).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Chiến thuật nâng cao và Vị thế trong Meta">
+
+Trong meta hiện tại năm 2026 của Sakura Stand, Baiken được coi là một hệ kỹ năng "Bậc A" (A-Tier). Mặc dù thiếu sức mạnh hủy diệt tuyệt đối của một số stand bậc Mythic, nhưng tiện ích và khả năng "bắt giữ" của cô là vô song. Để chơi cô ấy hiệu quả, bạn phải thành thạo thời gian đỡ đòn (parry) và tốc độ bay của các phát bắn Súng trường (R).
+
+**Các điểm chiến thuật chính:**
+- **Quản lý tài nguyên**: Các kỹ năng của Baiken có thời gian hồi chiêu trung bình. Tránh "spam" kỹ năng Y, vì nếu trượt sẽ khiến bạn dễ bị tổn thương trước những kẻ tấn công tầm xa.
+- **Nhận thức môi trường**: Sử dụng thảm Tatami gần các cạnh hoặc bức tường để bẫy đối thủ và ngăn họ thoát khỏi các cuộc tấn công tiếp theo của bạn.
+- **Bí kỹ (Secret Art)**: Chỉ sử dụng kỹ năng G khi bạn chắc chắn nó sẽ trúng đích, tốt nhất là sau khi làm choáng. Nó gây ra 140 sát thương, có thể kết thúc hầu hết các trận chiến ngay lập tức nếu lượng máu của đối thủ đã ở mức trung bình.
+
+<Checklist
+  id="baiken-mastery-checklist"
+  title="Danh sách kiểm tra thông thạo Baiken:"
+  items={[
+    "Thực hiện thành công 10 combo Y + E liên tiếp",
+    "Đánh bại một boss bằng cách sử dụng Bí kỹ làm đòn kết liễu",
+    "Làm chủ thời gian đỡ đòn đối với lũ chó săn Gear",
+    "Đạt cấp độ Thông thạo 10 với hệ kỹ năng Baiken"
+  ]}
+/>
+
+<Callout type="info" title="Nhận định cuối cùng">
+Baiken là cầu nối hoàn hảo giữa nội dung giữa game và cuối game. Cô cung cấp các công cụ cần thiết để cạnh tranh với những người chơi hàng đầu mà không yêu cầu tỷ lệ may rủi (RNG) cực đoan của một lượt quay Mythic.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Tôi có thể sử dụng skin trên Anubis khi làm nhiệm vụ Baiken không?",
+    answer: "Không. Khuyến nghị mạnh mẽ bạn nên sử dụng Anubis cơ bản, không có skin. Việc sử dụng skin có thể khiến các NPC nhiệm vụ như Baiken hoặc Kuzma không nhận diện được tiến trình của bạn."
+  },
+  {
+    question: "Cách nhanh nhất để đạt được 2,000 sát thương cho nhiệm vụ là gì?",
+    answer: "Phương pháp nhanh nhất là tìm một người bạn hoặc một tài khoản phụ và liên tục sử dụng các combo sát thương cao của Anubis. Ngoài ra, cày các NPC có lượng máu cao trong khu vực rừng là một phương pháp chơi đơn an toàn."
+  },
+  {
+    question: "NPC Baiken có chung vị trí xuất hiện với All For One không?",
+    answer: "Không, Baiken không chung vị trí xuất hiện với All For One. Cô ấy có các điểm xuất hiện riêng, thường nằm ở những khu vực tự nhiên, hẻo lánh hơn của bản đồ."
+  },
+  {
+    question: "Điều gì xảy ra nếu tôi thua cuộc chiến chống lại các Gears?",
+    answer: "Nếu bạn bị đánh bại bởi các Gears, bạn sẽ cần quay lại gặp NPC Baiken để bắt đầu lại thử thách. Bạn không cần phải khởi động lại toàn bộ nhiệm vụ 'Chứng tỏ bản thân'."
+  }
+]} />
+
+</Section>
