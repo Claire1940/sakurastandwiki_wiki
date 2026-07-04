@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Red Mist: Hướng Dẫn Từng Bước Sở Hữu & Thức Tỉnh E.G.O",
+  description: "Làm chủ spec Red Mist trong Sakura Stand với hướng dẫn chi tiết năm 2026. Tìm hiểu cách triệu hồi Kali, vượt mê cung Hẻm Tối (Dark Alley) và thức tỉnh E.G.O.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Red+Mist+Obtainment+Guide",
+  date: "2026-07-04",
+  author: "Đội ngũ Sakura Stand Wiki"
+}
+
+<Callout type="info" title="Hướng Dẫn Nhanh">
+- **Sakura Stand Red Mist**: Một spec chiến đấu cực mạnh dựa trên nhân vật Gebura/Kali, sở hữu lượng sát thương lớn và trạng thái thức tỉnh E.G.O độc nhất.
+- **Cách Sở Hữu**: Trò chuyện với NPC Q3 tại Công viên 2 (Park 2), đạt 100% tiến trình máy chủ bằng cách farm Hollow, và đánh bại Kali trong Cổng Đỏ (Red Portal).
+- **Thức Tỉnh E.G.O**: Hoàn thành một nhiệm vụ ẩn trong mê cung Hẻm Tối (Dark Alley) liên quan đến boss Black Silence.
+- **Phong Cách Chiến Đấu**: Tập trung vào các nhát chém nặng, sát thương chảy máu (bleed) và các chiêu kết liễu diện rộng (AOE) khổng lồ khi ở chế độ E.G.O.
+- **Yêu Cầu Quan Trọng**: Bạn phải ở trạng thái **Không có Stand (Standless)** để sử dụng vật phẩm Mimicry và nhận spec này.
+</Callout>
+
+<Section icon={Target} title="Cách Triệu Hồi Boss Red Mist">
+
+Để bắt đầu hành trình sở hữu spec **sakura stand red mist**, trước tiên bạn phải đóng góp vào tiến trình triệu hồi chung của toàn máy chủ. Không giống như các spec khác dựa vào tỷ lệ may rủi (RNG) hoặc quay thưởng, Red Mist yêu cầu một quá trình cày cuốc kiên trì mang lại lợi ích cho toàn bộ máy chủ.
+
+**Điểm Nhấn Video:**
+- Tìm NPC Q3 tại Công viên 2 (Park 2) để kiểm tra tiến trình cổng dịch chuyển hiện tại.
+- Tiêu diệt các NPC chỉ định để tăng tỷ lệ phần trăm lên 100%.
+- Tiến vào Cổng Đỏ (Red Portal) xuất hiện gần khu vực Quán Cà Phê (Cafe) và Công Viên (Park).
+- Chuẩn bị cho trận chiến boss nhiều giai đoạn chống lại Mimicry và Kali.
+
+<YouTubeEmbed videoId="Bg3sKS4fxUQ" title="Obtaining The Red Mist Spec in Sakura Stand" />
+
+Quá trình triệu hồi là sự nỗ lực của tập thể. Khi tiến trình đạt 100%, một cổng dịch chuyển tạo ra từ sương mù và những con mắt sẽ xuất hiện. Tuy nhiên, tiến trình này được tính riêng theo từng máy chủ; nếu bạn rời khỏi máy chủ, bạn sẽ mất toàn bộ tiến trình mình đã đóng góp cho lần xuất hiện cổng đó.
+
+| Loại NPC | Tiến Trình Nhận Được | Mức Độ Khó |
+| --- | --- | --- |
+| Curse / Fishbone | 1% | Rất Dễ |
+| Menos / Fro Hollow | 3% | Dễ |
+| Adjucha | 4% | Trung Bình |
+| Fushiguro Toji | 10% | Khó |
+| Lei Heng | 20% | Rất Khó |
+
+<Callout type="warning" title="Cảnh Báo Tiến Trình Máy Chủ">
+Vì chỉ có duy nhất một người có thể nhặt được vật phẩm rơi ra sau khi hạ gục boss trong các máy chủ công cộng (public server), bạn nên cày cuốc trong máy chủ riêng (private server) hoặc đi cùng một nhóm đáng tin cậy để đảm bảo nhận được vật phẩm.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Chi Tiết Trận Chiến Boss Mimicry và Kali">
+
+Trận chiến để giành lấy spec **sakura stand red mist** được chia thành hai cuộc chạm trán riêng biệt. Đầu tiên, bạn phải đối mặt với thực thể Mimicry, và sau đó, bạn phải đánh bại Kali (chính là Red Mist).
+
+**Giai Đoạn 1: Mimicry**
+Mimicry bắt đầu bằng các đòn tấn công bằng móng vuốt. Những chiêu thức nguy hiểm nhất của nó là "Hello?" và "GOODBYE." Khi lượng máu giảm xuống còn 40%, nó sẽ rút lui vào trạng thái kén trứng bất tử. Bạn phải dồn sát thương thật nhanh trong giai đoạn "lột xác" này để ngăn nó hồi phục quá nhiều sức mạnh. Ở dạng thứ hai, nó sẽ sử dụng một lưỡi hái thịt với tầm đánh rộng hơn và tốc độ nhanh hơn.
+
+**Giai Đoạn 2: Kali (The Red Mist)**
+Sau khi Mimicry gục ngã, một đoạn cắt cảnh sẽ kích hoạt sự xuất hiện của Kali. Cô ấy sử dụng toàn bộ bộ kỹ năng của Red Mist. Ở mức 50% HP, cô ấy sẽ thức tỉnh E.G.O, hồi phục đầy máu và nhận khả năng hút máu (lifesteal). Khi còn 10% HP, cô ấy sẽ một lần nữa hồi phục về mức 50% HP, đồng thời nhân đôi khả năng hút máu của mình.
+
+| Giai Đoạn Boss | Cơ Chế Cốt Lõi | Chiến Thuật Khuyên Dùng |
+| --- | --- | --- |
+| Mimicry (Móng vuốt) | Đòn đánh thường (M1) nhanh, lướt "Hello?" | Giữ khoảng cách, cấu rỉa tầm xa |
+| Mimicry (Lưỡi hái) | Gây chảy máu cao, vòng chém rộng | Đỡ (block) các nhát chém dọc |
+| Kali (Dạng Thường) | Thiên về phản công, combo nhanh | Không spam chiêu; chờ sơ hở của boss |
+| Kali (E.G.O) | Dịch chuyển tức thời, AOE cực lớn | Di chuyển liên tục, tránh chiêu "Great Split" |
+
+<Callout type="success" title="Mẹo Chiến Thắng">
+Sử dụng các spec có sát thương theo phần trăm máu, chẳng hạn như chiêu "Soul Splitter" (phím T) của Toji, có thể đẩy nhanh đáng kể tốc độ trận đấu trước lượng máu khổng lồ của Kali.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Bộ Kỹ Năng và Chiêu Thức Của Red Mist">
+
+Sau khi bạn đánh bại Kali và nhặt được thanh kiếm Mimicry, hãy sử dụng nó khi đang ở trạng thái **Không có Stand (Standless)** để trang bị spec **sakura stand red mist**. Spec này được chia làm hai trạng thái: Dạng Thường (Base) và Thức Tỉnh E.G.O (Manifested).
+
+<CardGrid cols={2}>
+  <Card title="Dạng Thường (Mimicry)">
+    - **M1**: Chuỗi combo 4 đòn đánh kết thúc bằng một cú đâm.
+    - **E (Spear)**: Động tác đâm ba lần liên tiếp cực nhanh.
+    - **R (Level Slash)**: Các nhát chém hướng lên hình chữ X gây hiệu ứng chảy máu.
+    - **T (Upstanding Slash)**: Nhát chém đôi theo chiều dọc cực mạnh.
+    - **Z (Focus Spirit)**: Tăng 5% sát thương và cường hóa hiệu ứng chảy máu.
+  </Card>
+  <Card title="Dạng E.G.O (Thức Tỉnh)">
+    - **Q (Manifest)**: Yêu cầu đầy thanh năng lượng để biến hình.
+    - **H (Great Split)**: Nhát chém ngang khổng lồ gây hơn 165 sát thương.
+    - **Nội Tại**: Giảm đáng kể sát thương nhận vào và tự động hồi phục HP.
+    - **Ngoại Hình**: Bộ giáp đen toàn thân cùng một mắt đỏ phát sáng.
+  </Card>
+</CardGrid>
+
+| Phím Chiêu | Tên Chiêu Thức | Sát Thương | Thời Gian Hồi Chiêu |
+| --- | --- | --- | --- |
+| E | Spear | 15 (5 mỗi đòn) | 10 giây |
+| R | Level Slash | 17 + Chảy máu | 7 giây |
+| T | Upstanding Slash | 30 (13 + 17) | 12 giây |
+| G | Great Split: Vertical | 40 | 60 giây |
+| H (E.G.O) | Great Split: Horizontal | 165 | Không có |
+
+<Callout type="tip" title="Cách Sử Dụng Focus Spirit">
+Luôn giữ cho Focus Spirit (Z) hoạt động trong suốt trận chiến. Dù con số 5% có vẻ nhỏ, nhưng thời gian chảy máu kéo dài thêm là yếu tố cốt lõi để giành chiến thắng trong các trận đấu PVP lâu dài.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cách Vượt Mê Cung Hẻm Tối (Dark Alley)">
+
+Để khai mở toàn bộ tiềm năng của spec **sakura stand red mist**, bạn phải tìm kiếm NPC bí ẩn nằm trong Hẻm Tối (Dark Alleyway). Địa điểm này nổi tiếng với bố cục cực kỳ rắc rối và các hiệu ứng thị giác "Distortion" (Xuyên tạc) gây nhiễu màn hình của bạn.
+
+<Steps>
+  <Step num="1" title="Tiến vào Hẻm">
+    Tìm lối vào hẻm tối nằm gần khu vực Chiến Trường (Battlefield). Khi bạn bước vào, màn hình sẽ bắt đầu chuyển sang màu đỏ và hiển thị các dòng chữ "Distortion".
+  </Step>
+  <Step num="2" title="Vượt Mê Cung">
+    Đi theo đúng lộ trình sau: Rẽ **Trái** ở ngã rẽ đầu tiên, sau đó rẽ **Phải**. Tiếp tục đi cho đến khi bạn thấy một lối mở khác, rẽ **Trái**, rồi tiếp tục rẽ **Trái** một lần nữa.
+  </Step>
+  <Step num="3" title="Đến Khu Vực Mở">
+    Đi dọc theo con hẻm thẳng dài cho đến khi nó mở ra một sân rộng lớn. NPC (có ngoại hình giống Carmen) sẽ đứng đợi ở đó.
+  </Step>
+  <Step num="4" title="Nhận Nhiệm Vụ">
+    Nói chuyện với NPC để nhận nhiệm vụ "Manifest E.G.O" (Thức tỉnh E.G.O). Đây là điều kiện bắt buộc để sử dụng kỹ năng biến hình phím Q.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hiệu Ứng Distortion">
+Màn hình sẽ hiển thị các thông báo nhặt vật phẩm giả như "+1 Hogyoku" hoặc "-999 Aura." Hãy phớt lờ chúng; đây hoàn toàn là những yếu tố gây nhiễu thị giác được thiết kế để khiến việc định hướng trong mê cung trở nên khó khăn hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Thức Tỉnh E.G.O: Nhiệm Vụ Black Silence">
+
+Thử thách cuối cùng để tiến hóa spec **sakura stand red mist** của bạn là nhiệm vụ Thức Tỉnh. Nhiệm vụ này yêu cầu bạn phải đánh bại một trong những con boss khó nhất game: The Black Silence.
+
+Để triệu hồi Black Silence, thông thường bạn cần sở hữu spec **One For All (OFA)** ở Giai đoạn 4 (Stage 4). Việc farm boss Deku bằng OFA sẽ tăng tỷ lệ Black Silence xuất hiện. Khi hắn xuất hiện, môi trường xung quanh sẽ chuyển thành đấu trường "Black Star".
+
+<Checklist
+  id="ego-requirements"
+  title="Mục Tiêu Nhiệm Vụ Thức Tỉnh E.G.O:"
+  items={[
+    "Đánh bại The Black Silence (1 lần)",
+    "Tiêu diệt 15 Curse bằng Red Mist",
+    "Tiêu diệt 5 Hollow bằng Red Mist",
+    "Tiêu diệt 15 Người chơi bằng Red Mist"
+  ]}
+/>
+
+| Boss: Black Silence | Chi Tiết |
+| --- | --- |
+| Phong Cách Chiến Đấu | Spam chiêu liên tục, thay đổi nhiều loại vũ khí |
+| Cơ Chế Đặc Biệt | Triệu hồi các phân thân/bóng của chính mình |
+| Cảnh Báo | KHÔNG sử dụng chiêu G (Great Split) vì nó có thể làm lỗi (bug) boss |
+| Phần Thưởng | Găng tay của Black Silence (Hoàn thành nhiệm vụ) |
+
+<Callout type="success" title="Chiến Thuật Chuyên Nghiệp">
+Black Silence có khả năng giảm sát thương cực lớn. Hãy chiến đấu với hắn cùng một nhóm người chơi sử dụng các spec có DPS cao, nhưng hãy đảm bảo người đang thực hiện nhiệm vụ Red Mist là người tung đòn kết liễu hoặc được tính điểm hạ gục.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Câu Hỏi Thường Gặp Về Sakura Stand Red Mist">
+
+<FAQ items={[
+  {
+    question: "Tôi phải sử dụng vật phẩm Mimicry như thế nào sau khi nhận được?",
+    answer: "Bạn phải ở trạng thái 'Standless' (không trang bị bất kỳ stand hoặc spec nào). Chọn vật phẩm Mimicry trong túi đồ của bạn và sử dụng nó để mở khóa vĩnh viễn spec Red Mist."
+  },
+  {
+    question: "Tôi có thể tự mình cày tiến trình cổng Red Mist một mình được không?",
+    answer: "Được, nhưng sẽ mất khoảng 3-4 tiếng cày cuốc liên tục. Sẽ nhanh hơn rất nhiều nếu bạn làm việc này trong một máy chủ đông người, nơi mọi người đều đang săn tìm Hollow."
+  },
+  {
+    question: "Chiêu thức nào là tốt nhất của Red Mist trong PVP?",
+    answer: "Chiêu 'Great Split: Horizontal' (phím H khi ở dạng E.G.O) là chiêu thức tốt nhất. Nó có phạm vi ảnh hưởng (AOE) cực rộng và có thể hạ gục nhanh chóng nhiều người chơi nếu họ không kịp đỡ đòn."
+  },
+  {
+    question: "Tại sao tôi không thể nhìn thấy NPC trong Hẻm Tối?",
+    answer: "NPC chỉ xuất hiện nếu bạn đang trang bị spec Red Mist. Nếu bạn vẫn bị lạc, hãy chú ý đến ánh hào quang màu đỏ trên màn hình, nó sẽ sáng mạnh hơn khi bạn tiến lại gần người giao nhiệm vụ."
+  }
+]} />
+
+</Section>

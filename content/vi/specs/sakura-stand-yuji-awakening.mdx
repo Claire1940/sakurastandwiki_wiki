@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Thức tỉnh Yuji Sakura Stand: Hướng dẫn Tiến hóa Shinjuku Toàn tập",
+  description: "Mở khóa Thức tỉnh Yuji Sakura Stand. Theo dõi hướng dẫn từng bước của chúng tôi để hoàn thành nhiệm vụ 'The Curse Within' và tiến hóa Yuji Itadori thành Shinjuku Yuji.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Yuji+Awakening+Guide",
+  date: "2026-07-04",
+  author: "Đội ngũ Wiki Sakura Stand",
+  keywords: "thức tỉnh yuji sakura stand, hướng dẫn yuji shinjuku, nhiệm vụ the curse within, sakura stand wiki"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Mục tiêu Chính**: Hoàn thành thức tỉnh Yuji Sakura Stand để tiến hóa Yuji Itadori cơ bản thành spec Shinjuku Itadori mạnh mẽ.
+- **Điều kiện tiên quyết**: Đạt được Mastery 1 để mở khóa spec Yuji Itadori cơ bản trước khi bắt đầu quá trình tiến hóa.
+- **Nhiệm vụ then chốt**: Nói chuyện với NPC Kusakabe để nhận chuỗi nhiệm vụ "The Curse Within".
+- **Trọng tâm Chiến đấu**: Bạn phải đánh bại các boss cụ thể và farm các nguyền hồn tiêu chuẩn chỉ bằng cách sử dụng spec Yuji cơ bản.
+- **Phần thưởng Lớn nhất**: Mở khóa Shinjuku Itadori với bộ kỹ năng nâng cao, phân tách chi và sát thương tăng cao.
+</Callout>
+
+<Section icon={Sparkles} title="Tổng quan về Spec Yuji Itadori">
+
+Trong Sakura Stand, spec Yuji Itadori cơ bản là một lựa chọn cực kỳ đáng tin cậy được mô phỏng theo nhân vật chính biểu tượng của Jujutsu Kaisen. Nó đóng vai trò là điểm bắt đầu tuyệt vời cho người chơi nhờ các combo đơn giản và tiềm năng sát thương cao. Tuy nhiên, để thực sự thống trị chiến trường, bạn phải mở khóa **thức tỉnh Yuji Sakura Stand** để chuyển sang biến thể Shinjuku của anh ấy.
+
+| Tính năng | Chi tiết Yuji Itadori Cơ bản |
+| :--- | :--- |
+| **Cách sở hữu** | Đạt Mastery 1 |
+| **Công dụng chính** | PvP cho người mới, Farm PvE, Tiến trình nhiệm vụ |
+| **Kết hợp chính** | Cần thiết cho chuỗi nhiệm vụ Gojo và Sukuna |
+| **Lộ trình tiến hóa** | Tiến hóa thành Shinjuku Itadori thông qua NPC Kusakabe |
+
+Mặc dù spec cơ bản cung cấp khả năng mở rộng combo tuyệt vời, nhưng nó lại gặp hạn chế về thời gian hồi chiêu dài và khả năng cơ động hạn chế. Việc thức tỉnh spec này rất được khuyến khích cho tiến trình giai đoạn giữa đến cuối game.
+
+<Callout type="tip" title="Yêu cầu Mastery">
+Đảm bảo bạn đã mở khóa hoàn toàn và trang bị spec Yuji Itadori cơ bản trước khi nói chuyện với các NPC nhiệm vụ, nếu không nhiệm vụ tiến hóa sẽ không được kích hoạt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Bộ kỹ năng và Cơ chế Chiến đấu của Yuji Cơ bản">
+
+Trước khi thử thực hiện nhiệm vụ thức tỉnh, bạn phải thành thạo bộ kỹ năng cơ bản của Yuji. Vì nhiệm vụ tiến hóa yêu cầu bạn phải gây ra hàng ngàn điểm sát thương và parry các đòn tấn công, việc biết các phím tắt là rất quan trọng.
+
+| Tên chiêu thức | Phím | Thời gian hồi | Sát thương / Hiệu ứng |
+| :--- | :--- | :--- | :--- |
+| **Curse Detection** | Q | 15 giây | ESP để phát hiện vật chứa Sukuna (ngọn lửa đỏ/đen) |
+| **Cursed Energy Barrage** | E | 10 giây | 13 cú đấm; 3 sát thương mỗi đòn; cơ hội Hắc Thiểm (14 sát thương) |
+| **Manji Kick & Divergent Fist** | R | 13 giây | Gây 20 sát thương cơ bản (30 với buff nội tại) |
+| **Black Flash** | T | 23 giây | 4 đòn đánh liên tiếp; 8 sát thương mỗi đòn; đẩy người chơi về phía trước |
+| **Shrine: Limb Dissection** | Y | 25 giây | Đòn tóm cắt với hyperarmor; gây 33.5 sát thương kèm chảy máu |
+| **Reverse Cursed Technique** | Z | 1 phút 55 giây | Giữ để hồi tối đa 100 HP; rất dễ bị ngắt quãng |
+
+<CardGrid cols={3}>
+  <Card title="Phòng thủ Nội tại">
+    - **Giảm 25% sát thương**
+    - Tự động kích hoạt
+    - Tăng khả năng sống sót trong các trận đấu boss
+  </Card>
+  <Card title="Tiện ích Hyperarmor">
+    - **Kỹ thuật Ngự sở (Phím Y)**
+    - Ngăn chặn bị choáng
+    - Lý tưởng để trao đổi chiêu thức với các boss hung hãn
+  </Card>
+  <Card title="Quản lý Hồi phục">
+    - **Hồi phục RCT (Phím Z)**
+    - Hình phạt hồi chiêu cao
+    - Chỉ sử dụng khi đứng xa kẻ địch
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Cảnh báo Hồi chiêu RCT">
+Bạn không thể sử dụng Curse Detection (Q) nếu Reverse Cursed Technique (Z) đang trong thời gian hồi chiêu. Hãy lập kế hoạch sử dụng tiện ích của bạn một cách cẩn thận.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hướng dẫn Nhiệm vụ Thức tỉnh Từng bước">
+
+Để bắt đầu **thức tỉnh Yuji Sakura Stand**, bạn phải tìm NPC Kusakabe. Ông ấy nằm ngay cạnh Cửa hàng của Auddy. Trang bị spec Yuji Itadori của bạn và nói chuyện với ông ấy để chấp nhận nhiệm vụ có tên **"The Curse Within"**.
+
+<Steps>
+  <Step num="1" title="Sở hữu Yuji Itadori cơ bản">
+    Đạt Mastery 1 để nhận spec cơ bản. Trang bị nó trước khi chuyển sang bước tiếp theo.
+  </Step>
+  <Step num="2" title="Tìm Kusakabe">
+    Di chuyển đến Cửa hàng của Auddy và tìm Kusakabe đứng gần đó. Nói chuyện với ông ấy để nhận nhiệm vụ "The Curse Within".
+  </Step>
+  <Step num="3" title="Đánh bại Nguyền hồn Đặc cấp">
+    Tìm và đánh bại đúng 1 Nguyền hồn Đặc cấp (Special Grade Curse) bằng bộ kỹ năng Yuji của bạn.
+  </Step>
+  <Step num="4" title="Đánh bại Fushiguro Toji">
+    Truy lùng và đánh bại Fushiguro Toji. Sử dụng các chiêu thức hyperarmor của bạn để vượt qua các đòn tấn công vật lý tốc độ cao của hắn.
+  </Step>
+  <Step num="5" title="Farm Nguyền hồn Nhỏ & Sát thương">
+    Đánh bại 10 Nguyền hồn tiêu chuẩn, thực hiện 5 lần parry thành công và tích lũy tổng cộng 3,250 sát thương.
+  </Step>
+  <Step num="6" title="Quay lại gặp Kusakabe">
+    Nói chuyện với Kusakabe sau khi tất cả các mục tiêu được đánh dấu hoàn thành để hoàn tất quá trình tiến hóa Shinjuku.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Tiến hóa Hoàn tất">
+Sau khi bạn nộp nhiệm vụ đã hoàn thành, spec Yuji Itadori của bạn sẽ tiến hóa vĩnh viễn thành Shinjuku Itadori, mở khóa các tư thế mới, nhạc nền và tăng tỷ lệ kỹ năng.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Yêu cầu Nhiệm vụ và Địa điểm Kẻ địch">
+
+Việc đáp ứng các yêu cầu cho "The Curse Within" đòi hỏi bạn phải ghé thăm các địa điểm farm cụ thể và chiến đấu với những con boss khó nhằn. Dưới đây là bảng phân tích các mục tiêu chính xác cần thiết cho quá trình thức tỉnh.
+
+| Mục tiêu Nhiệm vụ | Số lượng | Phương pháp farm / Địa điểm tốt nhất |
+| :--- | :--- | :--- |
+| **Diệt Nguyền hồn Đặc cấp** | 1 | Xuất hiện tại các vùng nguyền hồn được chỉ định; lập đội nếu chưa đủ trang bị |
+| **Diệt Fushiguro Toji** | 1 | Đấu trường boss; tận dụng parry để tạo sơ hở |
+| **Diệt Nguyền hồn tiêu chuẩn** | 10 | Các cánh đồng nguyền hồn cấp thấp; dọn dẹp nhanh chóng với Barrage (E) |
+| **Thực hiện Parry** | 5 | Nhử các đòn tấn công chậm từ hình nhân tập luyện hoặc nguyền hồn cấp thấp |
+| **Gây tổng sát thương** | 3,250 | Tích lũy tự nhiên khi chiến đấu với boss và nguyền hồn tiêu chuẩn |
+
+<Callout type="info" title="Mẹo Parry">
+Đừng cố gắng parry Toji nếu bạn không quen với tốc độ tấn công của hắn. Thay vào đó, hãy hoàn thành 5 lần parry trên các nguyền hồn tiêu chuẩn yếu hơn trước để đảm bảo yêu cầu một cách an toàn.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cột mốc Shinjuku Itadori">
+
+Mở khóa biến thể Shinjuku là một cột mốc quan trọng trong tiến trình Sakura Stand của bạn. Sử dụng danh sách kiểm tra này để theo dõi tiến trình tối đa hóa tiềm năng của spec này.
+
+<Checklist
+  id="yuji-awakening-milestones"
+  title="Danh sách Kiểm tra Tiến trình Thức tỉnh:"
+  items={[
+    "Đạt Mastery 1 và trang bị Yuji Itadori cơ bản",
+    "Chấp nhận nhiệm vụ 'The Curse Within' từ Kusakabe",
+    "Đánh bại boss Fushiguro Toji",
+    "Đánh bại 1 Nguyền hồn Đặc cấp",
+    "Thực hiện thành công 5 lần parry",
+    "Gây tổng cộng 3,250 sát thương lên kẻ địch",
+    "Nói chuyện với Kusakabe để mở khóa spec Shinjuku Itadori"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Câu hỏi Thường gặp">
+
+<FAQ items={[
+  {
+    question: "Làm thế nào để bắt đầu nhiệm vụ thức tỉnh Yuji Sakura Stand?",
+    answer: "Bạn phải trang bị spec Yuji Itadori cơ bản (nhận được ở Mastery 1) và nói chuyện với NPC Kusakabe nằm ngay cạnh Cửa hàng của Auddy để nhận nhiệm vụ 'The Curse Within'."
+  },
+  {
+    question: "Tôi có thể tìm thấy Nguyền hồn Đặc cấp ở đâu cho nhiệm vụ?",
+    answer: "Nguyền hồn Đặc cấp xuất hiện tại các vùng nguyền hồn PvE được chỉ định trên bản đồ. Hãy để ý kênh chat công cộng hoặc thông báo máy chủ để biết các đợt xuất hiện."
+  },
+  {
+    question: "Tôi có thể sử dụng các spec khác để hoàn thành mục tiêu 'The Curse Within' không?",
+    answer: "Không. Tất cả các mục tiêu nhiệm vụ, bao gồm đánh bại Toji và gây 3,250 sát thương, phải được hoàn thành khi đang sử dụng tích cực spec Yuji Itadori cơ bản."
+  },
+  {
+    question: "Shinjuku Itadori có cần thiết cho các spec khác không?",
+    answer: "Có, việc thăng cấp spec Yuji của bạn rất có lợi vì dòng máu này trực tiếp cần thiết để sở hữu các spec cấp cao khác như Gojo và Sukuna."
+  }
+]} />
+
+</Section>

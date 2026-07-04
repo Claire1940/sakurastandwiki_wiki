@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Jefes de Sakura Stand: Guía de Combate 2026 y Drops de Objetos",
+  description: "Domina a todos los jefes de Sakura Stand con nuestra guía exhaustiva de 2026. Aprende ubicaciones de aparición, tasas de drop para Sukuna y Toji, y estrategias de combate avanzadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Sakura+Stand+Bosses+Guide",
+  date: "2026-07-04",
+  author: "Equipo de la Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **jefes de Sakura Stand** son esenciales para desbloquear Specs de alto nivel como Sukuna, Toji y Mahoraga.
+- Los **Jefes de Mundo** aparecen con temporizadores específicos o requieren objetos de invocación únicos como los Cursed Fingers (Dedos Malditos).
+- Las **Tasas de Drop** varían significativamente; la mayoría de los objetos de evolución tienen entre un 1% y un 10% de probabilidad de aparecer.
+- La **Estrategia de Combate** se basa en gran medida en la gestión de iframes (marcos de invencibilidad) y en comprender los avisos visuales de los ataques de los jefes.
+- Se recomienda encarecidamente el **Juego en Equipo** para los Jefes de Incursión (Raid Bosses) para asegurar la máxima eficiencia y distribución de botín.
+</Callout>
+
+<Section icon={Map} title="Resumen de los Jefes de Sakura Stand en 2026">
+
+En el cambiante panorama de Sakura Stand, los jefes actúan como los principales guardianes del poder. Ya sea que estés cazando la elusiva Inverted Spear of Heaven (Lanza Invertida del Cielo) o intentando domar al Rey de las Maldiciones, comprender la jerarquía de estos encuentros es vital. A partir de julio de 2026, el juego ha introducido varias mecánicas nuevas que hacen que los encuentros con jefes sean más dinámicos, requiriendo que los jugadores adapten sus builds y estrategias.
+
+Los jefes en Sakura Stand se categorizan generalmente en tres niveles: Jefes de Historia, Jefes de Mundo y Jefes de Incursión. Cada nivel ofrece diferentes recompensas y requiere distintos niveles de preparación.
+
+| Nivel de Jefe | Dificultad | Recompensas Principales | Tipo de Aparición |
+| :--- | :--- | :--- | :--- |
+| **Jefes de Historia** | Fácil a Media | EXP básica, Tokens | Basado en instancias |
+| **Jefes de Mundo** | Difícil | Objetos de evolución, Specs raras | Temporizador global |
+| **Jefes de Incursión** | Extrema | Objetos míticos, Títulos | Invocados/Evento |
+
+<Callout type="info" title="Cambio de Meta en 2026">
+Las actualizaciones de 2026 han aumentado las reservas de HP de todos los Jefes de Mundo. Ya no es viable derrotar a los jefes rápidamente sin un sanador dedicado o una spec de tanque en tu grupo.
+</Callout>
+
+Comprender dónde aparecen estas entidades es el primer paso hacia la maestría. La mayoría de los encuentros de alto nivel ocurren en Wasteland o en el Urban District, áreas diseñadas específicamente para manejar combates a gran escala sin interferir con los jugadores nuevos.
+
+</Section>
+
+<Section icon={Swords} title="Perfiles y Mecánicas de los Jefes Principales">
+
+Para tener éxito contra los **jefes de Sakura Stand**, debes estudiar sus conjuntos de movimientos. Cada jefe principal tiene una "Fase de Desesperación" que se activa al 25% de HP, donde su velocidad de ataque y daño aumentan significativamente.
+
+<CardGrid cols={3}>
+  <Card title="Sukuna (Rey de las Maldiciones)">
+    - **Ataques Principales**: Dismantle, Cleave
+    - **Definitiva**: Malevolent Shrine
+    - **Drop Clave**: Sukuna Finger (10%)
+  </Card>
+  <Card title="Toji Fushiguro">
+    - **Ataques Principales**: Physical Prowess, Playful Cloud
+    - **Definitiva**: Hidden Inventory Ambush
+    - **Drop Clave**: Inverted Spear (5%)
+  </Card>
+  <Card title="Mahoraga">
+    - **Ataques Principales**: Sword of Extermination
+    - **Definitiva**: Adaptation Wheel
+    - **Drop Clave**: Eight-Handled Wheel (2%)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Adaptación del Jefe">
+Al luchar contra Mahoraga, evita usar el mismo ataque elemental repetidamente. Su mecánica de "Adaptación" le permite volverse un 90% resistente a un tipo de daño después de tres golpes consecutivos de ese tipo.
+</Callout>
+
+| Nombre del Jefe | Nivel Recomendado | Mejor Spec de Contraataque | Ubicación Común |
+| :--- | :--- | :--- | :--- |
+| **Sukuna** | 80+ | Gojo / Cid Kagenou | Centro de Wasteland |
+| **Toji** | 75+ | Astolfo / Deku | Callejón Urbano |
+| **Shadow** | 90+ | Anubis / Cross | Grieta Dimensional |
+| **Gojo** | 100+ | Toji / Sukuna | Sky Island |
+
+Cada jefe requiere un enfoque táctico diferente. Por ejemplo, Toji es sumamente móvil y puede anular muchas habilidades de Stand, lo que lo convierte en una pesadilla para los jugadores que dependen únicamente de proyectiles a distancia. Por el contrario, Sukuna inflige un daño masivo en área (AoE), lo que requiere una sincronización precisa en los dashes y bloqueos.
+
+</Section>
+
+<Section icon={Target} title="Cómo Invocar y Localizar Jefes">
+
+No todos los **jefes de Sakura Stand** aparecen simplemente con un temporizador. Muchos requieren rituales u objetos específicos para manifestarse en el mundo del juego. Seguir los pasos correctos es crucial para evitar desperdiciar recursos de invocación raros.
+
+<Steps>
+  <Step num="1" title="Obtener Catalizador de Invocación">
+    Recolecta objetos necesarios como Cursed Fingers, Mysterious Orbs o Boss Keys de NPCs estándar o misiones diarias.
+  </Step>
+  <Step num="2" title="Localizar el Altar">
+    Viaja al bioma específico asociado con el jefe. Por ejemplo, el Altar Maldito se encuentra en lo profundo del área del bosque.
+  </Step>
+  <Step num="3" title="Limpiar el Área">
+    Asegúrate de que no haya otros mobs o jugadores hostiles cerca, ya que la salud del jefe escala según el número de jugadores en las cercanías.
+  </Step>
+  <Step num="4" title="Iniciar el Ritual">
+    Interactúa con el altar mientras sostienes el catalizador. Un anuncio global notificará usualmente al servidor sobre la llegada del jefe.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de Eficiencia">
+Siempre revisa la "Edad del Servidor" en el menú. Muchos Jefes de Mundo tienen un enfriamiento oculto que se reinicia cada 2 horas de tiempo de actividad del servidor. Es menos probable que los servidores nuevos tengan apariciones activas.
+</Callout>
+
+| Objeto de Invocación | Jefe Producido | Fuente de Drop | Rareza |
+| :--- | :--- | :--- | :--- |
+| **Cursed Finger** | Sukuna | NPCs de Espíritus Malditos | Raro |
+| **Worn Scabbard** | Cid Kagenou | Tienda / Cofres | Poco común |
+| **Broken Wheel** | Mahoraga | Incursiones de alto nivel | Legendario |
+
+</Section>
+
+<Section icon={Trophy} title="Drops de Objetos y Rutas de Evolución">
+
+La motivación principal para cazar **jefes de Sakura Stand** es el botín. Estos objetos son a menudo los componentes finales necesarios para evolucionar una Spec base a su forma "Verdadera" o "Despertada". En 2026, el sistema de piedad se ajustó ligeramente para asegurar que los jugadores eventualmente reciban los drops deseados después de un cierto número de muertes.
+
+| Nombre del Objeto | Probabilidad de Drop | Usado Para | Fuente (Jefe) |
+| :--- | :--- | :--- | :--- |
+| **Inverted Spear** | 5% | Evolución de Spec de Toji | Toji Fushiguro |
+| **Sukuna Finger** | 10% | Spec de Recipiente (Vessel) | Sukuna |
+| **Extermination Blade** | 3% | Maestría de Mahoraga | Mahoraga |
+| **Shadow Essence** | 7% | Despertar de Cid Kagenou | Shadow |
+| **Dimensional Shard** | 15% | Mejoras de todas las Specs | Cualquier Jefe de Mundo |
+
+<Callout type="success" title="Optimización de Botín">
+Equipar el rasgo "Suerte" (Luck) o usar una Poción de Suerte antes de que el jefe llegue al 0% de HP puede aumentar tus probabilidades de drop hasta 2.5 veces. Siempre guarda tus pociones para los Jefes de Mundo.
+</Callout>
+
+Más allá de los objetos de evolución, los jefes también sueltan Tokens y Puntos de Maestría. Estos son esenciales para subir de nivel el árbol de habilidades de tu Stand. Una sola muerte de un jefe de Nivel 3 puede otorgar suficiente Maestría para desbloquear dos o tres nodos de juego final, lo que los hace mucho más eficientes que farmear mobs estándar.
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación de Preparación y Combate">
+
+Antes de enfrentarte a cualquier **jefe de Sakura Stand** de alto nivel, debes asegurarte de que tu personaje esté debidamente equipado. Entrar en una pelea con nivel bajo o con el equipo equivocado es una forma rápida de perder progreso.
+
+<Checklist
+  id="boss-prep"
+  title="Esenciales antes de la pelea:"
+  items={[
+    "Equipa una Spec con al menos dos habilidades de movilidad",
+    "Abastécete de pociones de regeneración de HP y Estamina",
+    "Asegúrate de que tu nivel esté dentro de un rango de 5 del nivel del jefe",
+    "Únete a un grupo para compartir bufos y el aggro",
+    "Revisa tu ping para asegurar que la sincronización del dash sea precisa"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Pro de Combate">
+Aprende la mecánica del "Bloqueo Perfecto". Bloquear con éxito el ataque pesado de un jefe lo aturdirá durante 2 segundos, proporcionando una ventana para tus combos de mayor daño.
+</Callout>
+
+| Estadística de Combate | Importancia | Valor Recomendado |
+| :--- | :--- | :--- |
+| **Salud** | Esencial | 1,500+ |
+| **Estamina** | Alta | 500+ |
+| **Daño** | Moderada | 200+ por golpe |
+| **Defensa** | Alta | 15% de Reducción de Daño |
+
+El éxito en Sakura Stand no se trata solo de tener el Stand más fuerte; se trata de movimiento. Jefes como Shadow usan ataques de teletransportación que pueden eliminar de un golpe a los jugadores que se quedan quietos por demasiado tiempo. Mantente en movimiento, gestiona tu estamina y espera a que el jefe termine su rotación de habilidades antes de contraatacar.
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor spec para farmear jefes en Sakura Stand?",
+    answer: "Actualmente, Cid Kagenou (Shadow) y Gojo se consideran de primer nivel para farmear jefes debido a su alto daño explosivo y sus marcos de invencibilidad."
+  },
+  {
+    question: "¿Con qué frecuencia aparecen los Jefes de Mundo?",
+    answer: "La mayoría de los Jefes de Mundo en Sakura Stand tienen un temporizador de aparición que oscila entre 60 y 120 minutos, dependiendo del nivel de actividad del servidor específico."
+  },
+  {
+    question: "¿Puedo derrotar a Sukuna o Toji en solitario?",
+    answer: "Es posible a Nivel 100 con una spec al máximo, pero se recomienda encarecidamente traer al menos a otro jugador para ayudar a manejar la agresividad del jefe."
+  },
+  {
+    question: "¿Los drops de los jefes desaparecen si no los recojo?",
+    answer: "Sí, los drops de botín permanecen en el suelo durante 60 segundos antes de desaparecer. Asegúrate de limpiar el área y recoger tus objetos inmediatamente después de la muerte del jefe."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Recuerda que el equilibrio del juego en 2026 está sujeto a cambios. Siempre revisa el Discord oficial de Sakura Stand o la Wiki para ver las últimas notas del parche con respecto a la salud de los jefes y las tasas de drop.
+</Callout>
+
+</Section>

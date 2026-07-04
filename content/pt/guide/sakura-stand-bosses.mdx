@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Chefes do Sakura Stand: Guia de Combate de 2026 e Drops de Itens",
+  description: "Domine todos os chefes do Sakura Stand com o nosso guia completo de 2026. Aprenda locais de spawn, taxas de drop para Sukuna e Toji, e estratégias avançadas de combate.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Sakura+Stand+Bosses+Guide",
+  date: "2026-07-04",
+  author: "Equipe da Wiki do Sakura Stand"
+}
+
+<Callout type="info" title="Guia Rápido">
+- Os **chefes do Sakura Stand** são essenciais para desbloquear Specs de alto nível, como Sukuna, Toji e Mahoraga.
+- Os **Chefes Mundiais (World Bosses)** surgem em cronômetros específicos ou exigem itens de invocação únicos, como Dedos Amaldiçoados.
+- As **Taxas de Drop** variam significativamente, com a maioria dos itens de evolução tendo de 1% a 10% de chance de aparecer.
+- A **Estratégia de Combate** depende muito do gerenciamento de iframes (frames de invencibilidade) e da compreensão dos sinais de ataque dos chefes.
+- O **Jogo em Equipe** é altamente recomendado para Chefes de Raid para garantir a máxima eficiência e distribuição de saques.
+</Callout>
+
+<Section icon={Map} title="Visão Geral dos Chefes do Sakura Stand em 2026">
+
+No cenário em constante evolução do Sakura Stand, os chefes servem como os principais guardiões do poder. Quer você esteja caçando a elusiva Lança Invertida do Céu (Inverted Spear of Heaven) ou tentando domar o Rei das Maldições, entender a hierarquia desses encontros é vital. A partir de julho de 2026, o jogo introduziu várias mecânicas novas que tornam os encontros com chefes mais dinâmicos, exigindo que os jogadores adaptem suas builds e estratégias.
+
+Os chefes no Sakura Stand são geralmente categorizados em três níveis: Chefes de História (Story Bosses), Chefes Mundiais (World Bosses) e Chefes de Raid (Raid Bosses). Cada nível oferece recompensas diferentes e requer níveis variados de preparação.
+
+| Nível do Chefe | Dificuldade | Recompensas Principais | Tipo de Spawn |
+| :--- | :--- | :--- | :--- |
+| **Chefes de História** | Fácil a Médio | EXP Básica, Tokens | Baseado em instância |
+| **Chefes Mundiais** | Difícil | Itens de Evolução, Specs Raras | Cronômetro Global |
+| **Chefes de Raid** | Extremo | Itens Míticos, Títulos | Invocado/Evento |
+
+<Callout type="info" title="Mudança no Meta de 2026">
+As atualizações de 2026 aumentaram os pools de HP de todos os Chefes Mundiais. Não é mais viável derrotar chefes rapidamente ("burst down") sem uma spec dedicada de cura ou tanque no seu grupo.
+</Callout>
+
+Entender onde essas entidades aparecem é o primeiro passo para a maestria. A maioria dos encontros de alto nível ocorre na Terra Devastada (Wasteland) ou no Distrito Urbano (Urban District), áreas projetadas especificamente para lidar com combates em grande escala sem interferir nos novos jogadores.
+
+</Section>
+
+<Section icon={Swords} title="Perfis e Mecânicas dos Principais Chefes">
+
+Para ter sucesso contra os **chefes do Sakura Stand**, você deve estudar seus conjuntos de movimentos. Cada chefe principal tem uma "Fase de Desespero" ativada com 25% de HP, onde sua velocidade de ataque e dano aumentam significativamente.
+
+<CardGrid cols={3}>
+  <Card title="Sukuna (Rei das Maldições)">
+    - **Ataques Primários**: Dismantle, Cleave
+    - **Ultimate**: Malevolent Shrine
+    - **Drop Principal**: Dedo do Sukuna (10%)
+  </Card>
+  <Card title="Toji Fushiguro">
+    - **Ataques Primários**: Physical Prowess, Playful Cloud
+    - **Ultimate**: Hidden Inventory Ambush
+    - **Drop Principal**: Lança Invertida (5%)
+  </Card>
+  <Card title="Mahoraga">
+    - **Ataques Primários**: Sword of Extermination
+    - **Ultimate**: Adaptation Wheel
+    - **Drop Principal**: Roda de Oito Cabos (2%)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Adaptação do Chefe">
+Ao lutar contra Mahoraga, evite usar o mesmo ataque elemental repetidamente. Sua mecânica de "Adaptação" permite que ele se torne 90% resistente a um tipo de dano após três acertos consecutivos desse tipo.
+</Callout>
+
+| Nome do Chefe | Nível Recomendado | Melhor Spec de Counter | Localização Comum |
+| :--- | :--- | :--- | :--- |
+| **Sukuna** | 80+ | Gojo / Cid Kagenou | Centro da Terra Devastada |
+| **Toji** | 75+ | Astolfo / Deku | Beco Urbano |
+| **Shadow** | 90+ | Anubis / Cross | Fenda Dimensional |
+| **Gojo** | 100+ | Toji / Sukuna | Ilha do Céu |
+
+Cada chefe requer uma abordagem tática diferente. Por exemplo, Toji é altamente móvel e pode anular muitas habilidades de Stand, tornando-se um pesadelo para jogadores que dependem apenas de projéteis à distância. Por outro lado, Sukuna causa um dano massivo em área (AoE), exigindo um tempo preciso de esquivas (dashes) e bloqueios.
+
+</Section>
+
+<Section icon={Target} title="Como Invocar e Localizar Chefes">
+
+Nem todos os **chefes do Sakura Stand** simplesmente aparecem em um cronômetro. Muitos exigem rituais ou itens específicos para se manifestarem no mundo do jogo. Seguir os passos corretos é crucial para evitar o desperdício de recursos raros de invocação.
+
+<Steps>
+  <Step num="1" title="Obter o Catalisador de Invocação">
+    Colete os itens necessários, como Dedos Amaldiçoados, Orbes Misteriosos ou Chaves de Chefe, de NPCs comuns ou missões diárias.
+  </Step>
+  <Step num="2" title="Localizar o Altar">
+    Viaje para o bioma específico associado ao chefe. For exemplo, o Altar Amaldiçoado está localizado nas profundezas da área da floresta.
+  </Step>
+  <Step num="3" title="Limpar a Área">
+    Certifique-se de que não haja outros monstros ou jogadores hostis por perto, pois a vida do chefe escala com base no número de jogadores nas proximidades.
+  </Step>
+  <Step num="4" title="Iniciar o Ritual">
+    Interaja com o altar enquanto segura o catalisador. Um anúncio global geralmente notificará o servidor sobre a chegada do chefe.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Eficiência">
+Sempre verifique o "Tempo de Vida do Servidor" (Server Age) no menu. Muitos Chefes Mundiais têm um tempo de recarga oculto que reinicia a cada 2 horas de atividade do servidor. Servidores novos têm menos probabilidade de ter spawns ativos.
+</Callout>
+
+| Item de Invocação | Chefe Produzido | Fonte de Drop | Raridade |
+| :--- | :--- | :--- | :--- |
+| **Dedo Amaldiçoado** | Sukuna | NPCs de Espírito Amaldiçoado | Raro |
+| **Bainha Desgastada** | Cid Kagenou | Loja / Baús | Incomum |
+| **Roda Quebrada** | Mahoraga | Raids de Nível Alto | Lendário |
+
+</Section>
+
+<Section icon={Trophy} title="Drops de Itens e Caminhos de Evolução">
+
+A principal motivação para caçar **chefes do Sakura Stand** é o saque. Esses itens geralmente são os componentes finais necessários para evoluir uma Spec base para sua forma "Verdadeira" (True) ou "Desperta" (Awakened). Em 2026, o sistema de pity (garantia) foi ligeiramente ajustado para garantir que os jogadores eventualmente recebam seus drops desejados após um certo número de eliminações.
+
+| Nome do Item | Chance de Drop | Usado Para | Fonte do Chefe |
+| :--- | :--- | :--- | :--- |
+| **Lança Invertida** | 5% | Evolução da Spec do Toji | Toji Fushiguro |
+| **Dedo do Sukuna** | 10% | Spec do Receptáculo | Sukuna |
+| **Lâmina de Extermínio** | 3% | Maestria do Mahoraga | Mahoraga |
+| **Essência das Sombras** | 7% | Despertar do Cid Kagenou | Shadow |
+| **Fragmento Dimensional** | 15% | Todas as Melhorias de Spec | Qualquer Chefe Mundial |
+
+<Callout type="success" title="Otimização de Saques">
+Equipar a característica "Sorte" (Luck) ou usar uma Poção de Sorte antes que o chefe chegue a 0% de HP pode aumentar suas chances de drop em até 2,5 vezes. Sempre guarde suas poções para os Chefes Mundiais.
+</Callout>
+
+Além dos itens de evolução, os chefes também dropam Tokens e Pontos de Maestria. Eles são essenciais para subir o nível da árvore de habilidades do seu Stand. Uma única eliminação de um chefe de Nível 3 pode conceder Maestria suficiente para desbloquear dois ou três nós de fim de jogo, tornando-os muito mais eficientes do que farmar monstros comuns.
+
+</Section>
+
+<Section icon={Shield} title="Lista de Preparação e Combate">
+
+Antes de enfrentar qualquer **chefe do Sakura Stand** de nível alto, você deve garantir que seu personagem esteja devidamente equipado. Entrar em uma luta com nível baixo ou com os equipamentos errados é uma maneira rápida de perder progresso.
+
+<Checklist
+  id="boss-prep"
+  title="Essenciais Pré-Luta:"
+  items={[
+    "Equipar uma Spec com pelo menos duas habilidades de mobilidade",
+    "Estocar poções de regeneração de HP e Stamina",
+    "Garantir que seu Nível esteja a no máximo 5 de diferença do Nível do Chefe",
+    "Entrar em um grupo para compartilhar buffs e aggro",
+    "Verificar seu ping para garantir que o tempo de esquiva seja preciso"
+  ]}
+/>
+
+<Callout type="tip" title="Conselho de Combate Profissional">
+Aprenda a mecânica de "Bloqueio Perfeito" (Perfect Block). Bloquear com sucesso o ataque pesado de um chefe irá atordoá-lo por 2 segundos, abrindo uma janela para seus combos de maior dano.
+</Callout>
+
+| Atributo de Combate | Importância | Valor Recomendado |
+| :--- | :--- | :--- |
+| **Vida** | Essencial | 1.500+ |
+| **Estamina** | Alta | 500+ |
+| **Dano** | Moderado | 200+ por golpe |
+| **Defesa** | Alta | 15% de Redução de Dano |
+
+O sucesso no Sakura Stand não se resume apenas a ter o Stand mais forte; trata-se de movimentação. Chefes como Shadow usam ataques de teletransporte que podem derrotar instantaneamente (one-shot) jogadores que ficam parados por muito tempo. Continue se movendo, gerencie sua estamina e espere o chefe terminar sua rotação de habilidades antes de contra-atacar.
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é a melhor spec para farmar chefes no Sakura Stand?",
+    answer: "Atualmente, Cid Kagenou (Shadow) and Gojo são considerados de primeira linha para farmar chefes devido ao seu alto dano explosivo e frames de invencibilidade (iframes)."
+  },
+  {
+    question: "Com que frequência os Chefes Mundiais aparecem?",
+    answer: "A maioria dos Chefes Mundiais no Sakura Stand tem um cronômetro de spawn que varia de 60 a 120 minutos, dependendo do nível de atividade do servidor específico."
+  },
+  {
+    question: "Consigo derrotar o Sukuna ou o Toji sozinho?",
+    answer: "É possível no Nível 100 com uma spec no nível máximo, mas é altamente recomendável trazer pelo menos outro jogador para ajudar a gerenciar a agressividade do chefe."
+  },
+  {
+    question: "Os drops dos chefes desaparecem se eu não os coletar?",
+    answer: "Sim, os saques permanecem no chão por 60 segundos antes de desaparecerem. Certifique-se de limpar a área e pegar seus itens imediatamente após a eliminação."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Lembre-se de que o balanceamento do jogo em 2026 está sujeito a alterações. Sempre verifique o Discord oficial ou a Wiki do Sakura Stand para ver as notas de atualização mais recentes sobre a vida dos chefes e taxas de drop.
+</Callout>
+
+</Section>

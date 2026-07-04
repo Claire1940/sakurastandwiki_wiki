@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Boss trong Sakura Stand: Hướng dẫn Chiến đấu & Tỷ lệ Rơi Đồ 2026",
+  description: "Chinh phục tất cả các boss trong Sakura Stand với hướng dẫn toàn diện năm 2026. Tìm hiểu vị trí xuất hiện, tỷ lệ rơi đồ của Sukuna và Toji, cùng các chiến thuật chiến đấu nâng cao.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1a1a2e/ffffff?text=Sakura+Stand+Bosses+Guide",
+  date: "2026-07-04",
+  author: "Đội ngũ Wiki Sakura Stand",
+  keywords: "sakura stand bosses, hướng dẫn sakura stand, tỷ lệ rơi đồ sukuna, toji sakura stand, boss raid 2026"
+}
+
+<Callout type="info" title="Hướng dẫn Nhanh">
+- **Boss trong Sakura Stand** là yếu tố thiết yếu để mở khóa các Spec cấp cao như Sukuna, Toji và Mahoraga.
+- **World Bosses** xuất hiện theo thời gian cụ thể hoặc yêu cầu các vật phẩm triệu hồi duy nhất như Ngón tay Nguyền hồn (Cursed Fingers).
+- **Tỷ lệ Rơi Đồ** thay đổi đáng kể, với hầu hết các vật phẩm tiến hóa có tỷ lệ từ 1% đến 10%.
+- **Chiến thuật Chiến đấu** phụ thuộc nhiều vào việc quản lý iframe (giây bất tử) và hiểu rõ các dấu hiệu tấn công của boss.
+- **Chơi theo Nhóm** được khuyến khích mạnh mẽ đối với Raid Boss để đảm bảo hiệu quả tối đa và phân phối chiến lợi phẩm.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về Boss Sakura Stand năm 2026">
+
+Trong bối cảnh không ngừng phát triển của Sakura Stand, các boss đóng vai trò là những người gác cổng chính dẫn đến sức mạnh. Cho dù bạn đang săn lùng Thiên Nghịch Mâu (Inverted Spear of Heaven) hay cố gắng thuần phục Vua Lời Nguyền, việc hiểu rõ hệ thống phân cấp của các cuộc chạm trán này là vô cùng quan trọng. Tính đến tháng 7 năm 2026, trò chơi đã giới thiệu một số cơ chế mới giúp các trận chiến với boss trở nên năng động hơn, yêu cầu người chơi phải điều chỉnh build và chiến thuật của mình.
+
+Boss trong Sakura Stand thường được chia thành ba cấp: Boss Cốt truyện (Story Bosses), Boss Thế giới (World Bosses) và Boss Raid (Raid Bosses). Mỗi cấp độ cung cấp các phần thưởng khác nhau và yêu cầu mức độ chuẩn bị khác nhau.
+
+| Cấp độ Boss | Độ khó | Phần thưởng Chính | Loại Xuất hiện |
+| :--- | :--- | :--- | :--- |
+| **Boss Cốt truyện** | Dễ đến Trung bình | EXP cơ bản, Token | Theo phụ bản |
+| **Boss Thế giới** | Khó | Vật phẩm Tiến hóa, Spec Hiếm | Thời gian Toàn cầu |
+| **Boss Raid** | Cực khó | Vật phẩm Thần thoại, Danh hiệu | Triệu hồi/Sự kiện |
+
+<Callout type="info" title="Thay đổi Meta 2026">
+Các bản cập nhật năm 2026 đã tăng lượng máu (HP) của tất cả World Boss. Việc "dồn sát thương" kết liễu boss nhanh chóng không còn khả thi nếu không có một Spec hồi máu hoặc tank chuyên dụng trong đội của bạn.
+</Callout>
+
+Hiểu rõ nơi những thực thể này xuất hiện là bước đầu tiên để làm chủ trò chơi. Hầu hết các cuộc chạm trán cấp cao diễn ra tại Vùng đất hoang (Wasteland) hoặc Khu đô thị (Urban District), những khu vực được thiết kế đặc biệt để xử lý các trận chiến quy mô lớn mà không ảnh hưởng đến người chơi mới.
+
+</Section>
+
+<Section icon={Swords} title="Hồ sơ Boss Chính và Cơ chế">
+
+Để thành công trước các **boss Sakura Stand**, bạn phải nghiên cứu bộ kỹ năng của chúng. Mỗi boss chính đều có "Giai đoạn Tuyệt vọng" (Desperation Phase) được kích hoạt ở mức 25% HP, nơi tốc độ tấn công và sát thương đầu ra của chúng tăng lên đáng kể.
+
+<CardGrid cols={3}>
+  <Card title="Sukuna (Vua Lời Nguyền)">
+    - **Tấn công Chính**: Dismantle (Giải), Cleave (Bát)
+    - **Kỹ năng Cuối**: Malevolent Shrine (Phục Ma Ngự Độc Tử)
+    - **Vật phẩm Rơi**: Ngón tay Sukuna (10%)
+  </Card>
+  <Card title="Toji Fushiguro">
+    - **Tấn công Chính**: Sức mạnh Thể chất, Playful Cloud (Du Vân)
+    - **Kỹ năng Cuối**: Phục kích Kho chứa Ẩn
+    - **Vật phẩm Rơi**: Thiên Nghịch Mâu (5%)
+  </Card>
+  <Card title="Mahoraga">
+    - **Tấn công Chính**: Kiếm Diệt Vong (Sword of Extermination)
+    - **Kỹ năng Cuối**: Bánh xe Thích nghi
+    - **Vật phẩm Rơi**: Bánh xe Tám tay (2%)
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Sự Thích nghi của Boss">
+Khi chiến đấu với Mahoraga, hãy tránh sử dụng cùng một loại tấn công nguyên tố liên tục. Cơ chế "Thích nghi" cho phép hắn kháng 90% một loại sát thương sau khi chịu ba đòn đánh liên tiếp thuộc loại đó.
+</Callout>
+
+| Tên Boss | Cấp độ Khuyến nghị | Spec Khắc chế Tốt nhất | Vị trí Thường gặp |
+| :--- | :--- | :--- | :--- |
+| **Sukuna** | 80+ | Gojo / Cid Kagenou | Trung tâm Vùng đất hoang |
+| **Toji** | 75+ | Astolfo / Deku | Hẻm nhỏ Khu đô thị |
+| **Shadow** | 90+ | Anubis / Cross | Vết nứt Chiều không gian |
+| **Gojo** | 100+ | Toji / Sukuna | Đảo Trên không |
+
+Mỗi boss yêu cầu một cách tiếp cận chiến thuật khác nhau. Ví dụ, Toji cực kỳ cơ động và có thể vô hiệu hóa nhiều khả năng của Stand, khiến hắn trở thành cơn ác mộng đối với những người chơi chỉ dựa vào các đòn tấn công tầm xa. Ngược lại, Sukuna gây sát thương diện rộng (AoE) khổng lồ, đòi hỏi việc căn thời gian lướt và đỡ đòn cực kỳ chính xác.
+
+</Section>
+
+<Section icon={Target} title="Cách Triệu hồi và Xác định Vị trí Boss">
+
+Không phải tất cả các **boss Sakura Stand** đều xuất hiện theo bộ đếm thời gian. Nhiều boss yêu cầu các nghi lễ hoặc vật phẩm cụ thể để hiện thân trong thế giới game. Thực hiện đúng các bước là rất quan trọng để tránh lãng phí các tài nguyên triệu hồi quý hiếm.
+
+<Steps>
+  <Step num="1" title="Thu thập Vật phẩm Triệu hồi">
+    Thu thập các vật phẩm cần thiết như Ngón tay Nguyền hồn, Mysterious Orbs hoặc Boss Keys từ các NPC tiêu chuẩn hoặc nhiệm vụ hàng ngày.
+  </Step>
+  <Step num="2" title="Tìm kiếm Bàn thờ">
+    Di chuyển đến quần xã sinh vật cụ thể liên quan đến boss. Ví dụ, Bàn thờ Nguyền hồn nằm sâu trong khu vực rừng.
+  </Step>
+  <Step num="3" title="Dọn dẹp Khu vực">
+    Đảm bảo không có quái vật khác hoặc người chơi thù địch ở gần, vì máu của boss sẽ tăng tiến dựa trên số lượng người chơi trong vùng lân cận.
+  </Step>
+  <Step num="4" title="Bắt đầu Nghi lễ">
+    Tương tác với bàn thờ trong khi cầm vật phẩm triệu hồi. Một thông báo toàn cầu thường sẽ thông báo cho máy chủ về sự xuất hiện của boss.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Mẹo Hiệu quả">
+Luôn kiểm tra "Server Age" (Tuổi của Máy chủ) trong menu. Nhiều World Boss có thời gian hồi ẩn được thiết lập lại sau mỗi 2 giờ máy chủ hoạt động. Các máy chủ mới ít có khả năng có boss đang hoạt động.
+</Callout>
+
+| Vật phẩm Triệu hồi | Boss được Tạo ra | Nguồn Rơi | Độ hiếm |
+| :--- | :--- | :--- | :--- |
+| **Cursed Finger** | Sukuna | NPC Nguyền hồn | Hiếm |
+| **Worn Scabbard** | Cid Kagenou | Cửa hàng / Rương | Không phổ biến |
+| **Broken Wheel** | Mahoraga | Raid cấp cao | Huyền thoại |
+
+</Section>
+
+<Section icon={Trophy} title="Vật phẩm Rơi và Lộ trình Tiến hóa">
+
+Động lực chính khi săn **boss Sakura Stand** là chiến lợi phẩm. Những vật phẩm này thường là thành phần cuối cùng cần thiết để tiến hóa một Spec cơ bản thành dạng "Thật" (True) hoặc "Thức tỉnh" (Awakened). Năm 2026, hệ thống bảo hiểm (pity system) đã được điều chỉnh nhẹ để đảm bảo người chơi cuối cùng sẽ nhận được món đồ mong muốn sau một số lần tiêu diệt nhất định.
+
+| Tên Vật phẩm | Tỷ lệ Rơi | Sử dụng cho | Nguồn Boss |
+| :--- | :--- | :--- | :--- |
+| **Inverted Spear** | 5% | Tiến hóa Spec Toji | Toji Fushiguro |
+| **Sukuna Finger** | 10% | Spec Vessel | Sukuna |
+| **Extermination Blade**| 3% | Thông thạo Mahoraga | Mahoraga |
+| **Shadow Essence** | 7% | Thức tỉnh Cid Kagenou | Shadow |
+| **Dimensional Shard** | 15% | Nâng cấp tất cả Spec | Bất kỳ World Boss nào |
+
+<Callout type="success" title="Tối ưu hóa Chiến lợi phẩm">
+Trang bị thuộc tính "Luck" (May mắn) hoặc sử dụng Thuốc May mắn trước khi boss còn 0% HP có thể tăng tỷ lệ rơi đồ của bạn lên tới 2.5 lần. Luôn để dành thuốc cho World Boss.
+</Callout>
+
+Ngoài các vật phẩm tiến hóa, boss còn rơi ra Token và Điểm Thông thạo (Mastery Points). Đây là những thứ thiết yếu để nâng cấp cây kỹ năng của Stand. Một lần tiêu diệt boss Cấp 3 có thể cung cấp đủ Điểm Thông thạo để mở khóa hai hoặc ba nút kỹ năng cuối game, giúp việc này hiệu quả hơn nhiều so với việc cày quái thông thường.
+
+</Section>
+
+<Section icon={Shield} title="Danh sách Chuẩn bị và Chiến đấu">
+
+Trước khi đối đầu với bất kỳ **boss Sakura Stand** cấp cao nào, bạn phải đảm bảo nhân vật của mình được trang bị đúng cách. Tham gia một trận chiến khi chưa đủ cấp độ hoặc sai trang bị là cách nhanh nhất để mất đi tiến trình của bạn.
+
+<Checklist
+  id="boss-prep"
+  title="Các yếu tố Thiết yếu Trước trận đấu:"
+  items={[
+    "Trang bị một Spec có ít nhất hai kỹ năng cơ động",
+    "Tích trữ thuốc hồi HP và Stamina",
+    "Đảm bảo Cấp độ của bạn không thấp hơn Boss quá 5 cấp",
+    "Tham gia một tổ đội để chia sẻ buff và thu hút sự chú ý của boss",
+    "Kiểm tra ping để đảm bảo thời gian lướt né đòn chính xác"
+  ]}
+/>
+
+<Callout type="tip" title="Lời khuyên Chiến đấu Chuyên nghiệp">
+Hãy học cơ chế "Perfect Block" (Đỡ đòn Hoàn hảo). Việc đỡ đòn thành công một đòn tấn công nặng của boss sẽ làm chúng bị choáng trong 2 giây, tạo cơ hội cho các combo gây sát thương cao nhất của bạn.
+</Callout>
+
+| Chỉ số Chiến đấu | Tầm quan trọng | Giá trị Khuyến nghị |
+| :--- | :--- | :--- |
+| **Máu (Health)** | Thiết yếu | 1,500+ |
+| **Thể lực (Stamina)** | Cao | 500+ |
+| **Sát thương** | Vừa phải | 200+ mỗi đòn |
+| **Phòng thủ** | Cao | 15% Giảm sát thương |
+
+Thành công trong Sakura Stand không chỉ là sở hữu Stand mạnh nhất; đó còn là về sự di chuyển. Các boss như Shadow sử dụng các đòn tấn công dịch chuyển tức thời có thể hạ gục người chơi đứng yên quá lâu trong một nốt nhạc. Hãy liên tục di chuyển, quản lý thể lực và đợi boss kết thúc chu kỳ kỹ năng trước khi phản công.
+
+</Section>
+
+<Section icon={Sparkles} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Spec nào tốt nhất để cày boss Sakura Stand?",
+    answer: "Hiện tại, Cid Kagenou (Shadow) và Gojo được coi là những lựa chọn hàng đầu để cày boss nhờ sát thương bùng nổ cao và các khung hình bất tử (invincibility frames)."
+  },
+  {
+    question: "World Boss xuất hiện bao lâu một lần?",
+    answer: "Hầu hết các World Boss trong Sakura Stand có thời gian hồi xuất hiện từ 60 đến 120 phút, tùy thuộc vào mức độ hoạt động của máy chủ cụ thể."
+  },
+  {
+    question: "Tôi có thể đánh đơn (solo) Sukuna hoặc Toji không?",
+    answer: "Điều đó là có thể ở Cấp độ 100 với một spec được nâng cấp tối đa, nhưng chúng tôi khuyên bạn nên đi cùng ít nhất một người chơi khác để giúp quản lý sự hung hãn của boss."
+  },
+  {
+    question: "Vật phẩm rơi ra từ boss có biến mất nếu tôi không nhặt không?",
+    answer: "Có, các vật phẩm rơi ra sẽ tồn tại trên mặt đất trong 60 giây trước khi biến mất. Hãy đảm bảo dọn dẹp khu vực và nhặt đồ ngay sau khi tiêu diệt boss."
+  }
+]} />
+
+<Callout type="info" title="Lưu ý Cuối cùng">
+Hãy nhớ rằng sự cân bằng game năm 2026 có thể thay đổi. Luôn kiểm tra Discord hoặc Wiki chính thức của Sakura Stand để biết các ghi chú bản vá mới nhất liên quan đến máu của boss và tỷ lệ rơi đồ.
+</Callout>
+
+</Section>

@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Localizações do Sakura Stand: Guia do Mapa de 2026 e Pontos de Interesse",
+  description: "Navegue pelo mundo do Sakura Stand com o nosso guia de 2026 para todas as localizações principais, incluindo a Loja, Laboratório, O Poço (The Pit) e áreas de missões ocultas.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Sakura+Stand+Locations+Guide",
+  date: "2026-07-04",
+  author: "Equipe do Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Localizações do Sakura Stand**: Pontos essenciais para a sua progressão, incluindo lojas, zonas de missões e locais de surgimento de chefes.
+- **Ponto Central**: A área da **Loja** (Shop) serve como o local principal para gerenciamento e armazenamento de itens.
+- **Progressão de Missões**: Locais críticos como o **Laboratório** (Laboratory) e **O Poço** (The Pit) são necessários para specs de alto nível, como o Wonder of U.
+- **Eventos de Combate**: O **Altar** é o ponto de surgimento exclusivo para o Silver Chariot Requiem a cada hora.
+- **Interação com NPCs**: A maioria das specs principais exige a visita a NPCs específicos localizados no **Beco** (Back Alley) ou no **EAT N4**.
+</Callout>
+
+<Section icon={Map} title="Pontos Centrais de Navegação e Lojas">
+
+Entender o layout das **localizações do Sakura Stand** é o primeiro passo para uma progressão eficiente em 2026. O mundo é dividido em várias zonas funcionais, com a **Loja** (Shop) e o **Campo de Batalha** (Battlefield) servindo como os pilares centrais para os jogadores. A Loja não é apenas um lugar para gastar sua moeda; é o coração logístico do jogo, onde você gerencia seu inventário e interage com NPCs importantes.
+
+Do outro lado da Loja principal, você encontrará o **NPC Hika**, enquanto lá dentro, o **Simple NPC** oferece o serviço essencial de armazenar e equipar seus stands e specs. Se você deseja melhorar sua classificação competitiva, o **Campo de Batalha** é onde você troca **Pontos de Avanço** (Breakthrough Points) por itens exclusivos e títulos que demonstram sua habilidade.
+
+| Nome do Local | Função Principal | NPC Principal / Recurso |
+| :--- | :--- | :--- |
+| **Loja (Shop)** | Compra e armazenamento de itens | Auddy, Simple NPC, Hika |
+| **Campo de Batalha (Battlefield)** | Recompensas competitivas | Loja de Avanço, Títulos |
+| **Quadra de Basquete (Basketball Court)** | Interação relacionada a missões | Jinpachi Ego, Isagi Yoichi |
+| **EAT N4** | Iniciação de missões especializadas | N4Animation (Sandevistan) |
+
+<CardGrid cols={2}>
+  <Card title="Serviços da Loja">
+    - **Auddy**: Compre itens que normalmente são encontrados em caixas aleatórias.
+    - **Simple NPC**: Essencial para alternar entre diferentes stands e specs.
+    - **Proximidade**: Localizado perto do centro do mapa para facilitar o acesso.
+  </Card>
+  <Card title="Recompensas do Campo de Batalha">
+    - **Pontos de Avanço**: Obtidos através de combates e trocados por equipamentos.
+    - **Títulos Exclusivos**: Desbloqueie títulos cosméticos e baseados em status.
+    - **Meta Competitivo**: A zona principal para testar builds de alto nível.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Gerenciamento de Armazenamento">
+Sempre visite o **Simple NPC** na Loja antes de partir para uma missão importante. Gerenciar seus specs armazenados de forma eficaz garante que você tenha as ferramentas certas para encontros específicos com chefes ou requisitos de missões sem precisar voltar todo o caminho.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Localizações de Missões Específicas e Progressão">
+
+Muitos dos specs mais poderosos do jogo exigem a visita a **localizações específicas do Sakura Stand** que geralmente estão escondidas ou requerem gatilhos específicos. Para os jogadores que buscam a linha de missões do **Wonder of U** ou do **Ronin**, o **Laboratório** (Laboratory) e **O Poço** (The Pit) são paradas obrigatórias. Essas áreas são projetadas para a progressão do meio ao fim do jogo e frequentemente envolvem sequências complexas de interação.
+
+O **Laboratório** é utilizado especificamente para obter o **New Locacaca**, um item crítico para a missão do Wonder of U. Enquanto isso, **O Poço** e o sistema de cavernas do **Beco** (Back Alley) servem como pano de fundo para o Despertar do Ronin. Navegar por essas áreas exige uma compreensão clara das etapas da missão para evitar perder tempo em zonas perigosas.
+
+| Linha de Missão | Local Exigido | Objetivo Principal |
+| :--- | :--- | :--- |
+| **Wonder of U** | Laboratório | Obter o New Locacaca |
+| **Wonder of U** | O Poço (The Pit) | Concluir os testes de progressão |
+| **Ronin** | Caverna do Beco | Interagir com o Livro Estranho (Strange Book) |
+| **Ronin** | O Poço (The Pit) | Sequência de Despertar do Ronin |
+| **Sandevistan** | EAT N4 | Iniciar missão com N4Animation |
+
+<Steps>
+  <Step num="1" title="Localize o Beco">
+    Navegue por trás dos principais edifícios comerciais para encontrar o Beco (Back Alley). Esta área contém a entrada de uma caverna escondida.
+  </Step>
+  <Step num="2" title="Encontre o Livro Estranho">
+    Entre na caverna dentro do Beco para encontrar o **NPC Strange Book** (Livro Estranho). Este é um passo obrigatório para a **Linha de Missão do Ronin**.
+  </Step>
+  <Step num="3" title="Acesse O Poço Mais Profundo">
+    Continue pelo sistema de cavernas para chegar ao **O Poço Mais Profundo** (The Deepest Pit), que é usado nas fases avançadas do despertar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisitos de Missão">
+Certifique-se de que a missão correta está ativa antes de entrar no **O Poço** ou no **Laboratório**. Muitos NPCs nesses locais não interagirão com você a menos que a etapa específica da missão tenha sido alcançada no seu diário.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Zonas de Combate e Surgimento de Eventos">
+
+Para os jogadores que procuram combate ou a aquisição de stands raros, certas **localizações do Sakura Stand** funcionam com base em um cronômetro. O **Altar** é talvez o mais famoso deles, atuando como o ponto de surgimento do **Silver Chariot Requiem (SCR)**. Este evento ocorre a cada hora, atraindo grandes multidões de jogadores que buscam desafiar o chefe ou testemunhar o evento.
+
+Outras áreas, como a **Quadra de Basquete** (Basketball Court), são menos focadas no combate tradicional e mais voltadas para interações específicas com NPCs exigidas para specs especializadas, como as inspiradas em Blue Lock. A interação com **Jinpachi Ego** e **Isagi Yoichi** acontece aqui, tornando-se uma área de alto tráfego para os fãs dessa ramificação de spec.
+
+| Evento / NPC | Localização | Cronograma / Gatilho |
+| :--- | :--- | :--- |
+| **Silver Chariot Requiem** | Altar | A cada 60 minutos (De hora em hora) |
+| **Jinpachi Ego** | Quadra de Basquete | NPC Permanente |
+| **Isagi Yoichi** | Quadra de Basquete | NPC Permanente |
+| **N4Animation** | EAT N4 | Inicia a Missão do Sandevistan |
+
+<Callout type="success" title="Tempo do Evento">
+Se você estiver caçando o Silver Chariot Requiem, chegue ao **Altar** pelo menos 5 minutos antes da hora cheia. A área pode ficar lotada, e posicionar-se corretamente é fundamental para participar do evento.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Áreas Ocultas e Dicas de Exploração">
+
+Além dos pontos de referência óbvios, as **localizações do Sakura Stand** incluem vários pontos \"ocultos\" ou menos visitados que são vitais para os completacionistas. O **Beco** (Back Alley) é mais do que apenas um caminho; ele guarda a entrada para o sistema de cavernas que leva ao **Strange Book**. Essa área costuma ser ignorada por novos jogadores que preferem ficar nas ruas principais.
+
+A exploração no Sakura Stand é recompensada com lore e gatilhos de missões. Por exemplo, **O Poço Mais Profundo** (The Deepest Pit) está localizado no fundo das estruturas das cavernas e, embora possa parecer vazio, é um ponto focal para os níveis mais altos da progressão do Ronin.
+
+<Checklist
+  id="exploration-checklist"
+  title="Pontos de Exploração Obrigatórios:"
+  items={[
+    "Localizar o NPC Strange Book na Caverna do Beco",
+    "Encontrar a entrada oculta para O Poço Mais Profundo (The Deepest Pit)",
+    "Identificar o canto específico em EAT N4 para o Sandevistan",
+    "Visitar o Laboratório para procurar pelo New Locacaca",
+    "Marcar o Altar no seu mapa mental para os surgimentos de hora em hora"
+  ]}
+/>
+
+<Callout type="info" title="Eficiência de Navegação">
+Use a **Loja** como seu ponto de orientação. A maioria das direções na comunidade é dada em relação à entrada da Loja. Por exemplo, o Beco geralmente fica localizado atrás do quarteirão da Loja.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resumo das Localizações e Guia de NPCs">
+
+Para consolidar sua compreensão do mapa, é útil categorizar as **localizações do Sakura Stand** pelos NPCs que as habitam. Isso permite que você decida rapidamente para onde ir com base no que precisa realizar, seja atualizar um stand, iniciar uma nova missão ou comprar itens.
+
+| Nome do NPC | Localização | Serviço Prestado |
+| :--- | :--- | :--- |
+| **Auddy** | Loja (Shop) | Loja de Itens (Caixas, etc.) |
+| **Simple NPC** | Loja (Shop) | Armazenamento de Stand/Spec |
+| **Strange Book** | Caverna do Beco | Progressão da Missão do Ronin |
+| **N4Animation** | EAT N4 | Início da Missão do Sandevistan |
+| **Hika** | Em frente à Loja | Interação Geral |
+
+<Callout type="tip" title="Interação com NPCs">
+Se um NPC não estiver respondendo, verifique seu \"Spec\" ou \"Stand\" atual. Alguns NPCs em **localizações específicas do Sakura Stand** só falarão com você se você estiver usando um poder específico ou se tiver alcançado um determinado nível.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o melhor lugar para armazenar meus stands no Sakura Stand?",
+    answer: "O melhor local é a Loja, especificamente conversando com o Simple NPC. Este NPC permite que você armazene e equipe seus diferentes stands e specs de maneira eficiente."
+  },
+  {
+    question: "Com que frequência o Silver Chariot Requiem surge no Altar?",
+    answer: "O Silver Chariot Requiem surge no Altar exatamente a cada hora. É um evento consistente que os jogadores utilizam para obter itens específicos e experiência."
+  },
+  {
+    question: "Qual é a finalidade do Laboratório?",
+    answer: "O Laboratório é usado principalmente para a linha de missões do Wonder of U. É o local onde os jogadores podem obter o New Locacaca, um item essencial para a missão."
+  },
+  {
+    question: "Onde posso encontrar o NPC para iniciar a missão do Sandevistan?",
+    answer: "Você precisa ir até a localização EAT N4 e encontrar o NPC N4Animation. Ele é o responsável por iniciar a linha de missões do Sandevistan."
+  }
+]} />
+
+</Section>
