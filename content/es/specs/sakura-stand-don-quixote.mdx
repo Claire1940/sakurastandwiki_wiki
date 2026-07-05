@@ -1,0 +1,217 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand don quixote: Desbloqueo, movimientos y consejos de Sancho",
+  description: "Aprende cómo funciona Sancho en Sakura Stand, desde su obtención legacy hasta la gestión de Hardblood, los valores de daño y las prioridades prácticas de combate.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Sancho+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de sakura stand"
+}
+
+<Callout type="info" title="Guía rápida">
+- **sakura stand don quixote** se centra en Sancho, una spec basada en Hardblood con obtención legacy en mazmorra.
+- La **gestión de Hardblood** importa porque los M1 lo generan y el límite está en 40.
+- Los **movimientos variante** se vuelven más fuertes cuando guardas suficiente Hardblood para la versión mejorada.
+- El **estado legacy** es importante: la nota original de la mazmorra dice que La Manchaland ya no puede aparecer.
+- La **planificación del daño** debería favorecer ventanas de ráfaga, aturdimientos y el contraataque de postura.
+</Callout>
+
+<Section icon={Map} title="sakura stand don quixote: Resumen de Sancho">
+
+Sancho, The Second Kindred, es una spec de gran pegada basada en el control del recurso de sangre, la presión a distancia y ráfagas punitivas. El kit se apoya en una idea simple: generar Hardblood con ataques básicos y movimientos clave, y luego gastarlo en variantes mejoradas cuando se alcance el umbral adecuado.
+
+<CardGrid cols={4}>
+  <Card title="Identidad central">
+    Spec centrada en sangre con gran ráfaga, una postura de contraataque y varias mejoras de Hardblood.
+  </Card>
+  <Card title="Regla del recurso">
+    Cada M1 otorga **1 Hardblood** y algo de robo de vida, así que las cadenas básicas forman parte del kit.
+  </Card>
+  <Card title="Límite de Hardblood">
+    Hardblood tiene un límite de **40**, lo que hace que gastar el recurso sea una parte real de la rotación.
+  </Card>
+  <Card title="Acceso legacy">
+    La ruta original de la mazmorra está archivada, así que trata los detalles de obtención como datos de referencia.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Estado actual">
+La ruta original de La Manchaland ya no está activa en el material de referencia. Mantén esta sección como una guía de build y un registro histórico de desbloqueo, no como una ruta de farmeo activa.
+</Callout>
+
+| Tema | Detalles |
+|---|---|
+| Nombre de la spec | Sancho, The Second Kindred |
+| Recurso | Hardblood |
+| Límite de Hardblood | **40** |
+| Pasiva | Los M1 otorgan **1 Hardblood** y robo de vida |
+| Objeto de desbloqueo legacy | Hardblood Lance |
+| Requisito de desbloqueo | Usa Hardblood Lance sobre **Vampirism** |
+
+</Section>
+
+<Section icon={Target} title="Ruta legacy de obtención">
+
+La ruta de desbloqueo archivada sigue siendo importante si quieres entender de dónde salió Sancho. La Manchaland era una mazmorra que aparecía cada dos horas en tiempo del servidor, permitía seis jugadores y podía surgir en una de tres ubicaciones de túnel. La nota de la mazmorra también dice que ya no puede aparecer, así que la ruta se debe tratar mejor como documentación histórica.
+
+<Steps>
+  <Step num="1" title="Encuentra la aparición de la mazmorra">
+    La Manchaland podía aparecer en **Okarun Tunnel**, **Beach Tunnel** o **Library Tunnel**.
+  </Step>
+  <Step num="2" title="Entra con un grupo pequeño">
+    Podían entrar hasta **seis jugadores**, así que el daño coordinado importaba más que correr en solitario.
+  </Step>
+  <Step num="3" title="Encabeza la tabla de daño">
+    El jugador con más daño recibía el objeto **Hardblood Lance**.
+  </Step>
+  <Step num="4" title="Convierte el objeto">
+    Usar **Hardblood Lance** sobre **Vampirism** otorgaba la spec Sancho.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de planificación de la ruta">
+Si estás documentando a Sancho para una página de wiki o un archivo de builds, separa el antiguo método de desbloqueo del kit de combate actual. Eso mantiene la guía precisa incluso cuando la aparición no está disponible.
+</Callout>
+
+| Detalle de aparición | Valor |
+|---|---|
+| Intervalo de aparición | Cada **2 horas** en tiempo del servidor |
+| Tamaño del grupo | Hasta **6 jugadores** |
+| Posibles ubicaciones | Okarun Tunnel, Beach Tunnel, Library Tunnel |
+| Condición de recompensa | Mayor daño infligido |
+| Objeto resultante | Hardblood Lance |
+
+</Section>
+
+<Section icon={Swords} title="Movimientos, daño y Hardblood">
+
+La lista de movimientos de Sancho está pensada para jugadores que pueden llevar el control de los umbrales. Varios ataques generan Hardblood al usarse, mientras que las variantes mejoradas convierten el recurso guardado en mejor seguimiento o mayor ráfaga. La forma más segura de leer el kit es agrupar los movimientos en aperturas, herramientas de ráfaga y utilidades.
+
+<Callout type="info" title="Patrón del kit">
+Genera Hardblood con M1 y movimientos de bajo coste, y luego gástalo en la versión que encaje con tu ventana. Las versiones por umbral son donde la spec se siente más eficiente.
+</Callout>
+
+| Movimiento | Tecla | Daño | Hardblood / Rol |
+|---|---|---|---|
+| Don Quixote Hardblood Arts 2 Armadura De Sangre | Q | **48.5** | Apertura con remolino de sangre y empuje |
+| Sanguine Joy | E | **35** | Otorga **2 Hardblood**, poke a corta distancia |
+| Variant Sancho Hardblood Arts 6: Whips | E + Ten HB | **55** | Ráfaga de conversión con látigos |
+| Let all Blossom Free | R | **38.5** | Otorga **2 Hardblood**, estocada de lanza hacia delante |
+| Variant Sancho Hardblood Arts 8: Split Apart | R + Ten HB | **37.5** | Combo variante de doble espada |
+| I shall Impale | T | **75** | Carrera y golpe de alto daño |
+| Ascendant Hardblood Art: La Sangre | T + Fifteen HB | **88.5** | T más fuerte con una carrera extra |
+| Wound | Y | **35** | Otorga **1 Hardblood**, presión para romper guardia |
+| La Aventura Ha Terminado | G | **73.5** | Otorga **4 Hardblood**, iniciador de aturdimiento en área |
+| Variant Sancho Hardblood Arts 4: Track | H | **41** | Otorga **2 Hardblood**, presión de siete flechas |
+| Ecstasy of Blood | H + Twenty HB | **74** | Ocho cortes, luego remate de flecha |
+| Laughter Will Subside | Z | **23** | Postura de contraataque; empala al impactar |
+
+| Detalle pasivo | Efecto |
+|---|---|
+| Pasiva M1 | Cada M1 otorga **1 Hardblood** |
+| Sostenimiento | Los M1 también proporcionan **algo de robo de vida** |
+| Límite de recurso | Hardblood tiene un límite de **40** |
+| Lógica de mejora | Las variantes por umbral consumen Hardblood para versiones mejoradas |
+
+<Callout type="tip" title="Lectura del daño">
+Sancho no se trata solo de pulsar el botón con más daño. Los mejores resultados suelen venir de enlazar los generadores de Hardblood en una ventana de ráfaga limpia en vez de gastar el recurso demasiado pronto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor bucle de combate y orden de prioridad">
+
+El bucle más limpio de Sancho es sencillo: establece Hardblood, fuerza movimiento y luego cobra con la versión que coincida con la apertura que creaste. La postura en Z añade una capa defensiva, útil cuando el rival quiere interrumpir tu preparación. Una vez aprendes dónde encaja cada movimiento, el kit se siente mucho menos lineal.
+
+<CardGrid cols={3}>
+  <Card title="Ventana de ráfaga">
+    Usa tus gastadores de Hardblood cuando el objetivo ya esté comprometido o aturdido.
+  </Card>
+  <Card title="Herramienta de presión">
+    Mantén listas opciones a distancia y media distancia para no quedar forzado a un solo enfoque.
+  </Card>
+  <Card title="Capa defensiva">
+    Trata **Z** como una comprobación de amenaza, no como un botón de pánico que malgastas en el vacío.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Regla de prioridad">
+Empieza con generadores de Hardblood, amenaza con daño seguro y luego comprométete con tu movimiento mejorado solo después de que el oponente tenga opciones de escape limitadas.
+</Callout>
+
+| Situación | Mejor herramienta | Por qué funciona |
+|---|---|---|
+| Necesitas recurso temprano | **Sanguine Joy**, **Let all Blossom Free**, **Wound** | Estas acciones ayudan a generar Hardblood mientras mantienen la presión activa |
+| Necesitas castigar | **I shall Impale**, **La Aventura Ha Terminado** | Ambas ofrecen una ráfaga clara y premian el buen timing |
+| Necesitas un contraataque | **Laughter Will Subside** | La postura puede revertir un exceso de agresividad |
+| Necesitas presión a distancia | **Variant Track**, **Ecstasy of Blood** | Mantienen al enemigo en movimiento y controlan el espacio |
+| Necesitas extender combo | **Ascendant La Sangre** | La carrera extra ayuda a mantener el contacto tras el primer golpe |
+
+<Checklist
+  id="sancho-combat-checklist"
+  title="Lista de comprobación de combate de Sancho:"
+  items={[
+    "Genera Hardblood con M1 antes de gastarlo en una variante",
+    "Usa Z cuando el oponente probablemente fuerce un intercambio",
+    "Guarda G para una apertura comprometida o un momento de presión cerrada",
+    "Elige variantes de T o H cuando el umbral aporte valor real",
+    "Evita malgastar Hardblood cuando el objetivo todavía puede alejarse"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Pose, música y trivia">
+
+Sancho también tiene un paquete temático interesante, lo cual importa si estás construyendo una entrada completa de wiki o puliendo una página de personaje. La combinación de poses y música es simple, pero ayuda a vincular la spec con su identidad. La nota de trivia es breve, pero ofrece contexto útil sobre la dirección del diseño.
+
+<Callout type="tip" title="Enlace de referencia">
+Página de referencia archivada: [Sancho | Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Sancho) (2026-07-05).
+</Callout>
+
+| Pose | Música | Nota |
+|---|---|---|
+| Pose One | Tema de batalla del jefe 4 de Canto VII | Pose inactiva con sensación de combate contra jefe |
+| Pose Two | Hero \| Sueño Imposible | Combinación alternativa de pose |
+| Nota de trivia | ID de Manager of LaManchaland | La mayor parte de la spec se basa en esa identidad de origen |
+| Movimientos basados en el jefe | 6 movimientos | El kit toma muchas ideas del jefe Sancho |
+
+<Callout type="info" title="Resumen temático">
+Si quieres que la spec se sienta auténtica en tu redacción, mantén el énfasis en sus nombres de movimientos inspirados en el jefe, el ciclo de recurso de sangre y sus raíces legacy en mazmorra.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Enfoque de la FAQ">
+Usa estas respuestas para mantener el artículo consistente: la ruta es legacy, los valores de daño están fijados por el nombre del movimiento y Hardblood es el recurso clave.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿sakura stand don quixote es lo mismo que Sancho?",
+    answer: "En este contexto, sí. La guía se centra en Sancho, The Second Kindred, que es la spec vinculada al nombre Don Quixote en la lista de movimientos."
+  },
+  {
+    question: "¿Todavía puedo farmear La Manchaland para conseguir a Sancho?",
+    answer: "Trata el método de la mazmorra como archivado. Las notas de referencia dicen que La Manchaland ya no puede aparecer, así que la vieja ruta de desbloqueo ya no está activa."
+  },
+  {
+    question: "¿Cuál es la estadística más importante que debo vigilar en Sancho?",
+    answer: "Hardblood. Los M1 lo generan, varios movimientos añaden más y el límite es 40. Las versiones por umbral dependen de gastarlo en el momento adecuado."
+  },
+  {
+    question: "¿Qué movimientos debería priorizar primero?",
+    answer: "Empieza con movimientos que generen Hardblood y creen espacio, y luego guarda las versiones por umbral para ventanas claras de castigo o presión confirmada."
+  }
+]} />
+
+</Section>

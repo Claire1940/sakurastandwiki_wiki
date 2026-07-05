@@ -1,0 +1,234 @@
+import { Map, Swords, Shield, Sparkles, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand metallica: Bộ chiêu thức, skin và mẹo chiến đấu",
+  description: "Tìm hiểu bộ chiêu thức của Metallica, các chỉ số sát thương, sự khác biệt giữa các skin và những mẫu giao tranh thực tế cho Sakura Stand.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/312e81/fff?text=Metallica+Guide",
+  date: "2026-07-05",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand metallica** là một Stand gây áp lực theo kiểu tàng hình, xoay quanh tàng hình, chảy máu và bùng nổ sát thương từ sắt.
+- **Q** giúp bạn áp sát an toàn bằng cách vô hiệu hóa hầu hết đạn đạo và che giấu hướng tiếp cận.
+- **T** mạnh hơn trong các pha giao tranh đông người, khiến áp lực theo nhóm trở nên đặc biệt giá trị.
+- **Mend Wound** mang lại khả năng hồi phục rất tốt, nhưng thời gian hồi chiêu dài khiến việc canh thời điểm trở nên quan trọng.
+- **Faceless One (Ancient)** thay đổi nhịp độ với dao găm, không có parry và một bộ chiêu thức mới.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về sakura stand metallica">
+
+Metallica trong Sakura Stand là một Stand cận chiến với tốc độ đánh lừa cảm giác. Nó nhận được từ Arrows, và bản sắc của nó được xây dựng quanh tàng hình, chảy máu và các đòn bùng nổ sát thương bất ngờ thay vì lao vào liên tục. Bộ kỹ năng này thưởng cho việc di chuyển bình tĩnh, giữ khoảng cách thông minh và trừng phạt đối thủ sau khi họ đã commit.
+
+Để tham khảo gốc, mục đầy đủ được liệt kê trên [Metallica - Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Metallica). Điểm quan trọng khi chơi rất đơn giản: Metallica mạnh nhất khi bạn tạo ra sự chần chừ, rồi chuyển sự chần chừ đó thành một cửa sổ gây sát thương nhanh.
+
+| Đặc tính | Chi tiết | Vì sao nó quan trọng |
+|---|---|---|
+| Nguồn gốc | Stand của Risotto Nero | Bản sắc chủ đề mạnh và bộ kỹ năng nhanh, chết chóc |
+| Cách nhận | Arrows | Việc sở hữu gắn với cơ chế roll Stand thông thường |
+| Loại sát thương cốt lõi | Chảy máu, bùng nổ, kiểm soát sắt | Thưởng cho áp lực kéo dài và các cửa sổ trừng phạt |
+| Tầm hiệu quả tốt nhất | Gần đến trung bình | Giúp bạn giữ đủ gần để xác nhận các đòn chính |
+| Utility chính | Tàng hình một phần | Cải thiện khả năng tiếp cận và làm rối tracking của đạn đạo |
+
+<Callout type="tip" title="Đọc đúng bộ kỹ năng">
+Đừng xem Metallica như một Stand combo thuần túy. Giá trị thật của nó đến từ việc ép đối thủ phản ứng vụng về, rồi thu lợi bằng các đòn có độ cam kết cao hơn.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Tàng hình">
+    - **Q** tạo áp lực khi áp sát
+    - Hầu hết đạn đạo sẽ xuyên qua
+    - Giúp phá nhịp của đối thủ
+  </Card>
+  <Card title="Bùng nổ">
+    - **G** và **Y** đe dọa trừng phạt nặng
+    - Chảy máu bổ sung thêm áp lực sát thương
+    - Hiệu quả nhất khi mục tiêu đã commit
+  </Card>
+  <Card title="Duy trì">
+    - **H** hồi phục tối đa 60 máu
+    - Cho bạn công cụ reset trong các trận kéo dài
+    - Hỗ trợ lối chơi kiên nhẫn
+  </Card>
+</CardGrid>
+
+| Quy tắc cốt lõi | Ảnh hưởng thực tế | Ghi chú biên tập |
+|---|---|---|
+| Giữ khó đoán | Đối thủ ra đòn sớm | Phòng thủ của bạn bắt đầu trước cả khi sát thương xuất hiện |
+| Chờ đối thủ commit | Tăng tỉ lệ thành công của các đòn trừng phạt | Metallica trừng phạt sai lầm tốt hơn là phán đoán |
+| Kiểm soát không gian | Tăng giá trị của T và E | Những đòn mạnh nhất thường đến sau khi đã kiểm soát chuyển động |
+
+</Section>
+
+<Section icon={Swords} title="Phân tích bộ chiêu thức và bảng sát thương">
+
+Bộ chiêu thức của Metallica gọn, nhưng mỗi nút đều có nhiệm vụ rõ ràng. Bộ kỹ năng này phát huy tốt nhất khi bạn nghĩ theo từng lớp: tiếp cận, làm rối loạn, trừng phạt, rồi reset. Nếu bạn bấm mọi thứ theo hồi chiêu mà không có kế hoạch, Stand sẽ mất đi rất nhiều mối đe dọa.
+
+<Callout type="warning" title="Các đòn giá trị cao cần canh thời điểm chuẩn">
+Một số đòn mạnh nhất khi đối thủ đã dùng các lựa chọn di chuyển hoặc phòng thủ. Nếu bạn tung ra quá sớm, bạn sẽ mất lợi thế áp lực vốn làm Metallica nguy hiểm.
+</Callout>
+
+| Phím | Đòn | Sát thương | Hồi chiêu | Cách dùng tốt nhất |
+|---|---|---|---|---|
+| Q | Alloyed Cloak | 0 | 44/45 giây | Vào giao tranh an toàn, bảo vệ hướng tiếp cận, ép đối thủ chần chừ |
+| E | Scalpel Combo | 17, chảy máu tối đa 23 | 8 giây | Đòn trừng phạt cận chiến ổn định và mở đầu áp lực |
+| E+ | Scalpel Barrage | 6 mỗi mảnh kim loại | 15 giây | Quấy rối tầm trung và kiểm soát khoảng cách |
+| R | Scalpel Rain | 3.5 mỗi mảnh kim loại | 19 giây | Áp lực diện rộng và chặn đường tiến lên |
+| T | Control Iron Within 10 Meters | 30, hoặc 9 nếu đang chặn | 20 giây | Công cụ trừng phạt mạnh, hiệu quả hơn ở khu vực đông người |
+| Y | Counter | 32, chảy máu tối đa 38 | 16 giây | Chặn các đòn có thể đoán trước và đảo ngược thế trận |
+| G | Take This! Metallica! | 67, chảy máu tối đa 73 | 45 giây | Đòn kết liễu bùng nổ chính và đổi nhịp thế trận |
+| H | Mend Wound | Hồi tối đa 60 máu | 1 phút | Duy trì khẩn cấp và reset |
+
+| Đòn | Điểm mạnh | Hạn chế | Khuyến nghị |
+|---|---|---|---|
+| Q | Công cụ tiếp cận phòng thủ | Hồi chiêu dài | Dùng để mở một pha giao tranh thật sự, không phải để di chuyển vặt |
+| T | Đòn trừng phạt theo số đông | Cần vị trí tốt | Giữ cho những lúc đối thủ tụ lại |
+| G | Lựa chọn bùng nổ mạnh nhất | Rất dễ bị trừng phạt nếu trượt | Dùng sau khi đã xác nhận, choáng hoặc ép phản ứng |
+| H | Công cụ hồi phục | Hồi chiêu rất dài | Xem như nút cứu ván đấu, không phải thói quen |
+
+<Callout type="info" title="Ưu tiên sát thương">
+Nếu bạn chỉ nhớ ba nút, hãy nhớ **Q**, **T** và **G**. Bộ ba này định nghĩa cách Metallica tạo ra khoảng trống và chuyển nó thành sát thương thực sự.
+</Callout>
+
+Thói quen an toàn nhất là dùng E làm công cụ kiểm tra mặc định, giữ Y cho các đòn có thể đoán trước và chỉ commit G khi đối thủ đã tiêu hết di chuyển hoặc phòng thủ. R và E+ nằm ở giữa: chúng hữu ích để kiểm soát không gian, nhưng không thay thế được các công cụ trừng phạt chính của bạn.
+
+</Section>
+
+<Section icon={Target} title="Kế hoạch và nhịp giao tranh của Metallica">
+
+Metallica phát huy tốt nhất khi bạn đánh theo từng pha thay vì ứng biến ở mọi trao đổi. Stand này thưởng cho một trình tự rõ ràng, đặc biệt trong các trận một đấu một, nơi đối thủ buộc phải đáp trả áp lực của bạn thay vì tự đặt nhịp.
+
+<Callout type="success" title="Vòng lặp giao tranh tốt nhất">
+Mở đầu bằng tàng hình, ép đối thủ di chuyển, trừng phạt phản ứng và reset trước khi các hồi chiêu của bạn bị lộ ra.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Bắt đầu bằng cách vào an toàn">
+    Dùng **Q** để tiếp cận mà không tự báo vị trí. Đây là cách sạch nhất để mở đầu giao tranh theo ý bạn.
+  </Step>
+  <Step num="2" title="Thăm dò bằng E hoặc E+">
+    Kiểm tra khoảng cách của đối thủ bằng **E** để trừng phạt gần hoặc **E+** để gây áp lực tầm trung an toàn hơn.
+  </Step>
+  <Step num="3" title="Trừng phạt thói quen phòng thủ">
+    Giữ **Y** cho các đòn rõ ràng và dùng **T** khi đối thủ bị kẹt, tụ lại hoặc chặn không tốt.
+  </Step>
+  <Step num="4" title="Chốt sát thương và reset">
+    Kết thúc bằng **G** khi bạn có một khoảng trống thật sự, rồi dùng các công cụ di chuyển và phòng thủ để rút ra hoặc vào lại.
+  </Step>
+</Steps>
+
+| Pha giao tranh | Bạn nên làm gì | Mục tiêu |
+|---|---|---|
+| Mở đầu | Dùng Q và tạo sự bất định | Thắng quyết định đầu tiên |
+| Giữa giao tranh | Chạm bằng E, E+ hoặc R | Xây áp lực mà không commit quá sâu |
+| Cửa sổ trừng phạt | Dùng T, Y hoặc G | Biến một sai lầm thành sát thương thực |
+| Hồi phục | Chỉ dùng H khi cần | Giữ lợi thế hồi chiêu dài của bạn |
+
+<CardGrid cols={3}>
+  <Card title="Mở">
+    - Dùng **Q**
+    - Ép phản ứng
+    - Giữ đối thủ phải đoán
+  </Card>
+  <Card title="Trừng phạt">
+    - Tìm các cú đánh hụt
+    - Chuyển hóa bằng **E** hoặc **T**
+    - Giữ **G** cho các khoảng trống thật sự
+  </Card>
+  <Card title="Reset">
+    - Đổi vị trí sau khi gây sát thương
+    - Bảo toàn các hồi chiêu dài
+    - Vào lại với nhận định tốt hơn
+  </Card>
+</CardGrid>
+
+Một người chơi Metallica giỏi không đuổi theo mọi cú đánh. Thói quen tốt hơn là khiến đối thủ khó chịu đến mức họ bắt đầu đi bộ, chặn, hoặc vung đòn theo nhịp của bạn. Khi điều đó xảy ra, các đòn nặng hơn của bạn sẽ dễ trúng hơn rất nhiều.
+
+</Section>
+
+<Section icon={Sparkles} title="Skin, âm nhạc và giá trị phong cách">
+
+Metallica không chỉ là một gói công cụ chiến đấu. Skin và cách tạo dáng của nó cũng quan trọng vì chúng thay đổi cảm giác khi sử dụng Stand lặp đi lặp lại. Điều đó quan trọng hơn vẻ bề ngoài, nhất là với những người chơi muốn có một nhịp điệu phù hợp với bản sắc tàng hình và trừng phạt của bộ kỹ năng.
+
+<Callout type="info" title="Ghi chú về ngoại hình">
+Biến thể **Faceless One (Ancient)** không chỉ là thay đổi hình ảnh. Nó thay đổi cách chặn, loại bỏ parry, thêm dao găm và giới thiệu một bộ chiêu thức mới.
+</Callout>
+
+| Biến thể | Thay đổi đáng chú ý | Ảnh hưởng lên lối chơi |
+|---|---|---|
+| Metallica | Ngoại hình và bộ kỹ năng tiêu chuẩn | Đầy đủ bản sắc tàng hình và bùng nổ |
+| Faceless One (Ancient) | Cửa sổ iframe rất nhỏ khi chặn và bỏ chặn, không có parry, dao găm, bộ chiêu thức mới | Cam kết nhiều hơn, nhịp độ khác, ít phụ thuộc vào lối chơi parry hơn |
+
+| Tình huống | Nhạc |
+|---|---|
+| Pose | Risotto Nero Theme |
+| Faceless Pose | Last Surprise / Life Will Change / Wake Up, Get Up, Get Out There |
+
+| Lựa chọn hình ảnh | Phù hợp nhất với | Kiểu người chơi |
+|---|---|---|
+| Metallica tiêu chuẩn | Lối chơi tấn công thẳng thắn | Người chơi muốn cảm giác Stand cổ điển |
+| Faceless One (Ancient) | Nhịp timing và phong cách thay thế | Người chơi thích nhịp khác và cửa sổ phòng thủ chặt hơn |
+
+<Callout type="tip" title="Phong cách quan trọng trong các phiên chơi dài">
+Nếu bạn định gắn bó với Metallica, hãy chọn phiên bản có nhịp mà bạn thấy dễ lặp lại hơn. Sự thoải mái giúp tăng độ ổn định, và độ ổn định quan trọng hơn những pha mở đầu hoa mỹ.
+</Callout>
+
+Lựa chọn âm nhạc rất hợp với tông của nhân vật, và biến thể Faceless mang lại cho toàn bộ bộ kỹ năng một nhịp độ khác lạ hơn. Điều đó đáng chú ý nếu bạn thích Stand chính của mình phải thật khác biệt mỗi lần đăng nhập.
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách nhận và FAQ">
+
+Metallica nhận được từ Arrows, nên việc đầu tiên rất đơn giản: xây dựng thói quen roll của bạn xoay quanh thực tế đó. Sau khi có nó, việc tiếp theo là học thời điểm của Q, khoảng cách của E và những khoảnh khắc tốt nhất để dùng các công cụ có hồi chiêu dài. Ba thói quen đó đã làm phần lớn công việc.
+
+<Callout type="tip" title="Kế hoạch sở hữu thực tế">
+Hãy xem Metallica như một Stand thiên về độ chính xác. Các pha vào và ra càng chủ động, bạn càng thường xuyên tung ra được những cú đánh nặng đáng giá.
+</Callout>
+
+<Checklist
+  id="metallica-goals"
+  title="Danh sách làm chủ Metallica"
+  items={[
+    "Nhận Metallica từ Arrows",
+    "Luyện thời điểm của Q cho đến khi việc áp sát trở nên tự nhiên",
+    "Học khi nào T mạnh nhất trong các pha giao tranh đông người",
+    "Giữ G cho các khoảng trống đã xác nhận thay vì gây áp lực ngẫu nhiên",
+    "Giữ H cho những lúc hồi phục thực sự quan trọng"
+  ]}
+/>
+
+| Ưu tiên | Trọng tâm | Kết quả |
+|---|---|---|
+| Cao | Học thời điểm của Q | Vào giao tranh an toàn hơn và vào nhịp sạch hơn |
+| Cao | Xác nhận cửa sổ của T | Bùng nổ tốt hơn khi đối thủ tụ lại |
+| Trung bình | Theo dõi giá trị chảy máu | Chuyển hóa sát thương hiệu quả hơn |
+| Trung bình | Quản lý hồi chiêu | Hiện diện tốt hơn trong các trận dài |
+| Thấp | Ưu tiên ngoại hình | Thoải mái hơn, nhưng không bắt buộc để chơi tốt |
+
+<FAQ items={[
+  {
+    question: "Làm sao để nhận Metallica trong Sakura Stand?",
+    answer: "Metallica nhận được từ Arrows. Nếu bạn muốn có nó một cách ổn định, hãy xây dựng thói quen roll dựa trên nguồn rơi đó và kiên nhẫn với các lần thử."
+  },
+  {
+    question: "Điều gì khiến sakura stand metallica mạnh trong giao tranh?",
+    answer: "Sức mạnh của nó đến từ tàng hình, chảy máu và áp lực trừng phạt. Q tạo lối vào an toàn hơn, T mạnh ở không gian đông người, và G mang lại cú chốt bùng nổ lớn."
+  },
+  {
+    question: "Faceless One (Ancient) có chỉ là skin ngoại hình không?",
+    answer: "Không. Biến thể Faceless One thay đổi cảm giác của Stand với cửa sổ iframe rất nhỏ khi chặn và bỏ chặn, không có parry, có dao găm và một bộ chiêu thức mới."
+  },
+  {
+    question: "Tôi nên dùng gì đầu tiên trong giao tranh?",
+    answer: "Bắt đầu bằng Q khi có thể, sau đó dùng E hoặc E+ để kiểm tra khoảng cách. Giữ T, Y và G cho những lúc đối thủ đã commit."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,234 @@
+import { Map, Swords, Shield, Sparkles, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand metallica: Movimientos, skin y consejos de combate",
+  description: "Aprende los movimientos de Metallica, sus valores de daño, las diferencias entre skins y patrones prácticos de combate para Sakura Stand.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/312e81/fff?text=Metallica+Guide",
+  date: "2026-07-05",
+  author: "Equipo de Wiki de sakura stand"
+}
+
+<Callout type="info" title="Guía rápida">
+- **sakura stand metallica** es un Stand de presión sigilosa construido alrededor de la invisibilidad, el sangrado y la ráfaga basada en hierro.
+- **Q** te ayuda a cruzar combates con seguridad al atravesar la mayoría de los proyectiles y ocultar tu acercamiento.
+- **T** escala mejor en peleas multitudinarias, lo que hace que la presión en grupo sea especialmente valiosa.
+- **Mend Wound** ofrece una gran capacidad de supervivencia, pero su largo enfriamiento hace que el momento de uso sea importante.
+- **Faceless One (Ancient)** cambia el ritmo con una daga, sin parry y con un nuevo conjunto de movimientos.
+</Callout>
+
+<Section icon={Map} title="Resumen de sakura stand metallica">
+
+Metallica en Sakura Stand es un Stand de corto alcance con un ritmo engañoso. Se obtiene de las Arrows, y su identidad se construye alrededor del sigilo, el sangrado y el daño explosivo repentino, más que del avance constante. El kit recompensa el movimiento tranquilo, el buen espaciado y castigar a los rivales después de que se comprometen.
+
+Como referencia directa, la entrada completa aparece en la [Metallica - Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Metallica). Lo importante para jugarlo es simple: Metallica es más fuerte cuando generas duda y luego conviertes esa duda en una ventana rápida de daño.
+
+| Rasgo | Detalles | Por qué importa |
+|---|---|---|
+| Origen | Stand de Risotto Nero | Identidad temática sólida y un kit rápido y letal |
+| Método de obtención | Arrows | La obtención está ligada al rol normal de Stands |
+| Tipo de daño principal | Sangrado, ráfaga, control de hierro | Recompensa la presión prolongada y las ventanas de castigo |
+| Mejor rango | Corto a medio | Te permite mantenerte lo bastante cerca para confirmar golpes clave |
+| Utilidad principal | Invisibilidad parcial | Mejora el acercamiento y dificulta el rastreo de proyectiles |
+
+<Callout type="tip" title="Lee el kit correctamente">
+No trates a Metallica como un Stand de combo puro. Su verdadero valor viene de forzar reacciones incómodas y luego capitalizarlas con tus ataques de mayor compromiso.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Sigilo">
+    - **Q** genera presión de acercamiento
+    - La mayoría de los proyectiles lo atraviesan
+    - Ayuda a romper el ritmo del enemigo
+  </Card>
+  <Card title="Ráfaga">
+    - **G** y **Y** amenazan castigos fuertes
+    - El sangrado añade presión extra de daño
+    - Es mejor cuando el objetivo ya está comprometido
+  </Card>
+  <Card title="Supervivencia">
+    - **H** recupera hasta 60 de salud
+    - Te da una herramienta de reinicio en peleas largas
+    - Apoya un estilo de juego paciente
+  </Card>
+</CardGrid>
+
+| Regla central | Efecto práctico | Nota del editor |
+|---|---|---|
+| Mantente impredecible | Los enemigos atacan antes de tiempo | Tu defensa empieza antes de que empiece el daño |
+| Espera el compromiso | Mayor éxito con los movimientos de castigo | Metallica castiga errores más que conjeturas |
+| Controla el espacio | Mejor valor de T y E | Tus mejores golpes suelen llegar después de controlar el movimiento |
+
+</Section>
+
+<Section icon={Swords} title="Desglose del conjunto de movimientos y tabla de daño">
+
+El conjunto de movimientos de Metallica es compacto, pero cada botón tiene una función clara. El kit funciona mejor cuando piensas por capas: acercarte, desorientar, castigar y reiniciar. Si pulsas todo en enfriamiento sin un plan, el Stand pierde gran parte de su amenaza.
+
+<Callout type="warning" title="Los movimientos de alto valor necesitan un buen tiempo">
+Varios ataques son más fuertes cuando el enemigo ya ha usado opciones de movimiento o defensa. Si los lanzas demasiado pronto, pierdes la ventaja de presión que hace peligroso a Metallica.
+</Callout>
+
+| Tecla | Movimiento | Daño | Enfriamiento | Mejor uso |
+|---|---|---|---|---|
+| Q | Alloyed Cloak | 0 | 44/45 sec | Entrar en combate con seguridad, proteger el acercamiento, forzar dudas |
+| E | Scalpel Combo | 17, sangrado hasta 23 | 8 sec | Castigo fiable a corta distancia e inicio de presión |
+| E+ | Scalpel Barrage | 6 por pieza de metal | 15 sec | Acoso a media distancia y control del espaciado |
+| R | Scalpel Rain | 3.5 por pieza de metal | 19 sec | Presión de área y denegación frontal |
+| T | Control Iron Within 10 Meters | 30, o 9 si bloquea | 20 sec | Herramienta de castigo fuerte, mejor en zonas concurridas |
+| Y | Counter | 32, sangrado hasta 38 | 16 sec | Castiga golpes previsibles y revierte el impulso |
+| G | Take This! Metallica! | 67, sangrado hasta 73 | 45 sec | Principal remate de ráfaga y cambio de ritmo |
+| H | Mend Wound | Cura hasta 60 | 1 minuto | Supervivencia de emergencia y reinicio |
+
+| Movimiento | Fortaleza | Limitación | Recomendación |
+|---|---|---|---|
+| Q | Herramienta defensiva de acercamiento | Enfriamiento largo | Úsalo para iniciar un compromiso real, no para moverte sin más |
+| T | Castigo que escala con la multitud | Necesita buena posición | Guárdalo para los momentos en que los enemigos se agrupan |
+| G | La mayor opción de ráfaga | Muy castigable si falla | Úsalo tras una confirmación, aturdimiento o reacción forzada |
+| H | Herramienta de recuperación | Enfriamiento muy largo | Trátalo como un botón para salvar la ronda, no como un hábito |
+
+<Callout type="info" title="Prioridad de daño">
+Si solo recuerdas tres botones, que sean **Q**, **T** y **G**. Ese trío define cómo Metallica crea aperturas y las convierte en daño real.
+</Callout>
+
+El hábito más seguro es usar E como comprobación por defecto, reservar Y para ataques predecibles y comprometerte con G solo cuando el oponente ya haya gastado su movilidad o defensa. R y E+ quedan en el punto medio: sirven para controlar el espacio, pero no reemplazan tus principales herramientas de castigo.
+
+</Section>
+
+<Section icon={Target} title="Plan de combate y flujo de Metallica">
+
+Metallica rinde mejor cuando peleas por fases en lugar de improvisar cada intercambio. El Stand recompensa una secuencia clara, especialmente en duelos uno contra uno donde tu rival se ve obligado a responder a tu presión en vez de marcar el ritmo.
+
+<Callout type="success" title="Mejor ciclo de combate">
+Abre con sigilo, fuerza el movimiento, castiga la reacción y reinicia antes de que tus enfriamientos queden expuestos.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Empieza con una entrada segura">
+    Usa **Q** para acercarte sin delatar tu posición. Esta es tu forma más limpia de iniciar un combate en tus propios términos.
+  </Step>
+  <Step num="2" title="Sondea con E o E+">
+    Prueba el espaciado del oponente con **E** para castigo cercano o **E+** para presión más segura a media distancia.
+  </Step>
+  <Step num="3" title="Castiga los hábitos defensivos">
+    Reserva **Y** para ataques obvios y usa **T** cuando el enemigo esté atrapado, agrupado o bloquee mal.
+  </Step>
+  <Step num="4" title="Asegura el daño y reinicia">
+    Remata con **G** cuando tengas una apertura real, y luego usa tus herramientas de movimiento y defensa para salir o volver a entrar.
+  </Step>
+</Steps>
+
+| Fase del combate | Qué deberías hacer | Objetivo |
+|---|---|---|
+| Inicio | Usa Q y genera incertidumbre | Ganar la primera decisión |
+| Mitad del combate | Golpea con E, E+ o R | Construir presión sin sobrecomprometerte |
+| Ventana de castigo | Gastar T, Y o G | Convertir un error en daño real |
+| Recuperación | Usa H solo cuando sea necesario | Conservar tu ventaja de enfriamiento largo |
+
+<CardGrid cols={3}>
+  <Card title="Abrir">
+    - Usa **Q**
+    - Fuerza una reacción
+    - Mantén al enemigo adivinando
+  </Card>
+  <Card title="Castigar">
+    - Busca fallos
+    - Convierte con **E** o **T**
+    - Reserva **G** para aperturas reales
+  </Card>
+  <Card title="Reiniciar">
+    - Reposiciona tras hacer daño
+    - Protege tus enfriamientos largos
+    - Vuelve a entrar con una mejor lectura
+  </Card>
+</CardGrid>
+
+Un buen jugador de Metallica no persigue cada golpe. El mejor hábito es volver al rival lo bastante incómodo como para que empiece a caminar, bloquear o atacar según tu ritmo. Cuando eso pasa, tus movimientos pesados se vuelven mucho más fáciles de acertar.
+
+</Section>
+
+<Section icon={Sparkles} title="Skin, música y valor estético">
+
+Metallica no es solo un paquete de combate. La skin y la presentación de la pose importan porque cambian cómo se siente el Stand con el uso repetido. Eso importa más de lo que parece, especialmente para los jugadores que quieren un ritmo que encaje con la identidad de sigilo y castigo del kit.
+
+<Callout type="info" title="Nota cosmética">
+La variante **Faceless One (Ancient)** no es solo un cambio visual. Modifica el comportamiento al bloquear, elimina el parry, añade una daga e introduce un nuevo conjunto de movimientos.
+</Callout>
+
+| Variante | Cambios notables | Impacto en el juego |
+|---|---|---|
+| Metallica | Apariencia y kit estándar | Identidad completa de sigilo y ráfaga |
+| Faceless One (Ancient) | Ventana pequeña de iframe al bloquear y desbloquear, sin parry, daga, nuevo conjunto de movimientos | Más compromiso, distinto tiempo, menos dependencia del juego de parry |
+
+| Situación | Música |
+|---|---|
+| Pose | Tema de Risotto Nero |
+| Pose de Faceless | Last Surprise / Life Will Change / Wake Up, Get Up, Get Out There |
+
+| Elección visual | Mejor para | Tipo de jugador |
+|---|---|---|
+| Metallica estándar | Agresión directa | Jugadores que quieren la sensación clásica del Stand |
+| Faceless One (Ancient) | Ritmo y estilo alternativos | Jugadores que disfrutan de un ritmo distinto y ventanas defensivas más ajustadas |
+
+<Callout type="tip" title="El estilo importa en sesiones largas">
+Si piensas usar a Metallica como main, elige la versión cuyo ritmo te resulte más fácil de repetir. La comodidad mejora la consistencia, y la consistencia importa más que las aperturas llamativas.
+</Callout>
+
+Las elecciones musicales encajan muy bien con el tono del personaje, y la variante Faceless le da al kit completo un ritmo más inusual. Eso importa si te gusta que tu Stand principal se sienta distinto cada vez que entras.
+
+</Section>
+
+<Section icon={Trophy} title="Lista de obtención y FAQ">
+
+Metallica se obtiene de las Arrows, así que la primera tarea es simple: organiza tu rutina de tiradas en torno a esa realidad. Después de conseguirlo, la siguiente tarea es aprender el tiempo de Q, el espaciado de E y los mejores momentos para gastar tus herramientas de largo enfriamiento. Esos tres hábitos hacen la mayor parte del trabajo.
+
+<Callout type="tip" title="Plan práctico de dominio">
+Trata a Metallica como un Stand de precisión. Cuanto más deliberadas sean tus entradas y salidas, más a menudo acertarás los golpes fuertes que importan.
+</Callout>
+
+<Checklist
+  id="metallica-goals"
+  title="Lista de dominio de Metallica"
+  items={[
+    "Obtener Metallica de las Arrows",
+    "Practicar el tiempo de Q hasta que el acercamiento se sienta natural",
+    "Aprender cuándo T es más fuerte en peleas con mucha gente",
+    "Guardar G para aperturas confirmadas en vez de presión aleatoria",
+    "Reservar H para momentos de recuperación que realmente importen"
+  ]}
+/>
+
+| Prioridad | Enfoque | Resultado |
+|---|---|---|
+| Alta | Aprender el tiempo de Q | Entradas más seguras y compromisos más limpios |
+| Alta | Confirmar ventanas de T | Mejor ráfaga cuando los oponentes se agrupan |
+| Media | Seguir el valor del sangrado | Conversión de daño más eficiente |
+| Media | Gestionar enfriamientos | Mayor presencia en peleas largas |
+| Baja | Preferencia cosmética | Más comodidad, pero no es necesaria para rendir |
+
+<FAQ items={[
+  {
+    question: "¿Cómo se consigue Metallica en Sakura Stand?",
+    answer: "Metallica se obtiene de las Arrows. Si quieres conseguirlo de forma consistente, organiza tu rutina de tiradas alrededor de esa vía de obtención y ten paciencia con los intentos."
+  },
+  {
+    question: "¿Qué hace fuerte a sakura stand metallica en combate?",
+    answer: "Su fuerza proviene del sigilo, el sangrado y la presión de castigo. Q crea entradas más seguras, T escala en espacios concurridos y G ofrece un gran remate de ráfaga."
+  },
+  {
+    question: "¿Faceless One (Ancient) es solo una skin cosmética?",
+    answer: "No. La variante Faceless One cambia la sensación del Stand con una ventana pequeña de iframe al bloquear y desbloquear, sin parry, una daga y un nuevo conjunto de movimientos."
+  },
+  {
+    question: "¿Qué debería usar primero en combate?",
+    answer: "Empieza con Q cuando sea posible y luego usa E o E+ para comprobar el espaciado. Guarda T, Y y G para los momentos en que el enemigo ya se haya comprometido."
+  }
+]} />
+
+</Section>

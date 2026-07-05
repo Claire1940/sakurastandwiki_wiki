@@ -1,0 +1,247 @@
+import { Map, Target, Shield, Swords, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand ulquiorra: Hướng dẫn nhiệm vụ & mẹo farm",
+  description: "Tìm hiểu cách hoàn thành nhiệm vụ Isolation của sakura stand ulquiorra, đến gặp Ulquiorra ở Hueco Mundo và hoàn tất danh sách Hollow nhanh hơn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Ulquiorra+Quest+Guide",
+  date: "2026-07-05",
+  author: "Đội ngũ Wiki sakura stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand ulquiorra** xoay quanh nhiệm vụ Isolation của Ulquiorra Cifer ở Hueco Mundo.
+- **Thời điểm xuất hiện** rất quan trọng: các NPC Espada theo chu kỳ 20 phút với tỷ lệ xuất hiện 50%.
+- **Chuẩn bị nhiệm vụ** nên tập trung vào mục tiêu Hollow, khả năng di chuyển và một lộ trình gọn gàng.
+- **Hoàn thành nhiệm vụ** dễ hơn khi bạn lên sẵn thứ tự hạ mục tiêu trước khi vào Hueco Mundo.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về sakura stand ulquiorra">
+
+Ulquiorra Cifer là NPC **Cuatro Espada** gắn với nhiệm vụ **Isolation**. Trên thực tế, đây là một thử thách về lộ trình và mục tiêu hơn là kiểm tra sát thương thuần túy. Nếu bạn đến mà không có kế hoạch, cửa sổ biến mất sau 5 phút có thể biến một lần xuất hiện thành công thành một lượt chạy vô ích.
+
+Cách an toàn nhất là xem nhiệm vụ như một danh sách kiểm tra. Di chuyển nhanh, giữ thứ tự mục tiêu đơn giản và tận dụng chu kỳ xuất hiện dài thay vì đứng chờ một chỗ.
+
+**Tổng quan nhanh về Espada**
+
+| Espada | Hạng | Hướng nhiệm vụ | Cách dùng tốt nhất |
+| --- | --- | --- | --- |
+| Baraggan | Segundo | Đếm số lần chết với Emperor | Mốc tham chiếu |
+| Aaroniero | Noveno | Hạ Hollow bằng Emperor | Mốc farm |
+| Grimmjow | Sexto | Nộp Hogyoku Fragment | Luồng theo vật phẩm |
+| Ulquiorra | Cuatro | Danh sách hạ Hollow hỗn hợp | Trọng tâm chính |
+| Szayel-Aporro | Octavo | Tỷ lệ rớt Hogyoku Fragment | So sánh RNG |
+| Nnoitra | Quinto | Hạ người chơi cộng dọn Hollow | Áp lực cuối game |
+
+**Chỉ số nhanh**
+
+| Chi tiết | Giá trị | Vì sao quan trọng |
+| --- | --- | --- |
+| Địa điểm | Hueco Mundo | Bạn cần đúng khu vực trước khi tìm kiếm |
+| Tỷ lệ xuất hiện | 50% | Không phải chu kỳ nào cũng có NPC |
+| Chu kỳ xuất hiện | 20 phút | Canh thời gian thay vì chờ mù quáng |
+| Thời gian biến mất | 5 phút | Phải hành động nhanh khi hắn xuất hiện |
+| Tên nhiệm vụ | Isolation | Xây lộ trình quanh việc hạ nhiều loại mục tiêu |
+
+**Điểm nổi bật của video:**
+- Ulquiorra là một phần của nhóm Espada ở Hueco Mundo.
+- Nút thắt lớn nhất là chu kỳ xuất hiện, không phải khâu nộp nhiệm vụ cuối.
+- Nhiệm vụ Isolation dễ hơn khi bạn lên trước mục tiêu Hollow.
+- Di chuyển nhanh và kiểm tra server ngắn giúp tiết kiệm thời gian hơn là cày thuần túy.
+
+<Callout type="tip" title="Tư duy lộ trình">
+Hãy bắt đầu từ khung thời gian xuất hiện, rồi mới xây lộ trình hạ mục tiêu xung quanh nó. Nếu đảo ngược thứ tự đó, bạn thường sẽ tốn nhiều thời gian hơn là tiết kiệm được.
+</Callout>
+
+**Tài liệu liên quan:** [Trang Espada trên Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Espada)
+
+</Section>
+
+<Section icon={Target} title="Cách đến gặp Ulquiorra nhanh nhất">
+
+Cách gọn nhất là dùng chu kỳ 20 phút như một vòng xoay. Quét Hueco Mundo, xác nhận xem có NPC Espada nào đang xuất hiện không, và chỉ triển khai cả lộ trình khi Ulquiorra hoặc một mốc hữu ích khác hiện ra.
+
+Đừng đứng chờ thụ động tại một điểm. Hệ thống xuất hiện thưởng cho việc di chuyển, nhất là khi đồng hồ đếm không chắc chắn. Một lượt quét ngắn thường tốt hơn việc ngồi chờ lâu.
+
+**Cách làm từng bước**
+
+<Steps>
+  <Step num="1" title="Vào Hueco Mundo">
+    Vào đúng khu vực trước đã. Ulquiorra và phần còn lại của dàn Espada đều gắn với Hueco Mundo, nên đây là điều kiện khởi đầu của bạn.
+  </Step>
+  <Step num="2" title="Kiểm tra chu kỳ xuất hiện">
+    Theo dõi mốc 20 phút và nhớ tỷ lệ xuất hiện 50%. Nếu chưa thấy gì, hãy đặt lại lộ trình và kiểm tra sau thay vì cố chờ.
+  </Step>
+  <Step num="3" title="Quét khu vực Espada">
+    Di chuyển nhanh qua những vị trí có khả năng có NPC. Vì thời gian biến mất ngắn, tốc độ quan trọng hơn việc đi đúng từng bước hoàn hảo.
+  </Step>
+  <Step num="4" title="Chốt mục tiêu nhiệm vụ">
+    Khi Ulquiorra xuất hiện, hãy nhận nhiệm vụ và bắt đầu hạ Hollow theo yêu cầu mà không rẽ sang các trận đánh ít giá trị.
+  </Step>
+</Steps>
+
+**Danh sách kiểm tra săn spawn**
+
+| Kiểm tra | Cách tốt nhất | Kết quả |
+| --- | --- | --- |
+| Khu vực sẵn sàng | Hueco Mundo đã tải xong | Không bị chậm di chuyển |
+| Đã theo dõi thời gian | Ghi mốc chu kỳ 20 phút | Canh server tốt hơn |
+| Lộ trình đã đặt | Quét trước khi dừng | Phát hiện NPC nhanh hơn |
+| Rủi ro biến mất | Di chuyển ngay | Ít bỏ lỡ spawn hơn |
+| Tập trung nhiệm vụ | Bám Isolation | Ít phải quay lại |
+
+<Callout type="warning" title="Cảnh báo tiết kiệm thời gian">
+Nếu bạn mất quá nhiều thời gian để quyết định đi đâu tiếp theo, cửa sổ biến mất 5 phút có thể xóa sạch cả lần xuất hiện. Hãy dứt khoát khi NPC đã lộ diện.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Yêu cầu nhiệm vụ và thứ tự mục tiêu">
+
+Nhiệm vụ Isolation của Ulquiorra yêu cầu dọn Hollow trên diện rộng, gồm **mỗi loại Hollow một con**, cộng thêm **Demi-Hollow**, **Fishbone**, **Gillian/Menos Grande** và **Adjucha**. Cách xử lý danh sách đó tốt nhất là nhóm kẻ địch theo mức độ sẵn có và hoàn thành những con dễ trước.
+
+Đây không phải là một trận boss đơn mục tiêu. Đây là một lộ trình dọn sạch. Càng trải sự chú ý ra nhiều, bạn càng mất thời gian.
+
+**Phân tích yêu cầu nhiệm vụ**
+
+| Yêu cầu | Ý nghĩa | Ưu tiên |
+| --- | --- | --- |
+| Mỗi loại Hollow một con | Bao phủ đủ các loại cơ bản | Cao |
+| Demi-Hollow | Mục tiêu phụ dễ làm | Rất cao |
+| Fishbone | Dễ tìm | Rất cao |
+| Gillian / Menos Grande | Mục tiêu lớn hơn, dọn chậm hơn | Trung bình |
+| Adjucha | Tốn thời gian hơn | Cao |
+| Nộp cuối cùng | Hoàn tất nhiệm vụ | Làm cuối |
+
+**Thứ tự mục tiêu khuyến nghị**
+
+| Thứ tự | Mục tiêu | Lý do |
+| --- | --- | --- |
+| 1 | Fishbone | Cách nhanh nhất để bắt đầu tiến độ |
+| 2 | Demi-Hollow | Dễ nối chuỗi với các spawn Fishbone |
+| 3 | Gillian | Hiệu quả khi lộ trình đã ổn |
+| 4 | Adjucha | Tốt hơn sau khi đã xong các mục dễ |
+| 5 | Mỗi loại một con | Điền nốt chỗ còn thiếu trước khi rời khu vực |
+
+**Sai lầm thường gặp**
+
+| Sai lầm | Cái giá | Cách sửa |
+| --- | --- | --- |
+| Săn từng quái một | Tốn thêm di chuyển | Gom mục tiêu lại với nhau |
+| Bỏ qua sự đa dạng Hollow | Phải quay lại | Theo dõi đủ danh sách từ sớm |
+| Đuổi theo giao tranh lệch lộ trình | Hoàn thành chậm hơn | Bám kế hoạch |
+| Chờ may mắn spawn | Mất thời gian | Luân chuyển trong khu vực |
+
+<Checklist
+  id="ulquiorra-prep"
+  title="Chuẩn bị trước nhiệm vụ:"
+  items={[
+    "Vào Hueco Mundo trước khi bắt đầu săn",
+    "Ghi nhớ các mục tiêu Hollow theo tên",
+    "Giữ lộ trình ngắn và có thể lặp lại",
+    "Chừa thời gian cho cửa sổ biến mất của Ulquiorra",
+    "Hoàn thành toàn bộ danh sách trước khi rời khu vực"
+  ]}
+/>
+
+<Callout type="info" title="Quy tắc ưu tiên">
+Hãy xem các mục tiêu theo tên như một danh sách kiểm tra, không phải các lần hạ riêng lẻ. Một khi bạn bắt đầu gom chúng lại, nhiệm vụ sẽ cảm thấy ngắn hơn nhiều.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lộ trình farm tốt nhất cho Ulquiorra">
+
+Lộ trình tốt nhất phụ thuộc vào mức độ đông người trên server và tần suất bạn có thể di chuyển giữa các điểm spawn. Với người chơi solo, sự ổn định thường quan trọng hơn tốc độ. Với nhóm nhỏ, chia nhau dọn quái có thể loại bỏ những kẻ địch chậm nhất khỏi lộ trình.
+
+Hãy dùng lộ trình khiến bạn luôn di chuyển. Đứng yên chỉ có ích nếu bạn đã biết NPC sắp xuất hiện.
+
+**So sánh lộ trình**
+
+| Lộ trình | Tốc độ | Độ an toàn | Phù hợp nhất cho |
+| --- | --- | --- | --- |
+| Quét solo | Trung bình | Cao | Server ít người |
+| Nhóm nhỏ | Nhanh | Trung bình | Dọn quái chung |
+| Đổi server | Nhanh nhất khi may mắn | Thấp | Chu kỳ spawn khô |
+| Cắm trại toàn thời gian | Chậm | Cao | Người đang thử canh thời gian |
+
+**Thẻ kiểu lộ trình**
+
+<CardGrid cols={3}>
+  <Card title="Quét solo">
+    - **Nhịp độ ổn định**
+    - Dễ theo dõi mục tiêu
+    - Tốt để học lộ trình
+  </Card>
+  <Card title="Nhóm nhỏ">
+    - **Chia sẻ việc dọn**
+    - Dọn Hollow nhanh hơn
+    - Tốt hơn nếu bạn bè biết khu vực
+  </Card>
+  <Card title="Đổi server">
+    - **Săn theo thời gian**
+    - Hữu ích sau các chu kỳ chết
+    - Tốt nhất khi server yên ắng
+  </Card>
+</CardGrid>
+
+**Ghi chú về hiệu quả**
+
+| Tình huống | Nước đi tốt nhất | Vì sao |
+| --- | --- | --- |
+| Server quá đông | Đổi sớm | Vào spawn trống nhanh hơn |
+| Server yên | Ở lại và quét | Ít cạnh tranh |
+| Tìm thấy spawn Ulquiorra | Nhận ngay | Cửa sổ biến mất rất ngắn |
+| Mục tiêu nhiệm vụ chưa xong | Tiếp tục lộ trình | Tránh reset vô ích |
+
+<Callout type="success" title="Lợi thế thực tế">
+Một lộ trình tốt không cần hoàn hảo. Nó chỉ cần giảm thời gian chờ và giữ cho bạn sẵn sàng cho lượt kiểm tra spawn tiếp theo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ghi chú hoàn thành và FAQ">
+
+Nhiệm vụ của Ulquiorra đáng giá nhất khi bạn hoàn thành gọn gàng ngay lần đầu tiên. Phần thưởng chính là hiệu quả tiến độ: một khi nhiệm vụ xong, bạn không còn phải quay lại gặp Ulquiorra cho cùng một mục tiêu nữa.
+
+Nếu muốn xem nhanh dàn Espada, hãy để sẵn trang wiki trong lúc chơi. Điều đó rất hữu ích khi bạn đang cân nhắc nên ở lại server hay chuyển đi.
+
+**Tóm tắt sau khi hoàn thành**
+
+| Kết quả | Thay đổi gì |
+| --- | --- |
+| Nhiệm vụ hoàn tất | Không cần nói chuyện lại |
+| Đã học lộ trình | Dọn Hollow nhanh hơn trong tương lai |
+| Hiểu về spawn | Canh thời gian tốt hơn ở Hueco Mundo |
+| Có bối cảnh Espada | Dễ so sánh với NPC khác hơn |
+
+<Callout type="tip" title="Nhắc nhở cuối cùng">
+Lợi ích lớn nhất đến từ việc giảm di chuyển lãng phí. Trong nhiệm vụ này, tốc độ đến từ việc lên kế hoạch, không phải từ việc lao vào mọi trận đánh.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Ulquiorra xuất hiện ở đâu trong sakura stand ulquiorra?",
+    answer: "Ulquiorra thuộc nhóm NPC Espada ở Hueco Mundo. Hãy lên kế hoạch tìm kiếm tại đó và dùng chu kỳ xuất hiện thay vì đứng chờ ở một điểm."
+  },
+  {
+    question: "Nhiệm vụ Isolation yêu cầu gì?",
+    answer: "Nhiệm vụ tập trung vào việc hạ Hollow: mỗi loại Hollow một con, cộng thêm Demi-Hollow, Fishbone, Gillian hoặc Menos Grande, và Adjucha."
+  },
+  {
+    question: "Chu kỳ xuất hiện của Espada kéo dài bao lâu?",
+    answer: "Chu kỳ này khoảng 20 phút, với 50% khả năng một NPC Espada xuất hiện. Khi đã xuất hiện, NPC sẽ biến mất sau 5 phút."
+  },
+  {
+    question: "Sau khi hoàn thành có cần nói chuyện lại với Ulquiorra không?",
+    answer: "Không. Sau khi hoàn thành nhiệm vụ, bạn không cần quay lại cho cùng tuyến nhiệm vụ đó nữa."
+  }
+]} />
+
+</Section>

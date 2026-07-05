@@ -1,0 +1,217 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand don quixote: Sancho Unlock, Moves & Tips",
+  description: "Learn how Sancho works in Sakura Stand, from legacy obtainment to Hardblood management, damage values, and practical combat priorities.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Sancho+Guide",
+  date: "2026-07-05",
+  author: "sakura stand Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **sakura stand don quixote** centers on Sancho, a Hardblood-based spec with legacy dungeon obtainment.
+- **Hardblood management** matters because M1s build it, and the cap sits at 40.
+- **Variant moves** become stronger when you save enough Hardblood for the upgraded version.
+- **Legacy status** is important: the original dungeon note says La Manchaland can no longer spawn.
+- **Damage planning** should favor burst windows, stuns, and the stance counter.
+</Callout>
+
+<Section icon={Map} title="sakura stand don quixote: Sancho Overview">
+
+Sancho, The Second Kindred is a hard-hitting spec built around blood resource control, ranged pressure, and punishing burst. The kit leans on a simple idea: build Hardblood with basic attacks and key moves, then cash it in for upgraded variants when the threshold lines up.
+
+<CardGrid cols={4}>
+  <Card title="Core Identity">
+    Blood-focused spec with strong burst, a counter stance, and several Hardblood upgrades.
+  </Card>
+  <Card title="Resource Rule">
+    Each M1 grants **1 Hardblood** and some lifesteal, so basic strings are part of the kit.
+  </Card>
+  <Card title="Hardblood Cap">
+    Hardblood caps at **40**, which makes resource spending a real part of the rotation.
+  </Card>
+  <Card title="Legacy Access">
+    The original dungeon route is archived, so treat obtainment details as reference data.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Current Status">
+The original La Manchaland route is no longer active in the reference material. Keep this section as a build guide and historical unlock record, not a live farm route.
+</Callout>
+
+| Topic | Details |
+|---|---|
+| Spec Name | Sancho, The Second Kindred |
+| Resource | Hardblood |
+| Hardblood Cap | **40** |
+| Passive | M1s grant **1 Hardblood** and lifesteal |
+| Legacy Unlock Item | Hardblood Lance |
+| Unlock Requirement | Use Hardblood Lance on **Vampirism** |
+
+</Section>
+
+<Section icon={Target} title="Legacy Obtainment Route">
+
+The archived unlock path still matters if you want to understand where Sancho came from. La Manchaland was a dungeon that spawned every two hours server time, allowed six players, and could appear at one of three tunnel locations. The dungeon note also says it can no longer spawn anymore, so the route is best treated as historical documentation.
+
+<Steps>
+  <Step num="1" title="Find the dungeon spawn">
+    La Manchaland could appear at **Okarun Tunnel**, **Beach Tunnel**, or **Library Tunnel**.
+  </Step>
+  <Step num="2" title="Enter with a small group">
+    Up to **six players** could enter, so coordinated damage mattered more than solo rushing.
+  </Step>
+  <Step num="3" title="Top the damage chart">
+    The player with the most damage received the **Hardblood Lance** item.
+  </Step>
+  <Step num="4" title="Convert the item">
+    Using **Hardblood Lance** on **Vampirism** granted the Sancho spec.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Route Planning Tip">
+If you are documenting Sancho for a wiki page or build archive, separate the old unlock method from the live combat kit. That keeps the guide accurate even when the spawn is unavailable.
+</Callout>
+
+| Spawn Detail | Value |
+|---|---|
+| Spawn Interval | Every **2 hours** server time |
+| Party Size | Up to **6 players** |
+| Possible Locations | Okarun Tunnel, Beach Tunnel, Library Tunnel |
+| Reward Condition | Most damage dealt |
+| Result Item | Hardblood Lance |
+
+</Section>
+
+<Section icon={Swords} title="Moves, Damage, and Hardblood">
+
+Sancho’s move list is built for players who can keep track of thresholds. Several attacks generate Hardblood on use, while upgraded variants convert saved resource into better follow-through or higher burst. The safest way to read the kit is by grouping moves into openers, burst tools, and utility.
+
+<Callout type="info" title="Kit Pattern">
+Build Hardblood with M1s and low-cost moves, then spend it on the version that fits your window. The threshold versions are where the spec feels most efficient.
+</Callout>
+
+| Move | Keybind | Damage | Hardblood / Role |
+|---|---|---|---|
+| Don Quixote Hardblood Arts 2 Armadura De Sangre | Q | **48.5** | Blood whirlpool knockback opener |
+| Sanguine Joy | E | **35** | Gives **2 Hardblood**, close-range poke |
+| Variant Sancho Hardblood Arts 6: Whips | E + Ten HB | **55** | Whip conversion burst |
+| Let all Blossom Free | R | **38.5** | Gives **2 Hardblood**, forward lance stab |
+| Variant Sancho Hardblood Arts 8: Split Apart | R + Ten HB | **37.5** | Dual-sword variant combo |
+| I shall Impale | T | **75** | High-damage dash and slam |
+| Ascendant Hardblood Art: La Sangre | T + Fifteen HB | **88.5** | Stronger T with an extra dash |
+| Wound | Y | **35** | Gives **1 Hardblood**, guardbreak pressure |
+| La Aventura Ha Terminado | G | **73.5** | Gives **4 Hardblood**, AOE stun starter |
+| Variant Sancho Hardblood Arts 4: Track | H | **41** | Gives **2 Hardblood**, seven-arrow pressure |
+| Ecstasy of Blood | H + Twenty HB | **74** | Eight slashes, then arrow finisher |
+| Laughter Will Subside | Z | **23** | Counter stance; impales on hit |
+
+| Passive Detail | Effect |
+|---|---|
+| M1 Passive | Each M1 grants **1 Hardblood** |
+| Sustain | M1s also provide **some lifesteal** |
+| Resource Ceiling | Hardblood caps at **40** |
+| Upgrade Logic | Threshold variants consume Hardblood for enhanced versions |
+
+<Callout type="tip" title="Damage Read">
+Sancho is not just about pressing the hardest-hitting button. The best payoffs usually come from linking the Hardblood builders into one clean burst window instead of spending resource too early.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Combat Loop and Priority Order">
+
+The cleanest Sancho loop is straightforward: establish Hardblood, force movement, then cash out with the version that matches the opening you created. The stance on Z adds a defensive layer, which is valuable when the opponent wants to interrupt your setup. Once you learn where each move fits, the kit feels much less linear.
+
+<CardGrid cols={3}>
+  <Card title="Burst Window">
+    Use your Hardblood spenders when the target is already committed or stunned.
+  </Card>
+  <Card title="Pressure Tool">
+    Keep ranged and mid-range options ready so you are not forced into a single approach.
+  </Card>
+  <Card title="Defense Layer">
+    Treat **Z** as a threat check, not a panic button you waste on empty space.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Priority Rule">
+Open with Hardblood builders, threaten with safe damage, then commit to your upgraded move only after the opponent has limited escape options.
+</Callout>
+
+| Situation | Best Tool | Why It Works |
+|---|---|---|
+| Need early resource | **Sanguine Joy**, **Let all Blossom Free**, **Wound** | These actions help build Hardblood while keeping pressure active |
+| Need a punish | **I shall Impale**, **La Aventura Ha Terminado** | Both deliver clear burst and reward timing |
+| Need a counter | **Laughter Will Subside** | The stance can reverse aggressive overcommitment |
+| Need ranged pressure | **Variant Track**, **Ecstasy of Blood** | These keep the enemy moving and protect space |
+| Need combo extension | **Ascendant La Sangre** | The extra dash helps keep contact after the first hit |
+
+<Checklist
+  id="sancho-combat-checklist"
+  title="Sancho Combat Checklist:"
+  items={[
+    "Build Hardblood with M1s before spending on a variant",
+    "Use Z when the opponent is likely to force a trade",
+    "Save G for a committed opening or crowding moment",
+    "Choose T or H variants when the threshold adds real value",
+    "Avoid wasting Hardblood when the target can still disengage"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Pose, Music, and Trivia">
+
+Sancho also has a neat flavor package, which matters if you are building a full wiki entry or polishing a character page. The pose and music pairings are simple, but they help tie the spec to its identity. The trivia note is short, yet it gives useful context for the design direction.
+
+<Callout type="tip" title="Reference Link">
+Archived reference page: [Sancho | Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Sancho) (2026-07-05).
+</Callout>
+
+| Pose | Music | Note |
+|---|---|---|
+| Pose One | Canto VII Boss 4 Battle Theme | Idle pose with a boss-fight feel |
+| Pose Two | Hero \| Sueño Imposible | Alternate pose pairing |
+| Trivia Note | Manager of LaManchaland ID | Most of the spec is based on that source identity |
+| Boss-Based Moves | 6 moves | The kit borrows heavily from the Sancho boss |
+
+<Callout type="info" title="Flavor Takeaway">
+If you want the spec to feel authentic in your write-up, keep the emphasis on its boss-inspired move names, blood resource loop, and legacy dungeon roots.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="FAQ Focus">
+Use these answers to keep the article consistent: the route is legacy, the damage values are fixed by move name, and Hardblood is the key resource.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Is sakura stand don quixote the same thing as Sancho?",
+    answer: "In this context, yes. The guide centers on Sancho, The Second Kindred, which is the spec tied to the Don Quixote naming in the move list."
+  },
+  {
+    question: "Can I still farm La Manchaland for Sancho?",
+    answer: "Treat the dungeon method as archived. The reference notes say La Manchaland can no longer spawn, so the old unlock route is no longer active."
+  },
+  {
+    question: "What is the most important stat to watch on Sancho?",
+    answer: "Hardblood. M1s build it, several moves add more, and the cap is 40. The threshold versions depend on spending it at the right time."
+  },
+  {
+    question: "Which moves should I prioritize first?",
+    answer: "Start with moves that build Hardblood and create space, then save your threshold versions for clear punish windows or confirmed pressure."
+  }
+]} />
+
+</Section>

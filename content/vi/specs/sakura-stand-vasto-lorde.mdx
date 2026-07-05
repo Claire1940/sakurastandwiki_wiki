@@ -1,0 +1,213 @@
+import { Map, Target, Swords, Shield, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand vasto lorde: Các bước mở khóa và bộ chiêu Vasto Lorde",
+  description: "Tìm hiểu đường tiến triển stage 4 của Ichigo trong Sakura Stand, cách farm Hogyoku Fragment và thứ tự ưu tiên kỹ năng Vasto Lorde cho PvP lẫn cày farm.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/312e81/fff?text=Vasto+Lorde+Guide",
+  date: "2026-07-05",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand vasto lorde** là nhánh “đích đến” của Ichigo: phát triển qua các Hollow, rồi chuyển các mảnh thành một dạng sẵn sàng cho boss.
+- **Stage 3 trước** là rất quan trọng vì nhiệm vụ của Kisuke chặn đường đến Bankai và tuyến biến hình cuối cùng.
+- Farm **Hogyoku Fragment** là nút thắt cổ chai; Adjuchas và Menos là mục tiêu thực tế nhất.
+- **Vasto Lorde** thắng bằng cách ép các cuộc đấu ngắn, rồi nối di chuyển vào burst và áp lực phản đòn.
+</Callout>
+
+<Section icon={Map} title="Tổng quan tiến trình Vasto Lorde">
+
+Chuỗi Ichigo trong Sakura Stand được xây dựng như một bậc thang tiến triển thực sự. Bạn bắt đầu bằng việc cày Hollow đơn giản, chuyển sang cổng nhiệm vụ của Kisuke, và kết thúc ở cửa sổ biến hình Vasto Lorde. Nếu bạn muốn dạng này cho PvP, lộ trình gọn nhất là giữ đúng thứ tự các stage, để dành tiền cho nhiệm vụ, và không dùng fragment quá sớm.
+
+**Điểm nổi bật từ video:**
+- Stage 1 và Stage 2 đều dựa vào việc hạ Hollow, nên cày sớm chính là giai đoạn chuẩn bị thật sự.
+- Kisuke yêu cầu Stage 2 và Mastery 3 trước khi nhiệm vụ Bankai mở ra.
+- Bước fragment cuối cùng là nút thắt cuối trước tuyến Hollow Mask.
+- Vasto Lorde mạnh nhất khi bạn chủ động dấn vào giao tranh thay vì đi săn các cơ hội ngẫu nhiên.
+
+<YouTubeEmbed videoId="Zq1b_pXO5kU" title="THIS IS THE SAKURA STAND I'VE MISSED | Obtaining NEW Ichigo Spec on Sakura Stand" />
+
+<Callout type="tip" title="Bản sắc của dạng">
+Hãy xem chuỗi này như một build liền mạch, không phải các mở khóa tách rời. Bạn càng đi mạch lạc từ Stage 1 đến Stage 4, bạn càng ít tốn thời gian quay lại.
+</Callout>
+
+| Dạng | Vai trò trong tiến trình | Thay đổi gì |
+| --- | --- | --- |
+| Stage 1 | Điểm khởi đầu | Mở đầu cày Hollow, áp lực kiếm cơ bản |
+| Stage 2 | Giai đoạn giữa | Chuỗi chém mượt hơn, dọn Hollow tốt hơn |
+| Stage 3 | Cổng nhiệm vụ | Mở đường Kisuke, Mugetsu trở thành một phần của bộ kỹ năng |
+| Stage 4 | Thành quả cuối | Trạng thái Hollow Mask / Vasto Lorde, kiểm soát burst mạnh hơn |
+
+<CardGrid cols={4}>
+  <Card title="Stage 1">
+    - Mở đầu cày Hollow
+    - Giai đoạn mở đầu không dùng Stand
+    - Độ phức tạp tối thiểu
+  </Card>
+  <Card title="Stage 2">
+    - Chuỗi chém tốt hơn
+    - Farm Hollow nhanh hơn
+    - Chuẩn bị cho cổng nhiệm vụ
+  </Card>
+  <Card title="Stage 3">
+    - Bắt đầu tiến trình Kisuke
+    - Mugetsu bước vào bộ kỹ năng
+    - Áp lực burst mạnh hơn
+  </Card>
+  <Card title="Stage 4">
+    - Thành quả Hollow Mask
+    - Biến hình Vasto Lorde
+    - Mức độ đe dọa trong PvP tăng vọt
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Cách mở khóa từng stage">
+
+<Callout type="warning" title="Đừng bỏ qua thứ tự nhiệm vụ">
+Stage 3 là chỗ người chơi hay bị kẹt nhất. Hãy giữ Stage 2 được trang bị, luôn nhớ tới Mastery 3, và để dành tiền cho chi phí nhận nhiệm vụ $2000 của Kisuke.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Bắt đầu với Stage 1">
+    Giết Hollow bằng Standless cho đến khi mở khóa kiểu Zanpakuto đầu tiên xuất hiện. Đây là bước nền tảng mở ra chuỗi Ichigo.
+  </Step>
+  <Step num="2" title="Tiến vào Stage 2">
+    Tiếp tục giết Hollow khi đang trang bị Stage 1 cho đến khi Shikai Sword xuất hiện. Stage 2 là cây cầu dẫn bạn vào tuyến nhiệm vụ của Kisuke.
+  </Step>
+  <Step num="3" title="Nói chuyện với Kisuke">
+    Với Mastery 3 và Stage 2 đang được trang bị, hãy nói chuyện với Kisuke và trả $2000 để nhận nhiệm vụ. Bạn không cần dùng Ichigo để bắt đầu, nhưng bạn cần anh ấy để hoàn thành.
+  </Step>
+  <Step num="4" title="Hoàn thành nhiệm vụ">
+    Giết 25 Hollow và 1 Adjuchas, rồi chuyển sang bước fragment cuối cùng. Khi Stage 3 hoàn tất, tuyến Vasto Lorde sẽ mở ra.
+  </Step>
+</Steps>
+
+| Stage | Yêu cầu | Chi phí | Kết quả |
+| --- | --- | --- | --- |
+| Stage 1 | Giết Hollow bằng Standless | Không có | Mở khóa kiếm đầu tiên |
+| Stage 2 | Giết thêm Hollow với Stage 1 | Không có | Tiến trình Shikai |
+| Stage 3 | Mastery 3, Stage 2, nhiệm vụ Kisuke | $2000 | Giết 25 Hollow + 1 Adjuchas |
+| Stage 4 | Dùng Hogyoku Fragment lên Stage 3 | Fragment | Tuyến Hollow Mask / Vasto Lorde |
+
+| Nguồn Fragment | Nên farm gì | Ghi chú thực tế |
+| --- | --- | --- |
+| Adjuchas | Hogyoku Fragment | Mục tiêu lặp lại tốt nhất cho server đang hoạt động |
+| Menos | Hogyoku Fragment | Tuyến dự phòng khi Adjuchas quá đông |
+| Cụm Hollow | Tiến độ nhiệm vụ | Cần cho hoàn thành Stage 3 |
+
+<Callout type="info" title="Ưu tiên tuyến đường">
+Nếu mục tiêu của bạn là tốc độ, hãy hoàn thành tuyến nhiệm vụ trước và farm fragment sau. Giữ Stage 3 mà chưa có fragment vẫn là tiến bộ; dùng fragment quá sớm chỉ làm chậm phần thưởng thật sự.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Ưu tiên bộ chiêu cho PvP và cày farm">
+
+<Callout type="success" title="Quy tắc chiến đấu cơ bản">
+Dùng khả năng cơ động để ép đối thủ mắc lỗi, rồi chốt bằng burst. Bộ cuối thưởng cho người chơi đủ gần để tạo áp lực, nhưng không quá gần để ăn một pha trao đổi tệ.
+</Callout>
+
+| Chiêu | Stage | Cách dùng tốt nhất |
+| --- | --- | --- |
+| Q: Getsuga Slash | Dạng cuối | Mở giao tranh nhanh, phạt dash, xác nhận nhanh |
+| E: Unrelenting Barrage | Dạng cuối | Chuỗi gây áp lực, nối thêm sát thương |
+| R: Crushing Roar | Dạng cuối | Kiểm soát không gian AoE, làm gián đoạn đám đông |
+| T: Cero Blast | Dạng cuối | Poke tầm xa, ép di chuyển |
+| G: Getsuga Tenshou | Dạng cuối | Kết liễu burst, gây áp lực lên block |
+| Y: Cero Counter | Dạng cuối | Nhử đòn phòng thủ, phạt đối phương quá lao vào |
+| C: Flash Step | Dạng cuối | Đuổi theo, đổi vị trí, thiết lập lại khoảng cách |
+
+| Giai đoạn bộ kỹ năng | Điểm mạnh | Điểm yếu | Cách dùng tốt nhất |
+| --- | --- | --- | --- |
+| Stage 3 | Áp lực mạnh, đe dọa bằng flash-step, có Mugetsu | Phụ thuộc thời điểm | Đấu tay đôi và phản công |
+| Stage 4 | Có công cụ phản đòn, burst tốt hơn, cửa sổ áp lực mạnh hơn | Thời điểm biến hình rất quan trọng | PvP và các pha giao tranh cam kết |
+
+<Callout type="warning" title="Lưu ý về Mugetsu">
+Mugetsu rất mạnh, nhưng sau khi dùng bạn sẽ không thể sử dụng kỹ năng cho tới khi chết và reset. Hãy xem nó như một nút “cam kết giao tranh”, không phải cú poke bình thường.
+</Callout>
+
+Dạng cuối cho cảm giác mạnh nhất khi bạn ngừng cố “săn” mọi cú đánh và thay vào đó xây dựng các pha chuyển đổi thật sạch. Flash Step tạo ra mối đe dọa, các chuỗi chém giữ đối thủ bị ghim tại chỗ, và đòn counter cho bạn một câu trả lời an toàn hơn khi ai đó cố ép lượt của họ.
+
+| Tình huống | Nút tốt nhất | Vì sao hiệu quả |
+| --- | --- | --- |
+| Đối thủ đang lùi | C hoặc T | Ép kiểm soát khoảng cách |
+| Đối thủ chặn quá nhiều | G | Tạo cửa sổ phạt rất mạnh |
+| Đối thủ nhảy vào tầm của bạn | Y | Chuyển sự lao quá đà thành sát thương |
+| Bạn cần reset | C | Đổi vị trí mà không mất nhịp |
+
+</Section>
+
+<Section icon={Shield} title="Checklist farm và mẹo tối ưu hiệu suất">
+
+<Callout type="info" title="Tập trung vào hiệu suất">
+Tuyến farm tốt nhất là tuyến bạn có thể lặp lại mà không bị tụt nhịp. Di chuyển server gọn gàng, chọn mục tiêu tốt và giữ nhịp stage có kỷ luật quan trọng hơn những clip combo hào nhoáng.
+</Callout>
+
+<Checklist
+  id="vasto-lorde-prep"
+  title="Trước khi tiến lên dạng cuối:"
+  items={[
+    "Đạt Mastery 3 trước khi nói chuyện với Kisuke",
+    "Giữ Stage 2 được trang bị khi nhận nhiệm vụ",
+    "Để dành $2000 cho chi phí nhận nhiệm vụ",
+    "Farm Adjuchas hoặc Menos để lấy Hogyoku Fragment",
+    "Đừng dùng fragment cho tới khi Stage 3 sẵn sàng"
+  ]}
+/>
+
+| Thói quen tối ưu | Vì sao hữu ích |
+| --- | --- |
+| Đổi server để tìm khu spawn đang hoạt động | Giảm thời gian chết giữa các lần thử lấy fragment |
+| Giữ trọng tâm vào tiến độ nhiệm vụ | Tránh mất nhịp khi cày Hollow |
+| Giữ fragment cho đúng stage | Tránh lãng phí vật phẩm ở bước cuối |
+| Dùng Vasto Lorde trong các pha giao tranh cam kết | Dạng này mạnh nhất khi bạn kiểm soát nhịp độ |
+
+Một vòng lặp gọn thường sẽ như sau: giết Hollow cho các stage đầu, gặp Kisuke để mở cổng Bankai, rồi farm Adjuchas hoặc Menos để lấy fragment. Nếu phòng chờ đang đông, hãy kiên nhẫn và tiếp tục di chuyển giữa các tuyến spawn thay vì chờ ở một mục tiêu quá đông.
+
+Để xem đầy đủ bộ chiêu và ghi chú cách lấy, hãy đánh dấu trang [Kurosaki Ichigo wiki page](https://sakura-stand.fandom.com/wiki/Kurosaki_Ichigo).
+
+</Section>
+
+<Section icon={Trophy} title="FAQ và tham khảo nhanh">
+
+<Callout type="tip" title="Tham khảo nhanh">
+Nếu bạn chỉ nhớ một điều, hãy nhớ điều này: Stage 3 là mốc kiểm tra thật sự. Mọi thứ sau đó đều xoay quanh việc chọn đúng thời điểm để chuyển fragment thành biến hình cuối cùng.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Làm sao để mở khóa sakura stand vasto lorde?",
+    answer: "Tiến qua Stage 1 và Stage 2, hoàn thành nhiệm vụ của Kisuke ở Stage 3, rồi dùng Hogyoku Fragment lên Stage 3 để mở tuyến cuối."
+  },
+  {
+    question: "Có cần trang bị Ichigo để bắt đầu nhiệm vụ không?",
+    answer: "Bạn có thể nói chuyện với Kisuke để tiến điều kiện nhiệm vụ, nhưng vẫn cần dùng Ichigo để hoàn thành mục tiêu Stage 3."
+  },
+  {
+    question: "Hogyoku Fragment rơi từ đâu?",
+    answer: "Nguồn chính là Adjuchas và Menos. Trên thực tế, Adjuchas là mục tiêu lặp lại tốt hơn nếu bạn muốn tuyến farm nhanh hơn."
+  },
+  {
+    question: "Nhược điểm lớn nhất của Mugetsu là gì?",
+    answer: "Sau khi dùng Mugetsu, bạn sẽ mất quyền dùng kỹ năng cho đến khi chết và reset. Nó rất mạnh, nhưng cũng là một pha cam kết."
+  }
+]} />
+
+| Chủ đề | Câu trả lời tốt nhất |
+| --- | --- |
+| Tiến độ đầu game nhanh nhất | Cày Hollow với stage hiện tại đang được trang bị |
+| Cách tiêu tiền quan trọng nhất | Chi phí nhận nhiệm vụ $2000 của Kisuke |
+| Mục tiêu fragment chính | Adjuchas và Menos |
+| Tư duy tốt nhất cho dạng cuối | Đấu ngắn, xác nhận mạnh, áp lực sạch |
+
+</Section>

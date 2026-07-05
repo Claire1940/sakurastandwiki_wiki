@@ -1,0 +1,217 @@
+import { Map, Coins, Shield, Swords, Trophy, Target } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand megumin: Hướng dẫn nổ bùng, tỷ lệ rơi & mẹo thiết lập",
+  description: "Tìm hiểu cách sakura stand megumin hoạt động như một lối chơi thiên về bùng nổ, bao gồm quy tắc skin, tỷ lệ quay, kế hoạch cash và thời điểm giao tranh thực tế.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Megumin+Burst+Guide",
+  date: "2026-07-05",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand megumin** nên được xem như một lối chơi ưu tiên bùng nổ trước: hãy dành cửa sổ mạnh nhất cho những kẻ địch đang tụ lại.
+- **Quay Arcade** tốn 350 cash mỗi lần, và pity đảm bảo nhận một skin huyền thoại sau 60 lần quay.
+- **Quy tắc sở hữu skin** rất nghiêm ngặt: bạn phải sở hữu stand tương ứng, nếu không skin sẽ tự xóa.
+- **Thời điểm giao tranh** quan trọng hơn việc spam kỹ năng; hãy chờ choáng, đám đông tụ lại, hoặc đối thủ đã lãng phí phòng thủ.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về sakura stand megumin">
+
+Sức hấp dẫn theo phong cách Megumin của Sakura Stand rất đơn giản: chỉ một khoảnh khắc nổ tung cũng có thể định đoạt trận đấu. Điều đó khiến lối build này vừa bắt mắt, vừa nhanh, vừa rủi ro theo cách tích cực nhất. Mục tiêu không phải là trao đổi ngang cơ. Mục tiêu là tạo ra một khe hở sạch, tung đòn bùng nổ, và xóa đi khả năng ổn định của đối thủ.
+
+**Điểm nổi bật của video:**
+- Sát thương diện rộng cực lớn khi kẻ địch tụ lại
+- Trừng phạt mạnh những di chuyển dễ đoán
+- Dọn giao tranh tốt sau hiệu ứng khống chế hoặc choáng
+- Hiệu quả hơn khi bạn tránh lãng phí cú nổ vào lúc bị ngắt quãng
+
+<YouTubeEmbed videoId="CEosxGygjwo" title="NỔ MEGUMIN! | Sakura Stand |" />
+
+<CardGrid cols={3}>
+  <Card title="Kết liễu bằng bùng nổ">
+    - Tốt nhất khi đối thủ đã commit vào tình huống
+    - Biến một khe hở sạch thành áp lực
+    - Thưởng cho sự kiên nhẫn hơn là spam nút
+  </Card>
+  <Card title="Kiểm soát khu vực">
+    - Buộc đối thủ phải tản ra
+    - Khiến không gian hẹp trở nên nguy hiểm hơn
+    - Rất hiệu quả sau khi đồng đội mở giao tranh
+  </Card>
+  <Card title="Trừng phạt hỗn loạn">
+    - Tỏa sáng khi sảnh đấu đông người
+    - Trừng phạt người chơi mất tập trung
+    - Mạnh hơn khi đối thủ lao lên quá đà
+  </Card>
+</CardGrid>
+
+| Ưu tiên | Cách làm tốt nhất | Vì sao quan trọng |
+|---|---|---|
+| Thiết lập mở đầu | Chờ đối thủ commit | Cú nổ mạnh nhất khi khả năng né tránh bị hạn chế |
+| Chọn mục tiêu | Đánh vào đám đông trước | Một vụ nổ nên ảnh hưởng nhiều hơn một người |
+| Sử dụng tài nguyên | Giữ cash và thời gian cho các lượt quay có mục tiêu | Chi tiêu ngẫu nhiên làm chậm tiến trình |
+| Nhịp giao tranh | Đặt lại sau khi hụt cú nổ | Đuổi theo quá mức thường sẽ tự đánh mất đà |
+
+<Callout type="tip" title="Mẹo hay">
+Hãy xem theme này như một build thiên về đà giao tranh. Nếu cú nổ đầu tiên thất bại, đừng cố ép nó vào thế đứng xấu. Hãy đổi vị trí, nhử đối thủ di chuyển, rồi quay lại với góc tấn công sạch hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Cách săn skin an toàn">
+
+Hệ thống skin là phần mà đa số người chơi dễ hiểu sai nhất. Arcade nằm trong quán cà phê, và đó là nơi bạn quay skin hoặc banner. Nếu bạn muốn ngoại hình Megumin, hoặc bất kỳ cuộc săn cosmetic độ hiếm cao nào, bạn cần hiểu rõ quy tắc sở hữu và thay thế trước khi bắt đầu chi tiêu.
+
+| Quy tắc | Chi tiết | Ảnh hưởng |
+|---|---|---|
+| Nơi quay | Arcade trong quán cà phê | Đây là trung tâm gacha skin chính |
+| Chi phí mỗi lượt | 350 cash hoặc 15 Robux | Cash thường là lựa chọn an toàn hơn về lâu dài |
+| Điều kiện nhận | Bạn phải sở hữu stand tương ứng | Skin không khớp sẽ tự biến mất |
+| Giới hạn skin | Một skin cho mỗi stand | Lượt quay mới có thể thay thế skin cũ |
+| Kiểm tra thay thế | Đổi skin độ hiếm cao hơn sẽ hỏi xác nhận | Tránh làm mất skin tốt do nhầm lẫn |
+| Đặt lại pity | Đặt lại khi bạn rời game | Tích lũy chỉ có ích nếu bạn ở nguyên trong phiên |
+| Hoàn tiền khi nhận thất bại | Bạn sẽ được hoàn tiền nếu không thể nhận | Giảm bớt thiệt hại của lượt quay xấu, nhưng không giải quyết được việc săn |
+
+Tham khảo cho hệ thống skin: [Sakura Stand Wiki - Skins](https://sakura-stand.fandom.com/wiki/Skins) truy cập 2026-07-05.
+
+<Steps>
+  <Step num="1" title="Xác nhận stand mục tiêu">
+    Hãy chắc chắn rằng stand bạn muốn đã có sẵn trong kho đồ. Nếu skin thuộc về một stand khác, lượt quay đó là vô ích.
+  </Step>
+  <Step num="2" title="Tạo quỹ cash dự phòng">
+    Giữ đủ cash cho nhiều hơn vài lần thử. Một phiên quay ngắn hiếm khi phản ánh toàn bộ cục diện.
+  </Step>
+  <Step num="3" title="Quay theo từng đợt">
+    Hãy quay theo các đợt đã lên kế hoạch thay vì bấm từng lần ngẫu nhiên. Cách này giúp theo dõi tiến độ dễ hơn và dừng đúng lúc.
+  </Step>
+  <Step num="4" title="Đọc kỹ các lời nhắc thay thế">
+    Nếu game yêu cầu thay một skin độ hiếm cao hơn, hãy chậm lại. Phần xác nhận tồn tại để cứu bạn khỏi một sai lầm tốn kém.
+  </Step>
+  <Step num="5" title="Chỉ rời đi sau khi kết thúc phiên">
+    Vì pity sẽ đặt lại khi bạn thoát, nên một phiên cày dở thường là thời gian lãng phí.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hãy để ý phiên của bạn">
+Nếu bạn đang tiến gần đến pity, đừng thoát sớm. Mốc đảm bảo 60 lượt chỉ có ích khi bạn ở trong cùng một phiên đủ lâu để chạm tới nó.
+</Callout>
+
+</Section>
+
+<Section icon={Coins} title="Tỷ lệ quay và kế hoạch cash">
+
+Kinh tế của hệ thống rất thẳng thắn, và đó chính là lý do kỷ luật quan trọng. Mỗi lượt quay tốn 350 cash, nên game thưởng cho những người lên kế hoạch thay vì đánh bạc theo cảm hứng. Nếu bạn đang nhắm tới kết quả cấp huyền thoại, con đường an toàn nhất là vào phiên với ngân sách thật sự và một điểm dừng rõ ràng.
+
+| Độ hiếm | Tỷ lệ | Ghi chú |
+|---|---|---|
+| Thường | 40% | Kết quả xuất hiện nhiều nhất |
+| Không thường | 25% | Vẫn đủ phổ biến để gặp thường xuyên |
+| Hiếm | 20% | Kết quả tầm trung |
+| Sử thi | 14.75% | Tốt hơn đồ nền, nhưng chưa phải mục tiêu săn |
+| Huyền thoại | 0.1875% | Cực kỳ hiếm theo tỷ lệ thô |
+| Cổ đại | 0.0625% | Siêu hiếm và rất được săn đón |
+
+| Số lượt quay | Cash cần | Ghi chú kế hoạch |
+|---|---|---|
+| 10 lượt | 3,500 cash | Tốt để thử vận may, không phù hợp cho một cuộc săn pity nghiêm túc |
+| 30 lượt | 10,500 cash | Mục tiêu giữa phiên khá ổn nếu bạn muốn giữ đà |
+| 60 lượt | 21,000 cash | Đảm bảo một skin huyền thoại khi chạm pity |
+
+Gacha cũng có thể rơi ra các vật phẩm như Arrows, Rokakakas, Stop Signs, Hamon Manuals, Spin Manuals, Stone Masks và Mysterious Cameras. Những phần thưởng này có thể làm dịu mức lỗ giá trị, nhưng tỷ lệ không được công bố rõ ràng, nên hãy xem chúng là phần thưởng thêm chứ không phải một kế hoạch.
+
+<Callout type="info" title="Quy tắc ngân sách">
+Nếu mục tiêu của bạn là một kết quả hiếm cụ thể, hãy nghĩ theo từng khối 60 lượt. Đó là con số duy nhất trong hệ thống cho bạn một vạch đích có thể dự đoán được.
+</Callout>
+
+| Kiểu chi tiêu | Phù hợp nhất cho | Mức rủi ro |
+|---|---|---|
+| Quay giải trí | Thử pool | Biến động cao |
+| Bộ 30 lượt đã lên kế hoạch | Người chơi ngân sách trung bình | Biến động vừa phải |
+| Săn 60 lượt đầy đủ | Lập kế hoạch pity nghiêm túc | Mức bất định thấp nhất |
+| Kết hợp cash và Robux | Truy cập nhanh | Chi phí thực tế cao nhất |
+
+<Callout type="tip" title="Chi tiêu thông minh">
+Hãy dùng cash trước, trừ khi bạn có lý do mạnh để tăng tốc. Robux có thể hiệu quả về tốc độ, nhưng hiếm khi là lựa chọn tốt nhất cho một cuộc săn dài.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Thời điểm bùng nổ và nhịp giao tranh">
+
+Kế hoạch giao tranh cho sakura stand megumin được xây dựng quanh thời điểm, không phải sự hoảng loạn. Cú bùng nổ của bạn nên trừng phạt những đối thủ đã dùng hết công cụ cơ động, khống chế hoặc phòng thủ. Đó là lúc build này bắt đầu trở nên ngột ngạt. Nếu bạn tung sớm, đối thủ có thể chỉ cần di chuyển ra xa, ngắt nó, hoặc đổi chiêu trong thời gian hồi phục của bạn.
+
+| Tình huống | Hành động tốt hơn | Sai lầm thường gặp |
+|---|---|---|
+| Đối thủ tụ lại | Commit vào cú nổ | Chần chừ quá lâu và làm mất đám đông |
+| Đối thủ dùng time stop hoặc một khung khống chế tương tự | Giữ vị trí và trừng phạt sau khi nó kết thúc | Lãng phí cú nổ vào trạng thái miễn nhiễm |
+| Đối thủ bị tách lẻ | Ép trước, nổ sau | Dùng chiêu mạnh nhất lên mục tiêu vẫn có thể thoát |
+| Cú nổ trượt | Đổi góc và tái giao tranh | Đuổi theo vào vị trí xấu |
+| Đồng đội gây choáng thành công | Bám theo ngay | Chậm trễ và để mục tiêu hồi lại |
+
+<Callout type="success" title="Mẫu giao tranh tốt nhất">
+Choáng trước, nổ sau, dọn sạch cuối cùng. Trình tự đó biến một chiêu nhìn rất hoành tráng thành áp lực đáng tin cậy.
+</Callout>
+
+Một người chơi Megumin mạnh sẽ chú ý ba thứ: đối thủ tụ lại, thói quen di chuyển, và việc lãng phí cooldown. Nếu đối phương dùng một kỹ năng áp sát quá sớm, đó là tín hiệu của bạn. Nếu cả đội đang dồn gần một góc, đó là tín hiệu của bạn. Nếu giao tranh đã rối sẵn, đó thường là cơ hội tốt nhất để biến cả màn hình thành một vùng sát thương.
+
+| Mục tiêu chiến đấu | Bạn muốn gì | Cần tránh gì |
+|---|---|---|
+| Thời điểm vào giao tranh | Đối thủ commit | Nổ mở đầu mù quáng |
+| Vị trí | Góc hẹp và điểm nghẽn | Khoảng trống rộng không có cơ hội bắt |
+| Giá trị sát thương | Đánh trúng nhiều mục tiêu | Overkill vào một mục tiêu |
+| Kiểm soát rủi ro | Đổi vị trí sau khi nổ | Ở lại quá lâu trong thế lộ diện |
+
+<Callout type="warning" title="Rủi ro bị phản chế">
+Đừng cho rằng mọi trận đều có thể cưỡng ép. Một số đối thủ sẽ giữ công cụ phòng thủ riêng cho đúng cửa sổ bùng nổ của bạn. Hãy khiến họ phải dùng trước bất cứ khi nào có thể.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách kiểm tra và FAQ">
+
+Trước khi bạn lao vào cày, hãy dùng một danh sách kiểm tra đơn giản. Một phiên tập trung thường tốt hơn một phiên dài nhưng mất tập trung. Bạn cần có mục tiêu, ngân sách và quy tắc dừng trước khi lượt quay đầu tiên bắt đầu.
+
+<Checklist
+  id="megumin-chase"
+  title="Trước khi quay:"
+  items={[
+    "Xác nhận bạn đang sở hữu stand gắn với skin",
+    "Đặt mục tiêu cash ít nhất 21,000 để lập kế hoạch pity",
+    "Quyết định bạn đang quay vì giá trị hay vì tốc độ",
+    "Giữ phiên hoạt động cho đến khi đến mốc đã định",
+    "Tránh thay một skin tốt hơn nếu chưa đọc kỹ lời nhắc"
+  ]}
+/>
+
+<Callout type="tip" title="Lời khuyên cuối cùng">
+Một cuộc săn tốt được đo bằng khả năng kiểm soát, không phải may mắn. Bạn xác định ngân sách và điểm thoát càng rõ, quá trình cày sẽ càng bớt đau.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "sakura stand megumin thường ám chỉ điều gì?",
+    answer: "Nó thường chỉ một build hoặc màn trình diễn Sakura Stand thiên về bùng nổ, tập trung vào một cửa sổ sát thương cực lớn."
+  },
+  {
+    question: "Một lượt quay skin trong Sakura Stand tốn bao nhiêu?",
+    answer: "Một lượt quay tốn 350 cash hoặc 15 Robux, vì vậy việc lên kế hoạch rất quan trọng nếu bạn muốn săn kết quả độ hiếm cao hơn."
+  },
+  {
+    question: "Pity có được giữ lại nếu tôi rời game không?",
+    answer: "Không. Thanh pity sẽ đặt lại khi bạn rời đi, nên hãy hoàn thành phiên đã lên kế hoạch trước khi đăng xuất."
+  },
+  {
+    question: "Tôi có thể giữ skin nếu không sở hữu stand tương ứng không?",
+    answer: "Không. Skin chỉ có thể giữ lại nếu bạn sở hữu đúng stand; nếu không nó sẽ tự xóa."
+  }
+]} />
+
+</Section>

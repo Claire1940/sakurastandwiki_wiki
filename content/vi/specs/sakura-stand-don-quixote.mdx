@@ -1,0 +1,217 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand don quixote: Mở khóa Sancho, Chiêu thức & Mẹo",
+  description: "Tìm hiểu cách Sancho hoạt động trong Sakura Stand, từ cách nhận bản legacy đến quản lý Hardblood, sát thương và các ưu tiên giao tranh thực tế.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Sancho+Guide",
+  date: "2026-07-05",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand don quixote** xoay quanh Sancho, một spec dùng Hardblood với cách nhận từ hầm ngục legacy.
+- **Quản lý Hardblood** rất quan trọng vì M1 sẽ tích nó, và giới hạn là 40.
+- **Chiêu biến thể** mạnh hơn khi bạn tích đủ Hardblood để dùng phiên bản nâng cấp.
+- **Tình trạng legacy** rất quan trọng: ghi chú hầm ngục gốc nói rằng La Manchaland không còn xuất hiện nữa.
+- **Lên kế hoạch sát thương** nên ưu tiên các cửa sổ burst, hiệu ứng choáng và phản đòn bằng thế thủ.
+</Callout>
+
+<Section icon={Map} title="sakura stand don quixote: Tổng quan về Sancho">
+
+Sancho, The Second Kindred là một spec gây sát thương mạnh, được xây dựng quanh việc kiểm soát tài nguyên máu, gây áp lực tầm xa và bùng nổ sát thương trừng phạt. Bộ kỹ năng dựa trên một ý tưởng đơn giản: tích Hardblood bằng đòn đánh cơ bản và các chiêu then chốt, rồi tiêu nó để dùng các biến thể nâng cấp khi đạt ngưỡng phù hợp.
+
+<CardGrid cols={4}>
+  <Card title="Bản sắc cốt lõi">
+    Spec thiên về máu với burst mạnh, một thế thủ phản đòn và nhiều nâng cấp Hardblood.
+  </Card>
+  <Card title="Quy tắc tài nguyên">
+    Mỗi M1 cho **1 Hardblood** và hồi hút máu nhẹ, nên chuỗi đòn cơ bản là một phần của bộ kỹ năng.
+  </Card>
+  <Card title="Giới hạn Hardblood">
+    Hardblood tối đa là **40**, khiến việc tiêu tài nguyên trở thành một phần thực sự của vòng xoay kỹ năng.
+  </Card>
+  <Card title="Truy cập legacy">
+    Lộ trình nhận bản gốc đã được lưu trữ, nên hãy xem chi tiết cách nhận như dữ liệu tham khảo.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Tình trạng hiện tại">
+Lộ trình La Manchaland gốc không còn hoạt động trong tài liệu tham khảo. Hãy xem phần này như hướng dẫn build và ghi chép mở khóa lịch sử, không phải lộ trình farm đang dùng được.
+</Callout>
+
+| Chủ đề | Chi tiết |
+|---|---|
+| Tên Spec | Sancho, The Second Kindred |
+| Tài nguyên | Hardblood |
+| Giới hạn Hardblood | **40** |
+| Nội tại | M1 cho **1 Hardblood** và hút máu |
+| Vật phẩm mở khóa legacy | Hardblood Lance |
+| Yêu cầu mở khóa | Dùng Hardblood Lance lên **Vampirism** |
+
+</Section>
+
+<Section icon={Target} title="Lộ trình nhận bản legacy">
+
+Con đường mở khóa đã được lưu trữ này vẫn quan trọng nếu bạn muốn hiểu Sancho đến từ đâu. La Manchaland là một hầm ngục xuất hiện mỗi hai giờ theo giờ máy chủ, cho phép sáu người chơi và có thể xuất hiện tại một trong ba vị trí đường hầm. Ghi chú của hầm ngục cũng nói rằng nó không còn có thể xuất hiện nữa, nên lộ trình này tốt nhất nên được xem là tài liệu lịch sử.
+
+<Steps>
+  <Step num="1" title="Tìm điểm xuất hiện của hầm ngục">
+    La Manchaland có thể xuất hiện ở **Okarun Tunnel**, **Beach Tunnel** hoặc **Library Tunnel**.
+  </Step>
+  <Step num="2" title="Vào với một nhóm nhỏ">
+    Tối đa **sáu người chơi** có thể vào, nên phối hợp sát thương quan trọng hơn việc lao vào solo.
+  </Step>
+  <Step num="3" title="Đứng đầu bảng sát thương">
+    Người chơi gây nhiều sát thương nhất sẽ nhận được vật phẩm **Hardblood Lance**.
+  </Step>
+  <Step num="4" title="Chuyển đổi vật phẩm">
+    Dùng **Hardblood Lance** lên **Vampirism** sẽ nhận được spec Sancho.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Mẹo lên kế hoạch lộ trình">
+Nếu bạn đang ghi chép Sancho cho một trang wiki hoặc kho build, hãy tách phương thức mở khóa cũ khỏi bộ kỹ năng giao tranh hiện tại. Như vậy hướng dẫn sẽ luôn chính xác ngay cả khi điểm xuất hiện không còn tồn tại.
+</Callout>
+
+| Chi tiết điểm xuất hiện | Giá trị |
+|---|---|
+| Chu kỳ xuất hiện | Mỗi **2 giờ** theo giờ máy chủ |
+| Số người trong nhóm | Tối đa **6 người chơi** |
+| Vị trí có thể xuất hiện | Okarun Tunnel, Beach Tunnel, Library Tunnel |
+| Điều kiện nhận thưởng | Gây nhiều sát thương nhất |
+| Vật phẩm nhận được | Hardblood Lance |
+
+</Section>
+
+<Section icon={Swords} title="Chiêu thức, sát thương và Hardblood">
+
+Danh sách chiêu thức của Sancho được xây dựng cho những người chơi có thể theo dõi ngưỡng tài nguyên. Một số đòn sẽ tạo Hardblood khi dùng, trong khi các biến thể nâng cấp chuyển tài nguyên đã tích thành follow-through tốt hơn hoặc burst cao hơn. Cách an toàn nhất để đọc bộ kỹ năng là chia các chiêu thành mở đầu, công cụ burst và công cụ hỗ trợ.
+
+<Callout type="info" title="Mẫu bộ kỹ năng">
+Tích Hardblood bằng M1 và các chiêu tốn ít tài nguyên, rồi dùng nó cho phiên bản phù hợp với cửa sổ của bạn. Các phiên bản theo ngưỡng là nơi spec này phát huy hiệu quả nhất.
+</Callout>
+
+| Chiêu thức | Phím | Sát thương | Hardblood / Vai trò |
+|---|---|---|---|
+| Don Quixote Hardblood Arts 2 Armadura De Sangre | Q | **48.5** | Mở đầu hất lùi bằng xoáy máu |
+| Sanguine Joy | E | **35** | Cho **2 Hardblood**, đòn chọc tầm gần |
+| Variant Sancho Hardblood Arts 6: Whips | E + Ten HB | **55** | Burst chuyển hóa bằng roi |
+| Let all Blossom Free | R | **38.5** | Cho **2 Hardblood**, đâm thương lao tới |
+| Variant Sancho Hardblood Arts 8: Split Apart | R + Ten HB | **37.5** | Combo biến thể song kiếm |
+| I shall Impale | T | **75** | Lao tới và đập mạnh gây sát thương lớn |
+| Ascendant Hardblood Art: La Sangre | T + Fifteen HB | **88.5** | Phiên bản T mạnh hơn với thêm một pha lao |
+| Wound | Y | **35** | Cho **1 Hardblood**, áp lực phá đỡ |
+| La Aventura Ha Terminado | G | **73.5** | Cho **4 Hardblood**, khởi đầu choáng AOE |
+| Variant Sancho Hardblood Arts 4: Track | H | **41** | Cho **2 Hardblood**, áp lực bảy mũi tên |
+| Ecstasy of Blood | H + Twenty HB | **74** | Tám nhát chém rồi kết bằng mũi tên |
+| Laughter Will Subside | Z | **23** | Thế thủ phản đòn; đâm xuyên khi bị đánh trúng |
+
+| Chi tiết nội tại | Hiệu ứng |
+|---|---|
+| Nội tại M1 | Mỗi M1 cho **1 Hardblood** |
+| Duy trì | M1 còn cho **hút máu nhẹ** |
+| Trần tài nguyên | Hardblood tối đa **40** |
+| Logic nâng cấp | Các biến thể theo ngưỡng tiêu Hardblood để tạo phiên bản mạnh hơn |
+
+<Callout type="tip" title="Đọc sát thương">
+Sancho không chỉ là bấm nút có sát thương cao nhất. Giá trị tốt nhất thường đến từ việc nối các chiêu tạo Hardblood vào một cửa sổ burst sạch sẽ, thay vì tiêu tài nguyên quá sớm.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Chuỗi giao tranh tốt nhất và thứ tự ưu tiên">
+
+Chuỗi Sancho gọn nhất rất đơn giản: tạo Hardblood, ép đối thủ di chuyển, rồi chốt bằng phiên bản phù hợp với tình huống bạn đã tạo ra. Thế thủ trên Z bổ sung một lớp phòng thủ, rất hữu ích khi đối thủ muốn ngắt nhịp chuẩn bị của bạn. Khi bạn hiểu từng chiêu phù hợp ở đâu, bộ kỹ năng sẽ bớt cảm giác tuyến tính hơn nhiều.
+
+<CardGrid cols={3}>
+  <Card title="Cửa sổ burst">
+    Dùng các chiêu tiêu Hardblood khi mục tiêu đã commit hoặc đang bị choáng.
+  </Card>
+  <Card title="Công cụ gây áp lực">
+    Giữ sẵn lựa chọn tầm xa và tầm trung để không bị ép vào một cách tiếp cận duy nhất.
+  </Card>
+  <Card title="Lớp phòng thủ">
+    Hãy xem **Z** như một phép thử đe dọa, không phải nút hoảng loạn để lãng phí vào khoảng trống.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Quy tắc ưu tiên">
+Mở đầu bằng các chiêu tạo Hardblood, gây áp lực bằng sát thương an toàn, rồi chỉ commit vào chiêu nâng cấp khi đối thủ đã bị hạn chế khả năng thoát ra.
+</Callout>
+
+| Tình huống | Công cụ tốt nhất | Vì sao hiệu quả |
+|---|---|---|
+| Cần tài nguyên sớm | **Sanguine Joy**, **Let all Blossom Free**, **Wound** | Những hành động này giúp tích Hardblood trong khi vẫn duy trì áp lực |
+| Cần trừng phạt | **I shall Impale**, **La Aventura Ha Terminado** | Cả hai đều cho burst rõ ràng và thưởng cho việc canh thời điểm |
+| Cần phản đòn | **Laughter Will Subside** | Thế thủ có thể đảo ngược việc đối thủ lao vào quá mức |
+| Cần áp lực tầm xa | **Variant Track**, **Ecstasy of Blood** | Các chiêu này giữ đối thủ phải di chuyển và kiểm soát không gian |
+| Cần kéo dài combo | **Ascendant La Sangre** | Pha lao thêm giúp giữ khoảng cách tiếp xúc sau cú đánh đầu tiên |
+
+<Checklist
+  id="sancho-combat-checklist"
+  title="Danh sách kiểm tra giao tranh của Sancho:"
+  items={[
+    "Tích Hardblood bằng M1 trước khi tiêu cho một biến thể",
+    "Dùng Z khi đối thủ có khả năng ép trao đổi",
+    "Giữ G cho một mở đầu chắc chắn hoặc thời điểm dồn ép",
+    "Chọn các biến thể T hoặc H khi ngưỡng mang lại giá trị thực sự",
+    "Tránh lãng phí Hardblood khi mục tiêu vẫn có thể thoát ra"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Tư thế, âm nhạc và thông tin thú vị">
+
+Sancho cũng có một gói phong cách khá hay, điều này quan trọng nếu bạn đang xây dựng một mục wiki đầy đủ hoặc chỉnh trang một trang nhân vật. Các cặp tư thế và nhạc nền khá đơn giản, nhưng chúng giúp gắn spec với bản sắc của nó. Phần thông tin thú vị ngắn gọn, nhưng vẫn cho bối cảnh hữu ích về hướng thiết kế.
+
+<Callout type="tip" title="Liên kết tham khảo">
+Trang tham khảo đã lưu trữ: [Sancho | Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Sancho) (2026-07-05).
+</Callout>
+
+| Tư thế | Âm nhạc | Ghi chú |
+|---|---|---|
+| Tư thế một | Canto VII Boss 4 Battle Theme | Tư thế đứng yên mang cảm giác như trận đánh boss |
+| Tư thế hai | Hero \| Sueño Imposible | Cặp nhạc cho tư thế thay thế |
+| Ghi chú thú vị | Manager of LaManchaland ID | Phần lớn spec này dựa trên bản sắc nguồn đó |
+| Chiêu dựa trên boss | 6 chiêu | Bộ kỹ năng vay mượn rất nhiều từ boss Sancho |
+
+<Callout type="info" title="Điểm nhấn phong cách">
+Nếu bạn muốn phần mô tả của mình mang cảm giác chân thực, hãy nhấn mạnh vào tên chiêu lấy cảm hứng từ boss, vòng lặp tài nguyên máu và gốc gác hầm ngục legacy.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Trọng tâm FAQ">
+Dùng các câu trả lời này để giữ bài viết nhất quán: lộ trình là legacy, giá trị sát thương được cố định theo tên chiêu, và Hardblood là tài nguyên then chốt.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "sakura stand don quixote có giống với Sancho không?",
+    answer: "Trong ngữ cảnh này thì có. Hướng dẫn tập trung vào Sancho, The Second Kindred, là spec gắn với cách đặt tên Don Quixote trong danh sách chiêu thức."
+  },
+  {
+    question: "Tôi còn có thể farm La Manchaland để lấy Sancho không?",
+    answer: "Hãy xem phương thức từ hầm ngục này như tài liệu đã lưu trữ. Ghi chú tham khảo nói rằng La Manchaland không còn xuất hiện nữa, nên lộ trình mở khóa cũ không còn hoạt động."
+  },
+  {
+    question: "Chỉ số quan trọng nhất cần theo dõi trên Sancho là gì?",
+    answer: "Hardblood. M1 tích nó, nhiều chiêu khác cũng cho thêm, và giới hạn là 40. Các phiên bản theo ngưỡng phụ thuộc vào việc tiêu nó đúng thời điểm."
+  },
+  {
+    question: "Tôi nên ưu tiên chiêu nào trước?",
+    answer: "Hãy bắt đầu bằng các chiêu tạo Hardblood và tạo khoảng trống, rồi giữ các phiên bản theo ngưỡng cho những cửa sổ trừng phạt rõ ràng hoặc khi áp lực đã được xác nhận."
+  }
+]} />
+
+</Section>
