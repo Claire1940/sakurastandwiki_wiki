@@ -1,0 +1,196 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand emperor: Danh sách chiêu thức, tầm đánh và mẹo chiến đấu",
+  description: "Tìm hiểu cách Emperor hoạt động trong Sakura Stand, bao gồm chỉ số chiêu thức, kiểm soát khoảng cách, áp lực làm choáng và các thói quen chiến đấu thực tế để giao tranh an toàn hơn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Emperor+Guide",
+  date: "2026-07-06",
+  author: "Đội ngũ Wiki Sakura Stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand emperor** là một stand tầm xa, thưởng cho việc giữ khoảng cách, căn thời điểm và gây áp lực có kỷ luật.
+- **Take Aim** cải thiện nhịp bắn, nhưng khả năng xoay chậm hơn khiến việc đứng sai vị trí dễ bị trừng phạt hơn.
+- **Headshot** là lựa chọn cận chiến duy nhất và là đòn kết liễu ở tầm gần mạnh nhất của bạn.
+- **Curve Shot** và **Homing Shot** là công cụ tốt nhất để bắt nhịp di chuyển và buộc đối thủ phải dè chừng.
+</Callout>
+
+<Section icon={Map} title="sakura stand emperor: Bộ kỹ năng cốt lõi và bản sắc">
+
+Emperor là một stand tầm xa được xây dựng xoay quanh bộ kỹ năng kiểu súng lục ổ quay, và bản sắc đó quan trọng hơn tốc độ bấm nút thuần túy. Stand này mạnh nhất khi bạn xem mỗi phát bắn là một quyết định về khoảng cách, chứ không phải lựa chọn trong lúc hoảng loạn. Bộ kỹ năng của nó kết hợp sát thương chip, làm choáng và một đòn kết liễu cận chiến rất mạnh, vì vậy người chơi giỏi dùng Emperor để kiểm soát đường giao tranh trước rồi mới truy sát sát thương sau.
+
+**Tóm tắt lối chơi cốt lõi:**
+- Giữ khoảng cách và buộc đối thủ phải di chuyển trước.
+- Dùng các đòn có hồi chiêu ngắn để duy trì áp lực đều đặn.
+- Giữ các chiêu mạnh hơn cho tình huống xác nhận, đối thủ hụt đòn và các hướng ép buộc.
+- Xem **Take Aim** như một công cụ ngắm chính xác, không phải tư thế mặc định.
+
+<CardGrid cols={3}>
+  <Card title="Áp lực tầm xa">
+    - **Shoot** gây chip an toàn
+    - **Take Aim** tăng độ chính xác
+    - Tốt nhất để buộc đối thủ phải di chuyển
+  </Card>
+  <Card title="Cửa sổ trừng phạt">
+    - **Consecutive Shot** bùng sát thương mạnh
+    - **Curve Shot** bắt góc di chuyển
+    - Hiệu quả nhất sau khi đọc được né hoặc chặn
+  </Card>
+  <Card title="Kết liễu cận chiến">
+    - **Headshot** là kiểm tra ở cự ly gần
+    - Lượng làm choáng cao nhất trong bộ kỹ năng
+    - Dùng sau khi đã có mở đầu xác nhận
+  </Card>
+</CardGrid>
+
+| Chiêu | Phím | Hồi chiêu | Sát thương / Hiệu ứng | Cách dùng tốt nhất |
+|---|---|---:|---|---|
+| Shoot | LMB | 2s | 3 sát thương, choáng 2s, có thể bị chặn | Gây chip, giữ khoảng cách |
+| Take Aim | Giữ RMB | 2s | Chế độ góc nhìn thứ nhất, bắn nhanh hơn, xoay chậm hơn | Gây áp lực chính xác |
+| Consecutive Shot | E | 20s | 5 viên đạn, 15 sát thương, choáng 1.5s, có thể bị chặn | Trừng phạt bùng nổ |
+| Curve Shot | T | 15s | 3 phát bắn cong, 18 sát thương, choáng 1.5s, có thể bị chặn | Gây áp lực theo góc |
+| Homing Shot | Y | 30s | Tầm cực xa, 18 sát thương, choáng 1s | Bắt mục tiêu ở xa |
+| Headshot | G | 25s | Đấm cận chiến rồi bắn vào mặt, 30 sát thương, choáng 3.5s | Đòn kết liễu cận chiến |
+
+<Callout type="tip" title="Thói quen đầu tiên tốt nhất">
+Hãy bắt đầu giao tranh bằng cách làm quen nhịp của **Shoot** và **Take Aim**. Nếu bạn thấy việc ngắm của mình bị vội, Emperor sẽ nhanh chóng trở nên thiếu ổn định.
+</Callout>
+
+| Bản nhạc | Cách dùng được ghi |
+|---|---|
+| Default - Wind in the Wilderness | Nhạc nền mặc định |
+| Domain of Incandescence - Inherit | Bản nhạc thay thế được liệt kê |
+| Lunatic Red Eyes - [MV] Reisen's Theme - Lunatic Eyes | Bản nhạc thay thế được liệt kê |
+
+</Section>
+
+<Section icon={Shield} title="Cách điều khiển Emperor trong giao tranh thực tế">
+
+Những ván Emperor an toàn nhất đến từ một nguyên tắc đơn giản: đừng bao giờ dùng chiêu mạnh nhất trước khi bạn tạo ra một khe hở. Vì nhiều phát bắn có thể bị chặn, bạn sẽ nhận được nhiều giá trị hơn nếu buộc đối thủ phải di chuyển, né hoặc chần chừ trước. Emperor không phải là việc spam hết thanh kỹ năng; mà là khiến mỗi phát bắn đều đe dọa phát tiếp theo.
+
+<Callout type="warning" title="Khoảng cách rất quan trọng">
+Nếu bạn áp sát quá mức, bạn sẽ đánh mất lợi thế tầm đánh vốn làm cho Emperor đáng dùng. Hãy giữ đủ khoảng trống để phản ứng, rồi chỉ dấn vào khi đối thủ đã tiêu tốn khả năng di chuyển.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Mở giao tranh bằng kiểm soát">
+    Vào giao tranh bằng **Take Aim** nếu bạn cần độ chính xác. Nếu đối thủ đã bắt đầu di chuyển, mở đầu bằng **Shoot** để thiết lập nhịp.
+  </Step>
+  <Step num="2" title="Theo dõi mẫu di chuyển">
+    Quan sát xem mục tiêu có chặn, lướt hay nhảy không. Thông tin đó sẽ quyết định liệu **Curve Shot** hay **Homing Shot** là lựa chọn trừng phạt tốt hơn.
+  </Step>
+  <Step num="3" title="Chốt sát thương khi có mở đầu">
+    Khi bạn thấy một pha xác nhận rõ ràng, dùng **Consecutive Shot** để gây sát thương bùng nổ. Nếu đối thủ quá gần, chuyển sang **Headshot**.
+  </Step>
+  <Step num="4" title="Thiết lập lại về khoảng cách an toàn">
+    Sau khi bùng sát thương, lùi lại và xây lại áp lực thay vì trao đổi mù quáng. Emperor thể hiện tốt nhất khi giao tranh diễn ra theo nhịp của bạn.
+  </Step>
+</Steps>
+
+| Tình huống | Chiêu tốt nhất | Vì sao hiệu quả |
+|---|---|---|
+| Đối thủ thường xuyên chặn | Homing Shot | Buộc di chuyển và đe dọa tầm với |
+| Địch né sang bên | Curve Shot | Các phát bắn cong có thể trừng phạt di chuyển ngang |
+| Địch đã lao vào rồi | Consecutive Shot | Bùng sát thương tốt nhất khi mục tiêu đã bị khóa vào tình huống |
+| Cận chiến hỗn loạn | Headshot | Làm choáng cao nhất và đòn kết liễu mạnh nhất |
+| Quấy rối thông thường | Shoot | Áp lực an toàn, lặp lại được |
+
+</Section>
+
+<Section icon={Swords} title="Sát thương, tầm đánh và cách đối phó">
+
+Emperor không được xây dựng quanh một nút sát thương khổng lồ duy nhất. Thay vào đó, bộ kỹ năng chia sức mạnh ra cho một đòn bắn cơ bản rất nhanh, nhiều công cụ gây áp lực và một đòn kết liễu giá trị cao. Điều đó có nghĩa là sát thương thực tế của bạn phụ thuộc vào việc bạn chuyển hóa di chuyển thành các pha xác nhận tốt đến đâu. Nếu bạn bỏ lỡ quá nhiều mở đầu, stand sẽ cảm giác chỉ ở mức trung bình; nếu bạn đọc đúng chuyển động, nó sẽ trở nên rất áp đảo.
+
+<Callout type="info" title="Đọc số liệu cho đúng">
+Điều quan trọng không chỉ là sát thương thô. Thời gian choáng, hồi chiêu và tầm đánh đều quyết định một chiêu có đáng dùng trong trao đổi thực tế hay không.
+</Callout>
+
+| Chiêu | Tầm đánh | Kiểm soát | Rủi ro | Ghi chú |
+|---|---|---|---|---|
+| Shoot | Tốt | Trung bình | Thấp | Chiêu mở đầu đáng tin cậy, hồi chiêu rất ngắn |
+| Take Aim | Tốt | Cao | Thấp | Tăng áp lực nhưng làm chậm khả năng xoay |
+| Consecutive Shot | Trung bình | Cao | Trung bình | Bùng sát thương mạnh, có thể bị chặn |
+| Curve Shot | Tốt | Cao | Trung bình | Tốt hơn bắn thẳng khi địch lướt ngang |
+| Homing Shot | Xuất sắc | Cao | Thấp-Trung bình | Tầm với tốt nhất trong bộ kỹ năng |
+| Headshot | Ngắn | Rất cao | Cao | Sát thương cao nhất và thời gian choáng dài nhất |
+
+| Cách đối phó thường gặp | Emperor nên làm gì |
+|---|---|
+| Đối thủ núp sau phòng thủ | Dùng áp lực di chuyển, rồi trừng phạt lúc thoát ra |
+| Đối thủ lùi kiting | Dùng Homing Shot để lấy lại quyền kiểm soát tầm với |
+| Đối thủ lao vào | Chèn sẵn Headshot nếu khoảng cách khép lại sạch sẽ |
+| Đối thủ liên tục lạng lách | Ưu tiên Curve Shot hơn là lặp lại bắn thẳng |
+
+Một người chơi Emperor thông minh luôn tự hỏi cùng một câu: “Kẻ địch nghĩ mình sẽ làm gì tiếp theo?” Nếu họ đoán bạn sẽ bắn thẳng, hãy đổi góc. Nếu họ đoán bạn sẽ bùng sát thương, hãy đặt lại nhịp. Lớp tư duy đó chính là lý do stand này mạnh hơn nhiều so với những gì chỉ số thô của nó thể hiện.
+
+</Section>
+
+<Section icon={Target} title="Checklist luyện tập và lỗi thường gặp">
+
+Cách nhanh nhất để tiến bộ với Emperor là rèn thói quen, chứ không chỉ thao tác. Bạn muốn di chuyển, ngắm và chọn chiêu của mình đều mang cảm giác có chủ đích dưới áp lực. Điều đó có nghĩa là phải luyện mở đầu, cửa sổ trừng phạt và mẫu thiết lập lại cho đến khi chúng trở thành phản xạ.
+
+<Callout type="success" title="Mục tiêu luyện tập">
+Nếu bạn có thể giữ khoảng trống, gây chip ổn định và dành đòn kết liễu cho các mở đầu đã xác nhận, Emperor sẽ ổn định hơn rất nhiều trong các trận thực.
+</Callout>
+
+<Checklist
+  id="emperor-practice"
+  title="Checklist luyện tập Emperor:"
+  items={[
+    "Mở đầu bằng Shoot hoặc Take Aim thay vì lao ngay vào chiêu mạnh nhất",
+    "Dùng Curve Shot khi mục tiêu cứ liên tục di chuyển ngang",
+    "Giữ Consecutive Shot cho các mở đầu đã xác nhận",
+    "Luôn để mở một đường thoát để có thể thiết lập lại khoảng cách",
+    "Xem Headshot như công cụ trừng phạt, không phải chiêu mở combo mặc định"
+  ]}
+/>
+
+| Lỗi thường gặp | Thói quen tốt hơn |
+|---|---|
+| Bắn quá sớm | Chờ chuyển động rồi mới dấn vào |
+| Ở trong tầm cận chiến | Tạo lại khoảng cách trước khi tái giao tranh |
+| Bỏ qua Take Aim | Dùng khi độ chính xác quan trọng nhất |
+| Phí Homing Shot | Giữ lại cho mục tiêu cố thoát khỏi làn giao tranh của bạn |
+| Quên Headshot | Dùng khi đối thủ lao quá sâu |
+
+Một vòng luyện tập tốt rất đơn giản: bắt đầu bằng bắn cơ bản, thêm các phát bắn theo góc, rồi kết thúc bằng các pha xác nhận ở cự ly gần. Khi chuỗi đó trở nên tự nhiên, tốc độ ra quyết định của bạn sẽ tốt hơn mà không cần phải chơi liều lĩnh.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ và ghi chú tham khảo">
+
+<Callout type="info" title="Liên kết tham khảo">
+Để kiểm tra chỉ số và tên chiêu, hãy giữ sẵn trang wiki này: [Emperor | Sakura Stand Wiki - Fandom](https://sakura-stand.fandom.com/wiki/Emperor).
+</Callout>
+
+<FAQ items={[
+  {
+    question: "sakura stand emperor mạnh nhất ở điểm nào?",
+    answer: "Nó mạnh nhất ở kiểm soát tầm đánh, áp lực chip và trừng phạt sai lầm bằng các phát bắn gây choáng mạnh cùng một đòn kết liễu cận chiến mạnh."
+  },
+  {
+    question: "Chiêu nào của Emperor có tầm xa nhất?",
+    answer: "Homing Shot có tầm xa nhất. Đây là chiêu bạn muốn dùng khi đối thủ cố thoát khỏi làn giao tranh của bạn hoặc lùi quá xa."
+  },
+  {
+    question: "Emperor có yếu ở cự ly gần không?",
+    answer: "Nó kém thoải mái hơn khi áp sát, nhưng Headshot cho Emperor một đòn trừng phạt cận chiến thực sự. Mấu chốt là đừng để mình phải sống ở khoảng cách đó."
+  },
+  {
+    question: "Tôi nên giữ những chiêu nào cho các pha xác nhận?",
+    answer: "Consecutive Shot và Headshot là những công cụ xác nhận lớn nhất. Hãy giữ chúng cho các mở đầu thay vì dùng bừa bãi."
+  }
+]} />
+
+<Callout type="tip" title="Kết luận cuối cùng">
+Emperor mạnh nhất khi bạn kiểm soát nhịp độ, chứ không phải khi bạn chạy theo hỗn loạn. Nếu bạn quản lý khoảng cách tốt, bộ kỹ năng sẽ luôn ổn định và đầy đe dọa.
+</Callout>
+
+</Section>

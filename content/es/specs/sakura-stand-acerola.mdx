@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const slug = "sakura-stand-acerola"
+
+export const metadata = {
+  title: "sakura stand acerola: Conjunto de movimientos, obtención y consejos",
+  description: "Guía de Acerola en Sakura Stand con rutas de obtención, acumulaciones de Hipotermia, daño de movimientos y consejos prácticos de combos para el Evento de Invierno.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1f2937/fff?text=Acerola+Guide",
+  date: "2026-07-06",
+  author: "Equipo de Wiki de sakura stand"
+}
+
+<Callout type="info" title="Guía rápida">
+- **sakura stand acerola**: acumula Hipotermia antes de comprometer tu ventana de daño más grande.
+- **Disponibilidad en Eventos de Invierno**: Trátalo como contenido estacional y confirma el stock antes de farmear moneda.
+- **Condición de victoria principal**: Consigue tres acumulaciones para activar la congelación y forzar un castigo.
+- **Mejor ritmo**: Usa la movilidad y la presión por chip para mantener a los rivales dentro del alcance de tu lanza.
+- **Preparación de alto valor**: Guarda H para tu mejor seguimiento y luego remata con G o Y.
+</Callout>
+
+<Section icon={Target} title="sakura stand acerola: Identidad central">
+
+sakura stand acerola es una spec de Eventos de Invierno construida alrededor de la presión con lanza, la acumulación de Hipotermia y ventanas cortas de castigo. Toma inspiración de Durandal y usa Abyss Flower, lo que le da al kit una sensación disciplinada, centrada en la lanza, en lugar de un estilo de rushdown puro.
+
+La idea principal es simple: mantener una presión constante, acumular el estado con seguridad y convertir una abertura en una congelación. Eso hace que la spec se sienta fuerte en peleas caóticas donde ambos jugadores se están moviendo todo el tiempo.
+
+| Resumen | Detalle | Por qué importa |
+|---|---|---|
+| Rol | Spec de presión a corta distancia | Quiere contacto repetido, no juego pasivo |
+| Pasiva | Hipotermia se acumula hasta 3 | La congelación es la verdadera recompensa |
+| Movilidad | Movimiento hacia delante con Z | Te permite seguir pegado a objetivos en fuga |
+| Control | Aturdimiento y amplificación de daño | Abre una ruta de ráfaga limpia |
+
+<CardGrid cols={3}>
+  <Card title="Presión">
+    Las secuencias constantes de lanza, el contacto repetido y la acumulación hacen que Acerola resulte peligrosa en intercambios prolongados.
+  </Card>
+  <Card title="Control">
+    Hipotermia, la preparación del aturdimiento y la recompensa de la congelación le dan a la spec una auténtica capacidad para decidir la pelea.
+  </Card>
+  <Card title="Riesgo">
+    El kit recompensa un buen timing. Si fallas tu preparación, tu rival puede reajustar la distancia.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Nota de estilo de juego">
+Acerola rinde mejor cuando piensas en capas: primero construye presión, luego asegúrate el umbral de acumulaciones y después gasta tus herramientas de daño.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo obtener Acerola">
+
+Acerola ha aparecido mediante rutas de vendedor estacionales vinculadas a los Eventos de Invierno. La conclusión práctica es que no deberías esperar hasta el último minuto para farmear moneda, porque la spec está ligada a una disponibilidad por tiempo limitado y su estado actual de regreso sigue sin confirmarse.
+
+| Método | Coste | Notas |
+|---|---|---|
+| Ruta Sakura Wanderer | 2000 Shards | Ruta de vendedor anterior vinculada al acceso estacional |
+| Ruta Sion | 3500 Snowflakes | Ruta de vendedor posterior con un coste de moneda más alto |
+| Disponibilidad | Estacional | Planea según las ventanas del evento en lugar de farmear sin rumbo |
+
+<Steps>
+  <Step num="1" title="Comprueba al vendedor estacional activo">
+    Antes de gastar nada, confirma si Acerola aparece actualmente en la ruta de vendedor del Evento de Invierno.
+  </Step>
+  <Step num="2" title="Elige la moneda correcta">
+    Guarda la moneda vinculada a la ruta activa y mantén un margen para no perder la compra cuando aparezca el stock.
+  </Step>
+  <Step num="3" title="Compra solo después de confirmar el listado">
+    Las specs estacionales pueden rotar, así que verifica el nombre del objeto y el precio antes de comprometer tus recursos ganados con esfuerzo.
+  </Step>
+</Steps>
+
+| Moneda | Mejor uso | Hábito de preparación |
+|---|---|---|
+| Shards | Ruta de compra de estilo antiguo | Conserva una reserva si vuelven opciones de vendedor anteriores |
+| Snowflakes | Compra de evento estacional | Farma con eficiencia mientras el evento esté activo |
+| Ambas | Planificación segura | Evita gastar cualquiera de las dos monedas por impulso |
+
+<Callout type="warning" title="Aviso de disponibilidad">
+No asumas que la spec estará disponible cuando quieras. Las specs estacionales pueden cambiar entre eventos, así que verifica siempre el stock actual del vendedor antes de invertir en un plan de compra completo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Desglose de la pasiva y del moveset">
+
+La pasiva es lo que hace que Acerola se sienta distinta. Hipotermia se acumula con varios movimientos, y al llegar a tres acumulaciones se generan picos de hielo y una congelación de tres segundos. Ese es el punto en el que tu presión se convierte en una conversión real.
+
+| Número de acumulaciones | Resultado | Valor en combate |
+|---|---|---|
+| 1 acumulación | Presión temprana | Empieza a forzar movimiento y reacciones defensivas |
+| 2 acumulaciones | Amenaza alta | Los rivales deben respetar tu siguiente golpe |
+| 3 acumulaciones | Picos de hielo y congelación durante 3 segundos | Comienza tu ventana de castigo más fuerte |
+
+| Movimiento | Daño | Efecto |
+|---|---|---|
+| Lmb | 29 | Secuencia de combo con lanza |
+| E | 20 | Ataque de estocadas consecutivas durante 2 segundos |
+| E + Air | 18 | Dos golpes y un remate, inflige 1 acumulación de Hipotermia |
+| R | 27 | Empala, eleva y estampa |
+| R + Air | 14 | Corte descendente con AOE circular |
+
+| Movimiento | Daño | Efecto | Mejor uso |
+|---|---|---|---|
+| T | 18 | Inflige 1 acumulación de Hipotermia | Poke a media distancia y presión de onda expansiva |
+| Y | 26 | Inflige 1 acumulación de Hipotermia | Persecución hacia delante y contacto sostenido |
+| Y + Air | 13 | Inflige 1 acumulación de Hipotermia | Control aéreo y zonificación |
+| G | 32 | Inflige 1 acumulación de Hipotermia | Herramienta de castigo pesado |
+| H | No se indica | Los enemigos reciben 15% más de daño durante 10 segundos y quedan aturdidos | Preparación de ráfaga antes de tu remate |
+| Z | No se indica | Movimiento hacia delante durante 5 segundos, 2 en combate | Reposicionamiento y presión de persecución |
+
+<Callout type="info" title="Patrón de daño">
+El detalle más importante no es solo el daño bruto. El kit se vuelve mucho más peligroso cuando conviertes una acumulación en dos y luego usas H para amplificar el siguiente castigo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejor plan de combate y prioridades de combo">
+
+Acerola es más fuerte cuando la partida se mantiene dentro de tu rango de distancia preferido. Quieres forzar el movimiento con Z, golpear con movimientos que generen acumulaciones y luego gastar H una vez que el rival ya esté incómodo. Ese flujo hace que tu oponente reaccione en lugar de iniciar su propio ofensivo.
+
+| Situación | Mejor opción | Motivo |
+|---|---|---|
+| Neutral de apertura | Z o T | Te permite entrar en espacio sin sobrecomprometerte |
+| Pelea caótica a corta distancia | E, R o G | Estos golpes convierten bien cuando el objetivo está inmovilizado |
+| El rival se retira | Y o Z | Mantiene viva la presión de persecución |
+| Después de que H conecta | G o Y | Maximiza la ventana de daño amplificado |
+
+| Ruta práctica | Propósito |
+|---|---|
+| T -> H -> G | Primero acumula, luego gasta la amplificación en un castigo fuerte |
+| Z -> Y -> E | Acerca la distancia y mantiene al rival atrapado en tu ritmo |
+| E + Air -> R -> Y + Air | Mezcla presión vertical con contacto sostenido |
+
+<Checklist
+  id="acerola-fight-plan"
+  title="Lista de verificación de combate:"
+  items={[
+    "Consigue tu primera acumulación de Hipotermia antes de buscar una confirmación grande.",
+    "Usa Z para seguir pegado cuando el objetivo intente reajustar la distancia.",
+    "Guarda H para el momento en que puedas seguirlo de inmediato con daño.",
+    "Busca G o Y después de que la presión ya haya forzado una reacción defensiva.",
+    "Trata las tres acumulaciones como tu verdadera señal de ráfaga, no como un bonus casual."
+  ]}
+/>
+
+<Callout type="success" title="Mejor práctica">
+Si mantienes al rival en movimiento, Acerola se vuelve mucho más fiable. La spec está en su mejor momento cuando cada intento de escape se convierte en otra oportunidad para acumular Hipotermia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Notas de skins y FAQ">
+
+Los datos de skins disponibles son sencillos: Acerola tiene una forma exclusiva para desarrolladores llamada King of Monsters, y la spec principal es el punto de referencia base para jugar. Para la mayoría de los jugadores, lo importante es reconocer que la entrada de skin existe, pero no cambia el bucle principal de juego estacional.
+
+| Entrada | Tipo | Nota |
+|---|---|---|
+| Acerola | Spec base | La forma estacional estándar y la identidad de juego |
+| Acerola | King of Monsters | Skin exclusiva de desarrollador con notas amplias de compatibilidad |
+
+Para la página canónica, usa la entrada de Acerola en Sakura Stand Wiki: [Acerola - Sakura Stand Wiki](https://sakura-stand.fandom.com/wiki/Acerola).
+
+<Callout type="info" title="Nota de referencia">
+Ten a mano la entrada de la wiki si quieres volver a comprobar la disponibilidad, los cambios de coste o las notas más recientes de la spec antes de tomar una decisión de compra.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Por qué es más conocida sakura stand acerola?",
+    answer: "Es más conocida por la acumulación de Hipotermia, una recompensa de congelación al llegar a tres acumulaciones y un estilo de presión basado en lanza que premia el buen posicionamiento."
+  },
+  {
+    question: "¿Cómo consigo Acerola?",
+    answer: "Acerola ha aparecido mediante rutas de vendedor estacionales, incluida una ruta de Shards y una ruta de Snowflakes. Confirma siempre el listado actual antes de farmear."
+  },
+  {
+    question: "¿Qué movimiento debería priorizar en combate?",
+    answer: "Usa primero las herramientas que generan acumulaciones y luego gasta H cuando estés listo para castigar. G y Y son seguimientos fuertes una vez que el rival queda controlado."
+  },
+  {
+    question: "¿Acerola es una spec amigable para principiantes?",
+    answer: "Es accesible si ya entiendes el posicionamiento, pero recompensa a los jugadores que saben gestionar bien el timing, la presión y el movimiento de persecución."
+  }
+]} />
+
+</Section>

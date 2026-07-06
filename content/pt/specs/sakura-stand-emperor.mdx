@@ -1,0 +1,196 @@
+import { Map, Swords, Target, Shield, Sparkles, Trophy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sakura stand emperor: Lista de Movimentos, Alcance e Dicas de Combate",
+  description: "Aprenda como o Emperor funciona em Sakura Stand, incluindo estatísticas dos movimentos, controle de alcance, pressão de atordoamento e hábitos práticos de combate para lutas mais seguras.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Emperor+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki de Sakura Stand"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **sakura stand emperor** é um stand de longo alcance que recompensa espaçamento, timing e pressão disciplinada.
+- **Take Aim** melhora o ritmo de disparo, mas a rotação mais lenta torna um posicionamento ruim mais fácil de punir.
+- **Headshot** é a única opção corpo a corpo e seu melhor finalizador de curta distância.
+- **Curve Shot** e **Homing Shot** são suas melhores ferramentas para pegar movimentos e impor respeito.
+</Callout>
+
+<Section icon={Map} title="sakura stand emperor: Kit Principal e Identidade">
+
+Emperor é um stand de longo alcance construído em torno de um kit no estilo revólver, e essa identidade importa mais do que a velocidade bruta dos comandos. O stand é mais forte quando você trata cada disparo como uma decisão de espaçamento, e não como uma opção de pânico. Seu kit mistura dano chipado, atordoamento e um finalizador de curta distância muito forte, então os melhores jogadores usam o Emperor primeiro para controlar as rotas e depois para buscar dano.
+
+**Resumo do estilo de jogo principal:**
+- Mantenha a distância e faça o oponente se mover primeiro.
+- Use disparos com recarga curta para manter a pressão constante.
+- Guarde seus golpes mais pesados para confirmações, erros do inimigo e rotas forçadas.
+- Trate **Take Aim** como uma ferramenta de precisão, e não como uma postura padrão.
+
+<CardGrid cols={3}>
+  <Card title="Pressão de Longo Alcance">
+    - **Shoot** causa chip com segurança
+    - **Take Aim** melhora a precisão
+    - Melhor para forçar movimento
+  </Card>
+  <Card title="Janelas de Punição">
+    - **Consecutive Shot** causa um burst forte
+    - **Curve Shot** pega ângulos
+    - Funciona melhor depois de uma esquiva ou leitura de bloqueio
+  </Card>
+  <Card title="Finalização de Curta Distância">
+    - **Headshot** é o teste corpo a corpo
+    - Maior atordoamento do kit
+    - Use após uma abertura confirmada
+  </Card>
+</CardGrid>
+
+| Movimento | Tecla | Recarga | Dano / Efeito | Melhor Uso |
+|---|---|---:|---|---|
+| Shoot | LMB | 2s | 3 de dano, 2s de atordoamento, bloqueável | Dano chipado, espaçamento |
+| Take Aim | RMB hold | 2s | Modo em primeira pessoa, disparo mais rápido, rotação mais lenta | Pressão de precisão |
+| Consecutive Shot | E | 20s | 5 balas, 15 de dano, 1.5s de atordoamento, bloqueável | Punição em burst |
+| Curve Shot | T | 15s | 3 tiros curvos, 18 de dano, 1.5s de atordoamento, bloqueável | Pressão em ângulo |
+| Homing Shot | Y | 30s | Alcance extremo, 18 de dano, 1s de atordoamento | Captura de longa distância |
+| Headshot | G | 25s | Soco corpo a corpo seguido de tiro no rosto, 30 de dano, 3.5s de atordoamento | Finalização de curta distância |
+
+<Callout type="tip" title="Melhor Hábito Inicial">
+Comece as lutas aprendendo o ritmo de **Shoot** e **Take Aim**. Se sua mira parecer apressada, o Emperor fica inconsistente muito rápido.
+</Callout>
+
+| Faixa Musical | Uso Listado |
+|---|---|
+| Default - Wind in the Wilderness | Tema base |
+| Domain of Incandescence - Inherit | Faixa alternativa listada |
+| Lunatic Red Eyes - [MV] Reisen's Theme - Lunatic Eyes | Faixa alternativa listada |
+
+</Section>
+
+<Section icon={Shield} title="Como Jogar com Emperor em Lutas Reais">
+
+As partidas mais seguras com Emperor vêm de uma regra simples: nunca gaste seu golpe mais forte antes de criar uma abertura. Como vários disparos podem ser bloqueados, você ganha mais valor ao fazer o oponente se mover, esquivar ou hesitar primeiro. Emperor não é sobre gastar toda a barra; é sobre fazer cada disparo ameaçar o próximo.
+
+<Callout type="warning" title="O Espaçamento Importa">
+Se você se aproximar demais, abre mão da vantagem de alcance que faz o Emperor valer a pena. Mantenha espaço suficiente para reagir e só avance quando o oponente já tiver gasto o movimento.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Abra com controle">
+    Entre nas lutas com **Take Aim** se precisar de precisão. Se o oponente já estiver em movimento, comece com **Shoot** para estabelecer o ritmo.
+  </Step>
+  <Step num="2" title="Observe os padrões de movimento">
+    Veja se o alvo bloqueia, avança em dash ou pula. Essa informação decide se **Curve Shot** ou **Homing Shot** é a melhor punição.
+  </Step>
+  <Step num="3" title="Converta as aberturas">
+    Quando vir uma confirmação limpa, use **Consecutive Shot** para causar burst. Se o oponente estiver perto demais, troque para **Headshot**.
+  </Step>
+  <Step num="4" title="Recuar para uma distância segura">
+    Depois de um burst, recue e reconstrua a pressão em vez de trocar golpes no impulso. Emperor rende melhor quando a luta fica do seu jeito.
+  </Step>
+</Steps>
+
+| Situação | Melhor Movimento | Por que Funciona |
+|---|---|---|
+| Oponente bloqueia com frequência | Homing Shot | Força movimento e ameaça o alcance |
+| Inimigo esquiva para os lados | Curve Shot | Tiros curvos podem punir movimento lateral |
+| Inimigo já se comprometeu | Consecutive Shot | Melhor burst quando o alvo está travado |
+| Confusão de curta distância | Headshot | Maior atordoamento e melhor finalizador |
+| Assédio geral | Shoot | Pressão segura e repetível |
+
+</Section>
+
+<Section icon={Swords} title="Dano, Alcance e Contra-jogo">
+
+Emperor não foi construído em torno de um único botão de dano gigante. Em vez disso, o kit distribui seu poder em um disparo básico muito rápido, várias ferramentas de pressão e um finalizador de alto valor. Isso significa que seu dano real depende de quão bem você converte movimento em confirmações. Se você errar muitas aberturas, o stand parece mediano; se ler bem o movimento, ele fica opressor.
+
+<Callout type="info" title="Leia os Números Corretamente">
+A parte importante não é apenas o dano bruto. Duração do atordoamento, recarga e alcance decidem se um movimento vale a pena em uma troca real.
+</Callout>
+
+| Movimento | Alcance | Controle | Risco | Observações |
+|---|---|---|---|---|
+| Shoot | Bom | Médio | Baixo | Início confiável, recarga muito curta |
+| Take Aim | Bom | Alto | Baixo | Melhora a pressão, mas reduz a rotação |
+| Consecutive Shot | Médio | Alto | Médio | Burst forte, bloqueável |
+| Curve Shot | Bom | Alto | Médio | Melhor que um tiro reto quando o inimigo desvia para os lados |
+| Homing Shot | Excelente | Alto | Baixo-Médio | Melhor alcance do kit |
+| Headshot | Curto | Muito alto | Alto | Maior dano e maior atordoamento |
+
+| Contra-jogo Comum | O que o Emperor Deve Fazer |
+|---|---|
+| Oponente fica atrás da guarda | Use pressão de movimento e depois puna a saída |
+| Oponente recua em kite | Use Homing Shot para recuperar o controle de alcance |
+| Oponente avança com tudo | Prepare Headshot se a distância fechar limpo |
+| Oponente continua ziguezagueando | Prefira Curve Shot em vez de repetir tiros retos |
+
+Um jogador inteligente de Emperor sempre faz a mesma pergunta: “O que o inimigo acha que eu vou fazer agora?” Se ele esperar um tiro reto, use um ângulo. Se ele esperar um burst, redefina o ritmo. É nesse nível mental que o stand fica muito mais forte do que a linha de estatísticas sugere.
+
+</Section>
+
+<Section icon={Target} title="Checklist de Prática e Erros Comuns">
+
+A maneira mais rápida de melhorar com Emperor é treinar hábitos, e não apenas comandos. Você quer que seu movimento, mira e seleção de disparos pareçam intencionais sob pressão. Isso significa praticar suas aberturas, suas janelas de punição e seu padrão de recuo até tudo se tornar automático.
+
+<Callout type="success" title="Objetivo de Treino">
+Se você conseguir controlar o espaço, acertar dano chipado de forma consistente e reservar seu finalizador para aberturas confirmadas, o Emperor fica muito mais estável em partidas reais.
+</Callout>
+
+<Checklist
+  id="emperor-practice"
+  title="Checklist de Prática do Emperor:"
+  items={[
+    "Comece com Shoot ou Take Aim em vez de correr para o seu golpe mais forte",
+    "Use Curve Shot quando o alvo continuar se movendo para os lados",
+    "Reserve Consecutive Shot para aberturas confirmadas",
+    "Mantenha uma rota de fuga aberta para poder resetar a distância",
+    "Trate Headshot como ferramenta de punição, não como início padrão de combo"
+  ]}
+/>
+
+| Erro Comum | Hábito Melhor |
+|---|---|
+| Disparar cedo demais | Espere o movimento e então comprometa-se |
+| Permanecer em alcance de corpo a corpo | Reconstrua a distância antes de reengajar |
+| Ignorar Take Aim | Use-o quando a precisão for mais importante |
+| Desperdiçar Homing Shot | Guarde-o para alvos que tentam escapar da sua linha |
+| Esquecer Headshot | Use-o quando o oponente se estender demais |
+
+Um bom ciclo de treino é simples: comece com tiros básicos, adicione tiros em ângulo e depois finalize com confirmações de curta distância. Quando essa sequência parecer natural, sua velocidade de decisão melhora sem te forçar a jogar de forma imprudente.
+
+</Section>
+
+<Section icon={Trophy} title="FAQ e Notas de Referência">
+
+<Callout type="info" title="Link de Referência">
+Para conferir estatísticas e nomes dos movimentos, mantenha a página da wiki à mão: [Emperor | Sakura Stand Wiki - Fandom](https://sakura-stand.fandom.com/wiki/Emperor).
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Em que o sakura stand emperor é melhor?",
+    answer: "Ele é melhor em controle de alcance, pressão chipada e punição de erros com tiros que causam muito atordoamento e um forte finalizador de curta distância."
+  },
+  {
+    question: "Qual movimento do Emperor tem o maior alcance?",
+    answer: "Homing Shot tem o maior alcance. É o movimento ideal quando os inimigos tentam sair da sua linha ou recuar demais."
+  },
+  {
+    question: "O Emperor é fraco de perto?",
+    answer: "Ele fica menos confortável de perto, mas Headshot dá ao Emperor uma punição corpo a corpo de verdade. O segredo é evitar viver nessa distância."
+  },
+  {
+    question: "Quais movimentos devo guardar para confirmações?",
+    answer: "Consecutive Shot e Headshot são as principais ferramentas de confirmação. Guarde-os para aberturas em vez de usar aleatoriamente."
+  }
+]} />
+
+<Callout type="tip" title="Conclusão Final">
+O Emperor parece mais forte quando você controla o ritmo, e não quando corre atrás do caos. Se você administrar bem o espaçamento, o kit continua consistente e ameaçador.
+</Callout>
+
+</Section>

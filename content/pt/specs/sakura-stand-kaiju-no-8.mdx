@@ -1,0 +1,219 @@
+import { Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand kaiju no 8: Guia de Movimentos, Formas e Dano",
+  description: "Analise Sakura Stand Kaiju No. 8 com passivas das formas, dano dos movimentos, etapas de obtenção e combos PvP para 2026.",
+  category: "Guia",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Kaiju+No.8+Guide",
+  date: "2026-07-06",
+  author: "Equipe da Wiki do Sakura Stand"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **sakura stand kaiju no 8** é uma spec de três estados com forte redução de dano e explosão de burst.
+- **Kaiju Form** aumenta o dano e a mobilidade, depois troca seu movimento T para uma variante de rugido.
+- **Berserk** adiciona os golpes mais fortes, mas o temporizador pode acabar em uma derrota instantânea.
+- **Obtenção apenas por banner** torna o planejamento de moeda mais importante do que girar às cegas.
+</Callout>
+
+<Section icon={Map} title="Visão Geral de sakura stand kaiju no 8">
+
+Kaiju No. 8 foi construído em torno de pressão em camadas: um estado base seguro, uma Kaiju Form mais forte e um estado Berserk de alto risco. O kit recompensa jogadores que conseguem começar com pokes, converter em derrubadas e então encerrar as rodadas antes que o tempo vire um problema.
+
+<Callout type="warning" title="Leia Isso Primeiro">
+Não trate essa spec como uma obtenção casual. O caminho atual de obtenção é baseado em banner, e a showcase coloca a taxa de roll em cerca de 1%, então planeje seus recursos antes de começar.
+</Callout>
+
+**Destaques do Vídeo:**
+- Caminho de obtenção apenas por banner com chances muito baixas
+- Três modos distintos: Base, Kaiju Form e Berserk
+- Cada forma muda como você deve abordar neutral e confirmações
+- O maior dano vem de janelas de burst cronometradas, não de trocas aleatórias
+
+<YouTubeEmbed videoId="jgaqINI8XKs" title='IVE BEEN WAITING FOR THI- oh, we have to gamble | Obtaining NEW "Kaiju No.8" Spec on Sakura Stand...' />
+
+<CardGrid cols={3}>
+  <Card title="Base">
+    - **Neutral mais seguro**
+    - 35% de redução de dano
+    - Bom para abrir espaço e aprender o timing
+  </Card>
+  <Card title="Kaiju Form">
+    - **Forma principal de combate**
+    - Melhor mobilidade e dano
+    - Melhor equilíbrio entre ofensiva e controle
+  </Card>
+  <Card title="Berserk">
+    - **Modo de execução de burst**
+    - Maior nível de ameaça
+    - Ferramentas de finalização mais fortes, mas com temporizador perigoso
+  </Card>
+</CardGrid>
+
+| Form | Principais benefícios | Melhor uso |
+|---|---|---|
+| Base | 35% de redução de dano | Neutral seguro e aprendizado de spacing |
+| Kaiju Form | 22% de aumento na velocidade de sprint, 15% de redução de dano, 25% de aumento de dano, 2x de altura de salto | Pressão no meio da luta e conversão |
+| Berserk | 22% de aumento na velocidade de sprint, 35% de aumento de dano, 2x de altura de salto, temporizador de morte | Eliminações rápidas e punições pesadas |
+
+<Callout type="info" title="Referência">
+Acompanhe a lista atual de movimentos e passivas aqui: [Página da wiki de Kaiju No.8](https://sakura-stand.fandom.com/wiki/Kaiju_No.8).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lista de Movimentos, Dano e Mudanças de Forma">
+
+Kaiju No. 8 fica mais forte quando você entende em qual modo está e quais botões mudam com ele. O padrão central é simples: os botões da base estabelecem pressão, Kaiju Form transforma essa pressão em ameaça real, e Berserk melhora as finalizações.
+
+<Callout type="tip" title="Princípio Central">
+Pense em três camadas: poke primeiro, launcher segundo, finalizador por último. Se você pular a preparação, desperdiça as janelas de dano mais fortes da spec.
+</Callout>
+
+| Form | Tecla | Movimento | Dano | Observações |
+|---|---|---|---|---|
+| Base | Q | Kaiju Jab | 20 | Explode após um pequeno atraso |
+| Base | E | Kaiju Barrage | 18.3 | Sequência rápida de socos com final explosivo |
+| Kaiju Form | Q | Kaiju Aura | N/A | Adiciona redução de dano e dano, pode mudar para Berserk ao morrer |
+| Kaiju Form | E | Kaiju Big Barrage | 24.3 | Sequência de pressão mais forte |
+| Kaiju Form | R | Kaiju Dash Kick | 30 | Aproximação com investida seguida de impacto |
+| Kaiju Form | T | Kaiju Big Slam | 30 | Golpe pesado no chão |
+| Kaiju Form | T com Aura | Kaiju Roar | 19.2 | Golpe em área ao seu redor |
+| Kaiju Form | Y | Sonic Wave | 21 | Poke de longo alcance |
+| Kaiju Form | G | Kaiju Uppercut | 40 | Lança o alvo para seguir com combo |
+| Kaiju Form | H | Kaiju Counter | 60 | Ferramenta de punição de alto retorno |
+| Kaiju Form | Z | Jet Leap | N/A | Ferramenta de mobilidade |
+| Kaiju Form | B | Kaiju Impact | 70 | Finalizador em estilo de raio |
+
+| Form | Tecla | Movimento | Dano | Observações |
+|---|---|---|---|---|
+| Berserk | E | Berserk Barrage | 48 | Barragem muito mais forte |
+| Berserk | T | Berserk Roar | 80 | Punição massiva em área |
+| Berserk | Y | Berserk Wraith | 64 | Poke em onda aprimorado |
+| Berserk | Z | Berserk Leap | N/A | Ferramenta de reposicionamento mais forte |
+| Berserk | B | Berserk Impact | 230 | Maior finalizador listado |
+
+Algumas observações práticas importam mais do que os números brutos. Kaiju Form é seu estado de combate do dia a dia. Berserk é seu modo de abate. Se você entrar em Berserk cedo demais, pode ficar sem tempo antes de converter a vantagem. Se entrar tarde demais, a rodada talvez já esteja perdida.
+
+<Callout type="success" title="Prioridade de Dano">
+Use **H** e **B** para encerrar rodadas, não para começar. Seus melhores resultados vêm de acertar primeiro um launcher ou counter, e só depois gastar os golpes mais pesados.
+</Callout>
+
+| Situação | Melhor botão | Por que funciona |
+|---|---|---|
+| Abrir espaço | Y ou Z | Poke seguro ou reposicionamento |
+| Confirmação de curta distância | E em G | Pressão rápida para lançamento |
+| Punir whiff | H | Recompensa muito alta na leitura |
+| Pressão em grupo | T com Aura ou Berserk Roar | Forte controle de área |
+| Confirmação de abate | B | Melhor finalizador quando o alvo não pode escapar |
+
+</Section>
+
+<Section icon={Target} title="Como Obter e Gerenciar a Spec">
+
+O caminho atual não é uma cadeia de quests nem um enigma com NPC escondido. É uma aposta baseada em banner, o que significa que seu planejamento importa antes da sua sorte. A jogada mais inteligente é girar com um orçamento-alvo e praticar o timing da forma, mesmo que você ainda esteja atrás do drop.
+
+<Callout type="warning" title="Verificação de Orçamento">
+Se você girar sem reserva, corre o risco de ficar travado no meio da caça. Guarde moeda suficiente para aguentar uma sequência ruim antes de começar.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Estoque sua moeda primeiro">
+    Junte Robux ou moeda do jogo suficientes para sobreviver a uma sessão de rolls ruim. A showcase sugere fortemente que isso não é uma obtenção rápida.
+  </Step>
+  <Step num="2" title="Gire o banner">
+    Use o caminho do banner porque ele é o método confirmado. Não perca tempo procurando outra forma de desbloqueio.
+  </Step>
+  <Step num="3" title="Aprenda Kaiju Form imediatamente">
+    Depois de conseguir, pratique a nova variante do T, o timing do dash e suas rotas de launcher antes de entrar em lutas sérias.
+  </Step>
+  <Step num="4" title="Trate Berserk como um modo de finalização">
+    Guarde os golpes mais fortes para o fim de um combo ou para os segundos finais de um duelo. Berserk brilha quando o inimigo já está encurralado.
+  </Step>
+</Steps>
+
+| Fator de obtenção | O que significa | Conclusão |
+|---|---|---|
+| Apenas por banner | O caminho passa por rolls | Guarde recursos primeiro |
+| Chances baixas | A showcase coloca em torno de 1% | Espere uma sessão longa |
+| Sem rota alternativa | Não há um desbloqueio alternativo simples mostrado | Comprometa-se só quando estiver pronto |
+| Domínio do modo | Cada forma joga de maneira diferente | Pratique antes de PvP |
+
+Use esta rotina simples se quiser resultados mais limpos:
+
+<Callout type="info" title="Rotina de Obtenção">
+Gire apenas quando tiver o suficiente para continuar, depois passe as primeiras lutas aprendendo o timing da transformação em vez de caçar momentos de destaque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Melhores Combos, Matchups e Checklist de PvP">
+
+Kaiju No. 8 funciona melhor quando você controla o ritmo. Você quer forçar movimento, punir saltos desesperados e reservar os golpes mais fortes para aberturas confirmadas. A spec não é sobre apertar botões sem parar; é sobre transformar um acerto limpo em uma conversão completa.
+
+<Callout type="tip" title="Mentalidade de PvP">
+Não entre em trocação a cada segundo. Vença o neutral com alcance, transforme um acerto em lançamento e só então gaste seus botões de maior dano.
+</Callout>
+
+| Situação de matchup | Ação recomendada | Motivo |
+|---|---|---|
+| Oponente fica passivo | Poke com Y ou spacing com Z | Força ele a se mover primeiro |
+| Oponente avança | Counter com H | Melhor recompensa na previsão |
+| Você acerta um golpe pequeno | E em G | Converte pressão em lançamento |
+| O inimigo recua | R ou Z | Recupera distância rapidamente |
+| Pressão de grupo | T ou Berserk Roar | Controla espaço e interrompe |
+| Oportunidade de finalização | B | Finalizador com maior dano |
+
+<Checklist
+  id="kaiju-pvp-prep"
+  title="Checklist para PvP:"
+  items={[
+    "Saiba em qual modo você está antes de comprometer um combo",
+    "Pratique E em G para que sua primeira conversão pareça automática",
+    "Guarde Berserk para dano de finalização, não para trocas aleatórias",
+    "Use Z para spacing em vez de movimento desesperado",
+    "Reserve B para aberturas confirmadas, não para chutes no escuro"
+  ]}
+/>
+
+Os melhores confrontos geralmente vêm da paciência. Contra jogadores escorregadios, Kaiju Form dá a mobilidade necessária para manter o contato. Contra jogadores agressivos, as opções de counter e slam punem exageros. Se a luta durar o suficiente para entrar em Berserk, sua tarefa é encerrar rápido.
+
+<Callout type="success" title="Plano de Luta">
+Comece com controle, converta com launchers e finalize com burst. Esse padrão combina melhor com a spec do que tentar forçar todos os movimentos ao mesmo tempo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Notas do FAQ">
+Estas respostas focam na lista atual de movimentos, no caminho por banner e em como os três modos mudam seu estilo de jogo.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Como conseguir sakura stand kaiju no 8?",
+    answer: "O caminho atual é baseado em banner, e a showcase indica chances muito baixas. Guarde moeda primeiro e depois gire com um orçamento."
+  },
+  {
+    question: "O que torna Berserk diferente de Kaiju Form?",
+    answer: "Berserk melhora o kit para um modo de execução muito mais forte. Seus golpes mais potentes são ótimos para finalizar, mas o temporizador pode virar um problema."
+  },
+  {
+    question: "Qual movimento devo aprender primeiro?",
+    answer: "Comece com Kaiju Aura, Kaiju Big Slam e Kaiju Counter. Esses três ensinam sustain, spacing e janelas de punição."
+  },
+  {
+    question: "A spec vale a pena pelo grind?",
+    answer: "Sim, se você quer formas em camadas, burst forte e mobilidade flexível. O principal ponto negativo é o custo de obtenção e o caminho de rolls baseado em sorte."
+  }
+]} />
+
+</Section>

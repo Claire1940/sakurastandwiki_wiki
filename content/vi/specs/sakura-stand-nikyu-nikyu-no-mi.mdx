@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand nikyu nikyu no mi: Hướng dẫn thiết lập & combo",
+  description: "Tìm hiểu sakura stand nikyu nikyu no mi với thứ tự ưu tiên thiết lập, các lối gây áp lực và mẹo kèo đấu để thắng an toàn hơn, gọn gàng hơn.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/334155/fff?text=Nikyu+Nikyu+Guide",
+  date: "2026-07-06",
+  author: "Đội ngũ Wiki sakura stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand nikyu nikyu no mi** phát huy tốt nhất khi bạn chú trọng giữ khoảng cách, nhử di chuyển và tận dụng đúng lúc để trừng phạt.
+- **Kết quả tốt nhất** đến từ một chiêu mở đầu, một công cụ kiểm soát và một chiêu kết liễu đáng tin cậy.
+- **Đừng lao vào quá mức** sau khi mở đầu hụt; hãy lấy lại khoảng cách và buộc đối thủ phải phản ứng trước.
+- **Lối an toàn nhất** là gây áp lực, xác nhận rồi chốt sát thương trước khi đối thủ thoát ra.
+- **Hãy luyện một combo** trước khi thử các pha trộn nâng cao hoặc nhử đòn mạo hiểm.
+</Callout>
+
+<Section icon={Map} title="Bản sắc cốt lõi và màn trình diễn">
+
+sakura stand nikyu nikyu no mi mạnh nhất khi bạn xem nó như một vũ khí kiểm soát nhịp độ hơn là một nút bùng nổ ngẫu nhiên. Bộ kỹ năng muốn bạn kiểm soát không gian, kéo đối thủ vào những vị trí bất lợi và trừng phạt sai lầm bằng một đòn theo sau nặng hơn. Nếu bạn cố ép mọi pha trao đổi, bạn sẽ tự đánh mất lợi thế của mình. Nếu bạn để đối thủ di chuyển trước, spec này sẽ dễ điều khiển hơn nhiều.
+
+<CardGrid cols={3}>
+  <Card title="Kiểm soát nhịp độ">
+    - Buộc đối thủ phản ứng thay vì đoán mò
+    - Dùng các chuỗi áp lực ngắn
+    - Thắng thế trung lập bằng sự kiên nhẫn
+  </Card>
+  <Card title="Trừng phạt bùng nổ">
+    - Chuyển một sơ hở thành sát thương
+    - Giữ đòn mạnh nhất cho các pha xác nhận
+    - Mạnh nhất sau khi đối thủ hụt đòn hoặc lăn né hoảng loạn
+  </Card>
+  <Card title="Khống chế không gian">
+    - Khiến việc di chuyển trở nên khó chịu
+    - Dồn đối thủ vào góc khi có thể
+    - Hạn chế lối thoát bằng vị trí tốt
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Điểm rút ra từ phần trình diễn">
+Màn trình diễn hiện tại hữu ích nhất để đọc nhịp độ, thời điểm hoạt ảnh và tốc độ commit của spec. Điều đó quan trọng hơn độ “bắt mắt” thuần túy khi bạn đang học các lộ trình đầu tiên.
+</Callout>
+
+**Điểm nổi bật từ video:**
+- Cho thấy biến thể skin Isaac của spec.
+- Giúp bạn quan sát nhịp điệu trực quan của các đòn đánh.
+- Hữu ích để học thời điểm mỗi hành động commit.
+- Là tài liệu tham khảo tốt trước khi thử các lối gây áp lực của riêng bạn.
+
+<YouTubeEmbed videoId="QH8DG3KEoNU" title="[Sakura Stand] Nikyu Nikyu no Mi | Isaac skin showcase" />
+
+| Thuộc tính cốt lõi | Ý nghĩa | Tác động thực tế |
+|---|---|---|
+| Kiểm soát | Bộ kỹ năng định hình di chuyển và khoảng cách | Bạn có thể điều khiển trận đấu thay vì phải đuổi theo |
+| Áp lực | Các chuỗi ngắn quan trọng hơn spam dài | Đối thủ hoảng và lãng phí công cụ phòng thủ |
+| Trừng phạt | Cơ hội mở ra có giá trị hơn việc trao đổi sát thương thô | Một pha xác nhận gọn có thể xoay chuyển cả hiệp |
+| Kết liễu | Đòn kết thúc mạnh rất quan trọng khi đối thủ còn thấp máu | Giữ đòn nặng nhất cho những pha xác nhận thật sự |
+
+<Callout type="tip" title="Ghi chú của biên tập viên">
+Nếu phản xạ đầu tiên của bạn là lao vào ngay, hãy chậm lại. Spec này thường hiệu quả hơn khi đối thủ mới là người tự đẩy mình quá sâu.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cách thiết lập trái cây">
+
+Sai lầm lớn nhất mà người chơi mắc với sakura stand nikyu nikyu no mi là cố chơi nó như một spec lao vào thuần túy. Nó ổn định hơn khi bạn xây dựng quanh sự nhất quán: một chiêu mở đầu đáng tin, một cách bám sát mục tiêu và một phương án kết thúc khi đã xác nhận trúng đòn. Hãy nghĩ theo từng lớp. Lớp đầu tạo áp lực, lớp hai bắt chuyển động, và lớp ba kết thúc pha trao đổi.
+
+<Steps>
+  <Step num="1" title="Chọn một chiêu mở đầu">
+    Chọn một đòn mở đầu nhanh mà bạn có thể tung trúng thường xuyên. Mục tiêu không phải là sát thương tối đa; mục tiêu là vào được sạch sẽ để phần còn lại của bộ kỹ năng phát huy.
+  </Step>
+  <Step num="2" title="Thêm một công cụ định vị">
+    Giữ một công cụ giúp bạn bám gần hoặc tái định vị sau khi hụt. Giữ khoảng cách tốt quan trọng hơn một pha tất tay mạo hiểm.
+  </Step>
+  <Step num="3" title="Chốt một đòn kết liễu">
+    Đòn kết liễu nên dễ xác nhận và dễ nhận biết. Nếu lộ trình quá khó đọc, bạn sẽ đánh rơi sát thương dưới áp lực.
+  </Step>
+  <Step num="4" title="Kiểm tra nhịp trong giao tranh thực">
+    Hãy luyện với mục tiêu di chuyển, không chỉ với hình nộm. Đó là cách nhanh nhất để học khi nào đối thủ thường hoảng hoặc né.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Mẹo thiết lập">
+Nếu mở đầu hụt, đừng vung đòn lại ngay lập tức. Hãy lùi ra, chỉnh lại khoảng cách và buộc đối thủ phải đoán hai lần trước khi bạn commit tiếp.
+</Callout>
+
+| Ưu tiên | Vì sao quan trọng | Kết quả tốt |
+|---|---|---|
+| Khoảng cách | Giữ an toàn cho chiêu mở đầu | Bạn trúng nhiều đòn đầu tiên hơn |
+| Kiểm soát camera | Giúp theo dõi chuyển động và lối thoát | Bạn ít mất mục tiêu hơn khi đánh cận chiến |
+| Quản lý dash | Tránh lãng phí khả năng cơ động | Bạn luôn có đường thoát hoặc tùy chọn truy đuổi |
+| Thời điểm | Làm cho khung trừng phạt rõ ràng hơn | Sát thương đến từ xác nhận, không phải hoảng loạn |
+
+**Thói quen thiết lập được khuyến nghị:**
+- Giữ kế hoạch giao đấu thật đơn giản trong vài trận đầu.
+- Chỉ dùng một chiêu mở đầu cho đến khi nó trở nên tự động.
+- Giữ những lộ trình đẹp nhất cho các pha mở đầu đã xác nhận.
+- Tái đặt khoảng cách mỗi khi đối thủ lấy lại nhịp.
+
+</Section>
+
+<Section icon={Swords} title="Áp lực, combo và các cửa sổ trừng phạt">
+
+Khi thiết lập đã ổn định, sakura stand nikyu nikyu no mi bắt đầu cho cảm giác mạnh hơn nhiều vì mỗi cú đánh đều có mục đích. Bạn không cố phủ kín màn hình bằng các nút bấm. Bạn đang cố tạo ra một chuỗi khiến đối thủ phải tiêu hao di chuyển sớm, rồi nhận sát thương khi họ chỉ còn ít lựa chọn hơn. Đó là lúc spec này trở nên nguy hiểm.
+
+<Callout type="warning" title="Sai lầm thường gặp">
+Đừng dùng công cụ mạnh nhất của bạn chỉ để mở đầu thế trung lập. Nếu chiêu mở đầu bị chặn hoặc né, bạn vẫn muốn phần còn lại của bộ kỹ năng giữ được áp lực.
+</Callout>
+
+| Mẫu lộ trình | Dùng tốt nhất khi | Vì sao hiệu quả |
+|---|---|---|
+| Chọc → Xác nhận → Kết thúc | Khi đối thủ di chuyển quá nhiều | Đòn nhẹ đầu tiên kiểm tra phản ứng của họ |
+| Áp lực → Nhử → Trừng phạt | Khi đối thủ thích né | Bạn bắt được chuyển động hoảng loạn sau khi nhử |
+| Hất lùi → Truy đuổi → Kết liễu | Khi bạn đã buộc được họ phải reset | Bạn không cho mục tiêu thoát ra gọn gàng |
+| Phản không gian → Lộ trình bùng nổ | Khi đối thủ hung hãn | Việc họ commit giúp bạn trừng phạt sạch hơn |
+
+Một nguyên tắc tốt là hãy để đối thủ bộc lộ thói quen trước khi bạn dùng tài nguyên lớn. Nếu họ né sớm, hãy trì hoãn đòn theo sau. Nếu họ chặn muộn, hãy dùng pha xác nhận nhanh hơn. Nếu họ cứ lao vào, hãy biến pha trao đổi thành một cú trừng phạt có kiểm soát thay vì một cuộc hỗn loạn.
+
+**Ưu tiên trong dòng combo:**
+- Bắt đầu bằng cú đánh đáng tin cậy nhất, không phải cú gây sát thương cao nhất.
+- Giữ đòn theo sau đủ gần để vẫn ổn định.
+- Kết thúc lộ trình trước khi đối thủ lấy lại quyền tự do.
+- Tái định vị sau đòn kết liễu để sẵn sàng cho pha tiếp theo.
+
+<Callout type="info" title="Nhắc nhở về thời điểm">
+Các pha xác nhận ngắn thường tốt hơn các chuỗi dài. Một cú trừng phạt gọn hai bước đáng giá hơn một lộ trình màu mè mà bạn đánh hỏng dưới áp lực.
+</Callout>
+
+| Tình huống | Phản ứng tốt nhất | Kết quả |
+|---|---|---|
+| Đối thủ dash vào | Giữ khoảng cách và trừng phạt pha tiếp cận | Bạn chặn đà tấn công trước khi nó bắt đầu |
+| Đối thủ chặn nhiều | Dùng áp lực nhử và trì hoãn đòn theo sau | Bạn tạo ra một phán đoán sai |
+| Đối thủ cứ nhảy | Nhắm vào cửa sổ tiếp đất | Chuyển động trên không của họ thành bất lợi |
+| Đối thủ lăn né hoảng loạn | Tái định tâm và xác nhận pha reset | Bạn giữ lợi thế sau cú né |
+
+</Section>
+
+<Section icon={Shield} title="Kèo đấu, khắc chế và sinh tồn">
+
+Spec này sẽ dễ chơi hơn rất nhiều khi bạn ngừng nghĩ mọi kèo đấu theo cùng một cách. Khi gặp rushdown nhanh, mục tiêu của bạn là tạo ra một pha tiếp cận tệ rồi trừng phạt nó. Khi gặp zoning, bạn muốn thu hẹp khoảng cách mà không lãng phí tài nguyên của chính mình. Khi gặp người chơi phòng thủ, bạn cần đủ kiên nhẫn để buộc họ phải di chuyển trước. Mỗi trận sẽ khác nhau, nhưng câu trả lời của bạn nên luôn giống nhau: kiểm soát nhịp độ.
+
+<Callout type="success" title="Mẫu chiến thắng">
+Những trận tốt nhất là khi đối thủ buộc phải bước vào bạn. Khi điều đó xảy ra, các công cụ gây áp lực của bạn sẽ có giá trị cao hơn rất nhiều.
+</Callout>
+
+| Kiểu đối thủ | Mối đe dọa chính | Phản ứng tốt nhất |
+|---|---|---|
+| Rushdown | Tiếp cận nhanh và áp lực liên tục | Giữ khoảng cách, trừng phạt commit quá mức, reset thường xuyên |
+| Zoner | Kiểm soát tầm xa an toàn hơn | Tiến lên từng bước nhỏ và tránh các khe hở liều lĩnh |
+| Build trâu | Khó kết liễu nhanh | Thắng bằng nhiều pha xác nhận sạch, không tham lam |
+| Người chơi né liên tục | Né và tái định vị không ngừng | Trì hoãn đòn theo sau và bắt đúng thời điểm tiếp đất |
+
+Địa hình cũng rất quan trọng. Các góc tường làm áp lực của bạn mạnh hơn vì đối thủ có ít góc thoát hơn. Không gian rộng cho bạn nhiều chỗ hơn để phản ứng, nhưng cũng cho phép đối thủ reset nhanh hơn. Nếu bạn có thể dồn họ vào tường hoặc một hành lang hẹp, hãy làm vậy. Đó là lúc các công cụ kiểm soát của spec này trở nên ngột ngạt nhất.
+
+**Những thói quen sinh tồn quan trọng:**
+- Giữ sẵn một phương án thoát khi có thể.
+- Đừng đuổi theo mọi pha rút lui nếu đối thủ vẫn còn tài nguyên.
+- Trừng phạt các pha hung hăng thất bại nhiều hơn là chuyển động thụ động.
+- Hãy để đối thủ lãng phí cơ động trước khi bạn dùng câu trả lời mạnh nhất.
+
+<Callout type="tip" title="Mẹo kèo đấu">
+Nếu một trận đấu trở nên rối, hãy làm chậm lại. Spec này thường thắng nhiều hiệp hơn bằng cách buộc đối thủ mắc lỗi thay vì cố lao vào đấu tay đôi với mọi đối thủ.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Ưu tiên xây dựng và danh sách luyện tập">
+
+Một build mạnh cho sakura stand nikyu nikyu no mi thường thiên về độ ổn định hơn là tham lam sát thương. Bạn muốn đủ tốc độ để bám mục tiêu, đủ kiểm soát để ép phản ứng, và đủ sát thương để chuyển mở đầu thành kết quả thật sự. Sự cân bằng đó là thứ khiến spec này ổn định trong những trận đấu thực.
+
+| Ưu tiên xây dựng | Nên hướng tới | Vì sao hữu ích |
+|---|---|---|
+| Độ ổn định của starter | Chiêu mở đầu nhanh, dễ trúng | Giúp cả bộ kỹ năng dễ tiếp cận hơn |
+| Cơ động | Tái định vị hoặc truy đuổi nhanh | Giữ áp lực tiếp diễn sau khi di chuyển |
+| Sức mạnh kết thúc | Một đòn chốt đáng tin cậy | Biến sơ hở nhỏ thành sát thương thật |
+| Phòng thủ | Một cách sống sót qua những pha trao đổi tệ | Tránh việc một sai lầm kết thúc hiệp đấu |
+| Thời gian luyện tập | Luyện lộ trình lặp đi lặp lại | Cải thiện thời điểm và sự tự tin khi đấu |
+
+<Callout type="info" title="Chuẩn bị cuối cùng">
+Một pha xác nhận sạch quan trọng hơn một chuỗi màu mè. Nếu lộ trình của bạn hoạt động dưới áp lực, nó tốt hơn một lộ trình dài chỉ đẹp trong tập luyện.
+</Callout>
+
+<Checklist
+  id="nikyu-practice"
+  title="Danh sách luyện tập:"
+  items={[
+    "Trúng chiêu mở đầu năm lần liên tiếp mà không commit quá mức",
+    "Luyện một pha xác nhận vào một chiêu kết liễu cho đến khi nó trở nên tự động",
+    "Kiểm tra khoảng cách của bạn trước chuyển động nhanh và các pha né hoảng loạn",
+    "Reset sau mỗi cú đánh hụt thay vì cố ép một pha trao đổi tệ",
+    "Dùng góc tường để học cách áp lực thay đổi trong không gian hẹp"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Điểm mạnh chính của sakura stand nikyu nikyu no mi là gì?",
+    answer: "Điểm mạnh chính của nó là kiểm soát. Spec này hoạt động tốt nhất khi bạn buộc đối thủ di chuyển, trừng phạt sai lầm và chuyển một mở đầu thành sát thương có ý nghĩa."
+  },
+  {
+    question: "sakura stand nikyu nikyu no mi phù hợp hơn cho người mới hay người chơi nâng cao?",
+    answer: "Nó thân thiện với người mới có kỷ luật, nhưng sẽ mạnh hơn nhiều với người chơi nâng cao hiểu về khoảng cách, thời điểm và kiểm soát lộ trình."
+  },
+  {
+    question: "Tôi nên luyện gì trước với spec này?",
+    answer: "Hãy luyện một chiêu mở đầu đáng tin, một công cụ truy đuổi hoặc tái định vị, và một chiêu kết liễu. Vòng lặp đơn giản đó cho bạn kết quả ổn định nhất."
+  },
+  {
+    question: "Làm sao để đánh bại đối thủ nhanh hơn bằng sakura stand nikyu nikyu no mi?",
+    answer: "Đừng đuổi theo mọi chuyển động. Giữ khoảng cách, chờ họ commit quá sâu, và trừng phạt pha vào sai đầu tiên thay vì pha tốt thứ năm."
+  }
+]} />
+
+</Section>

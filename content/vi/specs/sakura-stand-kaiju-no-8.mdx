@@ -1,0 +1,219 @@
+import { Map, Swords, Shield, Target, Trophy, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sakura stand kaiju no 8: Hướng dẫn chiêu thức, dạng thức và sát thương",
+  description: "Phân tích Sakura Stand Kaiju No. 8 với nội tại theo dạng, sát thương chiêu thức, các bước nhận được và combo PvP cho năm 2026.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1d4ed8/fff?text=Kaiju+No.8+Guide",
+  date: "2026-07-06",
+  author: "Đội ngũ Wiki sakura stand"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **sakura stand kaiju no 8** là một spec ba trạng thái với giảm sát thương mạnh và khả năng bùng nổ sát thương lớn.
+- **Kaiju Form** tăng sát thương và khả năng di chuyển, sau đó chuyển chiêu T của bạn thành biến thể tiếng gầm.
+- **Berserk** bổ sung những chiêu gây sát thương mạnh nhất, nhưng đồng hồ thời gian có thể kết thúc bằng thất bại tức thì.
+- **Chỉ có thể nhận từ banner** khiến việc quản lý tiền tệ quan trọng hơn nhiều so với roll mù quáng.
+</Callout>
+
+<Section icon={Map} title="Tổng quan về sakura stand kaiju no 8">
+
+Kaiju No. 8 được xây dựng quanh nhiều lớp áp lực: trạng thái Base an toàn, Kaiju Form mạnh hơn, và trạng thái Berserk đầy rủi ro. Bộ kỹ năng này thưởng cho những người chơi có thể mở đầu bằng các cú chọc, chuyển sang hạ gục, rồi kết thúc ván đấu trước khi đồng hồ trở thành vấn đề.
+
+<Callout type="warning" title="Đọc phần này trước">
+Đừng xem spec này như một unlock thông thường. Con đường nhận hiện tại dựa trên banner, và showcase cho thấy tỷ lệ roll vào khoảng 1%, vì vậy hãy lên kế hoạch tài nguyên trước khi bắt đầu.
+</Callout>
+
+**Điểm nổi bật từ video:**
+- Con đường nhận chỉ qua banner với tỷ lệ cực thấp
+- Ba chế độ riêng biệt: Base, Kaiju Form và Berserk
+- Mỗi dạng thay đổi cách bạn nên chơi neutral và các pha confirm
+- Sát thương mạnh nhất đến từ những khoảng bùng nổ có tính thời điểm, không phải các pha trao đổi ngẫu nhiên
+
+<YouTubeEmbed videoId="jgaqINI8XKs" title='TÔI ĐÃ CHỜ ĐỢI CHO ĐIỀU NÀY- ồ, chúng ta phải đánh bạc | Nhận Spec "Kaiju No.8" MỚI trên Sakura Stand...' />
+
+<CardGrid cols={3}>
+  <Card title="Base">
+    - **Neutral an toàn hơn**
+    - Giảm 35% sát thương
+    - Tốt để mở khoảng cách và học canh thời gian
+  </Card>
+  <Card title="Kaiju Form">
+    - **Dạng chiến đấu chính**
+    - Di chuyển và sát thương tốt hơn
+    - Cân bằng nhất giữa tấn công và kiểm soát
+  </Card>
+  <Card title="Berserk">
+    - **Chế độ thực thi bùng nổ**
+    - Mức đe dọa cao nhất
+    - Công cụ kết liễu mạnh nhất, nhưng đồng hồ thời gian rất nguy hiểm
+  </Card>
+</CardGrid>
+
+| Form | Lợi thế chính | Cách dùng tốt nhất |
+|---|---|---|
+| Base | Giảm 35% sát thương | Neutral an toàn và học khoảng cách |
+| Kaiju Form | Tăng tốc chạy 22%, giảm 15% sát thương, tăng 25% sát thương, nhảy cao gấp 2 lần | Gây áp lực giữa giao tranh và chuyển đổi |
+| Berserk | Tăng tốc chạy 22%, tăng 35% sát thương, nhảy cao gấp 2 lần, đồng hồ tử vong | Kết liễu nhanh và trừng phạt nặng |
+
+<Callout type="info" title="Tham khảo">
+Theo dõi danh sách chiêu hiện tại và nội tại tại đây: [Trang wiki Kaiju No.8](https://sakura-stand.fandom.com/wiki/Kaiju_No.8).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Danh sách chiêu, sát thương và thay đổi theo dạng">
+
+Kaiju No. 8 mạnh nhất khi bạn hiểu rõ mình đang ở chế độ nào và nút nào thay đổi theo nó. Mẫu cốt lõi rất đơn giản: nút ở Base tạo áp lực, Kaiju Form biến áp lực đó thành mối đe dọa thực sự, và Berserk nâng cấp các chiêu kết liễu.
+
+<Callout type="tip" title="Nguyên tắc cốt lõi">
+Hãy nghĩ theo ba lớp: chọc trước, hất tung sau, kết liễu cuối cùng. Nếu bỏ qua phần thiết lập, bạn sẽ lãng phí những khoảng sát thương mạnh nhất của spec.
+</Callout>
+
+| Form | Phím | Chiêu | Sát thương | Ghi chú |
+|---|---|---|---|---|
+| Base | Q | Kaiju Jab | 20 | Phát nổ sau một khoảng trễ ngắn |
+| Base | E | Kaiju Barrage | 18.3 | Chuỗi đấm nhanh với cú nổ kết thúc |
+| Kaiju Form | Q | Kaiju Aura | N/A | Thêm giảm sát thương và sát thương, có thể chuyển sang Berserk khi chết |
+| Kaiju Form | E | Kaiju Big Barrage | 24.3 | Chuỗi áp lực mạnh hơn |
+| Kaiju Form | R | Kaiju Dash Kick | 30 | Áp sát rồi quật ngã |
+| Kaiju Form | T | Kaiju Big Slam | 30 | Đòn đánh mạnh xuống đất |
+| Kaiju Form | T with Aura | Kaiju Roar | 19.2 | Đòn đánh diện rộng quanh bạn |
+| Kaiju Form | Y | Sonic Wave | 21 | Cú chọc tầm xa |
+| Kaiju Form | G | Kaiju Uppercut | 40 | Hất mục tiêu lên để nối tiếp |
+| Kaiju Form | H | Kaiju Counter | 60 | Công cụ trừng phạt rủi ro cao |
+| Kaiju Form | Z | Jet Leap | N/A | Công cụ di chuyển |
+| Kaiju Form | B | Kaiju Impact | 70 | Chiêu kết liễu kiểu beam |
+
+| Form | Phím | Chiêu | Sát thương | Ghi chú |
+|---|---|---|---|---|
+| Berserk | E | Berserk Barrage | 48 | Chuỗi barrage mạnh hơn nhiều |
+| Berserk | T | Berserk Roar | 80 | Đòn trừng phạt diện rộng cực lớn |
+| Berserk | Y | Berserk Wraith | 64 | Cú chọc dạng sóng được nâng cấp |
+| Berserk | Z | Berserk Leap | N/A | Công cụ tái định vị mạnh hơn |
+| Berserk | B | Berserk Impact | 230 | Chiêu kết liễu lớn nhất được liệt kê |
+
+Một vài ghi chú thực tế quan trọng hơn những con số thô. Kaiju Form là trạng thái chiến đấu hằng ngày của bạn. Berserk là chế độ kết liễu. Nếu vào Berserk quá sớm, bạn có thể hết thời gian trước khi chuyển hóa được lợi thế. Nếu vào quá muộn, có khi ván đấu đã mất rồi.
+
+<Callout type="success" title="Ưu tiên sát thương">
+Dùng **H** và **B** để kết thúc ván đấu, không phải để mở đầu. Kết quả tốt nhất đến từ việc hất tung hoặc phản đòn trước, rồi mới dồn sát thương bằng những đòn nặng hơn.
+</Callout>
+
+| Tình huống | Nút khuyến nghị | Vì sao hiệu quả |
+|---|---|---|
+| Tạo khoảng trống | Y hoặc Z | Chọc an toàn hoặc tái định vị |
+| Confirm cận chiến | E vào G | Áp lực nhanh rồi hất tung |
+| Trừng phạt hụt | H | Phần thưởng rất cao nếu đọc đúng |
+| Gây áp lực diện rộng | T với Aura hoặc Berserk Roar | Kiểm soát khu vực mạnh |
+| Cơ hội kết liễu | B | Kết thúc mạnh nhất khi đối thủ không thể thoát |
+
+</Section>
+
+<Section icon={Target} title="Cách nhận và quản lý spec">
+
+Con đường hiện tại không phải là chuỗi nhiệm vụ hay một câu đố NPC ẩn. Đó là một canh bạc dựa trên banner, nghĩa là việc lên kế hoạch quan trọng hơn cả may mắn. Cách chơi thông minh nhất là roll với một ngân sách mục tiêu và luyện nhịp chuyển dạng ngay cả khi bạn vẫn đang săn drop.
+
+<Callout type="warning" title="Kiểm tra ngân sách">
+Nếu bạn roll mà không có quỹ dự phòng, bạn có nguy cơ bị kẹt giữa chừng trong quá trình săn spec. Hãy để dành đủ tiền tệ để chịu được chuỗi xui trước khi bắt đầu.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Tích trữ tiền tệ trước">
+    Gom đủ Robux hoặc tiền tệ trong game để chịu được một phiên roll xui. Showcase cho thấy đây không phải là một cú pull nhanh.
+  </Step>
+  <Step num="2" title="Roll banner">
+    Dùng con đường banner vì đó là lộ trình đã được xác nhận. Đừng lãng phí thời gian tìm một cách mở khóa riêng.
+  </Step>
+  <Step num="3" title="Học Kaiju Form ngay lập tức">
+    Sau khi nhận được, hãy luyện biến thể T mới, nhịp dash và các tuyến combo hất tung trước khi nhảy vào những trận nghiêm túc.
+  </Step>
+  <Step num="4" title="Xem Berserk như chế độ kết liễu">
+    Giữ những đòn mạnh nhất cho cuối combo hoặc vài giây cuối của một trận đấu tay đôi. Berserk tỏa sáng khi đối thủ đã bị dồn vào góc.
+  </Step>
+</Steps>
+
+| Yếu tố nhận được | Ý nghĩa | Kết luận |
+|---|---|---| 
+| Chỉ qua banner | Con đường đi qua roll | Hãy giữ tài nguyên trước |
+| Tỷ lệ thấp | Showcase đặt ở khoảng 1% | Hãy chuẩn bị cho một phiên dài |
+| Không có lộ trình dự phòng | Không thấy cách mở khóa thay thế đơn giản | Chỉ commit khi đã sẵn sàng |
+| Làm chủ chế độ | Mỗi dạng chơi khác nhau | Luyện trước khi PvP |
+
+Hãy dùng quy trình đơn giản này nếu bạn muốn kết quả ổn định hơn:
+
+<Callout type="info" title="Quy trình nhận">
+Chỉ roll khi bạn có đủ để tiếp tục, rồi dùng vài trận đầu để học nhịp biến hình thay vì đuổi theo những khoảnh khắc highlight.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Combo tốt nhất, kèo đấu và checklist PvP">
+
+Kaiju No. 8 mạnh nhất khi bạn kiểm soát nhịp độ. Bạn muốn ép đối thủ phải di chuyển, trừng phạt những cú nhảy hoảng loạn, và giữ các đòn mạnh nhất cho những khoảng mở đã được confirm. Spec này không phải để bấm loạn liên tục; nó là để biến một cú trúng sạch thành một chuỗi chuyển đổi hoàn chỉnh.
+
+<Callout type="tip" title="Tư duy PvP">
+Đừng lao vào đánh nhau mọi lúc. Hãy thắng neutral bằng tầm đánh, biến một cú đánh thành hất tung, rồi mới dùng các nút gây sát thương lớn nhất.
+</Callout>
+
+| Tình huống đối đầu | Hành động khuyến nghị | Lý do |
+|---|---|---|
+| Đối thủ bị động | Chọc bằng Y hoặc giữ khoảng cách bằng Z | Buộc họ phải di chuyển trước |
+| Đối thủ lao vào | Phản đòn H | Phần thưởng tốt nhất khi đọc được ý đồ |
+| Bạn trúng một cú nhỏ | E vào G | Chuyển áp lực thành hất tung |
+| Kẻ địch lùi ra | R hoặc Z | Lấy lại khoảng cách nhanh |
+| Bị ép bởi nhiều người | T hoặc Berserk Roar | Kiểm soát không gian và ngắt nhịp |
+| Có cơ hội kết liễu | B | Đòn kết thúc sát thương cao nhất |
+
+<Checklist
+  id="kaiju-pvp-prep"
+  title="Checklist sẵn sàng PvP:"
+  items={[
+    "Biết mình đang ở dạng nào trước khi commit vào combo",
+    "Luyện E vào G để pha chuyển đổi đầu tiên trở nên tự động",
+    "Giữ Berserk cho sát thương kết thúc, không phải cho trao đổi ngẫu nhiên",
+    "Dùng Z để giữ khoảng cách thay vì di chuyển trong hoảng loạn",
+    "Giữ B cho những khoảng mở đã confirm, không phải đoán mò"
+  ]}
+/>
+
+Những kèo đấu tốt nhất thường đến từ sự kiên nhẫn. Khi gặp những người chơi lắt léo, Kaiju Form cho bạn khả năng di chuyển để bám theo. Khi gặp người chơi hổ báo, các lựa chọn phản đòn và quật ngã sẽ trừng phạt sự quá đà. Nếu trận đấu kéo dài đủ lâu để vào Berserk, nhiệm vụ của bạn là kết thúc thật nhanh.
+
+<Callout type="success" title="Kế hoạch giao tranh">
+Mở đầu bằng kiểm soát, chuyển hóa bằng các đòn hất tung, và kết thúc bằng burst. Mẫu đó hợp với spec này hơn là cố ép mọi chiêu cùng lúc.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<Callout type="info" title="Ghi chú FAQ">
+Những câu trả lời này tập trung vào danh sách chiêu hiện tại, con đường banner và cách ba chế độ thay đổi lối chơi của bạn.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Làm sao để nhận sakura stand kaiju no 8?",
+    answer: "Con đường hiện tại dựa trên banner, và showcase cho thấy tỷ lệ rất thấp. Hãy tích tiền tệ trước, rồi roll với một ngân sách rõ ràng."
+  },
+  {
+    question: "Điều gì làm Berserk khác Kaiju Form?",
+    answer: "Berserk nâng bộ kỹ năng thành chế độ thực thi sát thương mạnh hơn nhiều. Những chiêu mạnh hơn của nó rất tốt để kết liễu, nhưng đồng hồ thời gian có thể trở thành bất lợi."
+  },
+  {
+    question: "Tôi nên học chiêu nào trước?",
+    answer: "Hãy bắt đầu với Kaiju Aura, Kaiju Big Slam và Kaiju Counter. Ba chiêu đó sẽ dạy bạn về duy trì, giữ khoảng cách và các cửa sổ trừng phạt."
+  },
+  {
+    question: "Spec này có đáng để cày không?",
+    answer: "Có, nếu bạn thích các dạng thức chồng lớp, burst mạnh và di chuyển linh hoạt. Điểm trừ chính là chi phí nhận và con đường roll phụ thuộc vào may mắn."
+  }
+]} />
+
+</Section>
