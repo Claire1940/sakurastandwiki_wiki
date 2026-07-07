@@ -1,0 +1,198 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sakura Stand Anubis Requiem: Hướng dẫn Cách lấy & Bộ kỹ năng chi tiết",
+  description: "Làm chủ Anubis Requiem trong Sakura Stand với hướng dẫn năm 2026. Tìm hiểu về nghi thức Thunder Ring, yêu cầu worthiness và chiến thuật bộ kỹ năng thức tỉnh.",
+  category: "Hướng dẫn",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Anubis+Requiem+Guide",
+  date: "2026-07-07",
+  author: "Đội ngũ Sakura Stand Wiki",
+  keywords: "sakura stand, anubis requiem, hướng dẫn, bộ kỹ năng, cách lấy"
+}
+
+<Callout type="info" title="Hướng dẫn nhanh">
+- **Anubis Requiem**: Một Stand Requiem hệ kiếm mạnh mẽ với nghi thức sở hữu mang phong cách kinh dị độc đáo.
+- **Cách sở hữu**: Yêu cầu Stand Anubis cơ bản, 100% Worthiness và tương tác với **Thunder Ring** trong cơn bão.
+- **Cơ chế chính**: Nội tại **Inner Demon** cho phép bạn kết liễu ngay lập tức bất kỳ người chơi nào sau khi đánh trúng họ 30 lần.
+- **Chiến thuật tốt nhất**: Luôn cày đủ 100% Worthiness để tránh mất tiến trình, vì thất bại sẽ tiêu tốn một phần chỉ số worth của bạn.
+- **Thức tỉnh**: Kỹ năng **Sanity Break** (G) biến đổi người dùng, sử dụng song kiếm và phát nhạc "Bury the Light."
+</Callout>
+
+<Section icon={Map} title="Tổng quan & Hướng dẫn Video về Anubis Requiem">
+
+Anubis Requiem là một trong những stand ấn tượng nhất về mặt hình ảnh và phức tạp về cơ chế trong meta Sakura Stand năm 2026. Là sự tiến hóa hệ kiếm của Anubis cổ điển, nó đánh đổi tốc độ thuần túy để lấy khả năng thao túng không gian và nội tại hành quyết đáng sợ. Sở hữu **sakura stand anubis requiem** là một cột mốc đối với nhiều người chơi, đòi hỏi quá trình cày cuốc worthiness lâu dài và thử thách lòng can đảm trong chuỗi sự kiện sở hữu mang chủ đề kinh dị.
+
+**Điểm nhấn Video:**
+- Trình diễn cách hoàn thành nhiệm vụ Anubis cơ bản bằng Biển báo dừng (Stop Sign).
+- Cách canh chu kỳ thời tiết Bão tố (Thunderstorm) và tìm Thunder Ring.
+- Hướng dẫn chi tiết về chiều không gian tối mang phong cách kinh dị và các sự kiện phản xạ nhanh (QTE).
+- Giới thiệu thức tỉnh Sanity Break và toàn bộ bộ kỹ năng trong chiến đấu.
+
+<YouTubeEmbed videoId="tAJA44pGUBc" title="Obtaining The NEW Limited Stand Anubis Requiem On Sakura Stand!" />
+
+<Callout type="info" title="Góc nhìn chuyên gia">
+Anubis Requiem không chỉ là một bản nâng cấp về ngoại hình; khả năng xuyên phá block và counter của nó khiến nó trở thành lựa chọn hàng đầu cho các trận đấu PvP cạnh tranh trong Sakura Stand.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Điều kiện tiên quyết và Cơ chế sở hữu">
+
+Trước khi bạn có thể cố gắng đạt đến trạng thái Requiem, bạn phải đáp ứng một số yêu cầu nghiêm ngặt. Yếu tố quan trọng nhất là phần trăm **Worthiness** của bạn. Mặc dù bạn có thể thử thực hiện nghi thức với mức worth thấp hơn, nhưng rủi ro rất cao: phần trăm Worthiness tỷ lệ thuận trực tiếp với tỷ lệ thành công của bạn. Ví dụ: 50% Worthiness mang lại cho bạn 50% cơ hội thành công.
+
+| Yêu cầu | Chi tiết | Tầm quan trọng |
+| :--- | :--- | :--- |
+| **Stand cơ bản** | Phải đang trang bị Anubis | Bắt buộc |
+| **Worthiness** | Khuyến nghị 100% (nhận từ rương hoặc Chariot Requiem) | Cao |
+| **Thời tiết** | Phải là Bão tố (không chỉ là mưa thường) | Bắt buộc |
+| **Vật phẩm** | Thunder Ring (xuất hiện trong Bão tố) | Bắt buộc |
+| **Hệ thống Pity** | Tỷ lệ mưa tăng sau mỗi 10 phút cho đến khi có bão | Hữu ích |
+
+Hệ thống thời tiết trong Sakura Stand là rào cản chính đối với stand này. Mưa có 1/8 cơ hội xuất hiện mỗi 10 phút trong bất kỳ mùa nào ngoại trừ mùa Hè. Trong cơn mưa đó, có thêm 1/24 cơ hội để nó leo thang thành Bão tố (Thunderstorm).
+
+<Callout type="warning" title="Cảnh báo Worthiness">
+Nếu bạn thực hiện nghi thức và thất bại do Worthiness thấp, trò chơi sẽ tiêu tốn **1/8 tổng số worth của bạn**. Để tránh lãng phí hàng giờ cày cuốc, chúng tôi khuyên bạn nên cày cho đến khi đạt mức đảm bảo 100% Worthiness.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Nghi thức: Các bước sở hữu chi tiết">
+
+Khi bạn đã có Anubis cơ bản và 100% Worthiness, bạn phải chờ bầu trời tối sầm lại. Sự chuyển đổi từ mưa sang bão rất rõ rệt, được đánh dấu bằng sấm sét dữ dội. Trong thời gian này, một **Thunder Ring** sẽ xuất hiện ở đâu đó trên bản đồ chính.
+
+<Steps>
+  <Step num="1" title="Tìm Thunder Ring">
+    Tìm kiếm trên bản đồ chính trong cơn Bão tố. Chiếc nhẫn là một vật thể phát sáng có thể tương tác. Đảm bảo Anubis là stand đang hoạt động trước khi nhấp vào nó.
+  </Step>
+  <Step num="2" title="Tiến vào Chiều không gian Tối">
+    Sau khi tương tác, bạn sẽ được đưa đến một khu vực tối đen như mực. Đây là một chuỗi kinh dị được lập trình sẵn. Những tiếng động lạ, những con mắt lơ lửng và những chiếc ghế sẽ xuất hiện khi khu vực này từ từ sáng lên.
+  </Step>
+  <Step num="3" title="Hoàn thành các QTE">
+    Khi nghi thức tiến triển, các Sự kiện phản xạ nhanh (QTE) sẽ xuất hiện trên màn hình. Bạn phải hoàn thành chúng thành công để sống sót qua quá trình chuyển đổi. Thất bại có thể khiến bạn bị văng ra khỏi chiều không gian.
+  </Step>
+  <Step num="4" title="Nhát chém cuối cùng">
+    Sau khoảng năm phút của chuỗi kinh dị, chiều không gian sẽ có vẻ như bị "vỡ tan" với nhiều nhát chém trên bầu trời. Sau đó, bạn sẽ được dịch chuyển trở lại bản đồ chính với Anubis Requiem trong kho đồ.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Mẹo chuyên nghiệp">
+Nếu bạn thấy tỷ lệ xuất hiện Bão tố quá gây ức chế, Thunder Ring cũng có thể rơi ra từ **Paper Curse: Boss cuối**, mặc dù tỷ lệ rơi cực thấp chỉ 0.01%. Hãy kiên trì với chu kỳ thời tiết để có cơ hội tốt hơn.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Làm chủ chiến đấu: Bộ kỹ năng và Nội tại">
+
+**sakura stand anubis requiem** được định nghĩa bởi ba nội tại độc đáo. Không giống như các stand khác chỉ dựa vào sát thương, Anubis Requiem sử dụng hệ thống "đếm đòn đánh" (hit counter) để thưởng cho áp lực tấn công liên tục và quyết liệt.
+
+| Tên nội tại | Mô tả hiệu ứng | Lợi ích chiến thuật |
+| :--- | :--- | :--- |
+| **Inner Demon** | Các đòn đánh thêm một thanh đếm màu xanh; 30 đòn = Chết ngay lập tức | Buộc kẻ địch phải chơi phòng thủ |
+| **Sharpest Blade** | Xuyên qua và phá bỏ block của kẻ địch khi đánh trúng | Ngăn chặn lối chơi "tử thủ" và phòng ngự |
+| **Dimensional Damage** | Xuyên qua các chiêu counter và hầu hết các kỹ năng I-frame | Khắc chế các bộ kỹ năng cơ động cao và phản xạ |
+
+### Bộ kỹ năng chính (Dạng cơ bản)
+
+Bộ kỹ năng cơ bản tập trung vào thao túng không gian và phong tỏa khu vực. Mặc dù các nhát chém M1 tương đối chậm, nhưng chúng rất cần thiết để tích cộng dồn nội tại Inner Demon.
+
+| Phím | Tên chiêu thức | Mô tả | Sát thương/Đòn đánh |
+| :--- | :--- | :--- | :--- |
+| **LMB** | Combo M1 | Chuỗi combo 4 nhát chém chậm | 10 Sát thương mỗi nhát |
+| **E** | Dimension Corruption | Lướt về phía sau và tạo ra một bong bóng thời gian | 0 Cơ bản (16 khi Thức tỉnh) |
+| **R** | Dimensional Stab | Một nhát đâm về phía trước lật lưỡi kiếm | 16 Sát thương (+2 Đòn đánh) |
+| **T** | Energy Slash | Đập xuống đất tạo ra một làn sóng xung kích nổ | 4-6 Sát thương sóng xung kích |
+| **Y** | Dimensional Hop | Đâm xuống đất để nhốt kẻ địch vào chiều không gian túi | Vô hiệu hóa kỹ năng kẻ địch |
+| **H** | Dimension Slash | Đóng băng diện rộng phá hủy chiều không gian | 0 Cơ bản (28 khi Thức tỉnh) |
+| **Z** | Gate | Chiêu thức dịch chuyển tức thời sử dụng các cụm từ cụ thể | Tiện ích/Di chuyển |
+
+<Callout type="success" title="Chiến thuật chiến đấu">
+Sử dụng **Dimensional Hop (Y)** để nhốt những kẻ địch phụ thuộc vào các kỹ năng có thời gian hồi chiêu cao. Một khi đã bị nhốt và không thể sử dụng kỹ năng, bạn có thể an toàn tích các đòn đánh M1 để kích hoạt hành quyết của **Inner Demon**.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Sanity Break: Thức tỉnh">
+
+Bằng cách nhấn **G**, người dùng sẽ tiến vào trạng thái **Sanity Break**. Đây không chỉ là tăng chỉ số đơn thuần; nó thay đổi hoàn toàn diện mạo và sự nguy hiểm của Anubis Requiem. Người dùng mọc sừng, triệu hồi thanh kiếm thứ hai và bản nhạc chủ đề mang tính biểu tượng "Bury the Light" bắt đầu vang lên.
+
+<CardGrid cols={2}>
+  <Card title="Sát thương tăng cường">
+    Nhiều chiêu thức không gây sát thương ở dạng cơ bản (như Dimension Corruption) trở nên chết chóc trong trạng thái Sanity Break.
+  </Card>
+  <Card title="Bộ kỹ năng thay đổi">
+    Chiêu **R** biến thành **Cross Blade**, một nhát chém đôi khiến thực tại vỡ vụn, gây 16 sát thương và thêm 2 đòn vào thanh đếm.
+  </Card>
+  <Card title="Bậc thầy không gian">
+    Chiêu **H** (Dimension Slash) hiện gây ra lượng sát thương khổng lồ 28 trong phạm vi của nó, biến nó thành một trong những đòn tấn công AOE mạnh nhất trò chơi.
+  </Card>
+  <Card title="Hình phạt">
+    Khi trạng thái thức tỉnh kết thúc, người dùng sẽ ngã xuống đất trong 3 giây, khiến họ hoàn toàn sơ hở trước các đòn phản công.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Mẹo Thức tỉnh">
+Chỉ sử dụng Sanity Break khi bạn chắc chắn có thể kết thúc trận đấu hoặc có đủ khoảng cách để hồi phục trong thời gian bị choáng 3 giây ở cuối chiêu.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danh sách chuẩn bị">
+
+Cày cuốc Anubis Requiem đòi hỏi sự kiên nhẫn và chuẩn bị. Hãy sử dụng danh sách này để đảm bảo bạn không bỏ lỡ bất kỳ bước quan trọng nào trước khi cơn bão ập đến.
+
+<Checklist
+  id="anubis-req-prep"
+  title="Danh sách kiểm tra trước khi sở hữu:"
+  items={[
+    "Sở hữu Anubis cơ bản bằng cách hoàn thành nhiệm vụ Biển báo dừng (Stop Sign)",
+    "Cày rương hoặc Chariot Requiem để đạt 100% Worthiness",
+    "Ghi nhớ các cụm từ Gate (Z) để di chuyển nhanh trên bản đồ",
+    "Cài đặt đồ họa ở mức cao để thấy rõ ánh sáng của Thunder Ring",
+    "Luyện tập phản xạ QTE để đảm bảo thành công trong Chiều không gian Tối"
+  ]}
+/>
+
+### Các địa điểm dịch chuyển của Gate (Z)
+
+| Cụm từ | Điểm đến | Cụm từ | Điểm đến |
+| :--- | :--- | :--- | :--- |
+| **Park** | Khu vực Công viên Trung tâm | **Shop** | Cửa hàng vật phẩm chính |
+| **Cemetery** | Khu vực Nghĩa trang | **Cafe** | Quán Cà phê |
+| **Hueco Mundo** | Khu vực chủ đề Bleach | **Library** | Khu vực Kỹ năng/Sách |
+| **Altar** | Địa điểm Nghi thức | **Cave** | Hầm mỏ dưới lòng đất |
+
+<Callout type="info" title="Lưu ý cuối cùng">
+Anubis Requiem là một stand "Giới hạn" (Limited), có nghĩa là tính khả dụng và yêu cầu của nó có thể thay đổi trong các bản cập nhật tương lai của năm 2026. Luôn kiểm tra Discord chính thức của Sakura Stand để biết những thay đổi cân bằng mới nhất.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Các câu hỏi thường gặp">
+
+<FAQ items={[
+  {
+    question: "Cách tốt nhất để đạt 100% Worthiness cho Anubis Requiem là gì?",
+    answer: "Phương pháp đáng tin cậy nhất là cày các rương rải rác khắp bản đồ hoặc liên tục đánh bại Chariot Requiem. Mỗi vật phẩm hoặc mạng hạ gục đều tăng worthiness của bạn, điều này rất quan trọng để đạt tỷ lệ thành công 100% trong nghi thức Thunder Ring."
+  },
+  {
+    question: "Nội tại Inner Demon có tác dụng với NPC không?",
+    answer: "Không, nội tại Inner Demon (kết liễu mục tiêu sau 30 đòn đánh) chỉ hoạt động đối với những người chơi khác. NPC miễn nhiễm với cơ chế chết ngay lập tức nhưng vẫn chịu sát thương tiêu chuẩn từ bộ kỹ năng."
+  },
+  {
+    question: "Tôi có thể sở hữu Anubis Requiem mà không cần đợi Bão tố không?",
+    answer: "Có, nhưng cực kỳ hiếm. Bạn có thể nhận được Thunder Ring dưới dạng vật phẩm rơi ra với tỷ lệ 0.01% từ Paper Curse: Boss cuối. Tuy nhiên, đối với 99% người chơi, chờ đợi xác suất 1/192 của một cơn Bão tố là con đường nhanh hơn."
+  },
+  {
+    question: "Điều gì xảy ra nếu tôi thất bại trong các QTE ở chiều không gian tối?",
+    answer: "Thất bại trong các Sự kiện phản xạ nhanh trong chuỗi kinh dị có thể khiến nghi thức thất bại. Nếu điều này xảy ra, bạn sẽ bị dịch chuyển trở lại bản đồ mà không có stand, và bạn sẽ cần tìm một Thunder Ring khác trong một cơn bão."
+  }
+]} />
+
+</Section>
